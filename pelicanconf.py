@@ -11,13 +11,12 @@ TIMEZONE = 'America/Buenos_Aires'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+FEED_RSS = 'rss.xml'
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/hernantz'),
-          ('Github', 'http://github.com/hernantz'),)
+          ('Github', 'http://github.com/hernantz'),
+          ('RSS', 'rss.xml'),)
 
 DEFAULT_PAGINATION = 10
 
