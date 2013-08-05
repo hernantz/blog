@@ -1,12 +1,12 @@
 Title: Init
 Date: 2013-07-03 18:06
 Category: Personal
-Tags: pelican, publishing
+Tags: pelican, personal
 Slug: init
 Author: hernantz 
 Summary: This is my not-sexy static new blog
 
-This is my not-sexy new blog. It starts with a single post and a single 
+This is my not-sexy static new blog. It starts with a single post and a single
 blog. I hope this is not one of those things I start and abandon.
 
 
