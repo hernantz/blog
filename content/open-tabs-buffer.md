@@ -16,7 +16,7 @@ always new content that keeps being added to my information processing buffer
 aka open tabs buffer.
 
 ## Why do i even check reddit/hackernews?
-Partly becouse It's addictive. Small dosis of information of stuff I like injected right to my brain. 
+Partly becouse It's addictive. Small dosis of information of stuff I like, injected right to my brain. 
 But mostly becouse, this way, I feel less guilty about procrastinating. 
 
 
