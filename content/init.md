@@ -14,5 +14,5 @@ Why now? Becouse in the last weeks I felt the urge to write for myself.
 Knowing my thoughts will be publicly available forces me to think wisely, 
 and arrive to better conclusions. 
 Aditionally, until now didn't like any of the blogging platforms out there, 
-but now with pelican, being able to craft my own posts with python and vim
+but now with pelican, being able to craft my own posts with markdown and vim
 is also part of the motivation.
