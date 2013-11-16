@@ -16,7 +16,7 @@ FEED_RSS = 'rss.xml'
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/hernantz'),
           ('Github', 'http://github.com/hernantz'),
-          ('RSS', 'rss.xml'),)
+          ('RSS', '/rss.xml'),)
 
 DEFAULT_PAGINATION = 10
 
