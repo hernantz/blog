@@ -14,3 +14,5 @@ Why write six paragraphs if you can fit an introduction, main idea
 and conclusion in just three?
 
 Life is short, read this and move on.
+
+Inspired by [write less](http://getnashty.com/write-less)
