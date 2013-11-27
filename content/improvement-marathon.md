@@ -9,7 +9,7 @@ Summary: What I'm planning spending my time and (little) money on.
 I quitted my job. Got some money to spare (very little though). And lots of time.
 In the following moths (starting today), I'm planning spending them both on:
 
-1. Pet projects (some with millonaire aspirations)
+1. Pet projects (some with millionaire aspirations)
 2. On demand learning
 3. Reading
 4. Exercising
@@ -32,4 +32,4 @@ got some books from the mind of `Stephen King` and `Game of thrones` on my way.
 
 
 ## Exercising 
-Will do mostly running 3 times a week (40 min each) and biking 2 hours on weekends.
+Will do mostly running, 3 times a week (40 min each), and biking 2 hours on weekends.
