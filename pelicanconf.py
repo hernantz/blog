@@ -13,6 +13,9 @@ DEFAULT_LANG = u'en'
 # Feed generation is usually not desired when developing
 FEED_RSS = 'rss.xml'
 
+# A list of tuples (Title, URL) for links to appear on the header.
+LINKS = (('posts', '/'),)
+
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/hernantz'),
           ('Github', 'http://github.com/hernantz'),
