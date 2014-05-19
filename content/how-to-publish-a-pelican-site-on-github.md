@@ -7,10 +7,11 @@ Author: hernantz
 Summary: Step by step guide on how to publish a pelican website on Github
 
 
+![Pelican a static site publishing tool](/static/images/pelican-a-static-site-publishing-tool-github.png)
+
 This is a step by step guide on how to publish a pelican website on Github, and how not to get the site's
 codebase so tightly coupled to where it is deployed. If in the future we want to publish it somewhere else
 there isn't much to be changed.
-
 
 1) Create a repository in github with exactly the following naming convention:
 `your-github-username.github.io`
