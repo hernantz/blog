@@ -34,8 +34,8 @@ Adding a git submodule will create another version controlled file called `.gitm
     url = https://github.com/username/username.github.io.git
 ```
 
-4) As the output directory is now managed by the independant git repository from step 1, we don't want to have to version
-controlled it again from our pelican site repo. To ignore it just add a `ignore` statement like this:
+4) As the output directory is now managed by the independant git repository from step 1, we don't want to have to version-control 
+it again from our pelican site repo. To ignore it just add a `ignore` statement like this:
 ```
 [submodule "output"]
     path = output
