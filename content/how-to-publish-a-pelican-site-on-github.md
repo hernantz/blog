@@ -15,7 +15,8 @@ there isn't much to be changed.
 1) Create a repository in github with exactly the following naming convention:
 `your-github-username.github.io`
 
-2) Setup your pelican site on a separate repository, ie `my-blog`, and start adding content to it.
+2) [Setup your pelican site](http://docs.getpelican.com/en/latest/install.html#kickstart-your-site) 
+on a separate repository, ie my-blog, and [start adding content](http://docs.getpelican.com/en/latest/content.html#writing-content) to it.
 You'll notice that the generated output goes by default to a folder (conveniently) named `output`,
 but it can be changed to something else with the setting `OUTPUT_PATH` in your `pelicanconf.py` file
 
@@ -41,11 +42,9 @@ controlled it again from our pelican site repo. To ignore it just add a `ignore`
     ignore = all
 ```
 
-4) Now every time you regenerate you site contents and want to publish them, cd to your output directory
+5) Now every time you regenerate you site contents and want to publish them, cd to your output directory
 and run git commands (like add, commit, push, etc) that will only take effect on your repo from step 1. Once you 
 push your new output content to your master branch of `your-github-username.github.io`, Github will take 
 some minutes to update your site.
 
 Fin.
-
-
