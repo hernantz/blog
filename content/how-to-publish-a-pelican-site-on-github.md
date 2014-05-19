@@ -43,8 +43,8 @@ controlled it again from our pelican site repo. To ignore it just add a `ignore`
 
 4) Now every time you regenerate you site contents and want to publish them, cd to your output directory
 and run git commands (like add, commit, push, etc) that will only take effect on your repo from step 1. Once you 
-push your output content to your master branch of `your-github-username.github.io` Github will take some minutes to update
-your site with the new contents.
+push your new output content to your master branch of `your-github-username.github.io`, Github will take 
+some minutes to update your site.
 
 Fin.
 

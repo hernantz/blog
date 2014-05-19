@@ -40,7 +40,7 @@ In case you run more configuration problems and your current virtualbox ui does 
 just check:
 
     :::sh
-    VBoxManag --help | less 
+    VBoxManage --help | less 
 
 and for sure you will be able to configure almost anything.
 
