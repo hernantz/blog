@@ -7,6 +7,8 @@ Author: hernantz
 Summary: Ideas for surviving an open tabs buffer overflow.
 
 
+![Bored Elon Musk knows](/static/images/genius-is-1-inspiration-and-99-closing-the-two-hundred-open-tabs-in-your-browser.png)
+
 ## The interwebs and the power it holds
 There is so much out there and just a click of distance.
 Fun videos, new music, interesting articles, tutorials, blog posts, games.
