@@ -1,4 +1,4 @@
 [submodule "output"]
-	path = output
-	url = https://github.com/hernantz/hernantz.github.io.git
+    path = output
+    url = https://github.com/hernantz/hernantz.github.io.git
     ignore = all
