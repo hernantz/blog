@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'hernantz'
 SITENAME = u'what\'s the point'
+SITESUBTITLE = 'Mostly lies and rants in plain text'
 SITEURL = 'http://hernantz.github.io'
 
 TIMEZONE = 'America/Buenos_Aires'
@@ -29,5 +30,3 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = '/home/hernantz/devel/pelican-left/'
-
-SITESUBTITLE = 'Mostly lies and rants in plain text'
