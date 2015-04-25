@@ -16,3 +16,13 @@ and arrive to better conclusions.
 Aditionally, until now didn't like any of the blogging platforms out there, 
 but now with pelican, being able to craft my own posts with markdown and vim
 is also part of the motivation.
+
+
+In this blog, I do my best to get to the point. Quality over quantity.
+Why write a thousand words if a picture says more than a thousand words?
+Why write six paragraphs if you can fit an introduction, main idea
+and conclusion in just three?
+
+Life is short, [write less](http://getnashty.com/write-less), read this and move on.
+
+P.S. Sorry for the length of this post. I didn't have time to make it shorter.
