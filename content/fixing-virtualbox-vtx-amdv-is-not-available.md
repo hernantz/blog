@@ -2,8 +2,6 @@ Title: Fixing VirtualBox VT-X or AMD-V is not available
 Date: 2014-04-10 22:36
 Category: Tech
 Tags: linux, virtualization, virtualbox
-Slug: fixing-virtualbox-vtx-amdv-is-not-available
-Author: hernantz 
 Summary: This is my not-sexy static new blog
 
 ![Y U NO RUN MY VM](/static/images/y-u-no-run-my-vm.png)

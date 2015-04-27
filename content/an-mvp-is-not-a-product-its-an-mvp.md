@@ -2,8 +2,6 @@ Title: An MVP is not a product, it's an MVP
 Date: 2013-11-09 12:03
 Category: Startups
 Tags: startups
-Slug: an-mvp-is-not-a-product-its-an-mvp
-Author: hernantz 
 Summary: Build-Measure-Learn. But then don't avoid best practices. 
 
 Minimum Viable Product, or even better Minimum Viable Prototype (MVP from now on),

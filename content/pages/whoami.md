@@ -1,9 +1,7 @@
 Title: whoami
 Date: 2013-08-04 19:26
 Category: personal
-Tags: personal, about-me
-Slug: whoami
-Author: hernantz 
+Tags: personal
 Summary: A summary about me
 
 

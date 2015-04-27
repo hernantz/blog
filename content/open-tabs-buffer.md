@@ -2,8 +2,6 @@ Title: Open tabs buffer overflow
 Date: 2013-08-21 22:56
 Category: Productivity
 Tags: productivity, ideas
-Slug: open-tabs-buffer-overflow
-Author: hernantz 
 Summary: Ideas for surviving an open tabs buffer overflow.
 
 
