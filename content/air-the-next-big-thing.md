@@ -19,7 +19,7 @@ Slack is dead.
 
 I give you another example. Docker, [said to be valuated at $1b][5]. 
 Provides an open source tool on top other open source tool, which 
-aparently [is not even needed now][2], thanks to the systemd guys.
+apparently [is not even needed now][2], thanks to the systemd guys.
 Even if Docker tries to provide a web platform, similar to what GitHub 
 does for git, does that really justifies $1b valuation?
 
