@@ -17,7 +17,6 @@ FEED_RSS = 'rss.xml'
 # A list of tuples (Title, URL) for links to appear on the header.
 #LINKS = (('posts', '/'),
          #('foodly', 'http://foodly.com.ar'),)
-LINKS = (('posts', '/'),)
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/hernantz'),
