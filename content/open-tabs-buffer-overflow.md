@@ -38,7 +38,8 @@ Also:
   what wasn't important when you open the browser and read what is important before 
   closing the browser.
 * Limit the number of browser tabs with a plugin.
-* Use a read-it-later diggesting tool (like pocket), which also removes the comments 
-  and ads cutter from your read.
+* Use a read-it-later diggesting tool (like [Pocket][2]), which also removes the 
+  comments and ads cutter from your read.
 
 [1]: http://en.wikipedia.org/wiki/Triage "Triage mode"
+[2]: http://getpocket.com/
