@@ -3,7 +3,7 @@ Date: 2013-08-04 19:26
 Category: personal
 Tags: personal
 Summary: A summary about me
-Status: Draft
+Status: hidden
 
 
 I'm a generalist.

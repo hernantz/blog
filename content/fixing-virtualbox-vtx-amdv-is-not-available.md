@@ -4,7 +4,7 @@ Category: Tech
 Tags: linux, virtualization, virtualbox
 Summary: This is my not-sexy static new blog
 
-![Y U NO RUN MY VM](/static/images/y-u-no-run-my-vm.png)
+![Y U NO RUN MY VM](/images/y-u-no-run-my-vm.png)
 
 This warning/error started to appear in VirtualBox v4.3, where using Intel's VT-X and AMD's AMD-V
 native virtualization technologies is set to enabled by default on every VM. 
@@ -19,7 +19,7 @@ Check the output of these commands to verify this in case you are not sure:
 In case you have support for VT-x or AMD-v, you will see an option to enable the 
 virtualization in the BIOS, and after doing that the problem is solved.
 
-![Enable virtualization in BIOS](/static/images/BIOS-enable-virtualization.png)
+![Enable virtualization in BIOS](/images/BIOS-enable-virtualization.png)
 
 
 In case you do not have support for VT-x or AMD-v, you can disable that feature.

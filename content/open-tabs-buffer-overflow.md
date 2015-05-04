@@ -5,7 +5,7 @@ Tags: productivity, ideas
 Summary: Ideas for surviving an open tabs buffer overflow.
 
 
-![Bored Elon Musk knows](/static/images/genius-is-1-inspiration-and-99-closing-the-two-hundred-open-tabs-in-your-browser.png)
+![Bored Elon Musk knows](/images/genius-is-1-inspiration-and-99-closing-the-two-hundred-open-tabs-in-your-browser.png)
 
 
 ## The interwebs and the power it holds
