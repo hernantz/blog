@@ -29,3 +29,11 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 THEME = '/home/hernantz/devel/pelican-left/'
+
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/humans.txt',
+                'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/humans.txt': {'path': 'humans.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
