@@ -8,14 +8,14 @@ Status: draft
 
 *tl;dr*: While sometimes mocks are needed, they should not be the first tool 
 you use to write tests. It is a shame to be mocking your code when you could 
-be writting meaningful tests at almost the same cost.
+be writing meaningful tests at almost the same cost.
 
 ![Enable virtualization in BIOS](/images/bridge-fail.jpg)
 
 In this post I try to discourage the use of mocks when writing tests.
 I'm not completely against them (I see their value) but it's that sometimes 
-I feel like we abuse of them, just to make tests pass, feel confortable of 
-seeing another green dot in your test suite and to release yourself from the 
+I feel like we abuse of them, just to make tests pass, feel comfortable of
+seeing another green dot in your test suite and to release yourself from the
 burden of having to test your code.
 
 
@@ -23,8 +23,8 @@ burden of having to test your code.
 
 Well, I'll name a few reasons that seem legit to me.
 
-One reason to use mocks is to **force a desired state** for your test 
-and easily trigger side effects. Mocks facilitate a lot the testing of 
+One reason to use mocks is to **force a desired state** for your test
+and easily trigger side effects. Mocks facilitate a lot the testing of
 corner cases.
 Another reason is **to gain speed** by staying away of slow code, like 
 system calls, db, network calls, costly calculations, etc. Also it could be 
@@ -50,10 +50,10 @@ class Payment():
 ```
 
 As we can see, the `process()` method uses other objects (credit_card), called 
-colaborators. If we were to write a **unit test** for this method, we would 
-mock all it's colaborators, so that we test the codepaths involved, and 
-only caring that the function calls the colaborators, nothing more. We do this, 
-because we are assuming that all the colaborators work and have their own unit 
+collaborators. If we were to write a **unit test** for this method, we would 
+mock all its collaborators, so that we test the codepaths involved, and 
+only caring that the function calls the collaborators, nothing more. We do this, 
+because we are assuming that all the collaborators work and have their own unit 
 tests.
 
 
@@ -109,9 +109,9 @@ Traceback (most recent call last):
 AttributeError: Mock object has no attribute 'some_old_method'
 ```
  
-Another drawback I wanted to point out is that mocks tend to be too permisive, in 
-the sense that they swallow errors that should occure because of a change in the 
-api of the mocked object.
+Another drawback I wanted to point out is that mocks tend to be too permissive, in 
+the sense that they swallow errors that should occur because of a change in the 
+API of the mocked object.
 
 ```python
 class Payment():
@@ -166,12 +166,11 @@ The first technique was to start testing how collaborators interact between
 each other inside `process()`. These type of tests are called **integration
 tests**, that test larger units of your code, with real components. This also 
 helped reducing the chance of bugs that sneak away when you test units in 
-aisolation.
+isolation.
 
 Keep a reasonable amount of code under your tests. While writing tests for very
 small units of code might be adding noise to your test suite, there won't be too
 much value in testing a huge portion of your code either. 
-
 
 The second technique consisted on using factories. Whats important is that
 factories **build real objects** for you in a declarative and straighforward
@@ -194,7 +193,7 @@ of examples that, in my opinion, could serve as inspiration to use them
 successfully and write better tests. These mocks are: 
 
 * Agnostic: the details of your code change, but your mocks continue to work.
-* Swapable: you can easily turn them on/off or switch to them on the fly.
+* Swappable: you can easily turn them on/off or switch to them on the fly.
 * Precise: they stub only the sensible parts of the real object.
 * Verified: the interfaces of such mock are carefully maintained and mimic the 
   real object.
@@ -260,8 +259,8 @@ reproduce, (like a 500 error response), you can achieve that with httpretty.
 
 ### The philosophy of time travel
 
-When you need to test code that deals with dates, mocks will come to be very 
-handy too. Let's see an example.
+When you need to test code that deals with dates, mocks will be very handy
+too. Let's see an example.
 
 ```python
 from datetime import (datetime, timedelta)
@@ -287,9 +286,9 @@ with freeze_time('2012-01-01'):
     assert tomorrow().strftime('%Y-%m-%d') == '2012-01-02'
 ```
 
-You can see how we avoided mocking `datetime()` and `timedelta()` and we can 
-even use `strftime()` in our tests. We made time behave deterministically 
-using a nice declarative api, that doesn't get in our way. We can even make 
+You can see how we avoided mocking `datetime()` and `timedelta()` and we can
+even use `strftime()` in our tests. We made time behave deterministically
+using a nice declarative API, that doesn't get in our way. We can even make
 `tomorrow()` to be calculated using other libraries.
 
 ```python
@@ -302,14 +301,14 @@ def tomorrow():
 
 ## Need for speed
 
-I mentioned that using mocks was a legit excuse for speeding your tests, and 
-staying away of slow parts like the database. Well if you used an ORM and your 
-data structures are pretty stardard, then you may be able to [switch to an 
+I mentioned that using mocks was a legit excuse for speeding your tests, and
+staying away of slow parts like the database. Well if you used an ORM and your
+data structures are pretty standard, then you may be able to [switch to an
 in-memory sqlite database][4] just to run your tests.
 
-Another posibility that's worth exploring, but I haven't tried myself though, is
-to [mount the database][5] in a `tmpfs` filesystem, or combine that with a 
-[custom docker build][6] to gain speed, but at the same time, run the tests 
+Another possibility that's worth exploring, but I haven't tried myself though,
+is to [mount the database][5] in a `tmpfs` filesystem, or combine that with a
+[custom docker build][6] to gain speed, but at the same time, run the tests
 against the db engine you use in production, and thus, gain also reliability.
 
 In case you don't want to mess with custom setups for testing, there are some
@@ -326,7 +325,7 @@ throw hardware at the problem with more RAM, a more powerful CPU or an SSD.
 
 * Integration tests are one honking great idea, let's do more of those. Don't 
   relay exclusively in unit tests, test goals.
-* Use factories to reduce boilerplate of tests's setup and asserting a known state 
+* Use factories to reduce boilerplate of tests setup and asserting a known state
   before they run.
 * Avoid using mocks as much as you can. There's a good chance you'll be testing 
   what the code does, not what it should do.
