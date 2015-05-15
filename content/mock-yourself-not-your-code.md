@@ -24,15 +24,14 @@ burden of having to test your code.
 Well, I'll name a few reasons that seem legit to me.
 
 One reason to use mocks is to **force a desired state** for your test 
-and easyly trigger side effects. Mocks facilitate a lot the testing of 
+and easily trigger side effects. Mocks facilitate a lot the testing of 
 corner cases.
 Another reason is **to gain speed** by staying away of slow code, like 
 system calls, db, network calls, costly calculations, etc. Also it could be 
 a short path to increase code coverage. But probably the primary reason for 
-using mocks is to **make a unit test more specific**.  Just testing exaclty 
-one piece of code, and thus, reducing the number of asserts you have to make, 
-by avoiding having to test things that (hopefully) are already tested and you 
-trust to work.
+using mocks is to **make a unit test more specific**. Just testing exactly 
+one piece of code, and thus, avoiding having to test things that (hopefully)
+are already tested.
 
 
 ### Testing with mocks
@@ -85,20 +84,21 @@ class PaymentTestCase(unittest.TestCase):
 ```
 
 Now lets think for a moment if these tests we just wrote tell us, with a good 
-level of confidence, if `process()` works or not. Or are we just asserting that 
-some methods are called in specific order with specific parameters. This feels
-almost like testing that the compiler/interpreter works!
+level of confidence, whether `process()` works or not. Or are we just asserting
+that some methods are called in specific order with specific parameters. This 
+feels almost like testing that the compiler/interpreter works!
 
 > *"We've fallen into a trap of testing that the code does what the code says 
 > it does, rather than testing functional behaviour we care about."*
 >
 > Every mock.patch() is a little smell. <cite>[Daniel Pope][1]</cite>
 
-This kind of unit testing makes too many assumptions on how `process()` is 
-implemented. Tightly coupling your tests with mocks, make refactors to be painfull. 
-As soon as you change a detail of the implementation your tests will *break* (which 
-is not the same as to *fail*), with helpless tracebacks about functions that were
-not called, or mocks that break because some method is not there anymore, like:
+This kind of unit testing makes too many assumptions on how `process()` is
+implemented. Tightly coupling your tests with mocks, make refactors to be
+painfull.  As soon as you change a detail of the implementation your tests will
+*break* (which is not the same as to *fail*), with helpless tracebacks about
+functions that were not called, or mocks that fail to be applied because some
+method doesn't exist anymore, like:
 
 ```python
 Traceback (most recent call last):
@@ -165,12 +165,13 @@ We have used two techniques here that helped us get way from mocks.
 The first technique was to start testing how collaborators interact between
 each other inside `process()`. These type of tests are called **integration
 tests**, that test larger units of your code, with real components. This also 
-helped reducing the chance of bugs that sneak away when you tests units in 
-aisolation. 
-Keep in mind that you need to have a good balance in the amount of code under 
-test, speed and reliability. While there might not be too much value in writing 
-tests for very small units of code (because their might be adding noise to your 
-test suite), you don't want to be testing a huge portion of your code neither.
+helped reducing the chance of bugs that sneak away when you test units in 
+aisolation.
+
+Keep a reasonable amount of code under your tests. While writing tests for very
+small units of code might be adding noise to your test suite, there won't be too
+much value in testing a huge portion of your code either. 
+
 
 The second technique consisted on using factories. Whats important is that
 factories **build real objects** for you in a declarative and straighforward
