@@ -3,6 +3,7 @@ Date: 2015-04-27 19:53
 Category: Startups
 Tags: startups
 Summary: What is wrong with startups today?
+Status: draft
 
 What is wrong with startups today?
 
