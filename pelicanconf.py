@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'hernantz'
 SITENAME = u'what\'s the point'
 SITESUBTITLE = 'Mostly lies and rants in plain text'
-SITEURL = 'http://hernantz.github.io'
+SITEURL = ''
 
 TIMEZONE = 'America/Buenos_Aires'
 
@@ -32,6 +32,7 @@ THEME = '/home/hernantz/devel/pelican-left/'
 
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/humans.txt',
                 'extra/favicon.ico']
+
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/humans.txt': {'path': 'humans.txt'},
