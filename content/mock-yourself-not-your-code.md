@@ -128,7 +128,7 @@ a regression bug or not. Yes, I'm aware of the `autospec=True` param, that would
 restrict the mock to just follow the object's api, but I'll refer to this later.
 
 
-## Testing without mocks
+### Testing without mocks
 
 Now, how would I test this, without mocks?
 
