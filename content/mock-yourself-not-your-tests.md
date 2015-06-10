@@ -168,9 +168,9 @@ tests**, that test larger units of your code, with real components. This also
 helped reducing the chance of bugs that sneak away when you test units in 
 isolation.
 
-Keep a reasonable amount of code under your tests. While writing tests for very
-small units of code might be adding noise to your test suite, there won't be too
-much value in testing a huge portion of your code either. 
+*Side note*: Keep a reasonable amount of code under your tests. While writing
+tests for very small units of code might be adding noise to your test suite,
+there won't be too much value in testing a huge portion of your code either.
 
 The second technique consisted on using factories. Whats important is that
 factories **build real objects** for you in a declarative and straighforward
@@ -199,7 +199,7 @@ successfully and write better tests. These mocks are:
   real object.
 
 
-### Did you receive my email?
+### Example 1: Did you receive my email?
 
 Django gives us an in-memory mailbox that captures all outgoing emails. What's 
 interesting is that it sets up this dummy double  **by default** when you 
@@ -225,14 +225,14 @@ class PaymentTestCase(TestCase):
         self.assertEqual(mail.outbox[0].to, ["foo@bar.com"])
 ```
 
-### This call is being recorded 
+### Example 2: This call is being recorded
 
 Say for example that you need to hit a 3rd party API that you don't own, that
-probably has throttle limitations, no sandbox/testing ground, you cannot setup 
-and run it locally, or all these together. Doing live testing is not really an 
+probably has throttle limitations, no sandbox/testing ground, you cannot setup
+and run it locally, or all these together. Doing live testing is not really an
 option. But if you use something like [vrc.py][8], then you profit from testing
-against real requests/responses that are recorded so that next time you run the 
-test suit it runs under safe and repeatable conditions, without hitting the net.
+against real requests/responses that are recorded, so that next time you run the
+test suite it runs under safe and repeatable conditions, without hitting the net.
 
 ```python
 from mymodule import Payment 
@@ -242,22 +242,36 @@ import vcr
 
 class PaymentTestCase(unittest.TestCase):
 
-    @vcr.use_cassette('vcr_cassettes/cc_with_credit.yaml')
+    @vcr.use_cassette('stripe_responses/cc_with_credit.yaml')
     def test_process_cc_with_credit(self):
         # ... more code
 
-    @vcr.use_cassette('vcr_cassettes/cc_without_credit.yaml')
+    @vcr.use_cassette('stripe_responses/cc_without_credit.yaml')
     def test_process_cc_without_credit(self):
         # ... more code 
 ```
 
 If the 3rd party API changes, you don't have to do anything but delete the
-recorded responses, and your test will do all the work for you.
+recorded responses, and your test will do all the work for you, updating the
+test cases with the new responses.
 Should you need more control over a certain response that is not easy to 
-reproduce, (like a 500 error response), you can achieve that with httpretty.
+reproduce, (like a 500 error response), you can achieve that with [httpretty][11].
 
+```python
+import httpretty
 
-### The philosophy of time travel
+class PaymentTestCase(unittest.TestCase):
+    @httpretty.activate
+    def test_process_handles_failure_from_stripe():
+        httpretty.register_uri(httpretty.GET, 'https://api.stripe.com',
+                               body='{"success": false}', status=500,
+                               content_type='text/json')
+        # ... more code
+        payment.process()
+        self.assertEqual(payment.status, 'failed')
+```
+
+### Example 3: The philosophy of time <s>travel</s> freezing
 
 When you need to test code that deals with dates, mocks will be very handy
 too. Let's see an example.
@@ -274,7 +288,7 @@ you are trying to test, and the bugs in your code will also pass unnoticed
 into your tests.
 
 ```python
-assert tomorrow() == return today() + timedelta(days=1)  # silly test
+assert tomorrow() == today() + timedelta(days=1)  # silly test
 ```
 
 Now, when we test using the [freezegun][9] module
@@ -333,6 +347,8 @@ SSD.
 * In times of need, apply well maintained global mocks, the closest possible to 
   the danger zone.
 
+Mock yourself not your tests :P
+
 
 [1]: http://mauveweb.co.uk/posts/2014/09/every-mock-patch-is-a-little-smell.html
 [2]: http://www.toptal.com/python/an-introduction-to-mocking-in-python
@@ -344,3 +360,4 @@ SSD.
 [8]: https://github.com/kevin1024/vcrpy
 [9]: https://github.com/spulec/freezegun
 [10]: https://twitter.com/df07/status/607562584401821696
+[11]: https://github.com/gabrielfalcao/HTTPretty
