@@ -318,7 +318,8 @@ easy tricks to speed your tests like running them in parallel:
 $ nosetests --processes=NUM
 ```
 provided that your tests [can run concurrently][7] and are IO bound, or simply
-throw hardware at the problem with more RAM, a more powerful CPU or an SSD.
+[throw hardware at the problem][10] with more RAM, a more powerful CPU or an
+SSD.
 
 
 ## In conclusion 
@@ -342,3 +343,4 @@ throw hardware at the problem with more RAM, a more powerful CPU or an SSD.
 [7]: http://nose.readthedocs.org/en/latest/plugins/multiprocess.html#beware
 [8]: https://github.com/kevin1024/vcrpy
 [9]: https://github.com/spulec/freezegun
+[10]: https://twitter.com/df07/status/607562584401821696
