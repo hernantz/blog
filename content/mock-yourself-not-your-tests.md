@@ -125,7 +125,8 @@ If suddendly I decided to change the firm of the `process()` method, to charge
 the credit card with a specific currency, the mocked tests above would still 
 pass successfully, so they will not tell you anymore whether you have introduced 
 a regression bug or not. Yes, I'm aware of the `autospec=True` param, that would 
-restrict the mock to just follow the object's api, but I'll refer to this later.
+restrict the mock to just follow the object's api, but lets try a completely
+different approach.
 
 
 ### Testing without mocks
