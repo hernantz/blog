@@ -83,7 +83,7 @@ class PaymentTestCase(unittest.TestCase):
         self.assertFalse(cc.withdraw.called)
 ```
 
-Now lets think for a moment if these tests we just wrote tell us, with a good 
+Now let's think for a moment if these tests we just wrote tell us, with a good
 level of confidence, whether `process()` works or not. Or are we just asserting
 that some methods are called in specific order with specific parameters. This 
 feels almost like testing that the compiler/interpreter works!
@@ -125,7 +125,7 @@ If suddendly I decided to change the firm of the `process()` method, to charge
 the credit card with a specific currency, the mocked tests above would still 
 pass successfully, so they will not tell you anymore whether you have introduced 
 a regression bug or not. Yes, I'm aware of the `autospec=True` param, that would 
-restrict the mock to just follow the object's api, but lets try a completely
+restrict the mock to just follow the object's api, but let's try a completely
 different approach.
 
 
@@ -175,7 +175,7 @@ there won't be too much value in testing a huge portion of your code either.
 
 The second technique consisted on using factories. Whats important is that
 factories **build real objects** for you in a declarative and straighforward
-way, which lets you focus on the bits of data you need to setup your test and
+way, which let's you focus on the bits of data you need to setup your test and
 leave the rest for the factory to implement.
 
 ```python
