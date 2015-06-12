@@ -1,6 +1,6 @@
 Title: Fixing VirtualBox VT-X or AMD-V is not available
 Date: 2014-04-10 22:36
-Category: Tech
+Category: Programming
 Tags: linux, virtualization, virtualbox
 Summary: Fix issue with native virtualization technologies in VirtualBox
 

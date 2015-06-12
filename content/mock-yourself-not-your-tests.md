@@ -1,7 +1,7 @@
 Title: Mock yourself, not your tests
 Date: 2015-04-19 19:56
-Category: Development
-Tags: testing, python
+Category: Programming 
+Tags: testing, python, mocks, rants
 Summary: Every mock is a smell, avoid them as much as you can.
 Status: draft
 
