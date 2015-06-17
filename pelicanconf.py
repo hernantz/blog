@@ -38,3 +38,6 @@ EXTRA_PATH_METADATA = {
     'extra/humans.txt': {'path': 'humans.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+PLUGIN_PATHS = ['/home/hernantz/devel/pelican-plugins']
+PLUGINS = ['sitemap']
