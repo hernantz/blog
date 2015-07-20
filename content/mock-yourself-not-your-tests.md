@@ -69,11 +69,11 @@ class PaymentTestCase(unittest.TestCase):
     @mock.patch.object(Payment, 'calculate_amount')
     def test_process_cc_with_credit(self, calculate_amount_mock):
         cc = Mock()
-        calculate_amount_mock.return_value = "foo" 
+        calculate_amount_mock.return_value = 'foo'
         cc.has_credit.return_value = True
         payment = Payment(1, cc)
         payment.process()
-        cc.withdraw.assert_called_with("foo")
+        cc.withdraw.assert_called_with('foo')
 
     @mock.patch.object(Payment, 'calculate_amount')
     def test_process_cc_without_credit(self, calculate_amount_mock):
@@ -219,12 +219,12 @@ class PaymentTestCase(TestCase):
     def test_process_cc_with_credit(self):
         # this factory will create an Invoice and a User associated to 
         # it, with the specified email
-        InvoiceFactory.create(id=1, cost=5, user__email="foo@bar.com")
+        InvoiceFactory.create(id=1, cost=5, user__email='foo@bar.com')
         # ... more code 
 
         # Test that payment receipt email has been sent.
         self.assertEqual(len(mail.outbox), 1)
-        self.assertEqual(mail.outbox[0].to, ["foo@bar.com"])
+        self.assertEqual(mail.outbox[0].to, ['foo@bar.com'])
 ```
 
 ### Example 2: This call is being recorded
