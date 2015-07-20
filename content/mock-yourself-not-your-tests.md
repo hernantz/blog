@@ -47,6 +47,7 @@ class Payment():
         amount = self.calculate_amount()
         if self.credit_card.has_credit():
             self.credit_card.withdraw(amount)
+            self.status = 'processed'
 ```
 
 As we can see, the `process()` method uses other objects (credit_card), called 
