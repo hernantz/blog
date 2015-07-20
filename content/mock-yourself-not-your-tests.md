@@ -168,8 +168,11 @@ class StubCreditCard:
     Replace our CreditCard with a double to avoid hitting the db or
     3rd party services (if any).
     """
-    def __init__(self):
-        self.amount = 100
+    def __init__(self, amount=100):
+        self.amount = amount
+
+    def has_credit(self):
+        return self.amount > 0
 
     def withdraw(self, amount):
         self.amount = self.amount - amount
