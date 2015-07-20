@@ -115,19 +115,20 @@ the sense that they swallow errors that should occur because of a change in the
 API of the mocked object.
 
 ```python
-class Payment():
-    # ... 
+class CreditCard():
+    # ...
 
-    def process(self, currency):
+    # the old signature was: withdraw(self, amount)
+    def withdraw(self, amount, currency):
         # ...
 ```
 
-If suddendly I decided to change the firm of the `process()` method, to charge 
-the credit card with a specific currency, the mocked tests above would still 
-pass successfully, so they will not tell you anymore whether you have introduced 
-a regression bug or not. Yes, I'm aware of the `autospec=True` param, that would 
-restrict the mock to just follow the object's api, but let's try a completely
-different approach.
+If suddendly I decided to change the signature of the `withdraw()` method, to
+charge the credit card with a specific currency, the mocked tests above would
+still pass successfully, so they will not tell you anymore whether you have
+introduced a regression bug or not. Yes, I'm aware of the `autospec=True` param,
+that would restrict the mock to just follow the object's api, but let's try a
+completely different approach.
 
 
 ### Testing without mocks
