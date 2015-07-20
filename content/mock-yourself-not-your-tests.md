@@ -57,7 +57,6 @@ only caring that the function calls the collaborators, nothing more. We do this,
 because we are assuming that all the collaborators work and have their own unit 
 tests.
 
-
 ```python
 from mymodule import Payment
 from mock import Mock
@@ -126,9 +125,61 @@ class CreditCard():
 If suddendly I decided to change the signature of the `withdraw()` method, to
 charge the credit card with a specific currency, the mocked tests above would
 still pass successfully, so they will not tell you anymore whether you have
-introduced a regression bug or not. Yes, I'm aware of the `autospec=True` param,
-that would restrict the mock to just follow the object's api, but let's try a
-completely different approach.
+introduced a regression bug or not. 
+Yes, I'm aware of the `autospec=True` param, that would restrict the mock to
+just follow the object's api, making our tests a little bit less permissive.
+
+```python
+from mymodule import Payment, CreditCard
+from mock import Mock, create_autospec
+import unittest
+
+
+# create a mock that mimics the real CreditCard object
+CreditCardMock = create_autospec(CreditCard, spec_set=True)
+
+
+class PaymentTestCase(unittest.TestCase):
+
+    @mock.patch.object(Payment, 'calculate_amount', autospec=True)
+    def test_process_cc_with_credit(self, calculate_amount_mock):
+        cc = CreditCardMock()
+        calculate_amount_mock.return_value = 'foo'
+        cc.has_credit.return_value = True
+        payment = Payment(1, cc)
+        payment.process()
+        cc.withdraw.assert_called_with('foo')
+
+    @mock.patch.object(Payment, 'calculate_amount', autospec=True)
+    def test_process_cc_without_credit(self, calculate_amount_mock):
+        cc = CreditCardMock()
+        cc.has_credit.return_value = False
+        payment = Payment(1, cc)
+        payment.process()
+        self.assertFalse(cc.withdraw.called)
+```
+
+Or we could have gone a little bit further, and inject a double to our
+`process()` function, for example:
+
+```python
+class StubCreditCard:
+    """
+    Replace our CreditCard with a double to avoid hitting the db or
+    3rd party services (if any).
+    """
+    def __init__(self):
+        self.amount = 100
+
+    def withdraw(self, amount):
+        self.amount = self.amount - amount
+```
+
+This is also an interesting strategy, but, now you'll have to be maintaining
+this double by hand, every time you real object is updated. A double is a double
+edged sword.
+
+Let's try a completely different approach and see if we can do any better.
 
 
 ### Testing without mocks
@@ -188,6 +239,9 @@ InvoiceFactory.create(id=1, cost=5)
 # CreditCard(), and there's no need to hit the db for this test
 cc = CreditCardFactory(balance=0)
 ```
+
+Alright! This is looking better, but does this mean that we can get rid of
+mocks once for all? Nope.
 
 ## In the quest for *real mocks*
 
