@@ -234,15 +234,6 @@ factories **build real objects** for you in a declarative and straighforward
 way, which let's you focus on the bits of data you need to setup your test and
 leave the rest for the factory to implement.
 
-```python
-# we asume that "process()" will query the database to ask for this invoice
-InvoiceFactory.create(id=1, cost=5)
-
-# on the other hand, credit card can be passed as an param, `cc` is a real 
-# CreditCard(), and there's no need to hit the db for this test
-cc = CreditCardFactory(balance=0)
-```
-
 Alright! This is looking better, but does this mean that we can get rid of
 mocks once for all? Nope.
 
