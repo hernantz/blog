@@ -276,6 +276,15 @@ class PaymentTestCase(TestCase):
         self.assertEqual(mail.outbox[0].to, ['foo@bar.com'])
 ```
 
+Although not very practical for testing, Python's [smtpd][13] module has some
+helpful dummy servers that could easily capture outgoing emails from your
+app/test-suite. The simplest one is the DebuggingServer that will print emails
+to stdout, but you could write your own testing server, should you need one.
+
+```bash
+python -m smtpd -n -c DebuggingServer $SMTP_SERVER:$SMTP_PORT
+```
+
 ### Example 2: This call is being recorded
 
 Say for example that you need to hit a 3rd party API that you don't own, that
@@ -412,3 +421,4 @@ Mock yourself not your tests :P
 [9]: https://github.com/spulec/freezegun
 [10]: https://twitter.com/df07/status/607562584401821696
 [11]: https://github.com/gabrielfalcao/HTTPretty
+[12]: https://docs.python.org/2/library/smtpd.html
