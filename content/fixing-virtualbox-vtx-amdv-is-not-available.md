@@ -3,6 +3,7 @@ Date: 2014-04-10 22:36
 Category: Programming
 Tags: linux, virtualization, virtualbox
 Summary: Fix issue with native virtualization technologies in VirtualBox
+Status: draft
 
 This warning/error started to appear in VirtualBox v4.3, where using Intel's
 VT-X and AMD's AMD-V native virtualization technologies is set to enabled by
