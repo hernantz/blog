@@ -337,39 +337,60 @@ When you need to test code that deals with dates, mocks will be very handy
 too. Let's see an example.
 
 ```python
-from datetime import (datetime, timedelta)
+from datetime import datetime
 
-def tomorrow():
-    return datetime.now() + timedelta(days=1)
+class Payment:
+
+    def process(self):
+        # ... more code
+        self.date = datetime.now()
+        self.save()
 ```
 
-To test this, you would have to write tests that have almost the same code 
-you are trying to test, and the bugs in your code will also pass unnoticed 
-into your tests.
+To test this, you would have to write tests that have almost the same code you
+are trying to test, and, depending on how precise are the dates you are
+handling, **your tests could fail from time to time**, ie: some tests might fail
+when you run them at midnight, or fail because of a difference of one
+millisecond.
 
 ```python
-assert tomorrow() == today() + timedelta(days=1)  # silly test
+class PaymentTestCase(unittest.TestCase):
+    def test_payment_day_is_saved(self):
+        # ... more code
+        payment.process()
+        self.assertEqual(payment.date, datetime.now())  # this won't work
 ```
 
-Now, when we test using the [freezegun][9] module
+Now, when we test using the [freezegun][9] module, we can ditch the mock everthing
+strategy.
 
 ```python
 from freezegun import freeze_time
 
-with freeze_time('2012-01-01'):
-    assert tomorrow().strftime('%Y-%m-%d') == '2012-01-02'
+class PaymentTestCase(unittest.TestCase):
+    def test_payment_day_is_set_on_invoice(self):
+        # ... more code
+        with freeze_time('2012-01-01'):
+            payment.process()
+
+        payment_date = payment.payment_date.strftime('%Y-%m-%d')
+        self.assertEqual(payment_date, '2012-01-02')
 ```
 
 You can see how we avoided mocking `datetime()` and `timedelta()` and we can
 even use `strftime()` in our tests. We made time behave deterministically
 using a nice declarative API, that doesn't get in our way. We can even make
-`tomorrow()` to be calculated using other libraries.
+the payment date to be calculated using other libraries.
 
 ```python
 import arrow
 
-def tomorrow():
-    return arrow.now() + timedelta(days=1)  # Our test still passes :)
+class Payment:
+
+    def process(self):
+        # ... more code
+        self.date = arrow.now()  # Our test still passes :)
+        self.save()
 ```
 
 
