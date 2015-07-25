@@ -123,8 +123,13 @@ class CreditCard():
 
 If suddendly I decided to change the signature of the `withdraw()` method, to
 charge the credit card with a specific currency, the mocked tests above would
-still pass successfully, so they will not tell you anymore whether you have
-introduced a regression bug or not. 
+still pass successfully. They will not tell you anymore whether you have
+introduced a regression bug or not!
+
+And even if you had a *real* test for the `withdraw()` method somewere, you'll
+still have to go change every test that assumed that this method worked and did
+not fail.
+
 Yes, I'm aware of the `autospec=True` param, that would restrict the mock to
 just follow the object's api, making our tests a little bit less permissive.
 
