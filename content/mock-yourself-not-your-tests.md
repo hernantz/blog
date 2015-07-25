@@ -26,9 +26,9 @@ One reason to use mocks is to **force a desired state** for your test
 and easily trigger side effects. Mocks facilitate a lot the testing of
 corner cases.
 Another reason is **to gain speed** by staying away of slow code, like 
-system calls, db, network calls, costly calculations, etc. Also it could be 
-a short path to increase code coverage. But probably the primary reason for 
-using mocks is to **make a unit test more specific**. Just testing exactly 
+system calls, db, network calls, costly calculations, etc. Also it could be a
+short path to **increase code coverage**. But probably the primary reason for
+using mocks is to **make a unit test more specific**. Just testing exactly
 one piece of code, and thus, avoiding having to test things that (hopefully)
 are already tested.
 
@@ -67,11 +67,11 @@ class PaymentTestCase(unittest.TestCase):
     @mock.patch.object(Payment, 'calculate_amount')
     def test_process_cc_with_credit(self, calculate_amount_mock):
         cc = Mock()
-        calculate_amount_mock.return_value = 'foo'
+        calculate_amount_mock.return_value = 100
         cc.has_credit.return_value = True
         payment = Payment(1, cc)
         payment.process()
-        cc.withdraw.assert_called_with('foo')
+        cc.withdraw.assert_called_with(100)
 
     @mock.patch.object(Payment, 'calculate_amount')
     def test_process_cc_without_credit(self, calculate_amount_mock):
@@ -148,11 +148,11 @@ class PaymentTestCase(unittest.TestCase):
     @mock.patch.object(Payment, 'calculate_amount', autospec=True)
     def test_process_cc_with_credit(self, calculate_amount_mock):
         cc = CreditCardMock()
-        calculate_amount_mock.return_value = 'foo'
+        calculate_amount_mock.return_value = 100
         cc.has_credit.return_value = True
         payment = Payment(1, cc)
         payment.process()
-        cc.withdraw.assert_called_with('foo')
+        cc.withdraw.assert_called_with(100)
 
     @mock.patch.object(Payment, 'calculate_amount', autospec=True)
     def test_process_cc_without_credit(self, calculate_amount_mock):
@@ -167,7 +167,7 @@ Or we could have gone a little bit further, and inject a double to our
 `process()` function, for example:
 
 ```python
-class StubCreditCard:
+class FakeCreditCard:
     """
     Replace our CreditCard with a double to avoid hitting the db or
     3rd party services (if any).
@@ -183,8 +183,7 @@ class StubCreditCard:
 ```
 
 This is also an interesting strategy, but, now you'll have to be maintaining
-this double by hand, every time you real object is updated. A double is a double
-edged sword.
+this double by hand, every time you real object is updated.
 
 Let's try a completely different approach and see if we can do any better.
 
@@ -251,10 +250,10 @@ There are cases where it really makes sense to use mocks. I'll show you a couple
 of examples that, in my opinion, could serve as inspiration to use them
 successfully and write better tests. These mocks are: 
 
-* Agnostic: the details of your code change, but your mocks continue to work.
-* Swappable: you can easily turn them on/off or switch to them on the fly.
-* Precise: they stub only the sensible parts of the real object.
-* Verified: the interfaces of such mock are carefully maintained and mimic the 
+* **Agnostic**: the details of your code change, but your mocks continue to work.
+* **Swappable**: you can easily turn them on/off or switch to them on the fly.
+* **Precise**: they stub only the sensible parts of the real object.
+* **Verified**: the interfaces of such mock are carefully maintained and mimic the
   real object.
 
 
@@ -371,8 +370,8 @@ class PaymentTestCase(unittest.TestCase):
         self.assertEqual(payment.date, datetime.now())  # this won't work
 ```
 
-Now, when we test using the [freezegun][9] module, we can ditch the mock everthing
-strategy.
+Now, when we test using the [freezegun][9] module, we can ditch the *mock
+everything* strategy.
 
 ```python
 from freezegun import freeze_time
@@ -386,10 +385,10 @@ class PaymentTestCase(unittest.TestCase):
         self.assertEqual(payment.date.strftime('%Y-%m-%d'), '2012-01-02')
 ```
 
-You can see how we avoided mocking `datetime()` and `timedelta()` and we can
-even use `strftime()` in our tests. We made time behave deterministically
-using a nice declarative API, that doesn't get in our way. We can even make
-the payment date to be calculated using other libraries.
+You can see how we avoided mocking `datetime.now()` and we how we can even use
+`strftime()` in our tests. We made time behave deterministically using a nice
+declarative API, that doesn't get in our way. We can even make the payment date
+to be calculated using other libraries.
 
 ```python
 import arrow
