@@ -6,16 +6,16 @@ Summary: Every mock is a smell, avoid them as much as you can.
 
 
 *tl;dr*: While sometimes mocks are needed, they should not be the first tool 
-you use to write tests. It is a shame to be mocking your code when you could 
-be writing meaningful tests at almost the same cost.
+you use to write tests. It is a pity to be mocking your code when you could
+be writing meaningful tests at *almost* the same cost.
 
 ![Enable virtualization in BIOS](/images/bridge-fail.jpg)
 
 In this post I try to discourage the use of mocks when writing tests.
 I'm not completely against them (I see their value) but it's that sometimes 
 I feel like we abuse of them, just to make tests pass, feel comfortable of
-seeing another green dot in your test suite and to release yourself from the
-burden of having to test your code.
+seeing another green dot in our test suite and to release ourselves from the
+burden of having to test our code.
 
 
 ## Why do we use mocks anyway? 
