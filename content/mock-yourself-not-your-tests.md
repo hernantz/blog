@@ -354,7 +354,7 @@ millisecond.
 
 ```python
 class PaymentTestCase(unittest.TestCase):
-    def test_payment_day_is_saved(self):
+    def test_payment_date_is_saved(self):
         # ... more code
         payment.process()
         self.assertEqual(payment.date, datetime.now())  # this won't work
@@ -367,13 +367,12 @@ strategy.
 from freezegun import freeze_time
 
 class PaymentTestCase(unittest.TestCase):
-    def test_payment_day_is_set_on_invoice(self):
+    def test_payment_date_is_saved(self):
         # ... more code
         with freeze_time('2012-01-01'):
             payment.process()
 
-        payment_date = payment.payment_date.strftime('%Y-%m-%d')
-        self.assertEqual(payment_date, '2012-01-02')
+        self.assertEqual(payment.date.strftime('%Y-%m-%d'), '2012-01-02')
 ```
 
 You can see how we avoided mocking `datetime()` and `timedelta()` and we can
