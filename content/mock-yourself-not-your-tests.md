@@ -233,15 +233,19 @@ isolation.
 tests for very small units of code might be adding noise to your test suite,
 there won't be too much value in testing a huge portion of your code either.
 
-The second technique consisted on using factories. Whats important is that
-factories **build real objects** for you in a declarative and straighforward
-way, which let's you focus on the bits of data you need to setup your test and
-leave the rest for the factory to implement.
+The second technique consisted on using factories. I mention this, because we
+(lazy developers) often use mocks as a quick solution to creating the complex
+conditions.
+
+Whats important is that factories **build real objects** for you in a
+declarative and straighforward way, which let's you focus on the bits of data
+you need to setup your test and leave the rest for the factory to implement.
+
+
+## In the quest for *real mocks*
 
 Alright! This is looking better, but does this mean that we can get rid of
 mocks once for all? Nope.
-
-## In the quest for *real mocks*
 
 There are cases where it really makes sense to use mocks. I'll show you a couple
 of examples that, in my opinion, could serve as inspiration to use them
