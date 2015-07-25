@@ -332,7 +332,7 @@ class PaymentTestCase(unittest.TestCase):
         self.assertEqual(payment.status, 'failed')
 ```
 
-### Example 3: The philosophy of time <s>travel</s> freezing
+### Example 3: The philosophy of time <s>travel</s> freeze
 
 When you need to test code that deals with dates, mocks will be very handy
 too. Let's see an example.
