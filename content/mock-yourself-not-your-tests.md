@@ -275,14 +275,16 @@ class PaymentTestCase(TestCase):
         self.assertEqual(mail.outbox[0].to, ['foo@bar.com'])
 ```
 
-Although not very practical for testing, Python's [smtpd][13] module has some
-helpful dummy servers that could easily capture outgoing emails from your
-app/test-suite. The simplest one is the DebuggingServer that will print emails
-to stdout, but you could write your own testing server, should you need one.
+Now, you might be thinking that I'm contradicting myself with this example,
+since no email is really being sent.
 
-```bash
-python -m smtpd -n -c DebuggingServer $SMTP_SERVER:$SMTP_PORT
-```
+That is a valid concern, but, provided that in my code, I interact with an
+abstraction a framework gives us for sending emails, and that behind the scenes
+it is replacing the real email machinery with a double that mimics that
+behaviour, I believe I can still make assertions about my code that are *good
+enough* (even though no mail is sent). That framework is responsible for
+providing us with a good *verified and swappable stub*.
+
 
 ### Example 2: This call is being recorded
 
