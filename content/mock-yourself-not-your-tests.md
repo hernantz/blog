@@ -257,7 +257,7 @@ successfully and write better tests. These mocks are:
   real object.
 
 
-### Example 1: Did you receive my email?
+### Example 1: A verified mock
 
 Django gives us an in-memory mailbox that captures all outgoing emails. What's 
 interesting is that it sets up this dummy double  **by default** when you 
@@ -291,10 +291,10 @@ abstraction a framework gives us for sending emails, and that behind the scenes
 it is replacing the real email machinery with a double that mimics that
 behaviour, I believe I can still make assertions about my code that are *good
 enough* (even though no mail is sent). That framework is responsible for
-providing us with a good *verified and swappable stub*.
+providing us with a good *verified* stub.
 
 
-### Example 2: This call is being recorded
+### Example 2: An agnostic mock
 
 Say for example that you need to hit a 3rd party API that you don't own, that
 probably has throttle limitations, no sandbox/testing ground, you cannot setup
@@ -340,7 +340,10 @@ class PaymentTestCase(unittest.TestCase):
         self.assertEqual(payment.status, 'failed')
 ```
 
-### Example 3: The philosophy of time <s>travel</s> freeze
+I consider httpretty and vcr.py to be good examples of *agnostic* mocks, since
+they can be used no matter which network library you are using.
+
+### Example 3: A precise mock
 
 When you need to test code that deals with dates, mocks will be very handy
 too. Let's see an example.
@@ -386,7 +389,9 @@ class PaymentTestCase(unittest.TestCase):
 ```
 
 You can see how we avoided mocking `datetime.now()` and we how we can even use
-`strftime()` in our tests. We made time behave deterministically using a nice
+`strftime()` in our tests. Because freezegun is *precise*, it only mocks
+datetime functions that are used to obtain the current time, and leaves
+everything else untouched. We made time behave deterministically using a nice
 declarative API, that doesn't get in our way. We can even make the payment date
 to be calculated using other libraries.
 
