@@ -25,7 +25,7 @@ Well, I'll name a few reasons that seem legit to me.
 One reason to use mocks is to **force a desired state** for your test
 and easily trigger side effects. Mocks facilitate a lot the testing of
 corner cases.
-Another reason is **to gain speed** by staying away of slow code, like 
+Another reason is **to gain speed** by staying away from slow code, like
 system calls, db, network calls, costly calculations, etc. Also it could be a
 short path to **increase code coverage**. But probably the primary reason for
 using mocks is to **make a unit test more specific**. Just testing exactly
@@ -84,7 +84,7 @@ class PaymentTestCase(unittest.TestCase):
 
 Now let's think for a moment if these tests we just wrote tell us, with a good
 level of confidence, whether `process()` works or not. Or are we just asserting
-that some methods are called in specific order with specific parameters. This 
+that some methods are called in a specific order with specific parameters. This
 feels almost like testing that the compiler/interpreter works!
 
 > *"We've fallen into a trap of testing that the code does what the code says 
@@ -93,7 +93,7 @@ feels almost like testing that the compiler/interpreter works!
 > Every mock.patch() is a little smell. <cite>[Daniel Pope][1]</cite>
 
 This kind of unit testing makes too many assumptions on how `process()` is
-implemented. Tightly coupling your tests with mocks, make refactors to be
+implemented. Tightly coupling your tests with mocks, causes refactors to be
 painfull.  As soon as you change a detail of the implementation your tests will
 *break* (which is not the same as to *fail*), with helpless tracebacks about
 functions that were not called, or mocks that fail to be applied because some
@@ -126,9 +126,9 @@ charge the credit card with a specific currency, the mocked tests above would
 still pass successfully. They will not tell you anymore whether you have
 introduced a regression bug or not!
 
-And even if you had a *real* test for the `withdraw()` method somewere, you'll
-still have to go change every test that assumed that this method worked and did
-not fail.
+And even if you had a *real* test for the `withdraw()` method somewere, you
+would still have to go change every test that assumed that this method worked and
+did not fail.
 
 Yes, I'm aware of the `autospec=True` param, that would restrict the mock to
 just follow the object's api, making our tests a little bit less permissive.
@@ -232,11 +232,11 @@ isolation.
 tests for very small units of code might be adding noise to your test suite,
 there won't be too much value in testing a huge portion of your code either.
 
-The second technique consisted on using factories. I mention this, because we
+The second technique consisted in using factories. I mention this, because we
 (lazy developers) often use mocks as a quick solution to creating the complex
 conditions.
 
-Whats important is that factories **build real objects** for you in a
+What's important is that factories **build real objects** for you in a
 declarative and straighforward way, which let's you focus on the bits of data
 you need to setup your test and leave the rest for the factory to implement.
 
@@ -360,8 +360,8 @@ class Payment:
 ```
 
 To test this, you would have to write tests that have almost the same code you
-are trying to test, and, depending on how precise are the dates you are
-handling, **your tests could fail from time to time**, ie: some tests might fail
+are trying to test, and, depending on how precise the dates you are handling
+are, **your tests could fail from time to time**, ie: some tests might fail
 when you run them at midnight, or fail because of a difference of one
 millisecond.
 
@@ -392,8 +392,8 @@ You can see how we avoided mocking `datetime.now()` and we how we can even use
 `strftime()` in our tests. Because freezegun is *precise*, it only mocks
 datetime functions that are used to obtain the current time, and leaves
 everything else untouched. We made time behave deterministically using a nice
-declarative API, that doesn't get in our way. We can even make the payment date
-to be calculated using other libraries.
+declarative API, that doesn't get in our way. We can even calculate the payment
+date using other libraries.
 
 ```python
 import arrow
@@ -410,7 +410,7 @@ class Payment:
 ## Need for speed
 
 I mentioned that using mocks was a legit excuse for speeding your tests, and
-staying away of slow parts like the database. Well if you used an ORM and your
+staying away from slow parts like the database. Well if you used an ORM and your
 data structures are pretty standard, then you may be able to [switch to an
 in-memory sqlite database][4] just to run your tests.
 
@@ -433,7 +433,7 @@ SSD.
 ## In conclusion 
 
 * Integration tests are one honking great idea, let's do more of those. Don't 
-  relay exclusively in unit tests, test goals.
+  rely exclusively in unit tests, test goals.
 * Use factories to reduce boilerplate of tests setup and asserting a known state
   before they run.
 * Avoid using mocks as much as you can. There's a good chance you'll be testing 
@@ -455,4 +455,3 @@ Mock yourself not your tests :P
 [9]: https://github.com/spulec/freezegun
 [10]: https://twitter.com/df07/status/607562584401821696
 [11]: https://github.com/gabrielfalcao/HTTPretty
-[12]: https://docs.python.org/2/library/smtpd.html
