@@ -1,7 +1,6 @@
 Title: Some reviews 
 Category: Personal
 Date: 2015-08-09
-Status: draft
 Tags: reviews, rants, ideas
 Summary: Books, series, games and movies reviews. Part 1? 
 
