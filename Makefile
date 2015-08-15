@@ -38,6 +38,7 @@ help:
 	@echo 'Usage:                                                                 '
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
+	@echo '   make gitclean                    cleans the output git submodule    '
 	@echo '   make regenerate                  regenerate files upon modification '
 	@echo '   make publish                     generate using production settings '
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
@@ -59,6 +60,9 @@ html:
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+
+gitclean:
+	[ ! -d $(OUTPUTDIR) ] || [! -d $(OUTPUTDIR)/.git/ ] || cd $(OUTPUTDIR) && git reset --hard && git rm -r * --cached  && git clean -f
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
