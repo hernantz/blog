@@ -90,7 +90,7 @@ feels almost like testing that the compiler/interpreter works!
 > *"We've fallen into a trap of testing that the code does what the code says 
 > it does, rather than testing functional behaviour we care about."*
 >
-> Every mock.patch() is a little smell. <cite>[Daniel Pope][1]</cite>
+> <cite>[Every mock.patch() is a little smell][1]</cite>. Daniel Pope.
 
 This kind of unit testing makes too many assumptions on how `process()` is
 implemented. Tightly coupling your tests with mocks, causes refactors to be

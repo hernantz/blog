@@ -20,7 +20,7 @@ which I consumed those things.
 
 The idea of a sexually-transmitted curse is very original, plus the soundtrack
 and the 80'ish atmosphere makes it not the the average horror movie that
-[hollywood has us used to][1].
+[Hollywood has us used to][1].
 
 Nonetheless, there are many mistakes in the plot. Some basic unanswered
 questions that are: Why didn't they go to school? where are their parents? how

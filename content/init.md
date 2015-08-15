@@ -2,7 +2,7 @@ Title: Init
 Date: 2013-07-03 18:06
 Category: Personal
 Tags: pelican, ideas 
-Summary: This is my not-sexy static new blog
+Summary: This is my not-sexy new static blog.
 
 This is my not-sexy static new blog. It starts with a single post and a single
 blog. I hope this is not one of those things I start and abandon.

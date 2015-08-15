@@ -30,7 +30,7 @@ RELATIVE_URLS = True
 
 THEME = '/home/hernantz/devel/pelican-left/'
 
-STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/humans.txt',]
+STATIC_PATHS = ('images', 'extra/robots.txt', 'extra/humans.txt',)
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
