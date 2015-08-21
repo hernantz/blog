@@ -1,0 +1,140 @@
+Title: The branch is dead, long live the branch!
+Date: 2015-08-15
+Category: Programming
+Tags: ideas, agile, git
+Summary: The bigger the branch gets, the harder it is to merge it.
+Status: draft
+
+*tl;dr*: When implementing big changesets, maintaining and merging long-lived branches is hard. 
+Use short-lived branches instead, and merge them ASAP.
+
+![The ship of Theseus](/images/Ship.jpg)
+
+## The Theseus paradox
+
+> *"The ship of Theseus, also known as Theseus' paradox, is a thought experiment
+> that raises the question of whether an object which has had all of its 
+> components replaced remains fundamentally the same object."*
+>
+> <cite>[Ship of Theseus][1]</cite>. Wikipedia.
+
+The answer to the paradox is easy if a large portion of the ship is replaced at
+once, but it becomes more confusing if the change happens gradually, one plank
+at a time.
+
+In this case I'm not interested in the correct answer to this paradox, but how
+those changes are implemented. On software projects, something similar occurs.
+There's a new requirement that implies many changes that could be a refactor,
+a redesign, a new feature and whatnot, and it can be implemented in small
+stages or in huge chunks.
+
+
+## Branches for all
+
+To implement these changes, collaboratively and simultaneously with other
+developers (and many other things advantages) is that we use a version control
+system, where each feature and sub task is implemented in its own branch.
+
+Generally, every serious project also has an integration branch and a stable
+branch, which may be the same or not. When the feature/redesign/refactor is
+complete, the changes can be merged into the integration or stable branch.
+
+
+## The problem with long-lived branches
+
+Cuando se necesita implementar un gran changeset, el branch se puede demorar en ser integrado hasta que se completen todas las tareas necesarias.
+Esta estrategia de mantener no mergear hasta que este listo puede tener ciertas complicaciones que nombrare a continuacion.
+
+
+### Merge conflicts
+
+El problema de mergear un cambio grande from a long-lived branch only when it's ready, is que en la rama de integracion
+puede tener una tasa de actualizacion mayor, como bugfixes o smaller features que seguramente causaran conflictos. 
+
+En un projectos con un tamanio de equipo mediano, esto comienza a pasar bastante seguido, y tu long-lived branch queda desincronizado bastante seguido.  
+
+Consider this scenario: *On a branch, some comments are added to a function.
+On a second branch, the name of that function is changed and everywhere it is invoked.
+On a third branch, the function declaration is moved to another file.*
+
+This is an extreme example, I know, but 
+even if you keep you are not **poluting your branches with merges** (in git this would mean [using rebase][5]), 
+and you have managed to **avoid the merge hell** that makes your branch history look like a [metro map][3],
+in general, **solving merge conflicts is hard**, and the bigger the changeset is, the trickier it gets.
+
+
+### Sharing improvements between branches
+
+Enhancements, refactors, bugfixes and other **improvements cannot be easily shared between feature-branches** because they are WIP.
+Creating a common *develop* branch, to integrate all WIP would require having all the features finished
+in order to merge it into the integration branch, and thus, defeat the purpose of using separate branches to enable parallel work.
+
+
+### Quality of code
+
+Long branches have to be catching up with the ever changing integration branch, and
+more often than not, you'll see lots of commits with messages like: *fixing abc, fixing more abc, revert fixing abc, WIP broken tests*.
+
+Because feature branches are in progress, documenting and testing are left as last-minute tasks.
+You may think that the big messy branch will be prevented from geting merged until it gets polished, but in reality,
+**code reviews become code overviews**, and big changesets just [look fine][2]. Who dares to approve a merge of *225
+commits with 6,180 additions and 1,313 deletions that affect 112 files*, and say it is DRY, well tested, etc?.
+
+
+### Shipping
+
+It turns out that on personal projects and sometimes on many community driven open-source projects, development is focused on big releases
+that are shipped *when ready*. 
+
+Following the analogy of the ship, this means that the ship won't set sail until all 
+work is finished. But for startups and technology based companies, it happens that the ship is sailing! and it cannot wait on stand-by mode
+until it is fixed, re-painted and it's oars replaced, all this must be done on the fly.
+
+All the aforementioned pain points can be avoided with enough care and discipline,
+but this last one requires a mind change, commiting towards **always shipping
+something valuable** sprint by sprint.
+
+
+## How do you implement a big change or feature, again
+
+The simpler the branching model you adopt, the better.
+Lo importante es que ese pedazo de codigo sea mergeado lo antes posible,
+cosa de que cualquier nuevo desarollo ya puede o bien benefiarse  de eso que 
+ya esta integrado o bien tener en cuenta que ese pedazo qeu esta en WIP hay 
+que tenerlo en cuenta, no es algo que esta en el ether, entonces mi cambio/mejora/bugfix
+que no estaba relacionado con ese pedazo en WIP, ahora lo debe contemplar.
+
+Mergear las piezas de un changeset grande, desde el dia zero y en tu rama estable,
+no solo te fuerza a enfrentar los conflictos de merge de forma temprana,
+si no tambien a hacerlo sin introducir regressiones, por lo que la transicion del estado
+actual de la applicacion hacia el otro estado con el nuevo feature/redisenio/refactor,
+se hace de manera mas suave y previsible.
+
+
+
+La solucion es divide y conquista. Pero asi como se divide el problema en muchas
+partes, en vez de dividirlo en forma directa, dividirlo pensando en como integrar
+cada parte de a poco.
+
+Ejemplos como hacer una migracion de a partes
+1) Traducir la applicacion a otro idioma
+2) Hacer un upgrade de bootstrap
+3) Cambio de widgets y layout
+4) Un cambio donde se usen feature flags
+
+
+## Conclusion
+
+Hable particularmente sobre branches, pero en general estas ideas se aplican a cualquier 
+forma de integrar cambios es un projecto de software. Especialemente cuando la aplicacion ya esta en uso.
+
+Implement big changesets little by little.
+No es solo como estan implementados, sino como estan integrados. (hay una diferencia)
+The quicker you merge a piece of code/feature/refactor, the better.
+Don't let Theseus' ship sink!
+
+[1]: https://en.wikipedia.org/wiki/Ship_of_Theseus "Ship of Theseus"
+[2]: https://twitter.com/iamdevloper/status/397664295875805184 "Code reviews"
+[3]: http://www.tugberkugurlu.com/archive/resistance-against-london-tube-map-commit-history-a-k-a--git-merge-hell "Merge Hell"
+[4]: http://nvie.com/posts/a-successful-git-branching-model/ "Git Flow"
+[5]: https://www.atlassian.com/git/tutorials/merging-vs-rebasing/workflow-walkthrough "Merging vs Rebasing"
