@@ -5,10 +5,11 @@ Tags: ideas, agile, git
 Summary: The bigger the branch gets, the harder it is to merge it.
 Status: draft
 
-*tl;dr*: When implementing big changesets, maintaining and merging long-lived branches is hard. 
-Use short-lived branches instead, and merge them ASAP.
+*tl;dr*: When implementing big changesets, maintaining and merging long-lived
+branches is hard. Use short-lived branches instead, and merge them ASAP.
 
 ![The ship of Theseus](/images/Ship.jpg)
+
 
 ## The Theseus paradox
 
@@ -20,20 +21,19 @@ Use short-lived branches instead, and merge them ASAP.
 
 The answer to the paradox is easy if a large portion of the ship is replaced at
 once, but it becomes more confusing if the change happens gradually, one plank
-at a time.
+at a time. The answer to the paradox seems to be related to how those changes
+are implemented.
 
-In this case I'm not interested in the correct answer to this paradox, but how
-those changes are implemented. On software projects, something similar occurs.
-There's a new requirement that implies many changes that could be a refactor,
-a redesign, a new feature and whatnot, and it can be implemented in small
-stages or in huge chunks.
+On software projects, something similar occurs. There's a new requirement that
+implies many changes, could be a refactor, a redesign or a new feature, that
+can be implemented in small or huge stages.
 
 
 ## Branches for all
 
 To implement these changes, collaboratively and simultaneously with other
-developers (and many other things advantages) is that we use a version control
-system, where each feature and sub task is implemented in its own branch.
+developers (among other advantages) is that we use a version control system,
+where each feature and sub task is implemented in its own branch.
 
 Generally, every serious project also has an integration branch and a stable
 branch, which may be the same or not. When the feature/redesign/refactor is
@@ -42,65 +42,79 @@ complete, the changes can be merged into the integration or stable branch.
 
 ## The problem with long-lived branches
 
-Cuando se necesita implementar un gran changeset, el branch se puede demorar en ser integrado hasta que se completen todas las tareas necesarias.
-Esta estrategia de mantener no mergear hasta que este listo puede tener ciertas complicaciones que nombrare a continuacion.
+The strategy of not integrating a branch until it is ready can lead to some
+complications, especially when working with long-lived branches, where **these
+complications become unnecessarily complicated**. Long-lived branches exist
+because a big changeset needs to be implemented, and the merge is delayed for a
+long time until all tasks are finished.
+
+Let's review some of these complications that arise from working with
+long-lived branches.
 
 
-### Merge conflicts
+### 1. Merge conflicts
 
-El problema de mergear un cambio grande from a long-lived branch only when it's ready, is que en la rama de integracion
-puede tener una tasa de actualizacion mayor, como bugfixes o smaller features que seguramente causaran conflictos. 
-
-En un projectos con un tamanio de equipo mediano, esto comienza a pasar bastante seguido, y tu long-lived branch queda desincronizado bastante seguido.  
+In a project with medium-sized team, the integration branch may have a higher
+refresh rate, as smaller features or bugfixes get merged, that will cause
+conflicts with the long-lived branch, which gets quite often out of sync.
 
 Consider this scenario: *On a branch, some comments are added to a function.
-On a second branch, the name of that function is changed and everywhere it is invoked.
-On a third branch, the function declaration is moved to another file.*
+On a second branch, the name of that function is changed and everywhere it is
+invoked. On a third branch, the function declaration is moved to another file.*
 
-This is an extreme example, I know, but 
-even if you keep you are not **poluting your branches with merges** (in git this would mean [using rebase][5]), 
-and you have managed to **avoid the merge hell** that makes your branch history look like a [metro map][3],
-in general, **solving merge conflicts is hard**, and the bigger the changeset is, the trickier it gets.
-
-
-### Sharing improvements between branches
-
-Enhancements, refactors, bugfixes and other **improvements cannot be easily shared between feature-branches** because they are WIP.
-Creating a common *develop* branch, to integrate all WIP would require having all the features finished
-in order to merge it into the integration branch, and thus, defeat the purpose of using separate branches to enable parallel work.
+This is an extreme example, I know, but even if you keep you are not **poluting
+your branches with merges** (in git this would mean [using rebase][5]), and you
+have managed to **avoid the merge hell** that makes your branch history look
+like a [metro map][3], in general, **solving merge conflicts is hard**, and the
+bigger the changeset is, the trickier it gets.
 
 
-### Quality of code
+### 2. Sharing improvements between branches
 
-Long branches have to be catching up with the ever changing integration branch, and
-more often than not, you'll see lots of commits with messages like: *fixing abc, fixing more abc, revert fixing abc, WIP broken tests*.
-
-Because feature branches are in progress, documenting and testing are left as last-minute tasks.
-You may think that the big messy branch will be prevented from geting merged until it gets polished, but in reality,
-**code reviews become code overviews**, and big changesets just [look fine][2]. Who dares to approve a merge of *225
-commits with 6,180 additions and 1,313 deletions that affect 112 files*, and say it is DRY, well tested, etc?.
+Enhancements, refactors, bugfixes and other **improvements cannot be easily
+shared between feature-branches** because they are WIP. Creating a common
+*develop* branch, to integrate all WIP would require having all the features
+finished in order to merge it into the integration branch, and thus, defeat the
+purpose of using separate branches to enable parallel work.
 
 
-### Shipping
+### 3. Quality of code
 
-It turns out that on personal projects and sometimes on many community driven open-source projects, development is focused on big releases
-that are shipped *when ready*. 
+Long branches have to be catching up with the ever changing integration branch,
+and more often than not, you'll see lots of commits with messages like: *fixing
+abc, fixing more abc, revert fixing abc, WIP broken tests*.
 
-Following the analogy of the ship, this means that the ship won't set sail until all 
-work is finished. But for startups and technology based companies, it happens that the ship is sailing! and it cannot wait on stand-by mode
-until it is fixed, re-painted and it's oars replaced, all this must be done on the fly.
+Because feature branches are in progress, documenting and testing are left as
+last-minute tasks. You may think that the big messy branch will be prevented
+from geting merged until it gets polished, but in reality, **code reviews
+become code overviews**, and big changesets just [look fine][2]. Who dares to
+approve a merge of *225 commits with 6,180 additions and 1,313 deletions that
+affect 112 files*, and say it is DRY, well tested, etc?.
 
-All the aforementioned pain points can be avoided with enough care and discipline,
-but this last one requires a mind change, commiting towards **always shipping
-something valuable** sprint by sprint.
+
+### 4. Shipping
+
+It turns out that on personal projects and sometimes on many community driven
+open-source projects, development is focused on big releases that are shipped
+*when ready*. 
+
+Following the analogy of the ship, this means that the ship won't set sail
+until all work is finished. But for startups and technology based companies, it
+happens that the ship is sailing! and it cannot wait on stand-by mode until it
+is fixed, re-painted and it's oars replaced, all this must be done on the fly.
+
+All the aforementioned pain points can be avoided with enough care and
+discipline, but this last one requires a mind change, commiting towards
+**always shipping something valuable** sprint by sprint.
 
 
 ## How do you implement a big change or feature, again
 
+The complications mentioned above cannot be avoided, but can be mitigated.
 The simpler the branching model you adopt, the better.
 Lo importante es que ese pedazo de codigo sea mergeado lo antes posible,
 cosa de que cualquier nuevo desarollo ya puede o bien benefiarse  de eso que 
-ya esta integrado o bien tener en cuenta que ese pedazo qeu esta en WIP hay 
+ya esta integrado o bien tener en cuenta que ese pedazo qeu esta en WIP hay
 que tenerlo en cuenta, no es algo que esta en el ether, entonces mi cambio/mejora/bugfix
 que no estaba relacionado con ese pedazo en WIP, ahora lo debe contemplar.
 
@@ -121,6 +135,7 @@ Ejemplos como hacer una migracion de a partes
 2) Hacer un upgrade de bootstrap
 3) Cambio de widgets y layout
 4) Un cambio donde se usen feature flags
+5) Cambiar el nombre a una clase que se usa mucho (usar un alias) 
 
 
 ## Conclusion
