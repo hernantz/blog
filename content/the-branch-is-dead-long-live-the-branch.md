@@ -8,7 +8,7 @@ Status: draft
 *tl;dr*: When implementing big changesets, maintaining and merging long-lived
 branches is hard. Use short-lived branches instead, and merge them ASAP.
 
-![The ship of Theseus](/images/Ship.jpg)
+![The ship of Theseus](/images/ship.jpg)
 
 
 ## The Theseus paradox
