@@ -36,7 +36,7 @@ developers (among other advantages) is that we use a version control system,
 where each feature and sub task is implemented in its own branch.
 
 Generally, every serious project also has an integration branch and a stable
-branch, which may be the same or not. When the feature/redesign/refactor is
+branch, which may be the same [or not][4]. When the feature/redesign/refactor is
 complete, the changes can be merged into the integration or stable branch.
 
 
@@ -92,7 +92,7 @@ approve a merge of *225 commits with 6,180 additions and 1,313 deletions that
 affect 112 files*, and say it is DRY, well tested, etc?.
 
 
-### 4. Shipping
+### 4. Big releases
 
 It turns out that on personal projects and sometimes on many community driven
 open-source projects, development is focused on big releases that are shipped
@@ -103,53 +103,44 @@ until all work is finished. But for startups and technology based companies, it
 happens that the ship is sailing! and it cannot wait on stand-by mode until it
 is fixed, re-painted and it's oars replaced, all this must be done on the fly.
 
-All the aforementioned pain points can be avoided with enough care and
-discipline, but this last one requires a mind change, commiting towards
-**always shipping something valuable** sprint by sprint.
+All the aforementioned pain points cannot be avoided but mitigated with enough
+care and discipline, but this last one requires a mind change, commiting towards
+**shipping something valuable** sprint by sprint.
 
 
-## How do you implement a big change or feature, again
+## Always. Be. Merging. 
 
-The complications mentioned above cannot be avoided, but can be mitigated.
-The simpler the branching model you adopt, the better.
-Lo importante es que ese pedazo de codigo sea mergeado lo antes posible,
-cosa de que cualquier nuevo desarollo ya puede o bien benefiarse  de eso que 
-ya esta integrado o bien tener en cuenta que ese pedazo qeu esta en WIP hay
-que tenerlo en cuenta, no es algo que esta en el ether, entonces mi cambio/mejora/bugfix
-que no estaba relacionado con ese pedazo en WIP, ahora lo debe contemplar.
+*Coffee is for mergers*. The quicker you merge a piece of code/feature/refactor, the better,
+and for this, [the simpler][6] the branching model you adopt, the better.
 
-Mergear las piezas de un changeset grande, desde el dia zero y en tu rama estable,
-no solo te fuerza a enfrentar los conflictos de merge de forma temprana,
-si no tambien a hacerlo sin introducir regressiones, por lo que la transicion del estado
-actual de la applicacion hacia el otro estado con el nuevo feature/redisenio/refactor,
-se hace de manera mas suave y previsible.
+Now when you plan a big changeset, dividing it into smaller tasks and start
+working with the ones whom all the other tasks depend on, it's not enough. The key thing is that
+**each task that is finished has to be mergeable**, and this implies that: 
 
+1. Merge conflicts are resolved from day one.
+2. Other features, refactores and bugfixes have to deal with or can make use of the new (quality working) code that is shipped sprint after sprint.
+3. Changes might not be tackled in the original logical order, but the transition towards the big changeset happens in a smooth and predictable manner.
 
-
-La solucion es divide y conquista. Pero asi como se divide el problema en muchas
-partes, en vez de dividirlo en forma directa, dividirlo pensando en como integrar
-cada parte de a poco.
 
 Ejemplos como hacer una migracion de a partes
-1) Traducir la applicacion a otro idioma
-2) Hacer un upgrade de bootstrap
-3) Cambio de widgets y layout
-4) Un cambio donde se usen feature flags
-5) Cambiar el nombre a una clase que se usa mucho (usar un alias) 
+
+1. Traducir la applicacion a otro idioma
+2. Hacer un upgrade de bootstrap
+3. Cambio de widgets y layout
+4. Un cambio donde se usen feature flags
+5. Cambiar el nombre a una clase que se usa mucho (usar un alias) 
 
 
 ## Conclusion
 
 Hable particularmente sobre branches, pero en general estas ideas se aplican a cualquier 
 forma de integrar cambios es un projecto de software. Especialemente cuando la aplicacion ya esta en uso.
+Implement big changesets little by little. Don't let Theseus' ship sink!
 
-Implement big changesets little by little.
-No es solo como estan implementados, sino como estan integrados. (hay una diferencia)
-The quicker you merge a piece of code/feature/refactor, the better.
-Don't let Theseus' ship sink!
 
 [1]: https://en.wikipedia.org/wiki/Ship_of_Theseus "Ship of Theseus"
 [2]: https://twitter.com/iamdevloper/status/397664295875805184 "Code reviews"
 [3]: http://www.tugberkugurlu.com/archive/resistance-against-london-tube-map-commit-history-a-k-a--git-merge-hell "Merge Hell"
 [4]: http://nvie.com/posts/a-successful-git-branching-model/ "Git Flow"
 [5]: https://www.atlassian.com/git/tutorials/merging-vs-rebasing/workflow-walkthrough "Merging vs Rebasing"
+[6]: http://scottchacon.com/2011/08/31/github-flow.html "Github Flow"
