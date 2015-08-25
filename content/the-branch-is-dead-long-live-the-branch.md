@@ -2,7 +2,7 @@ Title: The branch is dead, long live the branch!
 Date: 2015-08-15
 Category: Programming
 Tags: ideas, agile, git
-Summary: The bigger the branch gets, the harder it is to merge it.
+Summary: Implement big changesets little by little. Don't let Theseus' ship sink!
 Status: draft
 
 *tl;dr*: When implementing big changesets, maintaining and merging long-lived
@@ -98,44 +98,66 @@ It turns out that on personal projects and sometimes on many community driven
 open-source projects, development is focused on big releases that are shipped
 *when ready*. 
 
-Following the analogy of the ship, this means that the ship won't set sail
-until all work is finished. But for startups and technology based companies, it
+Following the analogy of the ship, this means that it won't set sail until all
+the work is finished. But for startups and technology based companies, it
 happens that the ship is sailing! and it cannot wait on stand-by mode until it
 is fixed, re-painted and it's oars replaced, all this must be done on the fly.
 
-All the aforementioned pain points cannot be avoided but mitigated with enough
+All the aforementioned pain points cannot be avoided but mitigated, with enough
 care and discipline, but this last one requires a mind change, commiting towards
-**shipping something valuable** sprint by sprint.
+**shipping something valuable** sprint by sprint, and this becomes especially
+important when the project is already being used.
 
 
 ## Always. Be. Merging. 
 
-*Coffee is for mergers*. The quicker you merge a piece of code/feature/refactor, the better,
-and for this, [the simpler][6] the branching model you adopt, the better.
+*Coffee is for mergers*. The quicker you merge a piece of code/feature/refactor,
+the better, and for this, [the simpler][6] the branching model you adopt, the
+better.
 
-Now when you plan a big changeset, dividing it into smaller tasks and start
-working with the ones whom all the other tasks depend on, it's not enough. The key thing is that
-**each task that is finished has to be mergeable**, and this implies that: 
+When you plan a big changeset, dividing it into smaller tasks and start working
+with the ones whom all the other tasks depend on, it's not enough. The key
+thing is that **each task that is finished has to be mergeable**, and this
+implies that:
 
 1. Merge conflicts are resolved from day one.
-2. Other features, refactores and bugfixes have to deal with or can make use of the new (quality working) code that is shipped sprint after sprint.
-3. Changes might not be tackled in the original logical order, but the transition towards the big changeset happens in a smooth and predictable manner.
+2. Other features, refactores and bugfixes have to deal with or can make use of
+   the new (good quality? working?) code that is shipped sprint after sprint.
+3. Changes might not be tackled in the original logical order, but the
+   transition towards the big changeset happens in a smooth and predictable
+   manner.
+
+Dispite having mentioned branches a lot, the ideas expressed here still apply,
+no matter the technique used to integrate the changes.
 
 
-Ejemplos como hacer una migracion de a partes
+## Some examples of smooth transitions
 
-1. Traducir la applicacion a otro idioma
-2. Hacer un upgrade de bootstrap
-3. Cambio de widgets y layout
-4. Un cambio donde se usen feature flags
-5. Cambiar el nombre a una clase que se usa mucho (usar un alias) 
+I think I've gotten to the point already, but I feel like sharing some examples.
 
+If you need to migrate an python app from python2 to python3, I wouldn't create
+a branch called *python-3-migration* to do all the work there, because chances
+are that your python 2 app would still be used for a long time until the migration
+is finished, and you'll have to be duplicating bugfixed, features and bugs in your
+main branch and in the *python-3-migration* branch.
 
-## Conclusion
+Traducir la applicacion a otro idioma, se puede ir haciendo de a poco,
+notificando a todo el equipo que la traduccion esta en marcha, y que cada nuevo,
+string que agreguen lo hagan de forma tal que sea traducible.
 
-Hable particularmente sobre branches, pero en general estas ideas se aplican a cualquier 
-forma de integrar cambios es un projecto de software. Especialemente cuando la aplicacion ya esta en uso.
-Implement big changesets little by little. Don't let Theseus' ship sink!
+El cliente quiere un rediseno del sitio (cambian colores y layouts), y se decide
+aprovechar la oportunidad para tambien hacer un upgrade a la ultima version de 
+bootstrap.
+Don't! Hace el upgrade a bootstrap primero y luego el rediseno. Pero el upgrade
+debe convivir con la version anterior por un tiempo, asi que compila tu propia 
+version, tus propias clases, etc y anda migrando de a poco. BUSCAR EL LINK DE NO USAR BOOTSTRAP.
+
+Cambiar el nombre a una clase que se usa mucho, lo que yo haria seria crear un alias a esa clase
+con el nuevo nombre y comitear ese cambio, de a poco ir migrando el resto del codigo,
+una vez que todo el codigo usa el alias, renombrar la clase original.
+
+And finally, you could try feature flags or compile time flags, to enable or disable certain parts
+of the system depending on some conditions, but keeping all in the same codebase.
 
 
 [1]: https://en.wikipedia.org/wiki/Ship_of_Theseus "Ship of Theseus"
@@ -144,3 +166,4 @@ Implement big changesets little by little. Don't let Theseus' ship sink!
 [4]: http://nvie.com/posts/a-successful-git-branching-model/ "Git Flow"
 [5]: https://www.atlassian.com/git/tutorials/merging-vs-rebasing/workflow-walkthrough "Merging vs Rebasing"
 [6]: http://scottchacon.com/2011/08/31/github-flow.html "Github Flow"
+[7]: http://python3porting.com/strategies.html "Migration strategies"
