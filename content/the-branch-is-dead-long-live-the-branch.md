@@ -133,31 +133,36 @@ no matter the technique used to integrate the changes.
 
 ## Some examples of smooth transitions
 
-I think I've gotten to the point already, but I feel like sharing some examples.
+I think I've gotten to the point already, but I felt like sharing some examples,
+without getting into too much detail, of real life scenarios where requirements
+are implemented by using other strategies than long-lived branches.
 
-If you need to migrate an python app from python2 to python3, I wouldn't create
-a branch called *python-3-migration* to do all the work there, because chances
-are that your python 2 app would still be used for a long time until the migration
-is finished, and you'll have to be duplicating bugfixed, features and bugs in your
-main branch and in the *python-3-migration* branch.
+Among all the [strategies available][7] to **migrate an Python app from Python 2
+to Python 3**, I would try to modify the code so that it runs under both Python
+2 and Python 3  as much as I can. I certaintly wouldn't create a
+*python-3-migration* branch to do all the work there, because chances are that
+your Python 2 app would still be used for a long time until the migration is
+finished, and you'll have to be duplicating features, bugs and bugfixes in your
+main branch and in the migration branch.
 
-Traducir la applicacion a otro idioma, se puede ir haciendo de a poco,
-notificando a todo el equipo que la traduccion esta en marcha, y que cada nuevo,
-string que agreguen lo hagan de forma tal que sea traducible.
+To **translate the app** into another language, you can start by notifying the
+entire team that translation is in progress so that each new piece of ui that is
+added has the labels modified to be translatable.
 
-El cliente quiere un rediseno del sitio (cambian colores y layouts), y se decide
-aprovechar la oportunidad para tambien hacer un upgrade a la ultima version de 
-bootstrap.
-Don't! Hace el upgrade a bootstrap primero y luego el rediseno. Pero el upgrade
-debe convivir con la version anterior por un tiempo, asi que compila tu propia 
-version, tus propias clases, etc y anda migrando de a poco. BUSCAR EL LINK DE NO USAR BOOTSTRAP.
+The customer wants **a redesign of the site** (change colors and layouts), and
+decides take the opportunity to also to upgrade to the latest version of
+Bootstrap. Do not! Upgrade Bootstrap first and then do the redesign. But the
+[upgrade must live][9] with the previous version for a while, so [compile your
+own version][10], merge that and then start the migration, page by page.
 
-Cambiar el nombre a una clase que se usa mucho, lo que yo haria seria crear un alias a esa clase
-con el nuevo nombre y comitear ese cambio, de a poco ir migrando el resto del codigo,
-una vez que todo el codigo usa el alias, renombrar la clase original.
+When **renaming a class** that is used everywhere, is better to just create an
+alias for that class and simply commit that change. From then on, make every
+developer use the alias for the new code and at last, when all the codebase is
+using the alias, rename the original class.
 
-And finally, you could try feature flags or compile time flags, to enable or disable certain parts
-of the system depending on some conditions, but keeping all in the same codebase.
+Finally, you could try **feature flags or compile time flags**, to [enable or
+disable certain parts][11] of the system depending on some conditions, but
+keeping all the parts integrated in the same codebase.
 
 
 [1]: https://en.wikipedia.org/wiki/Ship_of_Theseus "Ship of Theseus"
@@ -167,3 +172,7 @@ of the system depending on some conditions, but keeping all in the same codebase
 [5]: https://www.atlassian.com/git/tutorials/merging-vs-rebasing/workflow-walkthrough "Merging vs Rebasing"
 [6]: http://scottchacon.com/2011/08/31/github-flow.html "Github Flow"
 [7]: http://python3porting.com/strategies.html "Migration strategies"
+[8]: http://projectcartoon.com/cartoon/1 "How Projects Really Work"
+[9]: http://slides.com/pamelafox/when-bootstrap-attacks "When bootstrap attacks"
+[10]: http://ruby.bvision.com/blog/please-stop-embedding-bootstrap-classes-in-your-html "Please stop embedding Bootstrap classes in your HTML!"
+[11]: http://blog.travis-ci.com/2014-03-04-use-feature-flags-to-ship-changes-with-confidence/ "Using Feature Flags to Ship Changes with Confidence"
