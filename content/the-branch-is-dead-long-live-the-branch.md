@@ -44,9 +44,10 @@ complete, the changes can be merged into the integration or stable branch.
 
 The strategy of not integrating a branch until it is ready can lead to some
 complications, especially when working with long-lived branches, where **these
-complications become unnecessarily complicated**. Long-lived branches exist
-because a big changeset needs to be implemented, and the merge is delayed for a
-long time until all tasks are finished.
+complications become unnecessarily complicated**.
+
+Long-lived branches exist because a big changeset needs to be implemented, and
+the merge is delayed for a long time until all tasks are finished.
 
 Let's review some of these complications that arise from working with
 long-lived branches.
@@ -54,7 +55,7 @@ long-lived branches.
 
 ### 1. Merge conflicts
 
-In a project with medium-sized team, the integration branch may have a higher
+In a project with a medium-sized team, the integration branch may have a higher
 refresh rate, as smaller features or bugfixes get merged, that will cause
 conflicts with the long-lived branch, which gets quite often out of sync.
 
@@ -62,11 +63,11 @@ Consider this scenario: *On a branch, some comments are added to a function.
 On a second branch, the name of that function is changed and everywhere it is
 invoked. On a third branch, the function declaration is moved to another file.*
 
-This is an extreme example, I know, but even if you keep you are not **poluting
-your branches with merges** (in git this would mean [using rebase][5]), and you
-have managed to **avoid the merge hell** that makes your branch history look
-like a [metro map][3], in general, **solving merge conflicts is hard**, and the
-bigger the changeset is, the trickier it gets.
+This is an extreme example, I know, but even if you you are not **poluting your
+branches with merges** (in git this would mean [using rebase][5]), and you have
+managed to **avoid the merge hell** that makes your branch history look like a
+[metro map][3], in general, **solving merge conflicts is hard**, and the bigger
+the changeset is, the trickier it gets.
 
 
 ### 2. Sharing improvements between branches
@@ -84,12 +85,12 @@ Long branches have to be catching up with the ever changing integration branch,
 and more often than not, you'll see lots of commits with messages like: *fixing
 abc, fixing more abc, revert fixing abc, WIP broken tests*.
 
-Because feature branches are in progress, documenting and testing are left as
-last-minute tasks. You may think that the big messy branch will be prevented
-from geting merged until it gets polished, but in reality, **code reviews
-become code overviews**, and big changesets just [look fine][2]. Who dares to
-approve a merge of *225 commits with 6,180 additions and 1,313 deletions that
-affect 112 files*, and say it is DRY, well tested, etc?.
+Because feature branches are *work in progress*, documenting and testing are
+left as last-minute tasks. You may think that the big messy branch will be
+prevented from geting merged until it gets polished, but in reality, **code
+reviews become code overviews**, and big changesets just [look fine][2]. Who
+dares to approve a merge of *225 commits with 6,180 additions and 1,313
+deletions that affect 112 files*, and say it is DRY, well tested, etc?.
 
 
 ### 4. Big releases
@@ -101,12 +102,14 @@ open-source projects, development is focused on big releases that are shipped
 Following the analogy of the ship, this means that it won't set sail until all
 the work is finished. But for startups and technology based companies, it
 happens that the ship is sailing! and it cannot wait on stand-by mode until it
-is fixed, re-painted and it's oars replaced, all this must be done on the fly.
+gets fixed, re-painted and it's oars replaced, all this must be done on the fly.
 
 All the aforementioned pain points cannot be avoided but mitigated, with enough
 care and discipline, but this last one requires a mind change, commiting towards
-**shipping something valuable** sprint by sprint, and this becomes especially
-important when the project is already being used.
+**shipping something valuable** sprint by sprint. This becomes especially
+important once the app is already being used because of the unpredictable
+[nature of software projects][8], where priorities and requirements change quite
+often, and the branch could be left incomplete at any time.
 
 
 ## Always. Be. Merging. 
