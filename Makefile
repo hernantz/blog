@@ -62,7 +62,7 @@ clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 gitclean:
-	[ ! -d $(OUTPUTDIR) ] || [! -d $(OUTPUTDIR)/.git/ ] || cd $(OUTPUTDIR) && git reset --hard && git rm -r * --cached  && git clean -f
+	[ ! -d $(OUTPUTDIR) ] || [! -d $(OUTPUTDIR)/.git/ ] || cd $(OUTPUTDIR) && git reset --hard && git rm -r * --cached --ignore-unmatch && git clean -f
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
