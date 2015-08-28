@@ -1,9 +1,8 @@
 Title: The branch is dead, long live the branch!
-Date: 2015-08-15
+Date: 2015-08-28
 Category: Programming
 Tags: ideas, agile, git
 Summary: Implement big changesets little by little. Don't let Theseus' ship sink!
-Status: draft
 
 *tl;dr*: When implementing big changesets, maintaining and merging long-lived
 branches is hard. Use short-lived branches instead, and merge them ASAP.
