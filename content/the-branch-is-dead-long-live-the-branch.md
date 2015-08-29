@@ -62,7 +62,7 @@ Consider this scenario: *On a branch, some comments are added to a function.
 On a second branch, the name of that function is changed and everywhere it is
 invoked. On a third branch, the function declaration is moved to another file.*
 
-This is an extreme example, I know, but even if you you are not **poluting your
+This is an extreme example, I know, but even if you you are not **polluting your
 branches with merges** (in git this would mean [using rebase][5]), and you have
 managed to **avoid the merge hell** that makes your branch history look like a
 [metro map][3], in general, **solving merge conflicts is hard**, and the bigger
