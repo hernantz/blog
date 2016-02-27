@@ -1,5 +1,5 @@
 Title: Mock yourself, not your tests
-Date: 2015-07-27 15:00
+Date: 2015-07-27
 Category: Programming 
 Tags: testing, python, mocks, rants
 Summary: Every mock is a smell, avoid them as much as you can.
@@ -9,7 +9,7 @@ Summary: Every mock is a smell, avoid them as much as you can.
 you use to write tests. It is a pity to be mocking your code when you could
 be writing meaningful tests at *almost* the same cost.
 
-![Enable virtualization in BIOS](/images/bridge-fail.jpg)
+![stower-titanic](/images/mock-yourself-not-your-tests.jpg "Der Untergang der Titanic by Willy Stöwer")
 
 In this post I try to discourage the use of mocks when writing tests.
 I'm not completely against them (I see their value) but it's that sometimes 
