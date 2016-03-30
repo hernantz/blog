@@ -91,7 +91,7 @@ we want for this popover.
 </div>
 ```
 
-Yes, it won't be possitioned, and won't be dismissed when you click somewhere
+Yes, it won't be positioned, and won't be dismissed when you click somewhere
 else in the page, but it can be reused as a template for your custom widget.
 
 Say we needed to take full control of a popover. I wrote a simple Backbone view
@@ -115,7 +115,7 @@ var PopoverBottom = Backbone.View.extend({
 ```
 
 We've got a minimum working piece of popover that we control, but it's not
-possitioned. So we can make use of another library that knows how to possition
+positioned. So we can make use of another library that knows how to position
 elements. In this case I'll use [Tether][1] and modify the popover view so
 that it can clean up itself before it's removed.
 
@@ -151,14 +151,14 @@ var Popover = Backbone.View.extend({
 ```
 
 We have combined Bootstrap for presentation, Backbone for logic and Tether as
-a helper for possitioning elements. Live demo [here][2].
+a helper for positioning elements. Live demo [here][2].
 
 ## Wishful thinking - the best?
 
 It's perfectly fine if plugins expose a simple way to cover the 80% of use cases
 or some basic functionality. But it's clear that pure libraries tend to
 outperform ready-made plugins in terms of flexibility. I often see plugins
-hidding their methods behind closures, when they could be opening them as
+hiding their methods behind closures, when they could be opening them as
 **documented building blocks** to be used at your will. If only plugins allowed
 a **clear separation of UI and logic** then you would be able seamlessly
 integrate it with the rest of your frameworks.
