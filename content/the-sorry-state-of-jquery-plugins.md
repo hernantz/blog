@@ -3,6 +3,7 @@ Date: 2016-03-29
 Category: Programming
 Tags: backbone, javascript, bootstrap, jquery
 Summary: A rant on plugins and widgets that do too much.
+Status: draft
 
 
 When adding jQuery widgets to enhance your web app, you'll find **two possible
@@ -76,7 +77,8 @@ One of the best things about Bootstrap's widgets is that they can be represented
 entirely with HTML, without the need to initialize them through JavaScript.
 
 As a follow up of the popover example, the snippet below shows how to represent
-a popover widget.
+a popover widget. Notice how we can use classes like `bottom` to specify the state
+we want for this popover.
 
 ```html
 <div class="popover bottom">
@@ -89,10 +91,11 @@ a popover widget.
 </div>
 ```
 
-Yes, it won't be possitioned, and won't be dismissed when you click somewhere else in the page, but it can be reused
-as a template for your custom widget.
+Yes, it won't be possitioned, and won't be dismissed when you click somewhere
+else in the page, but it can be reused as a template for your custom widget.
 
-Say we needed to take full control of a popover. I wrote a simple Backbone view to achieve that:
+Say we needed to take full control of a popover. I wrote a simple Backbone view
+to achieve that:
 
 ```javascript
 var PopoverBottom = Backbone.View.extend({
@@ -147,18 +150,18 @@ var Popover = Backbone.View.extend({
 });
 ```
 
-This is how we can combine Bootstrap for presentation, Backbone for logic and
-Tether as a helper for possitioning elements. Live demo [here][2].
+We have combined Bootstrap for presentation, Backbone for logic and Tether as
+a helper for possitioning elements. Live demo [here][2].
 
 ## Wishful thinking - the best?
 
-I believe something similar would happen with other widgets, like select2.
-
-
-- Standalone UI es un paso en la direccion correcta, y no algo que el plugin deba generar por si solo
-- Un poco de magia esta bien para cubrir el 80% de los casos de uso, o una funcionalidad basica.
-- No mas closures para esconder codigo, instead brindar building blocks y documentarlos para que puedan ser reutilizados por fuera del plugin.
-- Pure libraries tend to outperform ready-made plugins in terms of flexibility.
+It's perfectly fine if plugins expose a simple way to cover the 80% of use cases
+or some basic functionality. But it's clear that pure libraries tend to
+outperform ready-made plugins in terms of flexibility. I often see plugins
+hidding their methods behind closures, when they could be opening them as
+**documented building blocks** to be used at your will. If only plugins allowed
+a **clear separation of UI and logic** then you would be able seamlessly
+integrate it with the rest of your frameworks.
 
 
 [1]: http://github.hubspot.com/tether/ "Tether"
