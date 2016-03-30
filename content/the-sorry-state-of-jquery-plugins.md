@@ -1,71 +1,82 @@
-Title: Take over popovers 
-Date: 2015-10-13
+Title: The sorry state of jQuery plugins
+Date: 2016-03-29
 Category: Programming
-Status: draft
 Tags: backbone, javascript, bootstrap, jquery
-Summary: Some strategies to reuse code in your views 
+Summary: A rant on plugins and widgets that do too much.
+
+
+When adding jQuery widgets to enhance your web app, you'll find **two possible
+approaches** in their implementation: On one the plugin does everything for
+you (and by *everything* I simply mean *too much*), on the other, the plugin
+does the minimum. But of course there is a wide range in between. I'll try to
+expose the good?, the bad? and the ugly?
 
 ![Bootstrap 3 popovers](/images/popovers.png "Bootstrap 3 popovers")
 
-## The sorry state of jQuery plugins
+## The way of jQuery plugins - the ugly? 
 
-When adding custom widgets to enhance your web app, you'll find two possible implementation approaches:
-On one the plugin does everything for you and there's the plugin that put you in charge of everything.
-But of course there is a wide range in between, and by *everything* I simply mean *too much*.
+To begin, lets see what Boostrap offers for using it's plugins. A plugin
+(ie. popover) can be instantiated directly via HTML with lots of `data-`
+attributes that will be picked up automatically:
 
-Generally with jQuery plugins we do something like: 
+```html
+<a tabindex="0" class="btn btn-danger" role="button" data-trigger="focus" 
+data-toggle="popover" title="Dismissible popover" data-placement="bottom"
+data-content="And here's some amazing content. It's very engaging. Right?">
+Click me!</a>
+```
+
+Or using JavaScript:
 
 ```javascript
-$('#myDiv').jPlugin(manyOptionsAndCallbacks);
+$('#example').popover(optionsAndCallbacks);
 ```
 
-where we are instantiating the plugin in what could be an empty `div` or a minimal HTML structure with lots of `data-` attributes,
-that will be picked up automatically by the plugin. Either way, we try to hook into some of it's functionality via options and callbacks.
+But both can be combined so that the JavaScript options override the `data-`
+attributes. Either way, most plugins follow these techniques and **allow
+certain amount of customization** so that we can hook into some of it's
+functionality via options and callbacks.
 
-Lets see how a jQuery mobile widget for rendering a controlgroup works: 
 
-```html
-<div data-role="controlgroup" data-type="horizontal">
-  <a href="#" data-role="button" data-icon="delete" data-iconpos="left">Left</a>
-</div>
+## Going down the rabbit hole - the bad?
+
+A more radical example would be the [fullCalendar][3] plugin. It is in charge
+of rendering a rather complex [DOM hierachy][4] inside an empty `div` you
+define, and everything from fetching events to be displayed on the calendar,
+to determining how to behave when you click on an event is done through
+configuration, it is controlling some inner state, so you are forced to
+initialize it and follow the rules this plugin immposes. 
+
+This may work for simple scenarios, but when you need more control, you'll be
+forced to implement *hacky tricks* or even roll your own solution. 
+
+For example, the API of this plugin does not expose a way to handle a double
+click on an event, but we can set up this behaviour because this plugin
+provides a `eventRender` callback to manipulate a rendered event.
+
+```javascript
+$('#calendar').fullCalendar({
+  // ... more options here
+  eventRender: function (event, element) {
+    element.dblclick(function () {
+      alert('do something useful!');
+    });
+  }
+});
 ```
 
-Gets converted into this:
-
-```html
-<div data-role="controlgroup" data-type="horizontal" 
-     class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal" 
-     aria-disabled="false" data-disabled="false" data-shadow="false" 
-     data-corners="true" data-exclude-invisible="true" data-mini="false" 
-     data-init-selector=":jqmData(role='controlgroup')">
-  <div class="ui-controlgroup-controls">
-    <a href="#" data-role="button" data-icon="delete" data-iconpos="left" 
-       data-corners="true" data-shadow="true" data-iconshadow="true" 
-       data-wrapperels="span" data-theme="c" 
-       class="ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-c">
-      <span class="ui-btn-inner">
-        <span class="ui-btn-text">Left</span>
-        <span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span>
-      </span>
-    </a>
-  </div>
-</div>
-```
-
-This is a plugin that is in charge of controling and drawing the widget, by doing
-heavy DOM manipulation.
-aquellos que separan la presentacion del control completamente donde las manipulaciones del DOM son 
-menores al punto de consistir en add/remove css classes.
+Should you need something more custom like be able to drag-n-drop events
+between months, which could be implemented with an infinite scroll of months,
+you would be really close to having to fork the entire project.
 
 
- and work for simple scenarios, but when you need 
-more control, you'll need to roll our own solution.
-y si bien sus plugins en javascript parecen ser una exepcion, 
+## Take over popovers - the good?
 
-Algo bueno que tiene bootstrap en el dise;o de sus widgets es 
-que la estructura de los mismos se puede representar enteramente en 
-markup html, sin necesidad forzosa de inicializarlos a travez de javascript.
+One of the best things about Bootstrap's widgets is that they can be represented
+entirely with HTML, without the need to initialize them through JavaScript.
 
+As a follow up of the popover example, the snippet below shows how to represent
+a popover widget.
 
 ```html
 <div class="popover bottom">
@@ -78,28 +89,14 @@ markup html, sin necesidad forzosa de inicializarlos a travez de javascript.
 </div>
 ```
 
-The snippet above shows how to represent a popover widget. Yes, it won't be possitioned,
-and won't be dismissed when you click somewhere else in the page.
+Yes, it won't be possitioned, and won't be dismissed when you click somewhere else in the page, but it can be reused
+as a template for your custom widget.
 
-
-## Taking control of your widgets
-
-Bootstrap's approach is crearly better in the sense that we can reuse it's
-html markup to implement our custom widget.
+Say we needed to take full control of a popover. I wrote a simple Backbone view to achieve that:
 
 ```javascript
-
-var popoverTmpl = [
-  '<div class="arrow"></div>',
-  '<h3 class="popover-title"><%=title%></h3>'
-
-  '<div class="popover-content">',
-  '<p><%=content%></p>',
-  '</div>'
-].join('');
-
 var PopoverBottom = Backbone.View.extend({
-  template: _.template(popoverTmpl),
+  template: _.template($popoverTmpl),
   attributes: {
     'class': 'popover bottom',
     'tabindex': '-1'  // so that we can focus/blur
@@ -116,7 +113,7 @@ var PopoverBottom = Backbone.View.extend({
 
 We've got a minimum working piece of popover that we control, but it's not
 possitioned. So we can make use of another library that knows how to possition
-elements. In this case I'll use [Tether][1], and modify the popover view so
+elements. In this case I'll use [Tether][1] and modify the popover view so
 that it can clean up itself before it's removed.
 
 ```javascript
@@ -153,8 +150,18 @@ var Popover = Backbone.View.extend({
 This is how we can combine Bootstrap for presentation, Backbone for logic and
 Tether as a helper for possitioning elements. Live demo [here][2].
 
+## Wishful thinking - the best?
+
 I believe something similar would happen with other widgets, like select2.
+
+
+- Standalone UI es un paso en la direccion correcta, y no algo que el plugin deba generar por si solo
+- Un poco de magia esta bien para cubrir el 80% de los casos de uso, o una funcionalidad basica.
+- No mas closures para esconder codigo, instead brindar building blocks y documentarlos para que puedan ser reutilizados por fuera del plugin.
+- Pure libraries tend to outperform ready-made plugins in terms of flexibility.
 
 
 [1]: http://github.hubspot.com/tether/ "Tether"
 [2]: https://jsfiddle.net/p82fsx06/1/ "Live demo"
+[3]: http://fullcalendar.io/ "A JavaScript event calendar"
+[4]: http://fullcalendar.io/js/fullcalendar-2.6.1/demos/agenda-views.html "Rendered calendar"
