@@ -9,8 +9,13 @@ Summary: Ideas for surviving an open tabs buffer overflow.
 
 
 ## The interwebs and the power it holds
-There is so much out there and just a click of distance.  Fun videos, new music,
-interesting articles, tutorials, blog posts, games.
+
+In programming, it is said that the number of tabs you have open is directly
+proportinal to the severity of your problem, or better said, the severity of
+your problem is directly proportinal to the number of tabs you have open.
+
+But in general, there is so much out there and just a click of distance. Funny
+videos, new music, interesting articles, tutorials, blog posts, games.
 
 So now I have lots of open tabs that I would like to close some day but there is
 always new content that keeps being added to my information processing buffer
@@ -40,6 +45,21 @@ Also:
 * Limit the number of browser tabs with a plugin.
 * Use a read-it-later diggesting tool (like [Pocket][2]), which also removes the 
   comments and ads cutter from your read.
+
+
+## Update 2016-03-29
+
+So far my biggest improvements have come from the read-it-later solution, mainly
+because I can tag articles to easily find later like: `server` (for server setup
+and sysadmin tasks), `python`, `uix` (for ui/ux), `management` (everything
+related to managing projects/people), among others. The hardest part here is to
+remember that you once saved something interesting for later read.
+
+The other improvement has been to stop using the desktop to browse twitter.
+Instead I force myself to read it on a tablet, which is not so distracting and
+at the same time helps with the *triage process* since it is somewhat cumbersome
+to multitask on it.
+
 
 [1]: http://en.wikipedia.org/wiki/Triage "Triage mode"
 [2]: http://getpocket.com/
