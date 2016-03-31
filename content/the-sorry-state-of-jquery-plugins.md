@@ -1,9 +1,8 @@
 Title: The sorry state of jQuery plugins
-Date: 2016-03-29
+Date: 2016-03-31
 Category: Programming
 Tags: backbone, javascript, bootstrap, jquery
 Summary: A rant on plugins and widgets that do too much.
-Status: draft
 
 
 When adding jQuery widgets to enhance your web app, you'll find **two possible
