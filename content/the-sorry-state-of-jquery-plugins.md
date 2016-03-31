@@ -9,12 +9,11 @@ Status: draft
 When adding jQuery widgets to enhance your web app, you'll find **two possible
 approaches** in their implementation: On one the plugin does everything for
 you (and by *everything* I simply mean *too much*), on the other, the plugin
-does the minimum. But of course there is a wide range in between. I'll try to
-expose the good?, the bad? and the ugly?
+does the minimum. But of course there is a wide range in between.
 
 ![Bootstrap 3 popovers](/images/popovers.png "Bootstrap 3 popovers")
 
-## The way of jQuery plugins - the ugly? 
+## The way of jQuery plugins
 
 To begin, lets see what Boostrap offers for using it's plugins. A plugin
 (ie. popover) can be instantiated directly via HTML with lots of `data-`
@@ -38,18 +37,15 @@ attributes. Either way, most plugins follow these techniques and **allow
 certain amount of customization** so that we can hook into some of it's
 functionality via options and callbacks.
 
-
-## Going down the rabbit hole - the bad?
-
-A more radical example would be the [fullCalendar][3] plugin. It is in charge
+An extreme example would be the [fullCalendar][3] plugin. It is in charge
 of rendering a rather complex [DOM hierachy][4] inside an empty `div` you
 define, and everything from fetching events to be displayed on the calendar,
 to determining how to behave when you click on an event is done through
-configuration, it is controlling some inner state, so you are forced to
-initialize it and follow the rules this plugin immposes. 
+configuration. Since it is controlling some inner state, so you are forced to
+initialize it and follow the rules this plugin immposes.
 
 This may work for simple scenarios, but when you need more control, you'll be
-forced to implement *hacky tricks* or even roll your own solution. 
+forced to implement *hacky tricks* or even roll your own solution.
 
 For example, the API of this plugin does not expose a way to handle a double
 click on an event, but we can set up this behaviour because this plugin
@@ -71,7 +67,7 @@ between months, which could be implemented with an infinite scroll of months,
 you would be really close to having to fork the entire project.
 
 
-## Take over popovers - the good?
+## Take over popovers
 
 One of the best things about Bootstrap's widgets is that they can be represented
 entirely with HTML, without the need to initialize them through JavaScript.
@@ -153,7 +149,7 @@ var Popover = Backbone.View.extend({
 We have combined Bootstrap for presentation, Backbone for logic and Tether as
 a helper for positioning elements. Live demo [here][2].
 
-## Wishful thinking - the best?
+## Wishful thinking
 
 It's perfectly fine if plugins expose a simple way to cover the 80% of use cases
 or some basic functionality. But it's clear that pure libraries tend to
