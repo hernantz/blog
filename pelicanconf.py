@@ -38,3 +38,5 @@ EXTRA_PATH_METADATA = {
 
 PLUGIN_PATHS = ['/home/hernantz/devel/pelican-plugins']
 PLUGINS = ['sitemap']
+
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'toc(permalink=True)']
