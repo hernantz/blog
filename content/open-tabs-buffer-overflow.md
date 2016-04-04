@@ -10,12 +10,8 @@ Summary: Ideas for surviving an open tabs buffer overflow.
 
 ## The interwebs and the power it holds
 
-In programming, it is said that the number of tabs you have open is directly
-proportinal to the severity of your problem, or better said, the severity of
-your problem is directly proportinal to the number of tabs you have open.
-
-But in general, there is so much out there and just a click of distance. Funny
-videos, new music, interesting articles, tutorials, blog posts, games.
+There is so much out there and just a click of distance. Funny videos, new
+music, interesting articles, tutorials, blog posts, games.
 
 So now I have lots of open tabs that I would like to close some day but there is
 always new content that keeps being added to my information processing buffer
@@ -47,7 +43,7 @@ Also:
   comments and ads cutter from your read.
 
 
-## Update 2016-03-29
+## Update 2016-04-03
 
 So far my biggest improvements have come from the read-it-later solution, mainly
 because I can tag articles to easily find later like: `server` (for server setup
