@@ -18,10 +18,9 @@ branches is hard. Use short-lived branches instead, and merge them ASAP.
 >
 > <cite>[Ship of Theseus][1]</cite>. Wikipedia.
 
-The answer to the paradox is easy if a large portion of the ship is replaced at
-once, but it becomes more confusing if the change happens gradually, one plank
-at a time. The answer to the paradox seems to be related to how those changes
-are implemented.
+The answer to the paradox seems to be related to how those changes are
+implemented. It is easy if a large portion of the ship is replaced at once, but
+it becomes more confusing if the change happens gradually, one plank at a time.
 
 On software projects, something similar occurs. There's a new requirement that
 implies many changes, could be a refactor, a redesign or a new feature, that
