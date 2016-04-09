@@ -1,0 +1,80 @@
+Title: Bugs are overrated 
+Category: Programming
+Date: 2015-05-15 16:46
+Status: draft
+Tags: rants, ideas, agile
+Summary: Everything that is not an emergency, can and should be planned.
+ 
+![Medieval Beekeeper](/images/bugs-are-overrated.png "Medieval Beekeeper")
+
+Area mantenimiento
+
+He escrito estas propuestas porque creo que son factibles de implementar y porque con el trabajo hecho hasta el momento, llegamos a un punto de inflexión donde un cambio es posible y necesario.
+
+Problema 1: Falta de impacto
+---------------------------------------
+Tratar el área de mantenimiento como un área separada tiene sus ventajas y desventajas.
+Al tener recursos humanos dedicados exclusivamente a resolver bugs, se puede evitar las burocracias de scrum, y atacar los problemas directamente. Esto posibilitó que en 11 meses de trabajo, pasamos de 40 tickets abiertos en el board de mantenimiento, que luego fue de un promedio de 20 tickets por varios meses, a un promedio de 2 tickets abiertos permanentemente. También fue fundamental el proceso de reviews para evitar introducir regresiones.
+
+Como desventajas ésta que los problemas que se atacan en esta área no tienen el impacto necesario en la planificación y trabajo del área de desarrollo principal. En la medida que los parches permitan "safar", las soluciones de fondo pierden relevancia frente a otras tareas como nuevas features, y en momentos críticos, como en la planning meeting, cuando hay que decidir que tareas entran en el sprint, los refactors y enhancements ligan primero.
+
+Como hay alguien que ataja las balas, siempre está latente el riesgo de "impunidad", donde cualquier problema que haya, se crea un ticket de mantenimiento y listo. El área de mantenimiento permite "ocultar" el verdadero estado del proyecto, ya que el área principal no tiene que afrontar las consecuencias de falta de refactor, falta de especificación, tareas mal hechas, etc.
+
+
+Solución problema 1: Preventive Maintenance and constant refactor
+-------------------------------------------------------------------------------------------
+https://pbs.twimg.com/media/CHFrCPkW8AAuJna.jpg
+Sun (now Oracle) estimates that over the lifetime of a standard piece of code, 20 percent of the effort will go into the original creation and testing of the code, and 80 percent of the effort will go into the subsequent maintenance and enhancement of the code.
+
+Es importante que nuestros sprint se empiecen a parecer más a esos números. La solución sería negociar un porcentaje fijo de puntos destinados a mantenimiento preventivo y mejoras, no se bien que porcentaje, pero un 50/50 o 40/60 no sería descabellado.
+Esto tiene la ventaja de que afecta la planificación, el cliente tiene restringido su libertad de acción (por su propio bien), se mejora la salud de la app (previniendo problemas futuros), y el cliente puede apreciar en que se gastan los puntos y está al tanto de los desafíos del proyecto, Patrick y el Brody siguen teniendo voz y voto en las planificaciones y groomings.
+El riesgo acá es que el cliente pueda tomar esta pérdida de libertad de acción con rechazo, sin ver sus beneficios.
+
+Ya se empezó a trabajar en esta dirección y creo que esta dando buenos resultados, pero es un punto importante a aclarar y acordar con Brody, cosa de evitar generar falsas expectativas sobre el equipo. Lo único que falta mejorar, de nuestro lado, es trabajar más sobre las prioridades de estas tareas de mantenimiento preventivo (ver propuesta 3 más adelante).
+
+
+Problema 2: Sumidero de puntos
+--------------------------------------------
+
+Esta pasando cada vez más seguido que los bugs son de baja prioridad, entonces esos recursos humanos dedicados pueden no estar siendo bien aprovechados. Hay tareas importantes en el backlog, que no se hacen, por falta de recursos, y tener una persona atendiendo cosas poco importantes, no planificadas en un marco global, es un derroche de plata/esfuerzo.
+Por otro lado, muchos de los bugs vienen como cambios de requerimiento encubiertos, nuevos requerimientos, refactors que no se hacen, etc.
+Esto hace que en el área de mantenimiento se trabaje no solo en bugs críticos sino en "muchos de puntos" que podrían ser planificados tranquilamente, ya que actualmente implican costos ocultos.
+
+Algunos ejemplos:
+El importador csv se "terminó de hacer en el área mantenimiento", no contemplaba casos básicos errores de usuario para hacerla más robusta y terminamos usando a los clientes como QA.
+DIV-4196: Content Interface > Dates Filter - When selecting From and To dates as the same day, no content is displayed. Así funcionaban los filtros siempre, y esto se hizo pasar como un bug, cuando en realidad era un nuevo requerimiento.
+DIV-4179: Content Editor: Production tasks populating date with 0 hr duration. Nunca se especificó en detalle que hacer con las duraciones de los tasks. Es más apenas termine esta tarea brody cargo otra para manejar más casos afectados por esta feature.
+DIV-4002: Content Editor: Recurring series, change of content type does not get applied to entire series. El código para esto era inexistente, es decir, nunca anduvo. Se podría haber planificado.
+DIV-4274 enforce billing requirements on the backend when activating an account: No había ninguna validación en el backend. Se podría haber planificado.
+DIV-4066 Content Editor: empty text documents pop error when try to attach to content item. Un bug de muy baja prioridad.
+
+Solución problema 2: Disciplina y triage procedure para sólo hacer lo importante.
+-------------------------------------------------------------------------------------------------------------
+Que el área mantenimiento sea sólo para emergencias, todo lo que puede ser planificable o no es un bug, se mueve al área de desarrollo.
+Como ejemplo donde sí se trabajó en el área de desarrollo un supuesto bug tengo la re-autenticación de Twitter, que no había sido terminada, se cargo como blocker bug, pero se trabajó en el área de desarrollo. También son ejemplo muchos de los UI-TWEAKS.
+
+
+
+Problema 3: Tedio
+------------------------
+El área de mantenimiento ha estado mucho tiempo a cargo de la misma persona, hay una sola visión de los hechos, se rompe la noción de responsabilidades de equipo, y por sobre todo padezco de "síndrome de la piedra de Sísifo", ya que no hay una noción de "logro alcanzable".
+Personalmente estoy cansado y me gustaría un cambio de aire, creo que puedo ir haciendo aportes en el área de desarrollo.
+Creo también que es oportuno aclarar que trabajar con Tony y Christine ha sido muy bueno, porque trabajan con mucha responsabilidad y compromiso por obtener resultados concretos (es un compliment bueno para comunicar a Brody).
+
+Solución problema 3: Rotación
+----------------------------------------
+Que el área de mantenimiento rote entre los desarrolladores, cosa de que en cada sprint hay un responsable distinto. Como se hace con las groomings.
+Esto sería saludable para que todos los miembros del equipo experimenten en primera persona los desafíos que se presentan en este proyecto (esta área funciona como un cable a tierra del día a día de los usuarios) y haya una noción de compromiso colectivo. También, es oportunidad buenísima de aprender de nuestros errores (lo puedo afirmar con mi experiencia). A su vez, atacando los problemas 1 y 2, la cantidad de esfuerzo invertido en esta área bajará notoriamente.
+
+
+
+Bugs are overrated
+Ejemplo de collin mc rae de arreglar el auto al final de cada tramo
+
+Los bugs pueden ser planificados, las emergencias no
+Contestar al post de exception zero.
+
+Conectar con la idea de que areas separadas es una mala idea (http://techcrunch.com/2016/04/07/devops-is-dead-long-live-devops)
+
+In general: specific problems are overrated to require specific treatment
+Python: Special cases aren't special enough to break the rules.
