@@ -81,7 +81,7 @@ class User(models.Model):
  
         # persist the model to the db and also ensures
         # that pre/post save signals get emitted
-        super(MyModel, self).save(*args, **kwargs)
+        super(User, self).save(*args, **kwargs)
 
         # post save code, now we have self.pk
 

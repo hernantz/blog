@@ -78,3 +78,5 @@ Conectar con la idea de que areas separadas es una mala idea (http://techcrunch.
 
 In general: specific problems are overrated to require specific treatment
 Python: Special cases aren't special enough to break the rules.
+
+https://henrikwarne.com/2016/04/28/learning-from-your-bugs/
