@@ -64,7 +64,7 @@ not inmediatelly clear**.
 ## Silence
 
 The following snippet shows how to put everything in one place, gaining us some
-maintenability, but still allowing us differentiate recently created instances,
+maintainability, but still allowing us differentiate recently created instances,
 `pre_save` and `post_save` code:
 
 ```python
@@ -99,7 +99,7 @@ to hook in there our custom code.
 
 ## Signal
 
-Truth be told, signals have broather applications that cannot be replaced by
+Truth be told, signals have broader applications that cannot be replaced by
 extending a single method.
 
 For example, when you have to track changes in `ManyToManyField` fields
