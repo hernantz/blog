@@ -1,9 +1,8 @@
 Title: Django's signal to noise ratio
-Date: 2016-04-22
+Date: 2016-04-29
 Category: Programming
 Tags: django, python
 Summary: Keeping a balance between decoupled and maintenable code.
-Status: draft
 
 ![Contact (1997) scene](/images/signal-to-noise-ratio.png "Contact (1997)")
 
@@ -123,7 +122,7 @@ m2m_changed.connect(
     handle_fav_notifications, sender=Question.favorited.through)
 ```
 
-In case we needed to track multiple m2m relations, we can do that all in a
+In case we needed to track multiple m2m relations, we can do all that in a
 single handler:
 
 ```python
@@ -181,8 +180,8 @@ module and import it explicitly in the app's config file, as suggested by
 
 There is nothing wrong with signals *per se*, so long as there's a good balance
 between decoupled and maintenable code. As a general rule I would suggest to
-**avoid using signals for code you own**, i.e. put everything inside a method or
-view, and *try to avoid them* for code you don't own, **except when it sounds
+**avoid using signals for code you own**. Instead put everything inside a method
+or view, and *try to avoid them* for code you don't own, **except when it sounds
 like a good idea**.
 
 
