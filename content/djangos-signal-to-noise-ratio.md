@@ -103,11 +103,11 @@ to hook in there our custom code.
 Truth be told, signals have broather applications that cannot be replaced by
 extending a single method.
 
-For example, when you have to track changes in `M2MField` fields
+For example, when you have to track changes in `ManyToManyField` fields
 
 ```python
 class Question(models.Model):
-    favorited = M2MField(User)
+    favorited = ManyToManyField(User)
 ```
 Here we cannot use the `save()` because m2m instances are added or deleted
 through intermediate tables which are managed by Django. But we can make use of
