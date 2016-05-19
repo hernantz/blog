@@ -6,7 +6,7 @@ Status: draft
 Summary: As a programmer, most of your time you will be writing ifs.
  
 
-![US Patent 1773079](/images/if-you-write-ifs.jpg "US Patent 1773079")
+![Tree branches](/images/tree-branches.jpg "Tree branches")
 
 As a programmer, most of your time you will be writing ifs.
 Not only becouse this is the main flow control structure, in c like languages,
