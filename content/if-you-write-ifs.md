@@ -163,3 +163,11 @@ se pueden usar para crear un canal nuevo de comunicacion.
 http://www.holger-peters.de/exceptions-the-dark-side-of-the-force.html
 
 https://coreos.com/blog/eliminating-journald-delays-part-1.html  -> journald NO usa ifs anidados
+
+A Python Æsthetic
+https://www.youtube.com/watch?v=x-kB2o8sd5c
+http://rhodesmill.org/brandon/slides/2012-11-pyconca/
+
+
+http://www.nationalaffairs.com/publications/detail/cultural-intelligence
+
