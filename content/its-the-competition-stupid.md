@@ -72,3 +72,6 @@ https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
 Cuidades estado.
 
 http://plato.stanford.edu/entries/equal-opportunity/
+http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
+
+http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
