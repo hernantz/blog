@@ -1,4 +1,4 @@
-Title: Orchestrating Backbone views
+Title: Orchestrating Backbone events
 Summary: blah
 Date: 2016-05-04
 Category: Programming
@@ -78,3 +78,33 @@ var View = Backbone.View.extend({
     },
 });
 ```
+
+Reacting to multiple events at once
+```js
+var View = Backbone.View.extend({
+    events: {
+        'click .refresh': 'onRefresh'
+    },
+    initialize: function () {
+        this.listenTo(this.model, 'sync', this.onSave);
+        this.listenTo(this.model, 'error', this.onError);
+    },
+    onFormSubmit: function (event) {
+        event.preventDefault();
+        this.model.save(null, {'event': 'form-submit'});
+    },
+    onSave: function (model, xhr, options) {
+        if (options.event === 'form-submit') { 
+            // do something
+        }
+    },
+    onError: function () {
+        if (options.event === 'form-submit') { 
+            // do something
+        }
+    },
+});
+```
+
+Reacting to ongoing events
+Ej: loading
