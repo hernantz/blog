@@ -45,7 +45,12 @@ Por poco no es un documental.
 It would have been nice to show a bit of how the war was lived in the US. Like
 getting private jocket back to home and show that.
 
-# the wind throw the keyhole 4.8
+# The wind through the keyhole
+Excelent fantasy story that definetly should have been part of the Dark Tower original books.
+I loved specially how the story is narrated by folding a tale inside a tale.
+The wind throw the Keyhole has nothing to envy from traditional fairy tales like Hansel & Gretel or
+Little Red Ridinghood.
+**score**: 4.8
 
 # The dark tower series
 No voy a hacer un review por cada libro de la serie, porque son muchos y algunos
