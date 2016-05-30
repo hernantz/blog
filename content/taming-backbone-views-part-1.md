@@ -109,7 +109,6 @@ onSave: funtion (event) {
 # React without react
 Understanding the principles, implementing with Backbone
 USE swig template engine to share templates and do server side rendering
-Mostrar el approach de usar bacbkone como lo hacen en mixpanel
 Mostrar una lib donde se hace rerender sin el shadow dom
 Mostrar como usando los mismos templates se puede hacer renderizado del lado del server.
 Mostrar como hacer una "ui loading" que empieza a renderizarse en el server y termina en el frontend

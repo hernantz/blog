@@ -163,15 +163,6 @@ var SomeView = Backbone.View.extend({
 });
 ```
 
-# When/Where to fetch your data?
-using fetch callbacks, views should be able to handle empty models/collections, and listen to 
-the collection/model events to respond to changes, 
-```javascript
-var myModel = new MyModel();
-view = new view({model: myModel});
-myModel.fetch()
-```
-
 Views are in charge of presentation, not models.
 var model.editInModal();
 Instead use some kind of helper
@@ -187,5 +178,3 @@ For communication between views, consider the following options:
 * Recomend Building Backbone Plugins from Derek Bailey and MarionetteJS
 * Write about the Backbone.Events object and how it allows us to use listenTo, 'everything that has a trigger'
   and zombie views, close() and onClose()
-* A view that represents one model
-* View inheritance
