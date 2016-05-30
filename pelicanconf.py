@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'hernantz'
-SITENAME = u'what\'s the point'
-SITESUBTITLE = 'Mostly lies and rants in plain text'
+SITENAME = u'The null pointer'
+SITESUBTITLE = '- Mostly lies and rants in plain text.'
 SITEURL = ''
 
 TIMEZONE = 'America/Buenos_Aires'
