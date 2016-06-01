@@ -90,22 +90,6 @@ it uses event delegation for the events hash, so as long as the element eventual
 
 
 
-# Live preview of edits
-Use model.clone() to use inside a CRUD view so that you can modify it and have a cancel button which discards
-the changes.
-```javascript
-events {
-    'click .save': 'onSave'
-},
-initialize: function() {
-    this.clone = this.model.clone();
-    this.listenTo(this.clone, 'change', 'render');
-},
-onSave: funtion (event) {
-    this.model.save(this.clone.attributes);
-}
-```
-
 # React without react
 Understanding the principles, implementing with Backbone
 USE swig template engine to share templates and do server side rendering

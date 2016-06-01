@@ -12,13 +12,21 @@ We know that Backbone has done a great job at provinding the bare minimum
 structure to build apps that separate logic from presentation, and thus, making them
 easier to reason about.
 
+Because we are given just the basic tools in an unopinionated way, the implementation
+is left for the developer to design.
+
+This post is an attempt to share some strategies I find useful for building an
+event-driven UI.
+
+## Reacting to changes in a model
+
 The core idea is that data and buiseness logic is managed by models or collections,
 that not only can be shared throughout the app but also rendered in many diferent data-less views.
 
 The way this is achieved is through events.
 
-## Reacting to changes in a model
 Usando el listenTo vs .on
+
 ```js
 var View = Backbone.View.extend({
     initialize: function () {
@@ -28,10 +36,13 @@ var View = Backbone.View.extend({
 });
 ```
 
+Since views can depend on multiple pieces of data (a.k.a models) and models can be
+attached to multiple views, it's easy loose track of all moving pieces.
+
 El problema es que esta vista puede estar conviviendo con otras que tambien
 escuchan a esos eventos.
 
-## Becoming more specific
+the solution to this problem is becoming more specific
 
 Usando el bind
 ```js
@@ -129,6 +140,7 @@ var View = Backbone.View.extend({
 });
 ```
 
+## Representing any state of your data
 Reacting to ongoing events
 Mostrar el approach de usar bacbkone como lo hacen en mixpanel:
 https://code.mixpanel.com/2015/04/08/straightening-our-backbone-a-lesson-in-event-driven-ui-development/
@@ -145,3 +157,38 @@ myModel.fetch()
 ```
 
 Ej: loading y Backbone.SOS
+
+
+## Modifying a replica
+
+Use model.clone() to use inside a CRUD view so that you can modify it, see a live preview of edits, and have a cancel button which discards
+the changes.
+
+```javascript
+events {
+    'click .save': 'onSave'
+},
+initialize: function() {
+    this.clone = this.model.clone();
+    this.listenTo(this.clone, 'change', 'render');
+},
+onSave: funtion (event) {
+    this.model.save(this.clone.attributes);
+}
+```
+
+Aca ver si conviene
+
+```javascript
+events {
+    'click .save': 'onSave'
+},
+initialize: function() {
+    this.clone = this.model.clone();
+    this.listenTo(this.clone, 'change', this.render);
+    this.model.listenTo(this.clone, 'sync', "TODO QUE VA ACA?")
+},
+onSave: funtion (event) {
+    this.clone.save();
+}
+```
