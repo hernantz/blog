@@ -54,6 +54,8 @@ Parte de aceptar la realidad y la injusticia es que no existe la igualdad de opo
 a career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from persuing a career/goal, should they have the oportunity and capacity to do it.
 
+Colorario: Success cannot be waranteed.
+
 Now this arbitrary impositions cannot be agreed universaly. 
 
 Impones barreras en tu empresa para que no cualquiera puede entrar, solo los que vos crees mas aptos para un puesto.
@@ -75,3 +77,8 @@ http://plato.stanford.edu/entries/equal-opportunity/
 http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
 
 http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
+
+
+USAR ESTE EJEMPLO>
+http://blog.ycombinator.com/moving-forward-on-basic-income
+http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
