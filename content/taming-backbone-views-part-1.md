@@ -6,7 +6,7 @@ Author: hernantz
 Status: draft
 Summary: Some bro tips I learned the hard way when dealing with Backbone views
 
-It often seems to me that Backbone developers sometimes do not trust that the 
+It often seems to me that Backbone developers sometimes do not trust that the
 `view.el` property be present when needed, eg: when rendering the view.
 
 # "el", you there? 

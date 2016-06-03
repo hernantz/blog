@@ -8,15 +8,15 @@ Status: draft
 ![the arsenic waltz](/images/the-arsenic-waltz.jpg "The arsenic waltz")
 
 
-We know that Backbone has done a great job at provinding the bare minimum
-structure to build apps that separate logic from presentation, and thus, making them
+We know that Backbone has done a great job at provinding the **bare minimum
+structure** to build apps that separate logic from presentation, and thus, making them
 easier to reason about.
 
 Because we are given just the basic tools in an unopinionated way, the implementation
 is left for the developer to design.
 
-This post is an attempt to share some strategies I find useful for building an
-event-driven UI.
+This post is an attempt to share some strategies I find useful for **building an
+event-driven UI**.
 
 ## Reacting to changes in a model
 
@@ -25,7 +25,6 @@ that not only can be shared throughout the app but also rendered in many diferen
 
 The way this is achieved is through events.
 
-Usando el listenTo vs .on
 
 ```js
 var View = Backbone.View.extend({
@@ -36,13 +35,17 @@ var View = Backbone.View.extend({
 });
 ```
 
-Since views can depend on multiple pieces of data (a.k.a models) and models can be
-attached to multiple views, it's easy loose track of all moving pieces.
+In the snippet above we made a view react to events that ocurr on a model.
+The first thing you'll notice is that we are using `listenTo()` over `on()`
+so that the view is put in charge of tracking the events instead of the model
+and therefore we avoid the changes of leaking memory with zombie views, since
+it would stop listening to these events once it gets [removed][0].
 
-El problema es que esta vista puede estar conviviendo con otras que tambien
-escuchan a esos eventos.
+As models can be attached to multiple views, it is possible that more than one
+view is manipulating the model and reacting to the same events, which results
+in the developer loosing track of all moving pieces.
 
-the solution to this problem is becoming more specific
+The solution to this problem is becoming more specific.
 
 Usando el bind
 ```js
@@ -108,6 +111,10 @@ var View = Backbone.View.extend({
 ```
 
 Reacting to multiple events at once
+If we remember the Backbone way of doing thins, not only models can be attached to
+multiple views, but views can depend on multiple pieces of data too. How can this
+situation be handled? Well, here is my attempt:
+
 ```js
 
 var trigger = Backbone.trigger.bind(Backbone),
@@ -165,30 +172,36 @@ Use model.clone() to use inside a CRUD view so that you can modify it, see a liv
 the changes.
 
 ```javascript
-events {
-    'click .save': 'onSave'
-},
-initialize: function() {
-    this.clone = this.model.clone();
-    this.listenTo(this.clone, 'change', 'render');
-},
-onSave: funtion (event) {
-    this.model.save(this.clone.attributes);
-}
+var View = Backbone.View.extend({
+    events {
+        'click .save': 'onSave'
+    },
+    initialize: function() {
+        this.clone = this.model.clone();
+        this.listenTo(this.clone, 'change', 'render');
+    },
+    onSave: funtion (event) {
+        this.model.save(this.clone.attributes);
+    }
+});
 ```
 
 Aca ver si conviene
 
 ```javascript
-events {
-    'click .save': 'onSave'
-},
-initialize: function() {
-    this.clone = this.model.clone();
-    this.listenTo(this.clone, 'change', this.render);
-    this.model.listenTo(this.clone, 'sync', "TODO QUE VA ACA?")
-},
-onSave: funtion (event) {
-    this.clone.save();
-}
+var View = Backbone.View.extend({
+    events {
+        'click .save': 'onSave'
+    },
+    initialize: function() {
+        this.clone = this.model.clone();
+        this.listenTo(this.clone, 'change', this.render);
+        this.model.listenTo(this.clone, 'sync', "TODO QUE VA ACA?")
+    },
+    onSave: funtion (event) {
+        this.clone.save();
+    }
+});
 ```
+
+[0]: http://backbonejs.org/#View-remove "View remove()"
