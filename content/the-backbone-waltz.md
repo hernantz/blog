@@ -204,4 +204,8 @@ var View = Backbone.View.extend({
 });
 ```
 
+# Don't overreact
+https://github.com/facebook/react/blob/master/examples/jquery-mobile/js/app.js
+https://github.com/facebook/react/tree/master/examples/jquery-bootstrap
+
 [0]: http://backbonejs.org/#View-remove "View remove()"
