@@ -47,7 +47,9 @@ in the developer loosing track of all moving pieces.
 
 The solution to this problem is becoming more specific.
 
-Usando el bind
+Backbone's `save()` and `fetch()` methods accept **callbacks to react specifically** to
+a successful of failed interaction.
+
 ```js
 var View = Backbone.View.extend({
     events: {
@@ -63,6 +65,21 @@ var View = Backbone.View.extend({
 });
 ```
 
+In this case we are waranteed that the `onSave()` and `onError()`
+callbacks are called as a result of the form submit event that this view handles,
+whilst other views can still hook to generic events emitted by the same model.
+
+Unfortunatelly there is a problem with this approach and it's that the model
+is holding references to a potential *zombie* view. The issue can be easyly spotted
+when the interaction with the server takes a while to finish or the view's use case is
+esphimeral in nature (like an inline edit interface). If the view is destroyed
+when the server has not responded yet, then the success or error callbacks will
+get executed, resurrecting the view from the death.
+
+
+We need something similar to the first snippet, where the view was in charge of
+keeping a reference to the model, but we also need to have specificity.
+
 Usando el custom triggers
 ```js
 var View = Backbone.View.extend({
@@ -70,7 +87,7 @@ var View = Backbone.View.extend({
         'submit form': 'onFormSubmit'
     },
     initialize: function () {
-        this.listenTo(this.model, 'custom-sync', this.onSave);
+        this.listenTo(this.model, 'custom-save', this.onSave);
         this.listenTo(this.model, 'custom-error', this.onError);
     },
     onFormSubmit: function (event) {
@@ -146,6 +163,7 @@ var View = Backbone.View.extend({
     }
 });
 ```
+This bad behaviour can be omitted by using an intermediary.
 
 ## Representing any state of your data
 Reacting to ongoing events
