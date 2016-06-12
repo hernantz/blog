@@ -82,3 +82,5 @@ http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?
 USAR ESTE EJEMPLO>
 http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
+
+http://www.nationalaffairs.com/publications/detail/cultural-intelligence

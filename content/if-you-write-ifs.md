@@ -169,5 +169,4 @@ https://www.youtube.com/watch?v=x-kB2o8sd5c
 http://rhodesmill.org/brandon/slides/2012-11-pyconca/
 
 
-http://www.nationalaffairs.com/publications/detail/cultural-intelligence
-
+http://stackoverflow.com/questions/865741/else-considered-harmful-in-python
