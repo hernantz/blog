@@ -18,6 +18,7 @@ is left for the developer to design.
 This post is an attempt to share some strategies I find useful for **building an
 event-driven UI**.
 
+
 ## Reacting to changes in a model
 
 The core idea is that data and buiseness logic is managed by models or collections,
@@ -80,7 +81,8 @@ get executed, resurrecting the view from the death.
 We need something similar to the first snippet, where the view was in charge of
 keeping a reference to the model, but we also need to have specificity.
 
-Usando el custom triggers
+Through the use of custom triggers, we can get close to that:
+
 ```js
 var View = Backbone.View.extend({
     events: {
@@ -93,14 +95,21 @@ var View = Backbone.View.extend({
     onFormSubmit: function (event) {
         event.preventDefault();
         this.model.save(null, {
-            'success': function (model) { model.trigger('custom-save'); },
-            'error': function (model) { model.trigger('custom-error'); },
+            'success': function (model, response, options) {
+                 model.trigger('custom-save', model, response, options);
+            },
+            'error': function (model, response, options) {
+                model.trigger('custom-error', model, response, options);
+            },
         });
     }
 });
 ```
 
-Usando listenTo + data 
+But, that looks like too much boilerplate, doesn't it? Lucky for us, there
+is a cleaner way to achieve the same, and is to use the options param when
+calling `save()`.
+
 ```js
 var View = Backbone.View.extend({
     events: {
@@ -112,23 +121,35 @@ var View = Backbone.View.extend({
     },
     onFormSubmit: function (event) {
         event.preventDefault();
-        this.model.save(null, {'event': 'form-submit'});
+        this.model.save(null, {'action': 'form-submit'});
     },
-    onSave: function (model, xhr, options) {
-        if (options.event === 'form-submit') { 
+    onSave: function (model, response, options) {
+        if (options.action === 'form-submit') { 
             // do something
         }
     },
-    onError: function () {
-        if (options.event === 'form-submit') { 
+    onError: function (model, response, options) {
+        if (options.action === 'form-submit') { 
             // do something
         }
     },
 });
 ```
 
-Reacting to multiple events at once
-If we remember the Backbone way of doing thins, not only models can be attached to
+This `options` object is useful to modify the behaviour of the underlying
+ajax request, but since it is also passed to the listening functions, we
+can add any extra information we need, like where is this event coming from.
+
+This way, every callback that needs to only perform some *action* if the event
+corresponds to a specific user interaction, it's just a matter of checking the
+value of that parameter. If a given callback should always be run, no matter
+what the action was, then it would simply omit this check. As you can see **the
+solution requires following a convention**.
+
+
+## Representing complex data
+
+If we remember the Backbone way of doing things, not only models can be attached to
 multiple views, but views can depend on multiple pieces of data too. How can this
 situation be handled? Well, here is my attempt:
 
@@ -165,16 +186,20 @@ var View = Backbone.View.extend({
 ```
 This bad behaviour can be omitted by using an intermediary.
 
-## Representing any state of your data
-Reacting to ongoing events
+When/Where to fetch your data?
 Mostrar el approach de usar bacbkone como lo hacen en mixpanel:
 https://code.mixpanel.com/2015/04/08/straightening-our-backbone-a-lesson-in-event-driven-ui-development/
 
-When/Where to fetch your data?
-using fetch callbacks, views should be able to handle empty models/collections, and listen to 
-the collection/model events to respond to changes, 
+Usar MarionetteJS.Object?
+
+## Displaying any state of your data
+
+Ideally views receive instances, because those instances are shared among other views.
+The view shouldn't assume that the model has a certain state.
+It could be possible that there is an undergoing event in the background.
+The view should be able to render the model in whatever that state might be.
 Cada vista deberia solamente preocuparse de lo suyo
-Las vistas tambien tienen que poder renderizar los datos cualquiera sea su estado.
+
 ```javascript
 var myModel = new MyModel();
 view = new view({model: myModel});
@@ -221,6 +246,19 @@ var View = Backbone.View.extend({
     }
 });
 ```
+
+Comentar como hacer validacion, devolviendo un hash
+```javascript
+{
+    'campo1': ['error1', 'error2'],
+    'campo2': ['error1'],
+    '_non-field-errors': ['error1', 'error2']
+}
+```
+Cuando creamos un modelo nuevo, es el mismo caso que `.clone()`
+No queremos que el model apenas se muestra tenga errores como "este campo es requerido".
+
+
 
 # Don't overreact
 https://github.com/facebook/react/blob/master/examples/jquery-mobile/js/app.js
