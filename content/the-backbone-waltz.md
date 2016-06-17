@@ -222,7 +222,7 @@ var Model = Backbone.Model.extend({
 
         // optionally, notify that this model is fully packed now
         if (!opts.silent) {
-            this.trigger('change');
+            this.trigger('change', this);
         }
     }
 });
@@ -238,9 +238,7 @@ model.associate(relatedCollection);
 ```
 
 TODO hablar de que el JSON response puede no venir inline model, solo el id
-por lo que hay que obtener los datos desde otro recurso
-
-TODO: ver si el trigger 'change' lleva otros parametros
+por lo que hay que obtener los datos desde otro recurso, con id=1,2,3
 
 TODO: wait for a sync-related event triggered by the model or the entire collection
 
@@ -253,7 +251,7 @@ var ModelCollection = Backbone.Collection.extend({
 
         // optionally, notify that all models in this collection are
         // fully packed now
-        this.trigger('change');
+        this.trigger('update', this);
     }
 });
 ```
