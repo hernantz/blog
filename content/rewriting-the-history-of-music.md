@@ -44,6 +44,7 @@ Consumed Future - Dreamshade ->
 Pure Shores - All Saints -> Madonna
 Empire of the clouds - Iron Maiden -> Savatage
 Changes - Tesla -> Savatage
+Replica - Sonata Arctica -> Savatage
 Crushcrushcrush - Paramore -> Ashley Simpson
 Safe and Sound - Capital Cities -> Empire of the Sun
 New Millenium Jesus Cyanide - Meshuggah -> Decapitated
