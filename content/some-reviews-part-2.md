@@ -25,7 +25,15 @@ Pero de todas formas no deja de ser interesante.
 Pero en general es muy recomendable, y abre el hilo de discusion sobre: te enamorarias de una
 mujer que alguna vez fue hombre?
 
-## Contacto 4.2
+## Contact 4.2
+How come nobody know how the machine is supposed to work o what would happen?
+If everything was a hoax, then it should have been detected the very moment
+they determined the source of the signal. Also it's very unlikely that someone
+can fool the scientific community worldwide. That is my response to those who
+think that we never made it to the Mooon.
+I like how the main character expresses this duality of being skeptical but,
+at the same time, always having the need for something to believe in.
+
 
 ## Ananias Roguelike 4
 
