@@ -1,6 +1,6 @@
 Title: It's the competition, stupid
 Date: 2016-05-05
-Category: Politics 
+Category: Politics
 Tags: ideas
 Summary: Why freedom increases the chances of prosperity.
 Status: draft
@@ -72,6 +72,7 @@ Video Milton Friedman sobre justicia, libertad.
 https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
 
 Cuidades estado.
+http://cityobservatory.org/about/
 
 http://plato.stanford.edu/entries/equal-opportunity/
 http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
