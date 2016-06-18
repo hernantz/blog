@@ -132,6 +132,11 @@ var ModelCollection = Backbone.Collection.extend({
 });
 ```
 
+1. A le pide los ids a B
+2. B se fija qque tiene y que pide lo que le falta
+3. B notifica que se actualizo
+4. A asocia sus datos con B
+
 ```javascript
 var View = Backbone.View.extend({
     events: {
