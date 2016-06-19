@@ -57,7 +57,7 @@ if one of them changes that data, the other one doesn't get updated with the sam
 Multiple instances are best kept inside collections. If only the Model instance acepted
 a related collection, then we could store all related models just once.
 
-```js
+```javascript
 var Model = Backbone.Model.extend({
     initialize: function (options) {
         // TODO: ver si esto no pisa los datos del modelo
@@ -78,8 +78,11 @@ that we need to pass this related collection every time we create a new instance
 Better off is to have both type of models into their respective collections and
 and do:
 
-```js
+```javascript
 var Model = Backbone.Model.extend({
+    initialize: function () {
+        this.relatedModel = new RelatedModel();
+    },
     associate: function (relatedCollection, options) {
         var opts = options || {};
 
@@ -98,8 +101,11 @@ var Model = Backbone.Model.extend({
         }
     }
 });
+```
 
-// Then, somewhere in your codebase...
+Then, somewhere in your codebase, we would use it like this:
+
+```js
 var relatedCollection = new RelatedCollection(),
     model = new Model({
         'foo': 'bar',
@@ -109,13 +115,36 @@ var relatedCollection = new RelatedCollection(),
 model.associate(relatedCollection);
 ```
 
+To keep our API clean:
+
+```javascript
+var Model = Backbone.Model.extend({
+    initialize: function () {
+        // TODO: ver la firma del initialize 
+        this.relatedModel = new RelatedModel();
+    },
+    associate: function (relatedCollection, options) {
+        var opts = options || {};
+
+        this.relatedModel.set(this.get('related')); 
+        relatedCollection.add(this.relatedModel, {'merge': true});
+
+        // optionally, notify that this model is fully packed now,
+        // only if the related model has changed
+        if (!opts.silent && this.relatedModel.changed) {
+            this.trigger('change', this);
+        }
+    }
+});
+```
+
 TODO hablar de que el JSON response puede no venir inline model, solo el id
 por lo que hay que obtener los datos desde otro recurso, con id=1,2,3
 
 TODO: wait for a sync-related event triggered by the model or the entire collection
 
 TODO: override toJSON de cada modelo para que incluya esos datos en la vista?
-TODO: override del initialize del model para que tenga ya una instancia vacia del related?
+TODO: model para que tenga ya una instancia vacia del related, cuando hacemos set usar parse=true?
 
 
 ```javascript
