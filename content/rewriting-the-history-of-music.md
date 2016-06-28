@@ -48,4 +48,5 @@ Replica - Sonata Arctica -> Savatage
 Crushcrushcrush - Paramore -> Ashley Simpson
 Safe and Sound - Capital Cities -> Empire of the Sun
 New Millenium Jesus Cyanide - Meshuggah -> Decapitated
-(Don't Fear) The Reaper - Blue Oyster Cult -> Ghost 
+(Don't Fear) The Reaper - Blue Oyster Cult -> Ghost
+The suburbs - Arcade Fire -> Queens of the stone edge
