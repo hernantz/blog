@@ -245,3 +245,22 @@ Una pelicula muy recomendable.
 **score: 4.9**
 
 
+# Green room
+The best the movie has to offer are the realistic deaths and action scenes.
+The plot was rather interesting, though it started getting really absurd
+by the last quarter of the movie.
+**score: 3.2**
+
+# Hateful eight
+There are a few plot-holes I would like to point out. The main one being
+why it took so long for the villains gang to kill the captors. And the
+other one being why did the hangman play his role so well, even when
+he tried to stop major Warren to kill the old general.
+It would have been more realistic if the hangman and the general arrived
+after the gang (the french guy, the cowboy and Bob) murdered everyone,
+so the non-gang party outnumbered the villains 2 to 1.
+This way the hangman would be genuine, and the general wouldn't have to
+be pretending that nothing happened.
+All in all I enjoyed every single scene and dialog of this movie for it's
+almost three hours duration.
+**score: 4.1**
