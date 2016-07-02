@@ -248,7 +248,8 @@ Una pelicula muy recomendable.
 # Green room
 The best the movie has to offer are the realistic deaths and action scenes.
 The plot was rather interesting, though it started getting really absurd
-by the last quarter of the movie.
+by the last quarter of the movie. One extra point becouse I heard a Slayer
+song in the background.
 **score: 3.2**
 
 # Hateful eight
