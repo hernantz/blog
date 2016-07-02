@@ -257,6 +257,8 @@ There are a few plot-holes I would like to point out. The main one being
 why it took so long for the villains gang to kill the captors. And the
 other one being why did the hangman play his role so well, even when
 he tried to stop major Warren to kill the old general.
+Also when John Ruth gets poisoned and starts hitting his captive, the
+gang members do nothing, even seeing that the girls life was in danger.
 It would have been more realistic if the hangman and the general arrived
 after the gang (the french guy, the cowboy and Bob) murdered everyone,
 so the non-gang party outnumbered the villains 2 to 1.
