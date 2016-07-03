@@ -250,3 +250,6 @@ myModel.fetch()
 ```
 
 Ej: loading y Backbone.SOS
+
+https://github.com/laoshanlung/backbone.supermodel
+https://github.com/hashchange/backbone.select
