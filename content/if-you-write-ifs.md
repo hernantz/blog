@@ -1,12 +1,15 @@
-Title: If (you write ifs)
+Title: If you write ifs
 Date: 2013-10-24 22:56
 Category: Programming 
 Tags: python, ideas
 Status: draft
-Summary: As a programmer, most of your time you will be writing ifs.
+Summary: AKA else considered harmful.
  
 
 ![Tree branches](/images/tree-branches.jpg "Tree branches")
+
+I'm writing this article to encourage some code structure techniques and never
+again have to discuss this in the future.
 
 As a programmer, most of your time you will be writing ifs.
 Not only becouse this is the main flow control structure, in c like languages,
@@ -170,3 +173,7 @@ http://rhodesmill.org/brandon/slides/2012-11-pyconca/
 
 
 http://stackoverflow.com/questions/865741/else-considered-harmful-in-python
+http://degoes.net/articles/destroy-all-ifs
+
+Agrupar variables al pricipio de las funciones porque siempre agrupamos cosas que son lo mismo 
+variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma ideal de organizarse.
