@@ -85,3 +85,4 @@ http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
+https://twitter.com/randal_olson/status/754703494108569601
