@@ -11,11 +11,11 @@ Status: Draft
 ## Abstract
 
 This post is thougth experiment to design a billing system, trying to be generic
-enought, so that hopefully it covers a wide range of situations (if not all of
+enough, so that hopefully it covers a wide range of situations (if not all of
 them), in which transactions that involve money take place.
 
 
-## Introduction
+## Scope
 
 A billing system is part of the lifecycle of every organization.
 It is complex in nature and overlaps with other systems.
@@ -24,7 +24,7 @@ For instance, the **accounting system**, whose goal is to provide
 information about the assets and liabilities an organization has.
 
 It has also responsabilities about **permissions**, because depending on
-your contract or credit status you can access or not certain features.
+your contract or credit balance you can access or not certain features.
 
 It can be used as a **metrics tracking** system since certain
 actions that clients perform may have an economic impact on your
@@ -46,17 +46,17 @@ but sometimes they turn invisible in the sense that they are embbeded in
 another system that does something similar, an Excel spreadsheet most likely.
 
 Naturally each of these different systems is a complex beast on it's own and is
-better off implemented separatelly. And as a colorary of this, we can say that
-you'll invevitably have duplication of data.
+better off implemented separatelly.
 
 Take for example the accounting system. There are legal regulations that
 dictate how this is done, and they change from country to country.
-The granularity level managed by the accounting system also differs, since but
-usually, you only care about the totals, so maybe exporting aggregates obtained
-by the billing or stocks system is enought.
-Also in the case of the permissions systems, there are other considerations taken
-into account, like user roles, locks, etc.
-TODO: PCI copliance <- payment gateways
+The granularity level managed by the accounting system also differs, since
+usually you only care about the totals, so maybe exporting aggregates obtained
+by the billing or stocks system is enough.
+Also in the case of the permissions systems, there are other considerations
+taken into account, like credentials, user roles, locks, etc.
+And finally payment gateways have [very strict security requirements][1] that
+are better off delegated to a trusted third party system.
 
 Because billing systems are also very tightly coupled with business rules,
 it's really hard to build a generic catch-all solution, making it difficult to
@@ -66,7 +66,7 @@ responsabilities, but this doesn't mean that a common underling architecture
 cannot be identified.
 
 
-## Goals
+## Requirements
 
 From a 30k feet view, a billing system must:
 
@@ -79,51 +79,53 @@ From a 30k feet view, a billing system must:
   contracts, receive refunds, benefit from a discount or even a free-trial, etc.
 
 
-But first we must take a step back so that we can identify which are the sources of profit:
+But first we must take a step back so that we can identify which are the sources
+of profit:
 
 * **Free**: the simplest one, no profits though.
-* **Single sales**: when you purchase an item or service like train tickets or house
-  cleaning.
+* **Single sales**: when you purchase an item or service like train tickets or
+  house cleaning.
 * **Subscriptions**: cable tv, hotels, insurance, fixed term deposits.
 * **Usage-based**: like power supply or phone calls.
 * **A combination** of all these.
 
-
 All these sources of profit have to be translated to money somehow.
-For this to happen, we need to determine when to record that something has generated some profit.
-Non-atomic operations require a unit of messure and a rate to do this.
+For this to happen, we need to **determine when to record that something has
+generated some profit** that needs to be "collected".
 
-We see that there are atomic and non-atomic.
-Buying and selling items is an atomic operation per se.
-But the services which are on-going aren't and we have to make
-them atomic somehow. 
-They require a recurring tick that will issue an atomic event,
-based on some kind of meassurement or sample, in order to determine the value
-of the transaction.
+In the case of single sales it's simple to identify that moment, since it's
+usually when the buy order is submitted or when the user takes hands on the
+product. But how do we determine how much someone owes in case of subscriptions
+or usage-based models?
 
-When to issue the bill:
-Pre-bill model (cellphone credit), post-bill model (telephone bill)
+Buying and selling items is an *atomic* operation per se, but transactions which
+are always *on-going* aren't and we have to make them atomic somehow. Non-atomic
+operations need a recurring tick that will meassure or sample some quantity
+and/or a rate, in order to determine the value of the transaction. Every
+meassurement taken can be understood as a transaction that resulted in some
+profit.
 
-
-Tell what can a client do (permissions and available features). TODO esto no?
+The other determination that needs to be taken is **when to charge the
+customer**, and for that it's up to the business owner to say if to use a
+**pre-bill model** (like when renting a house) or **post-bill model** (like the
+telephone bill).
 
 
 ## Billing entities
 
-User/Account that holds data about contracts, pricing plans, billing details, etc.
+To acomplish the goals of a billing system we need some basic building blocks:
 
-Events are stored in an append-only journal.
-
-The clock
-
-The journal contains all the billing history of an account or client.
-
-The journal can be digested by procressors that can understand
-the deltas between each event to determine the current status
-of an account.
+* Account: holds data about contracts, pricing plans, billing details, etc.
+* Event: contains an atomic transaction and all it's context
+* Journal: events are stored in an append-only journal. It contains all the billing history of an account. Can be used for an audit.
+* Clock: it's in charge of quering the journal to determine totals, debts, which accounts are past-due, etc.
+* Processor: The journal can be digested by procressors that can understand
+  the deltas between each event to determine the current status
+  of an account.
 
 
 ## Handling changes
+TODO: explain here flexible and fault tolerant.
 
 Every change is represented by an event. An event should never be mutated.
 Events should freeze all context needed to fully understand them.
@@ -138,6 +140,10 @@ Payments should refer to the respective source invoice(s) = [1,2,3].
 
 
 ## Real world examples
+
+So far I hope is clear what a billing system must do and what it needs to do it.
+But we still haven't tested our theory we real world examples.
+
 - EPEC
 - Hotel
 And these can be combined (rent a room in a hotel, and cosume
@@ -155,3 +161,4 @@ Command-query responsability separation (CQRS)
 https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
 
 [0]: http://www.machinalis.com/blog/separating-mechanism-from-policy/ "Separating mechanism from policy"
+[1]: https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard "PCI copliance"
