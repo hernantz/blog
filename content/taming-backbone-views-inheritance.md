@@ -33,3 +33,5 @@ var ChildView = Backbone.View.extend(BaseView, {});
 
 LEER http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications
 Ejemplo modales + login o las columnas del dashboard de divvy
+https://www.youtube.com/watch?v=CTr-tTwRH3o
+https://www.youtube.com/watch?v=6wvAswHkarE
