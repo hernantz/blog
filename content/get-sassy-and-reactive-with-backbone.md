@@ -18,6 +18,8 @@ is left for the developer to design.
 This post is an attempt to share some strategies I find useful for **building an
 event-driven UI**.
 
+SELECTIVILY REACTING TO EVENTS
+WHAT HAPPENS IF A MODEL SYNCS WHILE YOU ARE EDITING IN ANOTHER VIEW?
 
 ## Reacting to changes in a model
 
@@ -95,11 +97,11 @@ var View = Backbone.View.extend({
     onFormSubmit: function (event) {
         event.preventDefault();
         this.model.save(null, {
-            'success': function (model, response, options) {
-                 model.trigger('custom-save', model, response, options);
+            'success': function (model, response, opts) {
+                 model.trigger('custom-save', model, response, opts);
             },
-            'error': function (model, response, options) {
-                model.trigger('custom-error', model, response, options);
+            'error': function (model, response, opts) {
+                model.trigger('custom-error', model, response, opts);
             },
         });
     }
@@ -146,6 +148,9 @@ value of that parameter. If a given callback should always be run, no matter
 what the action was, then it would simply omit this check. As you can see **the
 solution requires following a convention**.
 
+## Proxy model
+para modificar un simple calendar o un parent calendar usar un modelo intermedio
+que se pasa a la vista y luego internamente hace el save o lo que fuere.
 
 ## Modifying a replica
 

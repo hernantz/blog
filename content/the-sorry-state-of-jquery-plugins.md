@@ -163,3 +163,5 @@ integrate it with the rest of your frameworks.
 [2]: https://jsfiddle.net/p82fsx06/1/ "Live demo"
 [3]: http://fullcalendar.io/ "A JavaScript event calendar"
 [4]: http://fullcalendar.io/js/fullcalendar-2.6.1/demos/agenda-views.html "Rendered calendar"
+[5]: https://youtu.be/aG9liV5fMXo "John K. Paul - I Like my jQuery Plugins Warm and Toasty"
+[6]: https://youtu.be/Qkm5h4032ko "Pamela Fox - Beyond jQuery Widgets: JS UI Library Design"
