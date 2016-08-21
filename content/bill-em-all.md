@@ -50,6 +50,7 @@ better off implemented separatelly.
 
 Take for example the accounting system. There are legal regulations that
 dictate how this is done, and they change from country to country.
+Some financial transactions have to be approved by regulatory authorities.
 The granularity level managed by the accounting system also differs, since
 usually you only care about the totals, so maybe exporting aggregates obtained
 by the billing or stocks system is enough.
