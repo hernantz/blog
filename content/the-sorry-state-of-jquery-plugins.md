@@ -150,15 +150,19 @@ a helper for positioning elements. Live demo [here][2].
 
 ## Wishful thinking
 
-[This video][6] shows the process of hidding functionality and adding lots of cruft to *jqueryfy* a piece of code. This is exactly what we need to avoid.
+[This video][6] shows the process of hidding functionality and adding lots of
+cruft to *jqueryfy* a piece of code. This is exactly what we need to avoid.
+More often than not I see plugins hiding their methods behind closures, when
+they could be opening them as **documented building blocks** to be used at your
+will.
+
 It's perfectly fine if plugins expose a simple way to cover the 80% of use cases
 or some basic functionality. But it's clear that pure libraries tend to
-outperform ready-made plugins in terms of flexibility. I often see plugins
-hiding their methods behind closures, when they could be opening them as
-**documented building blocks** to be used at your will. If only plugins allowed
-a **clear separation of UI and logic** then you would be able seamlessly
-integrate it with the rest of your frameworks.
+outperform ready-made plugins in terms of flexibility.
 
+If only plugins allowed a **clear separation of UI and logic**, and that logic
+be easily extendable, then you would be able seamlessly integrate it with the
+rest of your frameworks.
 
 [1]: http://github.hubspot.com/tether/ "Tether"
 [2]: https://jsfiddle.net/p82fsx06/1/ "Live demo"
