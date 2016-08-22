@@ -267,3 +267,24 @@ be pretending that nothing happened.
 All in all I enjoyed every single scene and dialog of this movie for it's
 almost three hours duration.
 **score: 4.1**
+
+# Welcome to the dungeon
+It's fun, fast to play and easy to understand.
+The art of the cards if really good and the gameplay
+is balanced.
+It would have been nice to have some rules about how
+to select the champion so you are always forced to
+change it and it would've been awesome if the rules book
+included modified lyrics of welcome to the jungle.
+**score: 4.3**
+
+# Stranger things
+It's a mix of many movies and books containing a good deal of
+pop culture, monsters, alternative dimensions, an evil goverment
+agency, secret experiments, science, teenage romances and even more nerdy
+stuff and references (yes, it's got DoD too), with stereotypical characters and
+chiché scenes that besides being so predictable, it's still enjoyable.
+The storyline is simple and there is nothing left for the viewer
+to digest, no homework, so you just watch it and try to guess what's
+going to happen or which movie or book you've seen that before.
+**score: 4.5**
