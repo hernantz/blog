@@ -150,6 +150,7 @@ a helper for positioning elements. Live demo [here][2].
 
 ## Wishful thinking
 
+[This video][6] shows the process of hidding functionality and adding lots of cruft to *jqueryfy* a piece of code. This is exactly what we need to avoid.
 It's perfectly fine if plugins expose a simple way to cover the 80% of use cases
 or some basic functionality. But it's clear that pure libraries tend to
 outperform ready-made plugins in terms of flexibility. I often see plugins
