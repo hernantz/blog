@@ -5,7 +5,9 @@ Tags: ideas
 Summary: Why freedom increases the chances of prosperity.
 Status: draft
 
-![it's the competition stupid](/images/competition.jpg "Picture of Advertisements in Saigon")
+![it's the competition stupid](/images/competition.jpg "Picture of Advertisements in Saigon, Vietnam")
+
+
 
 ## Justice is in the eye of the beholder
 
@@ -66,13 +68,45 @@ Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas
 termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
 o haya estado bajo tierra cuando cayo el metiorito.
 
+Some places are hot and some are cold.
+Some planets have life and some don't.
+Some windows face a beatiful view to the ocean and some don't.
+
+## Public enemy number one
+### Goverments are run by politicians
+### Goverments don't have enought competition
+Is difficult to change them or became a customer of a different
+goverment. Goverments make decitions that are dificult in nature (regulate how people live), which is very
+dangerous if there is only one choice. See education, stupid regulations (geneder on boards), clean energy.
+
 Much more is achieved by lots of trial an error experiments rather than a single big plan
+
+> An economy has untold possible outcomes. Its complexity comes both from the
+> near infinite variety that can come from permutations of simple rules, and
+> from the fact that billions of humans are playing the game simultaneously,
+> each affecting the outcomes for each other. Many of the rules are written down
+> nowhere, controlled by no one, and constantly evolving. Individuals,
+> businesses, and governments are all players, and none of them can know the
+> full consequences of their decisions.
+>
+> <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
+
+Ejemplo de los containers
+Should employers be required to pay men and women the same salary for the same job, there too many variables such as education, incentives or experience that determine a fair salary,
+Should employers be required to have a percentage of their workforce be women or black, or employees should be hired and valued regardless of their gender or the color of their skin?
+
+
+## Hipocracy
+People think everything is free until they have to pay for it. When the goverment intervines, is doesn't have that direct impact.
+If you care about something, there is for sure a way you can help, without forcing everyone else to commit as you.
+
 
 Video Milton Friedman sobre justicia, libertad.
 https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
 
 Cuidades estado.
 http://cityobservatory.org/about/
+http://www.seasteading.org/
 
 http://plato.stanford.edu/entries/equal-opportunity/
 http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
@@ -86,3 +120,15 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
+
+
+## Conclusion
+The persuit of justice and equality is futile, it can only be approximated by certain metrics, laws, to
+an agreed ideal that might change over time and is prone to subjective interpretation.
+
+The availability of choices cannot guarantee, but increases the chances of
+prosperity in a free sociaty, in the long term, even in an unfair system, by enabling ideas to be proobed,
+in competition whith other alternatives.
+
+
+[1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"

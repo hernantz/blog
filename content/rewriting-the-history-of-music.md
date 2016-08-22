@@ -52,3 +52,4 @@ New Millenium Jesus Cyanide - Meshuggah -> Decapitated
 The suburbs - Arcade Fire -> Queens of the stone edge
 Wrecking Ball - Miley Cirus -> Adele
 You get what you give - New Radicals -> Mick Jagger
+Gold - Chect Faker -> Alt-J
