@@ -253,3 +253,5 @@ Ej: loading y Backbone.SOS
 
 https://github.com/laoshanlung/backbone.supermodel
 https://github.com/hashchange/backbone.select
+https://github.com/krasimir/react-in-patterns
+https://www.sitepoint.com/exploring-reacts-state-propagation/
