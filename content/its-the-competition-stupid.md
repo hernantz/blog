@@ -123,8 +123,12 @@ https://twitter.com/randal_olson/status/754703494108569601
 
 
 ## Conclusion
-The persuit of justice and equality is futile, it can only be approximated by certain metrics, laws, to
-an agreed ideal that might change over time and is prone to subjective interpretation.
+
+The persuit of justice and equality is futile, it can only be approximated by
+certain metrics, laws, to an agreed ideal that might change over time and is
+prone to subjective interpretation. There is no justice. Justice should be
+provided in ways that competes with other views or understandings of the same
+concept.
 
 The availability of choices cannot guarantee, but increases the chances of
 prosperity in a free sociaty, in the long term, even in an unfair system, by enabling ideas to be proobed,
