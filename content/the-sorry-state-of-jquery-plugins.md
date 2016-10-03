@@ -12,6 +12,7 @@ does the minimum. But of course there is a wide range in between.
 
 ![Bootstrap 3 popovers](/images/popovers.png "Bootstrap 3 popovers")
 
+
 ## The way of jQuery plugins
 
 To begin, lets see what Boostrap offers for using it's plugins. A plugin
@@ -36,34 +37,14 @@ attributes. Either way, most plugins follow these techniques and **allow
 certain amount of customization** so that we can hook into some of it's
 functionality via options and callbacks.
 
-An extreme example would be the [fullCalendar][3] plugin. It is in charge
-of rendering a rather complex [DOM hierachy][4] inside an empty `div` you
-define, and everything from fetching events to be displayed on the calendar,
-to determining how to behave when you click on an event is done through
-configuration. Since it is controlling some inner state, so you are forced to
-initialize it and follow the rules this plugin immposes.
+A more extreme example would be the [fullCalendar][3] or the jQuery datepicker
+plugins. They are in charge of rendering a rather complex DOM hierachy inside an
+empty `div` or `input` you define, and everything is done through configuration.
+Since the plugin is controlling some inner state you are forced to initialize it
+and follow the rules it immposes.
 
 This may work for simple scenarios, but when you need more control, you'll be
 forced to implement *hacky tricks* or even roll your own solution.
-
-For example, the API of this plugin does not expose a way to handle a double
-click on an event, but we can set up this behaviour because this plugin
-provides a `eventRender` callback to manipulate a rendered event.
-
-```javascript
-$('#calendar').fullCalendar({
-  // ... more options here
-  eventRender: function (event, element) {
-    element.dblclick(function () {
-      alert('do something useful!');
-    });
-  }
-});
-```
-
-Should you need something more custom like be able to drag-n-drop events
-between months, which could be implemented with an infinite scroll of months,
-you would be really close to having to fork the entire project.
 
 
 ## Take over popovers
@@ -148,9 +129,10 @@ var Popover = Backbone.View.extend({
 We have combined Bootstrap for presentation, Backbone for logic and Tether as
 a helper for positioning elements. Live demo [here][2].
 
+
 ## Wishful thinking
 
-[This video][6] shows the process of hidding functionality and adding lots of
+[This video][4] shows the process of hidding functionality and adding lots of
 cruft to *jqueryfy* a piece of code. This is exactly what we need to avoid.
 More often than not I see plugins hiding their methods behind closures, when
 they could be opening them as **documented building blocks** to be used at your
@@ -167,6 +149,4 @@ rest of your frameworks.
 [1]: http://github.hubspot.com/tether/ "Tether"
 [2]: https://jsfiddle.net/p82fsx06/1/ "Live demo"
 [3]: http://fullcalendar.io/ "A JavaScript event calendar"
-[4]: http://fullcalendar.io/js/fullcalendar-2.6.1/demos/agenda-views.html "Rendered calendar"
-[5]: https://youtu.be/aG9liV5fMXo "John K. Paul - I Like my jQuery Plugins Warm and Toasty"
-[6]: https://youtu.be/Qkm5h4032ko "Pamela Fox - Beyond jQuery Widgets: JS UI Library Design"
+[4]: https://youtu.be/Qkm5h4032ko "Pamela Fox - Beyond jQuery Widgets: JS UI Library Design"
