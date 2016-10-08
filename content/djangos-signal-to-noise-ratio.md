@@ -3,6 +3,7 @@ Date: 2016-04-29
 Category: Programming
 Tags: django, python, best-practices
 Summary: Keeping a balance between decoupled and maintenable code.
+Status: Draft
 
 ![Contact (1997) scene](/images/signal-to-noise-ratio.png "Contact (1997)")
 
