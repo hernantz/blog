@@ -13,8 +13,7 @@ One way to get to know someone is to asks about his aspirations.
 meeting new people (that ask that kind of questions), because I simply don't
 have an easy answer.
 
-So far I can tell three things about me, that might help you understand where
-I'm heading to.
+So far I can tell three things about me, that might help you understand why.
 
 I'm a generalist, which sounds great until you realize it is actually a burden.
 One might think that a generalist can contribute everywhere, but in reality you
