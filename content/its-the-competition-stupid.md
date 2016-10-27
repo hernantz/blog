@@ -20,25 +20,24 @@ Because of that, we are not 100% free. We are conditioned, limited and biased by
 what we know and don't know, by what we can and cannot do, by what we perceive
 and feel, by what we believe.
 
-Las decisiones que tomamos estan basadas en ideas parciales que tomamos de
-una realidad interpretada segun nuestra limitada vision de los hechos.
-No existe la decision perfecta. Hacemos lo que podemos.
+As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
+that humanity might grow and develop towards a genuine understanding and perception of the Creation.
+This could only be accomplished with free will, since otherwise, if we were either perfect or we had
+only one choice, our existence wouldn't be of much value.
+
+The decisions we make are based on partial ideas a reality we interpreted
+according to our limited vision of the facts. You can imagine that there is no
+perfect decision, we do what we can. We can point to an idea of "doing the best
+according to the circumstances we live in", but in these circumstances, we are
+responsible for our future, and some of that future depends on the quality of
+decisions we make.
 
 No hubo justicia para los dinosaurios. Aun cuando hubiesen hecho las cosas bien y estuviesen
 muy adaptados a traves de miles de anios de evolucion a su medio, no pudieron 
 sobrevivir a la caida de un metiorito (algo que no ocurre muy frecuentemente, y era imposible
 de anticipar por sus mecanismos evolutivos). De nuevo, muchos factores que uno no controla.
 
-As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
-that humanity might grow and develop towards a genuine understanding and perception of the Creation.
-This could only be accomplished with free will, since otherwise, if we were either perfect or we had
-only one choice, our existence wouldn't be of much value.
-
 No somos Dios. Nuestra existencia es fragil. No podemos aplicar justicia divina.
-Podemos apuntar a una idea de "hacer el mejor esfuerzo segun las circunstancias que me tocan vivir"
-pero dentro de esas circunstancias, somos responsables de nuestro futuro, y algo de ese futuro
-depende de la calidad de decisiones que tomemos.
-Aceptemos la realidad.
 
 Cuando hablamos de que la justicia es un ideal inalcanzable, estoy incluyendo a la desigualdad.
 Somos todos distintos, biologica y culturalmente, diferimos tambien en capacidades, valores y gustos (hay gente ciega, gente mas inteligente, etc).
@@ -63,13 +62,6 @@ Some places are hot and some are cold.
 Some planets have life and some don't.
 Some windows face a beautiful view to the ocean and some don't.
 
-There are two primal fears in free societies:
-Instead of monopolies, we should think about the things that limit competition.
-- Monopolies: concentration of power in evil people.
-1) Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
-2) Corruption and mafia
-3) Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
-4) It works well and it's efficient
 - Lack of opportunities: Someone should provide them.
 These roles are delegated to the government.
 
@@ -125,6 +117,17 @@ Should employers be required to have a percentage of their workforce be women or
 ### Hypocrisy
 People think everything is free until they have to pay for it. When the government intervenes, is doesn't have that direct impact.
 If you care about something, there is for sure a way you can help, without forcing everyone else to commit as you.
+
+
+## The good monopoly
+
+There are two primal fears in free societies:
+Instead of monopolies, we should think about the things that limit competition.
+- Monopolies: concentration of power in evil people.
+1) Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
+2) Corruption and mafia
+3) Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
+4) It works well and it's efficient
 
 
 Video Milton Friedman sobre justicia, libertad.
