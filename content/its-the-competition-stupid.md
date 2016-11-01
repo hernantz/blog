@@ -130,6 +130,10 @@ Instead of monopolies, we should think about the things that limit competition.
 4) It works well and it's efficient
 
 
+> To have progress, you want a system that is competitive, not one that is dominated by a single power.
+> Joel Mokyr
+
+
 Video Milton Friedman sobre justicia, libertad.
 https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
 
@@ -170,3 +174,6 @@ It's the competition, [stupid][2].
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
 [2]: https://en.wikipedia.org/wiki/It%27s_the_economy,_stupid "It's the economy, stupid"
 [3]: https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 "Answer to the Ultimate Question of Life, the Universe, and Everything" 
+[4]: https://www.washingtonpost.com/news/wonk/wp/2014/10/18/poor-kids-who-do-everything-right-dont-do-better-than-rich-kids-who-do-everything-wrong/ "
+Poor kids who do everything right don’t do better than rich kids who do everything wrong"
+[5]: https://www.washingtonpost.com/news/wonk/wp/2016/10/28/why-the-industrial-revolution-didnt-happen-in-china/ "Why the Industrial Revolution didn’t happen in China"
