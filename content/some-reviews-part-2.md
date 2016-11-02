@@ -288,3 +288,13 @@ The storyline is simple and there is nothing left for the viewer
 to digest, no homework, so you just watch it and try to guess what's
 going to happen or which movie or book you've seen that before.
 **score: 4.5**
+
+# Black mirror
+It's like the new Twilight Zone, but revisited. Each episode is
+different, but there is still common background theme of matching technology
+and the dark side of mankind, which is very well achieved in the sense that
+after watching an episode you are left anguished.
+Love the fact that there some small details that can be noticed in different
+episodes like playing "anyone who knows what love is" or showing the same
+pregnancy test device.
+**score: 4.6**
