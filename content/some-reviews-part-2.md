@@ -297,4 +297,12 @@ after watching an episode you are left anguished.
 Love the fact that there some small details that can be noticed in different
 episodes like playing "anyone who knows what love is" or showing the same
 pregnancy test device.
+Besides the fact that there might be plot holes and some episodes are better
+done others, all things considered, Black Mirror is highly enjoyable.
 **score: 4.6**
+
+# The loft
+Besides all the plot twists, it wasn't good enough to make a memorable movie.
+The acting wasn't that realistic, I didn't buy the idea of "we are friends".
+And one of the caracters was trying to copy Kevin Spacey in *The Usual Suspects*.
+**score: 3.0**
