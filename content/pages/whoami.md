@@ -15,11 +15,11 @@ have an easy answer.
 
 So far I can tell three things about me, that might help you understand why.
 
-I'm a generalist, which sounds great until you realize it is actually a burden.
-One might think that a generalist can contribute everywhere, but in reality you
-never end up fitting anywhere. It's easy to wander. My life is a constant
-struggle to keep a goal, discipline myself and take baby steps towards
-*somewhere*.
+I'm a generalist (like everyone else?), which sounds great until you realize it
+is actually a burden. One might think that a generalist can contribute
+*everywhere*, but in reality you never end up fitting *anywhere*. It's easy to
+wander. My life is a constant struggle to keep a goal, discipline myself and
+take baby steps towards *somewhere*.
 
 I don't fear learning whatever is needed to assert the success of a project.
 Indeed, I love to learn.
