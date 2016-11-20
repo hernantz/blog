@@ -127,6 +127,7 @@ implies that:
 3. Changes might not be tackled in the original logical order, but the
    transition towards the big changeset happens in a smooth and predictable
    manner.
+4. You avoid doing something you should [never do in software][12].
 
 Dispite having mentioned branches a lot, the ideas expressed here still apply,
 no matter the technique used to integrate the changes.
@@ -144,7 +145,8 @@ to Python 3**, I would try to modify the code so that it runs under both Python
 *python-3-migration* branch to do all the work there, because chances are that
 your Python 2 app would still be used for a long time until the migration is
 finished, and you'll have to be duplicating features, bugs and bugfixes in your
-main branch and in the migration branch.
+main branch and in the migration branch. The guys at Pinterest had to go through
+a [similar experience][13] but with their frontend framework.
 
 To **translate the app** into another language, you can start by notifying the
 entire team that translation is in progress so that each new piece of ui that is
@@ -177,3 +179,5 @@ keeping all the parts integrated in the same codebase.
 [9]: http://slides.com/pamelafox/when-bootstrap-attacks "When bootstrap attacks"
 [10]: http://ruby.bvision.com/blog/please-stop-embedding-bootstrap-classes-in-your-html "Please stop embedding Bootstrap classes in your HTML!"
 [11]: http://blog.travis-ci.com/2014-03-04-use-feature-flags-to-ship-changes-with-confidence/ "Using Feature Flags to Ship Changes with Confidence"
+[12]: http://www.joelonsoftware.com/articles/fog0000000069.html "Things You Should Never Do, Part I"
+[13]: https://engineering.pinterest.com/blog/migrating-pinterest-profiles-react "Migrating Pinterest profiles to React"
