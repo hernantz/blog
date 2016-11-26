@@ -24,7 +24,13 @@ take baby steps towards *somewhere*.
 I don't fear learning whatever is needed to assert the success of a project.
 Indeed, I love to learn.
 
-My tombstone will say:
+My tombstone will say [^1]:
 
-> Intenté hacer de este un mundo mejor para todos y terminé
-> creando un infierno para mí solo.
+> Intenté hacer de este mundo un paraíso para todos y terminé creando un
+> infierno para mí solo.
+
+
+[^1]: The orignal quote says: *"Yo quise hacer de la tierra un paraíso para
+      todos. La hice un infierno para mí."* by [Simón Rodríguez][1].
+
+[1]: https://es.wikiquote.org/wiki/Sim%C3%B3n_Rodr%C3%ADguez "Simón Rodríguez"
