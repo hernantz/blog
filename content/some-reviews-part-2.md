@@ -338,3 +338,11 @@ major she had daily contact with, and, again, international collaboration from
 all scientists involved.
 
 The aliens, the spaceships, the alien language are also great.
+**score: 4.3**
+
+# Bojack Horseman
+Bojack is the opposite of King Midas, he destroys everything he touches.
+It's funny, depressing and bizarre but realistic at the same time. You'll need
+some good dosses of popular culture to understand some of the references.
+The mix of animals and humans adds a lot to the show.
+**score: 4.1**
