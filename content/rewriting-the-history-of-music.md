@@ -56,3 +56,5 @@ Gold - Chect Faker -> Alt-J
 Imagenes Paganas - Virus -> Soda Stereo
 Nightlife - IAMX -> Above and Beyond
 Siguiendo la Luna - Los Tipitos -> Cerati
+Mourning Palace - Dimmu Borgir -> Immortal
+In Death's Embrace - Dimmu Borgir -> Immortal
