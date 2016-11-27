@@ -304,5 +304,37 @@ done others, all things considered, Black Mirror is highly enjoyable.
 # The loft
 Besides all the plot twists, it wasn't good enough to make a memorable movie.
 The acting wasn't that realistic, I didn't buy the idea of "we are friends".
-And one of the caracters was trying to copy Kevin Spacey in *The Usual Suspects*.
+And one of the characters was trying to copy Kevin Spacey in *The Usual
+Suspects*.
 **score: 3.0**
+
+# Don't Breathe
+The level of suspense this movie achieves makes you hold your breathe the whole
+length. But when it comes to characters, I don't buy the idea of smart white guys
+being burglars. I guess they had force it this way for you to feel empathy for them
+and to make them work their way out of the complicated situation they get into.
+It's worth watching, but just once in your life I guess.
+**score: 3.5**
+
+# Arrival
+The movie requires you to take some time to process it, and for sure a second watch.
+It is similar to Interstellar in the sense that at first is highly scientific and
+by the end it turns into an emotional drama.
+The acting of the main character is great, it makes you feel anxious and scared
+all the first part of the movie when the first encounter happens.
+The second part of the movie in which they learn their language is a bit unclear,
+how much time it took? There is an explanation provided by the movie which is:
+learning a new language rewires your brain, and that also gives her the ability to
+see the future, and those visions could also be interpreted as a product of being
+overworked and lack of sleep.
+
+I would have liked that scientists started communicating secretively and that is
+how they would gain more understanding of the alien language.
+
+The last part is: if you knew what's going to happen, would you change anything?
+I liked the concept, but I didn't buy the scene of convincing China's prime minister
+to end the conflict. Maybe this could have been a mix of convincing the mission's
+major she had daily contact with, and, again, international collaboration from
+all scientists involved.
+
+The aliens, the spaceships, the alien language are also great.
