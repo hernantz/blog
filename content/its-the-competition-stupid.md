@@ -12,47 +12,56 @@ Status: draft
 
 First we need to understand something about the nature of our existence.
 
-We live and die in a universe where many things are defined in a way we do not understand
-nor control and can change for that matter.
-The flow of time, the laws of physics, the birth and death of stars, the [fundamental answer][3].
+We live and die in a universe where many things are defined in a way we do not
+understand nor control and can change for that matter.  The flow of time, the
+laws of physics, the birth and death of stars, the [fundamental answer][3].
 
 Because of that, we are not 100% free. We are conditioned, limited and biased by
 what we know and don't know, by what we can and cannot do, by what we perceive
 and feel, by what we believe.
 
-The decisions we make are based on ideas of a reality we interpret according to
-our limited vision of partial facts. You can imagine that there is no
-perfect decision, we do what we can. We can point to an idea of "doing the best
-according to the circumstances we live in", but in these circumstances, we are
-responsible for our future, and some of that future depends on the quality of
-decisions we make.
+Every day, all of us are making decisions that involve gambles, sometimes they
+are big gambles: what occupation to pursue, whom to marry, how to invest your
+savings, have unprotected sex. Other times they are small gambles: ignoring a
+call or trying a new restaurant. 
 
-Equality of opportunities is not guaranteed. Some are born in rich countries and
-some are born in poor countries. Some go to good schools and some don't even go
-to school. Some had an accident and some won the lottery. Some are blind and
-some are paralytic.  Some are tall and some are short. Some are handsome and
-some are ugly. Some were loved by their parents and some were accidents. Some
-are old and some are young. Some could travel and meet other cultures and some
+The decisions we make are based on ideas of a reality we interpret according to
+our limited vision of partial facts. There is also the cost of opportunity, you
+only have so much money or some much time. 
+
+You can imagine that there is no perfect decision. We can point to an idea of
+"doing the best according to the circumstances we live in", and that in these
+circumstances, we are responsible for our future. But some of that future
+depends on the quality of decisions we make, and at times it also depends of
+luck. Because as it happens, in a sufficiently complex system, often those
+decisions are not made by us, yet we bear the consequences nonetheless.  
+
+In every decision you take your chances. Since no one knows the future for
+granted, there are always risks implied, unexpected outcomes. In other words,
+success cannot be guaranteed.
+
+In a sufficiently diverse society, equality of opportunities is not guaranteed
+either. Some are born in rich families and some are born in poor ones. Some go
+to good schools and some don't even go to school. Some had an accident and some
+won the lottery. Some are blind and some are paralytic. Some are tall and some
+are short. Some are handsome and some are ugly. Some were loved by their parents
+and some were not wanted. Some are old and some are young. Some act rationally
+and some act compulsively. Some could travel and meet other cultures and some
 never left their home town. Some read the news and some don't even have
 internet. Some eat healthy and do sports while others smoke and follow a
-sendentary lifestyle. Some act rationally and some act compulsively.
+sendentary lifestyle.  This is the very reason meritocracy is an ideal never to
+be reached in a society.
 
-Seeing how fragile our existence is, would you say that life is fair? And if
-not, who should fix it? How should justice be provided? What does justice and
-equality mean? Can fair society be built? How would you define fair?
+Seeing how complex and fragile our existence is, would you say that life is
+fair? And if not, who should fix it? How should justice be provided? What does
+justice or equality mean? Can a fair society be built? How would you define fair?
 
 Now these arbitrary impositions cannot be agreed universally.
 
 To change some variable in order to benefit some, others have to be affected negatively?
 
-We could peek at the universe to see what's going on.
-Some planets are closer to the sun than others.
-Some (?) have life and some don't.
 There was no justice for dinosaurs. Even when they might have done everything they could in terms of adaptation through millions of years of evolution, they couldn't survive a gigantic meteorite (something that doesn't frequently and was impossible to anticipate).
 Again, many factors one does not control.
-
-This is the very reason why meritocracy, the socialist paradise or adams smith's invisible hand are all
-utopian ideas impossible to reach.
 
 Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas apto
 termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
@@ -61,28 +70,12 @@ o haya estado bajo tierra cuando cayo el metiorito.
 
 Even in an unfair system, competition drives progress.
 
-
-No somos Dios. Nuestra existencia es fragil. No podemos aplicar justicia divina.
-
-Cuando hablamos de que la justicia es un ideal inalcanzable, estoy incluyendo a la desigualdad.
-Somos todos distintos, biologica y culturalmente, diferimos tambien en capacidades, valores y gustos (hay gente ciega, gente mas inteligente, etc).
-Parte de aceptar la realidad y la injusticia es que no existe la igualdad de oportunidades.
-
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from pursuing a career/goal, should they have the opportunity and capacity to do it.
-
-Corollary: Success cannot be guaranteed.
 
 
 Impones barreras en tu empresa para que no cualquiera puede entrar, solo los que vos crees mas aptos para un puesto.
 Impones barreras para limitar el accionar de violentos o psicopatas.
-
-Some places are hot and some are cold.
-Some planets have life and some don't.
-Some windows face a beautiful view to the ocean and some don't.
-
-- Lack of opportunities: Someone should provide them.
-These roles are delegated to the government.
 
 The only thing left for us is to agree on a set of artificial impositions that we are all going to live by
 and that are better, to our understanding, for the kind of world we want to live in.
@@ -91,17 +84,21 @@ Ideally we have the capability to be part of that election.
 
 ## The good monopoly
 
-There are two primal fears in free societies:
-Instead of monopolies, we should think about the things that limit competition.
-- Monopolies: concentration of power in evil people.
-1) Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
-2) Corruption and mafia, usually hand in hand with a bigger power that permits these violations.
-3) Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
-4) It works well and it's efficient
-5) Accepted because it can be changed every now and then (like governments)
-- Inequality
+There are two primal fears in modern societies:
 
-The cost of switching to a different provider of public services is too high and sometimes unaffordable.
+1. Monopolies: concentration of power in evil people.
+2. Inequality and Lack of opportunities: Someone should provide them.
+
+Instead of monopolies, we should think about the things that limit competition:
+
+- Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
+- Corruption and mafia, usually hand in hand with a bigger power that permits these violations.
+- Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
+- It works well and it's efficient
+- Accepted because it can be changed every now and then (like governments)
+
+These roles are delegated to the government.
+
 
 ## Public enemy number one
 
@@ -128,6 +125,13 @@ Every policy that any organization imposes is an experiment basically. No one kn
 ### Governments are run by politicians
 Governments are the opium of the people.
 ### Governments don't have enough competition
+
+> To have progress, you want a system that is competitive, not one that is dominated by a single power.
+>
+> <cite>[Why the Industrial Revolution didn't happen in China][5]</cite>. Joel Mokyr
+
+
+The cost of switching to a different provider of public services is too high and sometimes unaffordable.
 The only choices left are:
 - You leave the country/state/province/city
 - You go outlaw
@@ -153,6 +157,7 @@ Much more is achieved by lots of trial an error experiments rather than a single
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
 activity it cannot be tracked?.
+Governments believe that reality can be shaped by laws.
 
 Ejemplo de los containers
 
@@ -166,10 +171,6 @@ regardless of their gender or the color of their skin?
 ### Hypocrisy
 People think everything is free until they have to pay for it. When the government intervenes, is doesn't have that direct impact.
 If you care about something, there is for sure a way you can help, without forcing everyone else to commit as you.
-
-
-> To have progress, you want a system that is competitive, not one that is dominated by a single power.
-> Joel Mokyr
 
 
 Video Milton Friedman sobre justicia, libertad.
@@ -204,6 +205,9 @@ chances of prosperity for the society as whole in long run.
 1. The pinnacle of competition: ciudades estado
    http://cityobservatory.org/about/
    http://www.seasteading.org/
+   The amount of power an organization should have should be inversely
+   proportional to the amount of people it affects or controls. In other words give
+   more power to local governments over federal governments.
 2. Virtual worlds.
    Let's face it, the future is [non-human][6]. Artificial beings will rule eventually,
    and the only place left for mankind in the evolution race is to somehow merge with these superior forms of
@@ -229,9 +233,8 @@ It's the competition, [stupid][2].
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
 [2]: https://en.wikipedia.org/wiki/It%27s_the_economy,_stupid "It's the economy, stupid"
-[3]: https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 "Answer to the Ultimate Question of Life, the Universe, and Everything"
-[4]: https://www.washingtonpost.com/news/wonk/wp/2014/10/18/poor-kids-who-do-everything-right-dont-do-better-than-rich-kids-who-do-everything-wrong/ "
-Poor kids who do everything right don’t do better than rich kids who do everything wrong"
+[3]: https://www.goodreads.com/quotes/2397-there-is-a-theory-which-states-that-if-ever-anyone "Douglas Adams, The Restaurant at the End of the Universe"
+[4]: https://www.washingtonpost.com/news/wonk/wp/2014/10/18/poor-kids-who-do-everything-right-dont-do-better-than-rich-kids-who-do-everything-wrong/ "Poor kids who do everything right don’t do better than rich kids who do everything wrong"
 [5]: https://www.washingtonpost.com/news/wonk/wp/2016/10/28/why-the-industrial-revolution-didnt-happen-in-china/ "Why the Industrial Revolution didn’t happen in China"
 [6]: https://en.wikipedia.org/wiki/The_Singularity_Is_Near "The Singularity Is Near"
 [7]: http://www.forbes.com/sites/realspin/2016/11/29/thanks-to-fight-for-15-minimum-wage-mcdonalds-unveils-job-replacing-self-service-kiosks-nationwide/ "Thanks To 'Fight For $15' Minimum Wage, McDonald's Unveils Job-Replacing Self-Service Kiosks Nationwide"
