@@ -8,6 +8,22 @@ Status: draft
 ![it's the competition stupid](/images/competition.jpg "Picture of Advertisements in Saigon, Vietnam")
 
 
+## Abstract
+
+I'm a libertarian who doesn't believe in justice, meritocracy, governments
+or free market. I just believe that higher degrees of freedom increase the
+chances of prosperity for the society, as whole, in the long run.
+
+Since high school I've always had the hunch that freedom was the obvious way for
+a society to progress in terms of efficiency, equality, wealth, knowledge and
+justice. I've been biased to justify everything as lack of freedom or as a
+consequence worth suffering because of excess of freedom.
+
+I'm writing this post not to convince you of becoming a libertarian but to find
+a rational explanation on why I consider myself a libertarian and why I would
+continue to choose being one.
+
+
 ## ...And justice for all
 
 First we need to understand something about the nature of our existence.
@@ -49,13 +65,18 @@ and some were not wanted. Some are old and some are young. Some act rationally
 and some act compulsively. Some could travel and meet other cultures and some
 never left their home town. Some read the news and some don't even have
 internet. Some eat healthy and do sports while others smoke and follow a
-sendentary lifestyle.  This is the very reason meritocracy is an ideal never to
+sendentary lifestyle.
+
+This is the very reason meritocracy is an ideal never to
 be reached in a society.
+This is the very reason why meritocracy, the socialist paradise or Adam Smith's
+invisible hand are all utopian ideas impossible to reach.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
 justice or equality mean? Can a fair society be built? How would you define fair?
 
+No absolute standard of justice.
 Now these arbitrary impositions cannot be agreed universally.
 
 To change some variable in order to benefit some, others have to be affected negatively?
@@ -124,7 +145,23 @@ Every policy that any organization imposes is an experiment basically. No one kn
 
 ### Governments are run by politicians
 Governments are the opium of the people.
+Politicians will do, not what is correct, but what is politically correct.
+Demagogy + sensationalism + Aristotle
+
+Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
+corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
+activity it cannot be tracked?.
+Governments believe that reality can be shaped by laws.
+
 ### Governments don't have enough competition
+
+USAR ESTE EJEMPLO>
+Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
+http://blog.ycombinator.com/moving-forward-on-basic-income
+http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
+
+The government can default but not disappear. That is not fair with other
+competitors.
 
 > To have progress, you want a system that is competitive, not one that is dominated by a single power.
 >
@@ -154,11 +191,6 @@ Much more is achieved by lots of trial an error experiments rather than a single
 >
 > <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
 
-Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
-corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
-activity it cannot be tracked?.
-Governments believe that reality can be shaped by laws.
-
 Ejemplo de los containers
 
 Should employers be required to pay men and women the same salary for the same
@@ -169,6 +201,11 @@ regardless of their gender or the color of their skin?
 
 
 ### Hypocrisy
+
+> It is always easier to fight for one's principles than to live up to them.
+>
+> Alfred Adler
+
 People think everything is free until they have to pay for it. When the government intervenes, is doesn't have that direct impact.
 If you care about something, there is for sure a way you can help, without forcing everyone else to commit as you.
 
@@ -182,10 +219,6 @@ http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
 http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
 
 
-USAR ESTE EJEMPLO>
-http://blog.ycombinator.com/moving-forward-on-basic-income
-http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
-
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
 
@@ -195,10 +228,6 @@ As John Hick once stated, God allows suffering, by creating us "imperfect and im
 that humanity might grow and develop towards a genuine understanding and perception of the Creation.
 This could only be accomplished with free will, since otherwise, if we were either perfect or we had
 only one choice, our existence wouldn't be of much value.
-
-I'm a libertarian who doesn't believe in justice, meritocracy or governments
-or free market. I just believe that higher degrees of freedom increses the
-chances of prosperity for the society as whole in long run.
 
 
 ## Possible solutions
