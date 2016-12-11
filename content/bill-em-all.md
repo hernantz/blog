@@ -157,6 +157,8 @@ https://www.petekeen.net/stripe
 
 Django billing
 
+
+https://techblog.commercetools.com/webhooks-the-devil-in-the-details-ca7f7982c24f#.5z8ej1fli
 Lambda architecture
 Command-query responsability separation (CQRS)
 https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
