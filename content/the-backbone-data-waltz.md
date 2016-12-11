@@ -255,3 +255,7 @@ https://github.com/laoshanlung/backbone.supermodel
 https://github.com/hashchange/backbone.select
 https://github.com/krasimir/react-in-patterns
 https://www.sitepoint.com/exploring-reacts-state-propagation/
+
+Models for data and models for views state.
+Every change in the DOM corresponds to a change in a model. The view is only
+responsible for simple updates and broadcasting user interactions.

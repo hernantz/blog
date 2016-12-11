@@ -218,7 +218,7 @@ http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
 
 http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
 
-
+http://www.nationalaffairs.com/publications/detail/madison-and-the-perils-of-populism
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
 
