@@ -9,9 +9,13 @@ using `pelican` with the `pelican-left` theme
 # Extra
 Now that I have your attention, let me show you something I think about when
 listening to music: Rewriting the history of music.
+Some of these songs are covers which are better than the original song.
+Others would have been better if perfomed by the proposed artis/band.
+Sometimes I'm just reassigning it because that artist/band only has so few
+songs I like that it would have been better it didn't exist.
 
 |----------------------------------------------+---------------------------+---------------------------|
-|  Song                                        | Original artist           | Proposed artist           |
+|  Song                                        | Original artist/band      | Proposed artist/band      |
 |----------------------------------------------+---------------------------+---------------------------|
 |  The Knack                                   |  My Sharona               | The Beatles               |
 |  Cementary Gates                             |  Pantera                  | Megadeth                  |
@@ -34,10 +38,11 @@ listening to music: Rewriting the history of music.
 |  Wicked Game                                 |  HIM                      | Type O Negative           |
 |  Son Of The Morning                          |  Ackercocke               | Type O Negative           |
 |  Legalise Drugs & Murder                     |  Electric Wizard          | Type O Negative           |
-|  Leviathan                                   |  Ackercocke               | Type O Negative           |
-|  Axiom                                       |  Ackercocke               | Opeth                     |
 |  Black Magic Woman                           |  Santana                  | Typo O Negative           |
 |  DMSLT                                       |  A Pale Horse Named Death | Type O Negative           |
+|  Leviathan                                   |  Ackercocke               | Type O Negative           |
+|  Axiom                                       |  Ackercocke               | Opeth                     |
+|  Boom                                        |  P.O.D.                   | Limp Bizkit               |
 |  Killing in the Name                         |  Rage Against the Machine | Limp Bizkit               |
 |  Freak on a leash                            |  Korn                     | Limp Bizkit               |
 |  Alone I Break                               |  Korn                     | Limp Bizkit               |
@@ -70,4 +75,6 @@ listening to music: Rewriting the history of music.
 |  In Death's Embrace                          |  Dimmu Borgir             | Immortal                  |
 |  Deny                                        |  Dimension Zero           | Darkest Hour              |
 |  Hell is Within                              |  Dimension Zero           | Darkest Hour              |
+|  Coffee and TV                               |  Blur                     | Death Cab for Cutie       |
+|  Girls and Boys                              |  Blur                     | Chemcal Brothers          |
 |----------------------------------------------+---------------------------+---------------------------|
