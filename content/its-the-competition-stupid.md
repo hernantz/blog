@@ -38,8 +38,8 @@ and feel, by what we believe.
 
 Every day, all of us are making decisions that involve gambles, sometimes they
 are big gambles: what occupation to pursue, whom to marry, how to invest your
-savings, have unprotected sex. Other times they are small gambles: ignoring a
-call or trying a new restaurant. 
+savings, to have unprotected sex. Other times they are small gambles: ignoring
+a call or trying a new restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. There is also the cost of opportunity, you
@@ -47,30 +47,32 @@ only have so much money or some much time.
 
 You can imagine that there is no perfect decision. We can point to an idea of
 "doing the best according to the circumstances we live in", and that in these
-circumstances, we are responsible for our future. But some of that future
-depends on the quality of decisions we make, and at times it also depends of
-luck. Because as it happens, in a sufficiently complex system, often those
-decisions are not made by us, yet we bear the consequences nonetheless.  
+circumstances, some of that future depends on the quality of decisions we make,
+and at times it also depends of luck. Because as it happens, in a sufficiently
+complex system, often those decisions are not made by us, yet we bear the
+consequences nonetheless.  
 
 In every decision you take your chances. Since no one knows the future for
 granted, there are always risks implied, unexpected outcomes. In other words,
-success cannot be guaranteed.
+**success cannot be guaranteed**.
 
-In a sufficiently diverse society, equality of opportunities is not guaranteed
-either. Some are born in rich families and some are born in poor ones. Some go
-to good schools and some don't even go to school. Some had an accident and some
-won the lottery. Some are blind and some are paralytic. Some are tall and some
-are short. Some are handsome and some are ugly. Some were loved by their parents
-and some were not wanted. Some are old and some are young. Some act rationally
-and some act compulsively. Some could travel and meet other cultures and some
-never left their home town. Some read the news and some don't even have
-internet. Some eat healthy and do sports while others smoke and follow a
-sendentary lifestyle.
+In a sufficiently diverse society, **equality of opportunities is not
+guaranteed** either. Some are born in rich families and some are born in poor
+ones. Some go to good schools and some don't even go to school. Some had an
+accident and some won the lottery. Some are blind and some are paralytic. Some
+are tall and some are short. Some are handsome and some are ugly. Some were
+loved by their parents and some were not wanted. Some are old and some are
+young.Some could travel and meet other cultures and some never left their home
+town. Some read the news and some don't even have internet.
 
-This is the very reason meritocracy is an ideal never to
-be reached in a society.
+And even if opportunities are provided, not everyone might be wise to take
+advantage of them. Some act rationally and some act compulsively. Some like to
+study or work hard and some like to slack. Some eat healthy and do sports while
+others smoke and follow a sendentary lifestyle. Well you get the point,
+**equality of outcome cannot be guaranteed**.
+
 This is the very reason why meritocracy, the socialist paradise or Adam Smith's
-invisible hand are all utopian ideas impossible to reach.
+invisible hand are all utopian ideal be reached in a society.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
