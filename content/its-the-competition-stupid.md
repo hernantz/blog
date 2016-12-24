@@ -30,7 +30,7 @@ First we need to understand something about the nature of our existence.
 
 We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter.  The flow of time, the
-laws of physics, the birth and death of stars, the [fundamental answer][3].
+laws of physics, the birth and death of stars, the Creation itself [^3].
 
 Because of that, we are not 100% free. We are conditioned, limited and biased by
 what we know and don't know, by what we can and cannot do, by what we perceive
@@ -48,9 +48,9 @@ only have so much money or some much time.
 You can imagine that there is no perfect decision. We can point to an idea of
 "doing the best according to the circumstances we live in", and that in these
 circumstances, some of that future depends on the quality of decisions we make,
-and at times it also depends of luck. Because as it happens, in a sufficiently
+and at times it depends on our luck. Because as it happens, in a sufficiently
 complex system, often those decisions are not made by us, yet we bear the
-consequences nonetheless.  
+consequences nonetheless.
 
 In every decision you take your chances. Since no one knows the future for
 granted, there are always risks implied, unexpected outcomes. In other words,
@@ -67,12 +67,13 @@ town. Some read the news and some don't even have internet.
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some like to
-study or work hard and some like to slack. Some eat healthy and do sports while
-others smoke and follow a sendentary lifestyle. Well you get the point,
-**equality of outcome cannot be guaranteed**.
+study or work hard and some simply like to slack. Some eat healthy and do
+sports while others smoke and follow a sendentary lifestyle. Well you get the
+point, **equality of outcome cannot be guaranteed**.
 
-This is the very reason why meritocracy, the socialist paradise or Adam Smith's
-invisible hand are all utopian ideal be reached in a society.
+These make the very reason why meritocracy, the socialist paradise or Adam
+Smith's invisible hand are all utopian ideals impossible to be reached in a
+society.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
@@ -167,7 +168,7 @@ competitors.
 
 > To have progress, you want a system that is competitive, not one that is dominated by a single power.
 >
-> <cite>[Why the Industrial Revolution didn't happen in China][5]</cite>. Joel Mokyr
+> <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
 
 
 The cost of switching to a different provider of public services is too high and sometimes unaffordable.
@@ -194,6 +195,7 @@ Much more is achieved by lots of trial an error experiments rather than a single
 > <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
 
 Ejemplo de los containers
+https://www.flexport.com/blog/port-automation-oakland-rotterdam/
 
 Should employers be required to pay men and women the same salary for the same
 job, or are there too many variables such as education, incentives or experience
@@ -260,6 +262,14 @@ prosperity in a free society, in the long term and even in an unfair system, by
 enabling ideas to be probed in competition with other alternatives.
 
 It's the competition, [stupid][2].
+
+
+[^3]: "There is a theory which states that if ever anyone discovers exactly
+      what the Universe is for and why it is here, it will instantly disappear and
+      be replaced by something even more bizarre and inexplicable.
+      There is another theory which states that this has already happened."
+
+      ― Douglas Adams, [The Restaurant at the End of the Universe][3]
 
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
