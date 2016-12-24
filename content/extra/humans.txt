@@ -73,6 +73,7 @@ didn't exist.
 |  My Sherona                                  | The Knack                | The Beatles               |
 |  Gotta Go                                    | Agnostic Front           | The Mistfits              |
 |  Danzig                                      | Mother                   | The Mistfits              |
+|  I Fought the Law                            | The Clash                | The Ramones               |
 |  DMSLT                                       | A Pale Horse Named Death | Type O Negative           |
 |  The Dark Inside                             | Ackercocke               | Type O Negative           |
 |  Son Of The Morning                          | Ackercocke               | Type O Negative           |
