@@ -17,7 +17,7 @@ chances of prosperity for the society, as whole, in the long run.
 Since high school I've always had the hunch that freedom was the obvious way for
 a society to progress in terms of efficiency, equality, wealth, knowledge and
 justice. I've been biased to justify everything as lack of freedom or as a
-consequence worth suffering because of excess of freedom.
+consequence worth suffering because of an excess of freedom.
 
 I'm writing this post not to convince you of becoming a libertarian but to find
 a rational explanation on why I consider myself a libertarian and why I would
@@ -29,7 +29,7 @@ continue to choose being one.
 First we need to understand something about the nature of our existence.
 
 We live and die in a universe where many things are defined in a way we do not
-understand nor control and can change for that matter.  The flow of time, the
+understand nor control and can change for that matter. The flow of time, the
 laws of physics, the birth and death of stars, the Creation itself [^3].
 
 Because of that, we are not 100% free. We are conditioned, limited and biased by
@@ -43,7 +43,7 @@ a call or trying a new restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. There is also the cost of opportunity, you
-only have so much money or some much time. 
+only have so much money or some much time.
 
 You can imagine that there is no perfect decision. We can point to an idea of
 "doing the best according to the circumstances we live in", and that in these
@@ -52,9 +52,9 @@ and at times it depends on our luck. Because as it happens, in a sufficiently
 complex system, often those decisions are not made by us, yet we bear the
 consequences nonetheless.
 
-In every decision you take your chances. Since no one knows the future for
-granted, there are always risks implied, unexpected outcomes. In other words,
-**success cannot be guaranteed**.
+In every decision you make, you take your chances. Since no one knows the
+future for granted, there are always risks implied, unexpected outcomes. In
+other words, **success cannot be guaranteed**.
 
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
@@ -62,7 +62,7 @@ ones. Some go to good schools and some don't even go to school. Some had an
 accident and some won the lottery. Some are blind and some are paralytic. Some
 are tall and some are short. Some are handsome and some are ugly. Some were
 loved by their parents and some were not wanted. Some are old and some are
-young.Some could travel and meet other cultures and some never left their home
+young. Some could travel and meet other cultures and some never left their home
 town. Some read the news and some don't even have internet.
 
 And even if opportunities are provided, not everyone might be wise to take
@@ -78,11 +78,31 @@ society.
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
 justice or equality mean? Can a fair society be built? How would you define fair?
-
-No absolute standard of justice.
-Now these arbitrary impositions cannot be agreed universally.
-
 To change some variable in order to benefit some, others have to be affected negatively?
+
+**There is no absolute standard of justice**. The pursuit of universal justice
+and equality is futile. They can only be approximated by certain metrics, laws,
+to an agreed ideal that might change over time and is prone to subjective
+interpretation.
+
+The only thing left for us is to agree on a set of artificial impositions that
+we are all going to live by and that are better, to our understanding, for the
+kind of world we want to live in. Now these arbitrary impositions cannot be
+agreed universally. Ideally we have the capability to be part of that
+election.
+
+
+## ...And prosperity for all
+
+Not only we are interested in some form of justice, but also we want to have
+the chance to enjoy the fruits of prosperity. So we have to agree on it's
+definition too.
+
+Some societies might meassure progess by the level of hapiness of it's
+individuals, others by more concrete metrics like GDP, child mortality or
+number of college graduates.
+Access to consumer goods, human rights.
+
 
 There was no justice for dinosaurs. Even when they might have done everything they could in terms of adaptation through millions of years of evolution, they couldn't survive a gigantic meteorite (something that doesn't frequently and was impossible to anticipate).
 Again, many factors one does not control.
@@ -92,7 +112,6 @@ termine logrando los mejores resultados, puede pasar que alguien tenga mas suert
 o haya estado bajo tierra cuando cayo el metiorito.
 
 
-Even in an unfair system, competition drives progress.
 
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from pursuing a career/goal, should they have the opportunity and capacity to do it.
@@ -100,10 +119,6 @@ them from pursuing a career/goal, should they have the opportunity and capacity 
 
 Impones barreras en tu empresa para que no cualquiera puede entrar, solo los que vos crees mas aptos para un puesto.
 Impones barreras para limitar el accionar de violentos o psicopatas.
-
-The only thing left for us is to agree on a set of artificial impositions that we are all going to live by
-and that are better, to our understanding, for the kind of world we want to live in.
-Ideally we have the capability to be part of that election.
 
 
 ## The good monopoly
@@ -173,11 +188,11 @@ competitors.
 
 The cost of switching to a different provider of public services is too high and sometimes unaffordable.
 The only choices left are:
-- You leave the country/state/province/city
+- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
 - You go outlaw
-- You change your government
-Is difficult to change them or became a customer of a different
-government. Governments make decisions that are difficult in nature (regulate how people live), which is very
+- You change your government (if you are luky via elections or, if you are really unluky, via a revolution)
+
+Governments make decisions that are difficult in nature (regulate how people live), which is very
 dangerous if there is only one choice. See education, stupid regulations (gender on boards), clean energy,
 prohibition of drugs.
 Unforetold consequences of well [intentioned initiatives][7].
@@ -222,6 +237,8 @@ http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
 
 http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
 
+http://www.smithsonianmag.com/innovation/san-francisco-startup-puts-everything-you-need-two-acre-farm-shipping-container-180961567/
+
 http://www.nationalaffairs.com/publications/detail/madison-and-the-perils-of-populism
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
@@ -246,20 +263,19 @@ only one choice, our existence wouldn't be of much value.
    and the only place left for mankind in the evolution race is to somehow merge with these superior forms of
    life. Inmersive virtual reality offers an interesting solution to how this
    process should happen, by hosting our human brains as software and letting us
-   live as a god in your own universe.
+   live as gods in our own universe.
 
 
 ## Conclusion
 
-The pursuit of universal justice and equality is futile. It can only be
-approximated by certain metrics, laws, to an agreed ideal that might change over
-time and is prone to subjective interpretation. There is no justice. Justice
-should be provided in ways that competes with other views or understandings of
-the same concept.
+There is no absolute standard of justice. Justice should be provided in ways
+that competes with other views or understandings of the same concept.
 
 The availability of choices cannot guarantee, but increases the chances of
 prosperity in a free society, in the long term and even in an unfair system, by
 enabling ideas to be probed in competition with other alternatives.
+
+Even in an unfair system, competition drives progress.
 
 It's the competition, [stupid][2].
 
