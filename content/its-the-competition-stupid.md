@@ -77,8 +77,8 @@ society.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
-justice or equality mean? Can a fair society be built? How would you define fair?
-To change some variable in order to benefit some, others have to be affected negatively?
+justice or equality mean? What if to benefit some, others have to be affected
+negatively? Can a fair society be built? How would you define fair?
 
 **There is no absolute standard of justice**. The pursuit of universal justice
 and equality is futile. They can only be approximated by certain metrics, laws,
@@ -99,10 +99,11 @@ the chance to enjoy the fruits of prosperity. So we have to agree on it's
 definition too.
 
 Some societies might meassure progess by the level of hapiness of it's
-individuals, others by more concrete metrics like GDP, child mortality or
-number of college graduates.
-Access to consumer goods, human rights.
+individuals [^8], others by more concrete metrics like GDP, advancements in
+human rights, child mortality or number of college graduates.
 
+Maybe all of them are desirable, but which one is more important and how much
+more important?
 
 There was no justice for dinosaurs. Even when they might have done everything they could in terms of adaptation through millions of years of evolution, they couldn't survive a gigantic meteorite (something that doesn't frequently and was impossible to anticipate).
 Again, many factors one does not control.
@@ -154,12 +155,11 @@ Anyone can choose base on whatever is their motivation and possibilities.
 * There are other things that don't allow other alternatives to co-exist. Governments are the most representative example of this kind.
 
 I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
-Centralized government is the root of all evil
+Centralized and external decision making doesn't seem like a good idea.
 Governments should be as atomic as possible.
 
-
-Every policy that any organization imposes is an experiment basically. No one knows the future for granted.
-
+Every policy that any organization imposes is an experiment basically. If the organization affects too many people, the experiment
+feels a lot like puting all the eggs in the same basket.
 
 ### Governments are run by politicians
 Governments are the opium of the people.
@@ -242,6 +242,7 @@ http://www.smithsonianmag.com/innovation/san-francisco-startup-puts-everything-y
 http://www.nationalaffairs.com/publications/detail/madison-and-the-perils-of-populism
 http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
+http://www.strongtowns.org/mission/#missioncopy
 
 If so, how much more important?
 
@@ -287,6 +288,12 @@ It's the competition, [stupid][2].
 
       ― Douglas Adams, [The Restaurant at the End of the Universe][3]
 
+[^8]: [Gross National Happiness][8]: The term was coined in 1972 by Bhutan's
+      fourth Dragon King, Jigme Singye Wangchuck. Originally the phrase represented
+      a commitment to building an economy that would serve Bhutan's culture based on
+      Buddhist spiritual values, instead of western material development gauged by
+      gross domestic product (GDP).
+
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
 [2]: https://en.wikipedia.org/wiki/It%27s_the_economy,_stupid "It's the economy, stupid"
@@ -295,3 +302,4 @@ It's the competition, [stupid][2].
 [5]: https://www.washingtonpost.com/news/wonk/wp/2016/10/28/why-the-industrial-revolution-didnt-happen-in-china/ "Why the Industrial Revolution didn’t happen in China"
 [6]: https://en.wikipedia.org/wiki/The_Singularity_Is_Near "The Singularity Is Near"
 [7]: http://www.forbes.com/sites/realspin/2016/11/29/thanks-to-fight-for-15-minimum-wage-mcdonalds-unveils-job-replacing-self-service-kiosks-nationwide/ "Thanks To 'Fight For $15' Minimum Wage, McDonald's Unveils Job-Replacing Self-Service Kiosks Nationwide"
+[8]: https://en.wikipedia.org/wiki/Gross_National_Happiness "Gross National Happiness"
