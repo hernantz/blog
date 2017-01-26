@@ -32,9 +32,9 @@ We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter. The flow of time, the
 laws of physics, the birth and death of stars, the Creation itself [^3].
 
-Because of that, we are not 100% free. We are conditioned, limited and biased by
-what we know and don't know, by what we can and cannot do, by what we perceive
-and feel, by what we believe.
+Because of that, we are not 100% free. **We are conditioned, limited and
+biased** by what we know and don't know, by what we can and cannot do, by what
+we perceive and feel, by what we believe.
 
 Every day, all of us are making decisions that involve gambles, sometimes they
 are big gambles: what occupation to pursue, whom to marry, how to invest your
@@ -62,14 +62,14 @@ ones. Some go to good schools and some don't even go to school. Some had an
 accident and some won the lottery. Some are blind and some are paralytic. Some
 are tall and some are short. Some are handsome and some are ugly. Some were
 loved by their parents and some were not wanted. Some are old and some are
-young. Some could travel and meet other cultures and some never left their home
-town. Some read the news and some don't even have internet.
+young.
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some like to
-study or work hard and some simply like to slack. Some eat healthy and do
-sports while others smoke and follow a sendentary lifestyle. Well you get the
-point, **equality of outcome cannot be guaranteed**.
+study or work hard and some simply like to slack. Some only read the finance
+section in the newspaper and some just read the horoscope. Some eat healthy and
+do sports while others smoke and follow a sendentary lifestyle. Well you get
+the point, **equality of outcome cannot be guaranteed**.
 
 These make the very reason why meritocracy, the socialist paradise or Adam
 Smith's invisible hand are all utopian ideals impossible to be reached in a
@@ -80,30 +80,28 @@ fair? And if not, who should fix it? How should justice be provided? What does
 justice or equality mean? What if to benefit some, others have to be affected
 negatively? Can a fair society be built? How would you define fair?
 
-**There is no absolute standard of justice**. The pursuit of universal justice
-and equality is futile. They can only be approximated by certain metrics, laws,
-to an agreed ideal that might change over time and is prone to subjective
-interpretation.
+But wait, not only we are interested in some form of justice, we also want to
+have the chance to enjoy the fruits of prosperity. So we have to agree on it's
+definition too.
+
+Some societies may meassure progess by advancements in human rights or the
+level of happiness of it's individuals [^8], others by more concrete figures
+like GDP, child mortality or number of college graduates.
+
+Maybe all of them are desirable, but which one is more important and how much
+more important? Remember you always have limited resources, so there will be
+sacrifices that need to be done.
+
+**There is no absolute standard of justice and prosperity**. The pursuit of
+universal justice, equality and happiness for that matter, is futile. They can
+only be approximated to an agreed ideal that might change over time and is
+prone to subjective interpretation, if reliable metrics are not provided.
 
 The only thing left for us is to agree on a set of artificial impositions that
 we are all going to live by and that are better, to our understanding, for the
-kind of world we want to live in. Now these arbitrary impositions cannot be
-agreed universally. Ideally we have the capability to be part of that
-election.
-
-
-## ...And prosperity for all
-
-Not only we are interested in some form of justice, but also we want to have
-the chance to enjoy the fruits of prosperity. So we have to agree on it's
-definition too.
-
-Some societies might meassure progess by the level of hapiness of it's
-individuals [^8], others by more concrete metrics like GDP, advancements in
-human rights, child mortality or number of college graduates.
-
-Maybe all of them are desirable, but which one is more important and how much
-more important?
+kind of world we want to live in. While these arbitrary impositions cannot be
+agreed universally, ideally, we would have the capability to be part of their
+selection somehow.
 
 There was no justice for dinosaurs. Even when they might have done everything they could in terms of adaptation through millions of years of evolution, they couldn't survive a gigantic meteorite (something that doesn't frequently and was impossible to anticipate).
 Again, many factors one does not control.
@@ -123,6 +121,8 @@ Impones barreras para limitar el accionar de violentos o psicopatas.
 
 
 ## The good monopoly
+I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
+Goverments have the power of law enforcement, which other organizations don't.
 
 There are two primal fears in modern societies:
 
@@ -154,12 +154,8 @@ Kinds of organizations:
 Anyone can choose base on whatever is their motivation and possibilities.
 * There are other things that don't allow other alternatives to co-exist. Governments are the most representative example of this kind.
 
-I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
 Centralized and external decision making doesn't seem like a good idea.
 Governments should be as atomic as possible.
-
-Every policy that any organization imposes is an experiment basically. If the organization affects too many people, the experiment
-feels a lot like puting all the eggs in the same basket.
 
 ### Governments are run by politicians
 Governments are the opium of the people.
@@ -178,24 +174,23 @@ Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
-The government can default but not disappear. That is not fair with other
-competitors.
+The government can default but not disappear. That is not fair with other competitors.
 
-> To have progress, you want a system that is competitive, not one that is dominated by a single power.
->
-> <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
+Every policy that any organization imposes is an experiment basically. If the
+organization affects too many people, the experiment feels a lot like puting
+all the eggs in the same basket. Governments make decisions that are difficult
+in nature (regulate how people's live), which is very dangerous if there is only
+one choice.
 
+See education, stupid regulations (gender on boards), clean energy, prohibition
+of drugs. Unforetold consequences of well [intentioned initiatives][7].
 
-The cost of switching to a different provider of public services is too high and sometimes unaffordable.
+The cost of switching to a different provider of public services is too high
+and sometimes unaffordable for a member of a society.
 The only choices left are:
 - You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
 - You go outlaw
 - You change your government (if you are luky via elections or, if you are really unluky, via a revolution)
-
-Governments make decisions that are difficult in nature (regulate how people live), which is very
-dangerous if there is only one choice. See education, stupid regulations (gender on boards), clean energy,
-prohibition of drugs.
-Unforetold consequences of well [intentioned initiatives][7].
 
 Much more is achieved by lots of trial an error experiments rather than a single big plan
 
@@ -225,8 +220,10 @@ regardless of their gender or the color of their skin?
 >
 > Alfred Adler
 
-People think everything is free until they have to pay for it. When the government intervenes, is doesn't have that direct impact.
-If you care about something, there is for sure a way you can help, without forcing everyone else to commit as you.
+People think everything is free until they have to pay for it. When the
+government intervenes, is doesn't have that direct impact.  If you care about
+something, there is for sure a way you can help, without forcing everyone else
+to commit as you.
 
 
 Video Milton Friedman sobre justicia, libertad.
@@ -253,6 +250,12 @@ only one choice, our existence wouldn't be of much value.
 
 
 ## Possible solutions
+
+> To have progress, you want a system that is competitive, not one that is dominated by a single power.
+>
+> <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
+
+
 1. The pinnacle of competition: ciudades estado
    http://cityobservatory.org/about/
    http://www.seasteading.org/
