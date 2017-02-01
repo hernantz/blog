@@ -94,4 +94,7 @@ didn't exist.
 |  Honest Mistake                              | The Bravery              | Muse                      |
 |  Ruby                                        | Kaiser Chiefs            | Franz Ferdinand           |
 |  Born to Be Wild                             | Steppenwolf              | Deep Purple               |
+|  You Sping Me Round                          | Dead or Alive            | Depeche Mode              |
+|  Shout                                       | Tears for Fears          | Depeche Mode              |
+|  Head over Heels                             | Tears for Fears          | David Bowie               |
 |----------------------------------------------+--------------------------+---------------------------|
