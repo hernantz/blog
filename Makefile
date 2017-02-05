@@ -39,6 +39,7 @@ help:
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make gitclean                    cleans the output git submodule    '
+	@echo '   make table                       shows the music table              '
 	@echo '   make regenerate                  regenerate files upon modification '
 	@echo '   make publish                     generate using production settings '
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
@@ -63,6 +64,9 @@ clean:
 
 gitclean:
 	[ ! -d $(OUTPUTDIR) ] || [! -d $(OUTPUTDIR)/.git/ ] || cd $(OUTPUTDIR) && git reset --hard && git rm -r * --cached --ignore-unmatch && git clean -f
+
+table:
+	csvsort content/music.csv -c 3,2 | csvlook
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
