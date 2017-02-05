@@ -174,6 +174,7 @@ Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
+There's a natural tendency for goverments to grow and freedoms to shrink.
 The government can default but not disappear. That is not fair with other competitors.
 
 Every policy that any organization imposes is an experiment basically. If the
