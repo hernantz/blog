@@ -5,16 +5,19 @@ Tags: reviews, rants, ideas
 Summary: Books, series, games and movies reviews. Part 2.
 Status: draft
 
-I've asked myself: why not simply put movie reviews on imdb,
-book reviews on goodreads, and so on? 
+I've asked myself: why not simply put movie reviews on imdb, book reviews on
+goodreads, and so on?
 
-A veces eso es exactamente lo que hago, pero sucede que mis reviews
-pueden no ser muy constructivos en el sentido que esos sitios quieren, y 
-otras veces mis reviews no cumplen con los terminos y condiciones impuestas
-por ese sitio para aceptar una review, y estoy de acuerdo con ellas!
+A veces eso es exactamente lo que hago, pero sucede que mis reviews pueden no
+ser muy constructivos en el sentido que esos sitios quieren, y otras veces mis
+reviews no cumplen con los terminos y condiciones impuestas por ese sitio para
+aceptar una review, y estoy de acuerdo con ellas!
 
-Asi que muchas veces lo unico que hago en esos sitios es dar mi puntuacion
-peor no escribir una review.
+Asi que muchas veces lo unico que hago en esos sitios es dar mi puntuacion pero
+no escribir una review.
+
+Ademas escribir un review sin spoilear es muy dificil para mi, por lo que esto
+mas que reviews deberian llamarse comments.
 
 ## La piel que habito 3.6
 La pelicula de a ratos se pone lenta y densa.
@@ -231,15 +234,15 @@ This one wasn't as good as the previous one.
 
 
 # Cloverfield 10 Lane
-No me gusto mucho cloverfield, pero esta pelicula no esta plantada como una secuela.
-Lo que sucede en el mundo cloverfield (yes, a new franchise has been born) es simplemente
-una excusa para contar un es un thriller inteligente, y digo inteligente porque las
-acutuaciones son bastante realistas (No mas Scream), y el personaje psycho esta muy bien
-logrado ya que nunca estas muy seguro de como juzgarlo, si como un loco o alguien cuerdo.
-Ya que todos estamos un poco locos, o un poco cuerdos, y eso se evidencia mas en situaciones
-poco comunes.
-Si tengo para criticar que el final me parecio bastante fuera de lugar, es decir no encaja con el
-realismo logrado en el resto de la peli.
+No me gusto mucho cloverfield, pero esta pelicula no esta plantada como una
+secuela.  Lo que sucede en el mundo cloverfield (yes, a new franchise has been
+born) es simplemente una excusa para contar un es un thriller inteligente, y
+digo inteligente porque las acutuaciones son bastante realistas (No mas
+Scream), y el personaje psycho esta muy bien logrado ya que nunca estas muy
+seguro de como juzgarlo, si como un loco o alguien cuerdo.  Ya que todos
+estamos un poco locos, o un poco cuerdos, y eso se evidencia mas en situaciones
+poco comunes.  Si tengo para criticar que el final me parecio bastante fuera de
+lugar, es decir no encaja con el realismo logrado en el resto de la peli.
 
 Una pelicula muy recomendable.
 **score: 4.9**
@@ -269,36 +272,33 @@ almost three hours duration.
 **score: 4.1**
 
 # Welcome to the dungeon
-It's fun, fast to play and easy to understand.
-The art of the cards if really good and the gameplay
-is balanced.
-It would have been nice to have some rules about how
-to select the champion so you are always forced to
-change it and it would've been awesome if the rules book
-included modified lyrics of welcome to the jungle.
+It's fun, fast to play and easy to understand. The art of the cards if really
+good and the gameplay is balanced.  It would have been nice to have some rules
+about how to select the champion so you are always forced to change it and it
+would've been awesome if the rules book included modified lyrics of welcome to
+the jungle.
 **score: 4.3**
 
 # Stranger things
-It's a mix of many movies and books containing a good deal of
-pop culture, monsters, alternative dimensions, an evil goverment
-agency, secret experiments, science, teenage romances and even more nerdy
-stuff and references (yes, it's got DoD too), with stereotypical characters and
-chiché scenes that besides being so predictable, it's still enjoyable.
-The storyline is simple and there is nothing left for the viewer
-to digest, no homework, so you just watch it and try to guess what's
-going to happen or which movie or book you've seen that before.
+It's a mix of many movies and books containing a good deal of pop culture,
+monsters, alternative dimensions, an evil goverment agency, secret experiments,
+science, teenage romances and even more nerdy stuff and references (yes, it's
+got DoD too), with stereotypical characters and chiché scenes that besides
+being so predictable, it's still enjoyable.  The storyline is simple and there
+is nothing left for the viewer to digest, no homework, so you just watch it and
+try to guess what's going to happen or which movie or book you've seen that
+before.
 **score: 4.5**
 
 # Black mirror
-It's like the new Twilight Zone, but revisited. Each episode is
-different, but there is still common background theme of matching technology
-and the dark side of mankind, which is very well achieved in the sense that
-after watching an episode you are left anguished.
-Love the fact that there some small details that can be noticed in different
-episodes like playing "anyone who knows what love is" or showing the same
-pregnancy test device.
-Besides the fact that there might be plot holes and some episodes are better
-done others, all things considered, Black Mirror is highly enjoyable.
+It's like the new Twilight Zone, but revisited. Each episode is different, but
+there is still common background theme of matching technology and the dark side
+of mankind, which is very well achieved in the sense that after watching an
+episode you are left anguished.  Love the fact that there some small details
+that can be noticed in different episodes like playing "anyone who knows what
+love is" or showing the same pregnancy test device.  Besides the fact that
+there might be plot holes and some episodes are better done others, all things
+considered, Black Mirror is highly enjoyable.
 **score: 4.6**
 
 # The loft
@@ -310,32 +310,32 @@ Suspects*.
 
 # Don't Breathe
 The level of suspense this movie achieves makes you hold your breathe the whole
-length. But when it comes to characters, I don't buy the idea of smart white guys
-being burglars. I guess they had force it this way for you to feel empathy for them
-and to make them work their way out of the complicated situation they get into.
-It's worth watching, but just once in your life I guess.
+length. But when it comes to characters, I don't buy the idea of smart white
+guys being burglars. I guess they had force it this way for you to feel empathy
+for them and to make them work their way out of the complicated situation they
+get into.  It's worth watching, but just once in your life I guess.
 **score: 3.5**
 
 # Arrival
-The movie requires you to take some time to process it, and for sure a second watch.
-It is similar to Interstellar in the sense that at first is highly scientific and
-by the end it turns into an emotional drama.
-The acting of the main character is great, it makes you feel anxious and scared
-all the first part of the movie when the first encounter happens.
-The second part of the movie in which they learn their language is a bit unclear,
-how much time it took? There is an explanation provided by the movie which is:
-learning a new language rewires your brain, and that also gives her the ability to
-see the future, and those visions could also be interpreted as a product of being
+The movie requires you to take some time to process it, and for sure a second
+watch.  It is similar to Interstellar in the sense that at first is highly
+scientific and by the end it turns into an emotional drama.  The acting of the
+main character is great, it makes you feel anxious and scared all the first
+part of the movie when the first encounter happens.  The second part of the
+movie in which they learn their language is a bit unclear, how much time it
+took? There is an explanation provided by the movie which is: learning a new
+language rewires your brain, and that also gives her the ability to see the
+future, and those visions could also be interpreted as a product of being
 overworked and lack of sleep.
 
-I would have liked that scientists started communicating secretively and that is
-how they would gain more understanding of the alien language.
+I would have liked that scientists started communicating secretively and that
+is how they would gain more understanding of the alien language.
 
-The last part is: if you knew what's going to happen, would you change anything?
-I liked the concept, but I didn't buy the scene of convincing China's prime minister
-to end the conflict. Maybe this could have been a mix of convincing the mission's
-major she had daily contact with, and, again, international collaboration from
-all scientists involved.
+The last part is: if you knew what's going to happen, would you change
+anything?  I liked the concept, but I didn't buy the scene of convincing
+China's prime minister to end the conflict. Maybe this could have been a mix of
+convincing the mission's major she had daily contact with, and, again,
+international collaboration from all scientists involved.
 
 The aliens, the spaceships, the alien language are also great.
 **score: 4.3**
@@ -346,3 +346,39 @@ It's funny, depressing and bizarre but realistic at the same time. You'll need
 some good dosses of popular culture to understand some of the references.
 The mix of animals and humans adds a lot to the show.
 **score: 4.1**
+
+# Alien Resurrection
+I'm a firm believer that the whole franchise is set upon great ideas but the
+movies are not that great.  Aliens and Alien Resurrection confirm that. The
+scenes are not well put together, stupid characters that do stupid things for
+no reason, catchy frases all over, etc.  It's kind of interesting to see that
+all the movies have a lot in common, yeah, not just the xenomorphs, but the
+stages of the movie. Skepticism, the alien breakout, the hunting, and the
+destructive ending, with an android, of course.
+Extra point for the human-alien.
+**score: 2.8**
+
+# Valley of Violence
+Why is it that all western movies have to look like the good, the bad and the
+ugly?  Might be because it was the apotheosis of western movies. So yeah,
+Valley of Violence is a western, with the good guy, the bad guys and also the
+ugly.  The extremely intelligent dog was a good and funny addition.  Now last
+two fights could have been more realistic, because puting a rope around
+someones neck and hanging him by surprise is not something you would count on
+to kill your enemy.
+**score: 3.7**
+
+# Oculous
+A hunted mirror that feeds from plants and animals and can give powerful
+alusinations is an insteresting idea for a horror movie. But if that mirror is
+too powerful that nobody can do anything about it, it becomes a borring
+massacre. Also, wtf with the wife that gets possesed and wants to kill her
+kids?
+**score: 2.8**
+
+# Exploding kittens
+Everyone loves this game, is fast and funny, which makes it a great filler. The
+only addition I would suggest is to add a ressurection card so that players
+that got eliminated can stay tuned for that card to appear and get back into
+the game.
+**score: 4.5**
