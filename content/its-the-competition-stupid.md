@@ -26,7 +26,7 @@ continue to choose being one.
 
 ## ...And justice for all
 
-First we need to understand something about the nature of our existence.
+First we need to understand some key limitations about the nature of our existence.
 
 We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter. The flow of time, the
@@ -36,33 +36,35 @@ Because of that, we are not 100% free. **We are conditioned, limited and
 biased** by what we know and don't know, by what we can and cannot do, by what
 we perceive and feel, by what we believe.
 
-Every day, all of us are making decisions that involve gambles, sometimes they
-are big gambles: what occupation to pursue, whom to marry, how to invest your
-savings, to have unprotected sex. Other times they are small gambles: ignoring
-a call or trying a new restaurant.
+Every day, all of us are making decisions that involve gambles. These gambles
+are sometimes big like what occupation to pursue, whom to marry, how to invest
+your savings or to have unprotected sex. Other times those gambles are small:
+ignoring a phone call or trying a menu in your favorite fast-food restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. There is also the cost of opportunity, you
 only have so much money or some much time.
 
-You can imagine that there is no perfect decision. We can point to an idea of
-"doing the best according to the circumstances we live in", and that in these
-circumstances, some of that future depends on the quality of decisions we make,
-and at times it depends on our luck. Because as it happens, in a sufficiently
-complex system, often those decisions are not made by us, yet we bear the
-consequences nonetheless.
-
 In every decision you make, you take your chances. Since no one knows the
 future for granted, there are always risks implied, unexpected outcomes. In
 other words, **success cannot be guaranteed**.
 
+You can imagine that there is no perfect decision. We can point to an idea of
+"doing the best according to the circumstances we live in", and that in these
+circumstances, some of our future depends on the quality of decisions we make,
+and at times it depends on our luck. Because as it happens, in a sufficiently
+complex system, often those decisions are not made by us, yet we bear the
+consequences nonetheless: the candidate you didn't like gets elected president,
+a lighting strikes your home and burns your appliances, your neighbors were
+noisy celebrating a birthday and you couldn't sleep the night before the final
+exam, etc.
+
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
-ones. Some go to good schools and some don't even go to school. Some had an
-accident and some won the lottery. Some are blind and some are paralytic. Some
-are tall and some are short. Some are handsome and some are ugly. Some were
-loved by their parents and some were not wanted. Some are old and some are
-young.
+ones. Some go to good schools and some don't even go to school. Some suffered
+an accident and some won the lottery. Some are blind and some are paralytic.
+Some are tall and some are short. Some are handsome and some are ugly. Some
+were loved by their parents and some were not wanted.
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some like to
@@ -70,10 +72,6 @@ study or work hard and some simply like to slack. Some only read the finance
 section in the newspaper and some just read the horoscope. Some eat healthy and
 do sports while others smoke and follow a sendentary lifestyle. Well you get
 the point, **equality of outcome cannot be guaranteed**.
-
-These make the very reason why meritocracy, the socialist paradise or Adam
-Smith's invisible hand are all utopian ideals impossible to be reached in a
-society.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
@@ -86,61 +84,29 @@ definition too.
 
 Some societies may meassure progess by advancements in human rights or the
 level of happiness of it's individuals [^8], others by more concrete figures
-like GDP, child mortality or number of college graduates.
+like GDP, child mortality or number of college graduates. Moreover, pray
+consider that there are multiple ways to meassure things like efficiency,
+innovation or poverty.
 
 Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
-sacrifices that need to be done.
+sacrifices needed to be done.
 
 **There is no absolute standard of justice and prosperity**. The pursuit of
 universal justice, equality and happiness for that matter, is futile. They can
 only be approximated to an agreed ideal that might change over time and is
-prone to subjective interpretation, if reliable metrics are not provided.
+prone to subjective interpretation, if no reliable metrics are provided.
 
 The only thing left for us is to agree on a set of artificial impositions that
 we are all going to live by and that are better, to our understanding, for the
-kind of world we want to live in. While these arbitrary impositions cannot be
+kind of society we want to live in. While these arbitrary impositions cannot be
 agreed universally, ideally, we would have the capability to be part of their
 selection somehow.
 
-There was no justice for dinosaurs. Even when they might have done everything they could in terms of adaptation through millions of years of evolution, they couldn't survive a gigantic meteorite (something that doesn't frequently and was impossible to anticipate).
-Again, many factors one does not control.
-
-Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas apto
-termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
-o haya estado bajo tierra cuando cayo el metiorito.
-
-
-
-A career open to all talents: every person should not have artificial impositions or obstacles that prevent
-them from pursuing a career/goal, should they have the opportunity and capacity to do it.
-
-
-Impones barreras en tu empresa para que no cualquiera puede entrar, solo los que vos crees mas aptos para un puesto.
-Impones barreras para limitar el accionar de violentos o psicopatas.
-
-
-## The good monopoly
-I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
-Goverments have the power of law enforcement, which other organizations don't.
-
-There are two primal fears in modern societies:
-
-1. Monopolies: concentration of power in evil people.
-2. Inequality and Lack of opportunities: Someone should provide them.
-
-Instead of monopolies, we should think about the things that limit competition:
-
-- Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
-- Corruption and mafia, usually hand in hand with a bigger power that permits these violations.
-- Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
-- It works well and it's efficient
-- Accepted because it can be changed every now and then (like governments)
-
-These roles are delegated to the government.
-
 
 ## Public enemy number one
+I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
+Goverments have the power of law enforcement, which other organizations don't.
 
 Concepts like justice and equality are mere ideals hard to reach universally. What is fair
 for some, might not be so for others. They only make sense when applied in a pragmatic way in a
@@ -150,8 +116,9 @@ Now how do get there? As it happens, in the search for justice, equality, happin
 we come together with people alike and form organization.
 
 Kinds of organizations:
+
 * There are aspects that allow choices to co-exists i.e multiple newspapers, soccer teams, brands of cookies, etc.
-Anyone can choose base on whatever is their motivation and possibilities.
+Anyone can choose based on whatever their motivations and possibilities are.
 * There are other things that don't allow other alternatives to co-exist. Governments are the most representative example of this kind.
 
 Centralized and external decision making doesn't seem like a good idea.
@@ -169,6 +136,8 @@ Governments believe that reality can be shaped by laws.
 
 ### Governments don't have enough competition
 
+Goverments are thought to be good monopolies
+
 USAR ESTE EJEMPLO>
 Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
@@ -180,7 +149,7 @@ The government can default but not disappear. That is not fair with other compet
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people, the experiment feels a lot like puting
 all the eggs in the same basket. Governments make decisions that are difficult
-in nature (regulate how people's live), which is very dangerous if there is only
+in nature (regulate how people should live), which is very dangerous if there is only
 one choice.
 
 See education, stupid regulations (gender on boards), clean energy, prohibition
@@ -222,7 +191,7 @@ regardless of their gender or the color of their skin?
 > Alfred Adler
 
 People think everything is free until they have to pay for it. When the
-government intervenes, is doesn't have that direct impact.  If you care about
+government intervenes, is doesn't have that direct impact. If you care about
 something, there is for sure a way you can help, without forcing everyone else
 to commit as you.
 
@@ -242,12 +211,6 @@ http://www.nationalaffairs.com/publications/detail/cultural-intelligence
 https://twitter.com/randal_olson/status/754703494108569601
 http://www.strongtowns.org/mission/#missioncopy
 
-If so, how much more important?
-
-As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
-that humanity might grow and develop towards a genuine understanding and perception of the Creation.
-This could only be accomplished with free will, since otherwise, if we were either perfect or we had
-only one choice, our existence wouldn't be of much value.
 
 
 ## Possible solutions
@@ -258,6 +221,7 @@ only one choice, our existence wouldn't be of much value.
 
 
 1. The pinnacle of competition: ciudades estado
+   Cities should become laboratories of social and economic experiments.
    http://cityobservatory.org/about/
    http://www.seasteading.org/
    The amount of power an organization should have should be inversely
@@ -283,6 +247,45 @@ enabling ideas to be probed in competition with other alternatives.
 Even in an unfair system, competition drives progress.
 
 It's the competition, [stupid][2].
+
+## Notes
+As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
+that humanity might grow and develop towards a genuine understanding and perception of the Creation.
+This could only be accomplished with free will, since otherwise, if we were either perfect or we had
+only one choice, our existence wouldn't be of much value.
+
+There was no justice for dinosaurs. Even when they might have done everything
+they could in terms of adaptation through millions of years of evolution, they
+couldn't survive a gigantic meteorite (something that doesn't frequently and
+was impossible to anticipate).  Again, many factors one does not control.
+
+These make the very reason why meritocracy, the socialist paradise or Adam
+Smith's invisible hand are all utopian ideals impossible to be reached in a
+society.
+
+Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas apto
+termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
+o haya estado bajo tierra cuando cayo el metiorito.
+
+A career open to all talents: every person should not have artificial impositions or obstacles that prevent
+them from pursuing a career/goal, should they have the opportunity and capacity to do it.
+
+
+There are two primal fears in modern societies:
+
+1. Monopolies: concentration of power in evil people that could get privileges.
+2. Inequality and Lack of opportunities: As a source of stagnation and injustice.
+
+Instead of monopolies, we should think about the things that limit competition:
+
+- Rules that protect them (bureaucracy, laws, regulations, minimum wages, etc)
+- Corruption and mafia, usually hand in hand with a bigger power that permits these violations.
+- Lack of investment in technology that could provide alternatives in case of the so called "natural monopolies"
+- It works well and it's efficient
+- Accepted because it's powers are limited and can be changed every now and then (like governments)
+
+
+
 
 
 [^3]: "There is a theory which states that if ever anyone discovers exactly
