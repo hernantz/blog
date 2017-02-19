@@ -126,13 +126,29 @@ Governments should be as atomic as possible.
 
 ### Governments are run by politicians
 Governments are the opium of the people.
-Politicians will do, not what is correct, but what is politically correct.
-Demagogy + sensationalism + Aristotle
+
+Lets assume politicians
+- Are honest and corruption is a thing of the past (left behind with the roman empire)
+- They do what is correct and not what is politically correct.
+- They do not promise things they cannot deliver.
+- The are honest and would rather loose votes than lie to their people.
+- They were elected because they are the right choice for the job, not because they are relatives or friends with powerful people,
+nor because they are famous or charismatic and give beautiful speeches.
+- They convince people about their ideas by providing reasonable arguments backed by real data, and not through costly advertising campaings
+or feeding sensationalism.
+- They define themselves as public servants and do not look to increase their influese and power and least they want to perpetuate in it.
+- They do listen to constructive feedback and do not demonize those who have different opinions.
+- They do not believe reality can be shaped by laws, but rather understand that changes have to be inplemented in phases and tracked down.
+
+So, even if you are not governed by populist, dishonest or mediocre burocrats...
+
+Demagogy + populism + sensationalism + Aristotle
 
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
 activity it cannot be tracked?.
 Governments believe that reality can be shaped by laws.
+https://www.youtube.com/watch?v=k8vVEbCquMw
 
 ### Governments don't have enough competition
 
