@@ -62,9 +62,9 @@ exam, etc.
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
 ones. Some go to good schools and some don't even go to school. Some suffered
-an accident and some won the lottery. Some are blind and some are paralytic.
-Some are tall and some are short. Some are handsome and some are ugly. Some
-were loved by their parents and some were not wanted.
+an accident and some won the lottery. Some are deaf some are blind. Some are
+strong and some are weak. Some are handsome and some are ugly. Some were loved
+by their parents and some were not wanted.
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some like to
@@ -121,8 +121,6 @@ Kinds of organizations:
 Anyone can choose based on whatever their motivations and possibilities are.
 * There are other things that don't allow other alternatives to co-exist. Governments are the most representative example of this kind.
 
-Centralized and external decision making doesn't seem like a good idea.
-Governments should be as atomic as possible.
 
 ### Governments are run by politicians
 Governments are the opium of the people.
@@ -138,7 +136,7 @@ nor because they are famous or charismatic and give beautiful speeches.
 or feeding sensationalism.
 - They define themselves as public servants and do not look to increase their influese and power and least they want to perpetuate in it.
 - They do listen to constructive feedback and do not demonize those who have different opinions.
-- They do not believe reality can be shaped by laws, but rather understand that changes have to be inplemented in phases and tracked down.
+- They do not believe reality can be shaped by laws, but rather understand that changes have to be implemented in phases and tracked down.
 
 So, even if you are not governed by populist, dishonest or mediocre burocrats...
 
@@ -147,7 +145,6 @@ Demagogy + populism + sensationalism + Aristotle
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
 activity it cannot be tracked?.
-Governments believe that reality can be shaped by laws.
 https://www.youtube.com/watch?v=k8vVEbCquMw
 
 ### Governments don't have enough competition
@@ -165,8 +162,10 @@ The government can default but not disappear. That is not fair with other compet
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people, the experiment feels a lot like puting
 all the eggs in the same basket. Governments make decisions that are difficult
-in nature (regulate how people should live), which is very dangerous if there is only
-one choice.
+in nature (basically they regulate how people should live), which is very
+dangerous if there is only one choice. Henseforth, centralized and external
+decision making doesn't seem like a good idea. Governments should be as atomic
+as possible.
 
 See education, stupid regulations (gender on boards), clean energy, prohibition
 of drugs. Unforetold consequences of well [intentioned initiatives][7].
@@ -256,13 +255,17 @@ http://www.strongtowns.org/mission/#missioncopy
 There is no absolute standard of justice. Justice should be provided in ways
 that competes with other views or understandings of the same concept.
 
-The availability of choices cannot guarantee, but increases the chances of
-prosperity in a free society, in the long term and even in an unfair system, by
-enabling ideas to be probed in competition with other alternatives.
+In the long term, and even in an unfair system, competition is what drives
+progress.
 
-Even in an unfair system, competition drives progress.
+Centralized planning can be the public enemy number one.
+
+The availability of choices cannot guarantee, but increases the chances of
+prosperity in a free society by enabling ideas to be probed in competition with
+other alternatives.
 
 It's the competition, [stupid][2].
+
 
 ## Notes
 As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
