@@ -16,7 +16,7 @@ artist/band only has so few songs I like, that I  would rather have someone
 else's repertoire get so much better.
 
 |----------------------------------------------+--------------------------+---------------------------|
-|  Song                                        | Original artis/band      | Proposed artist/band      |
+|  Song                                        | Original artist/band     | Proposed artist/band      |
 |----------------------------------------------+--------------------------+---------------------------|
 |  Consumed Future                             | Dreamshade               |                           |
 |  Todos las versiones de cover de The Ramones | The Ramones              |                           |
