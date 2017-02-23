@@ -382,3 +382,17 @@ only addition I would suggest is to add a ressurection card so that players
 that got eliminated can stay tuned for that card to appear and get back into
 the game.
 **score: 4.5**
+
+# Omnium Gatherum: Gray Heavens
+I can see this band getting better and better release after release.  Their
+last work is a masterpiece. The voice, the melody, everything has that power
+that goes through your body and leaves you with goosebumps. I had the chance
+to see them live and the sensation they left on me was the exact same one.
+**score: 4.7**
+
+# ...And justice for all
+People tend to idealize justice and goverments. This movie shows that behind
+all that there's normal people, which doesn't exclude and often involves
+things like burocracy, corruption, mediocricy, and backstabbing.
+Al Pacino's acting is superb.
+**score: 4.3**
