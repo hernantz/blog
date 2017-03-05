@@ -67,11 +67,12 @@ strong and some are weak. Some are handsome and some are ugly. Some were loved
 by their parents and some were not wanted.
 
 And even if opportunities are provided, not everyone might be wise to take
-advantage of them. Some act rationally and some act compulsively. Some like to
-study or work hard and some simply like to slack. Some only read the finance
-section in the newspaper and some just read the horoscope. Some eat healthy and
-do sports while others smoke and follow a sendentary lifestyle. Well you get
-the point, **equality of outcome cannot be guaranteed**.
+advantage of them. Some act rationally and some act compulsively. Some might
+want to travel, some just prefer to stay home [^9]. Some like to study or work
+hard and some simply like to slack. Some only read the finance section in the
+newspaper and some just read the horoscope. Some eat healthy and do sports
+while others smoke and follow a sendentary lifestyle. Well you get the point,
+**equality of outcome cannot be guaranteed**.
 
 Seeing how complex and fragile our existence is, would you say that life is
 fair? And if not, who should fix it? How should justice be provided? What does
@@ -136,7 +137,7 @@ nor because they are famous or charismatic and give beautiful speeches.
 or feeding sensationalism.
 - They define themselves as public servants and do not look to increase their influese and power and least they want to perpetuate in it.
 - They do listen to constructive feedback and do not demonize those who have different opinions.
-- They do not believe reality can be shaped by laws, but rather understand that changes have to be implemented in phases and tracked down.
+- They do not believe reality can be shaped by laws [^10], but rather understand that changes have to be implemented in phases and tracked down.
 
 So, even if you are not governed by populist, dishonest or mediocre burocrats...
 
@@ -164,8 +165,9 @@ organization affects too many people, the experiment feels a lot like puting
 all the eggs in the same basket. Governments make decisions that are difficult
 in nature (basically they regulate how people should live), which is very
 dangerous if there is only one choice. Henseforth, centralized and external
-decision making doesn't seem like a good idea. Governments should be as atomic
-as possible.
+decision making doesn't seem like a good idea, even if the ones that make those
+decisions are doing what they think best. Governments should be as atomic as
+possible.
 
 See education, stupid regulations (gender on boards), clean energy, prohibition
 of drugs. Unforetold consequences of well [intentioned initiatives][7].
@@ -320,6 +322,16 @@ Instead of monopolies, we should think about the things that limit competition:
       Buddhist spiritual values, instead of western material development gauged by
       gross domestic product (GDP).
 
+[^9]: "Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our
+      people need it sorely on these accounts. Broad, wholesome, charitable views of
+      men and things cannot be acquired by vegetating in one little corner of the
+      earth all one's lifetime."
+
+      ― Mark Twain, [The Innocents Abroad/Roughing It][8]
+
+[^10]: No written law has ever been more binding
+       than unwritten custom supported by popular opinion.
+       ― Carrie Chapman Catt
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
 [2]: https://en.wikipedia.org/wiki/It%27s_the_economy,_stupid "It's the economy, stupid"
@@ -329,3 +341,4 @@ Instead of monopolies, we should think about the things that limit competition:
 [6]: https://en.wikipedia.org/wiki/The_Singularity_Is_Near "The Singularity Is Near"
 [7]: http://www.forbes.com/sites/realspin/2016/11/29/thanks-to-fight-for-15-minimum-wage-mcdonalds-unveils-job-replacing-self-service-kiosks-nationwide/ "Thanks To 'Fight For $15' Minimum Wage, McDonald's Unveils Job-Replacing Self-Service Kiosks Nationwide"
 [8]: https://en.wikipedia.org/wiki/Gross_National_Happiness "Gross National Happiness"
+[9]: https://www.goodreads.com/quotes/1716-travel-is-fatal-to-prejudice-bigotry-and-narrow-mindedness-and-many
