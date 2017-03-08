@@ -39,4 +39,10 @@ EXTRA_PATH_METADATA = {
 PLUGIN_PATHS = ['/home/hernantz/devel/pelican-plugins']
 PLUGINS = ['sitemap']
 
-MARKDOWN = ['codehilite(css_class=highlight)', 'extra', 'toc(permalink=True)']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.toc': {'permalink': True}
+    }
+}
