@@ -84,10 +84,10 @@ have the chance to enjoy the fruits of prosperity. So we have to agree on it's
 definition too.
 
 Some societies may meassure progess by advancements in human rights or the
-level of happiness of it's individuals [^8], others by more concrete figures
-like GDP, child mortality or number of college graduates. Moreover, pray
-consider that there are multiple ways to meassure things like efficiency,
-innovation or poverty.
+level of happiness of it's individuals [^8], others by more [concrete
+figures][11] like GDP, child mortality or number of college graduates.
+Moreover, pray consider that there are multiple ways to meassure things like
+efficiency, innovation or poverty.
 
 Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
@@ -342,3 +342,5 @@ Instead of monopolies, we should think about the things that limit competition:
 [7]: http://www.forbes.com/sites/realspin/2016/11/29/thanks-to-fight-for-15-minimum-wage-mcdonalds-unveils-job-replacing-self-service-kiosks-nationwide/ "Thanks To 'Fight For $15' Minimum Wage, McDonald's Unveils Job-Replacing Self-Service Kiosks Nationwide"
 [8]: https://en.wikipedia.org/wiki/Gross_National_Happiness "Gross National Happiness"
 [9]: https://www.goodreads.com/quotes/1716-travel-is-fatal-to-prejudice-bigotry-and-narrow-mindedness-and-many
+[10]:
+[11]: https://twitter.com/BillGates/status/837751940356444160 "Progress is sometimes hard to see…"
