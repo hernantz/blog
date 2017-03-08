@@ -384,10 +384,12 @@ the game.
 **score: 4.5**
 
 # Omnium Gatherum: Gray Heavens
-I can see this band getting better and better release after release.  Their
-last work is a masterpiece. The voice, the melody, everything has that power
-that goes through your body and leaves you with goosebumps. I had the chance
-to see them live and the sensation they left on me was the exact same one.
+It is not uncommon that the natural progression for bands is to get worse every
+new album, but Omnium Gatherum is the exact opposite. This band is getting
+better and better release after release. Their last work is a masterpiece. The
+voice, the melody, everything has that power that goes through your body and
+leaves you with goosebumps. I had the chance to see them live and the sensation
+they left on me was the exact same one.
 **score: 4.7**
 
 # ...And justice for all
