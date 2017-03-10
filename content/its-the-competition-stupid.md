@@ -45,9 +45,10 @@ The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. There is also the cost of opportunity, you
 only have so much money or some much time.
 
-In every decision you make, you take your chances. Since no one knows the
-future for granted, there are always risks implied, unexpected outcomes. In
-other words, **success cannot be guaranteed**.
+In every decision you make, you take your chances. Every choice has it's
+consequences. Since no one knows the future for granted, there are always risks
+implied, unexpected outcomes. In other words, **success cannot be guaranteed**
+for anyone and by anyone.
 
 You can imagine that there is no perfect decision. We can point to an idea of
 "doing the best according to the circumstances we live in", and that in these
@@ -93,10 +94,11 @@ Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
 sacrifices needed to be done.
 
-**There is no absolute standard of justice and prosperity**. The pursuit of
-universal justice, equality and happiness for that matter, is futile. They can
-only be approximated to an agreed ideal that might change over time and is
-prone to subjective interpretation, if no reliable metrics are provided.
+All this leads to an obvious conclusion: **there is no absolute standard of
+justice and prosperity**. The pursuit of universal justice, equality and
+happiness for that matter, is futile. They can only be approximated to an
+agreed ideal that might change over time and is prone to subjective
+interpretation, if no reliable metrics are provided.
 
 The only thing left for us is to agree on a set of artificial impositions that
 we are all going to live by and that are better, to our understanding, for the
@@ -124,29 +126,24 @@ Anyone can choose based on whatever their motivations and possibilities are.
 
 
 ### Governments are run by politicians
-Governments are the opium of the people.
 
-Lets assume politicians
-- Are honest and corruption is a thing of the past (left behind with the roman empire)
-- They do what is correct and not what is politically correct.
-- They do not promise things they cannot deliver.
-- The are honest and would rather loose votes than lie to their people.
-- They were elected because they are the right choice for the job, not because they are relatives or friends with powerful people,
-nor because they are famous or charismatic and give beautiful speeches.
-- They convince people about their ideas by providing reasonable arguments backed by real data, and not through costly advertising campaings
-or feeding sensationalism.
-- They define themselves as public servants and do not look to increase their influese and power and least they want to perpetuate in it.
-- They do listen to constructive feedback and do not demonize those who have different opinions.
-- They do not believe reality can be shaped by laws [^10], but rather understand that changes have to be implemented in phases and tracked down.
+Lets assume politicians are honest and corruption is a thing of the past (left
+behind with the roman empire). They do what is correct and not what is
+politically correct. The are honest and would rather loose votes than lie to
+their people and promise things they cannot deliver. They were elected because
+they are the right choice for the job, not because they are relatives or
+friends with powerful people, nor because they are famous or charismatic and
+give beautiful speeches. They convince people about their ideas by providing
+reasonable arguments backed by real data, and not through costly advertising
+campaings or feeding sensationalism. They define themselves as public servants
+and do not look to increase their influese and power and least they want to
+perpetuate in it. They do listen to constructive feedback and do not demonize
+those who have different opinions. Finally, they do not believe reality can be
+shaped by laws [^10], but rather understand that changes have to be implemented
+in phases and tracked down.
 
-So, even if you are not governed by populist, dishonest or mediocre burocrats...
-
-Demagogy + populism + sensationalism + Aristotle
-
-Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
-corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
-activity it cannot be tracked?.
-https://www.youtube.com/watch?v=k8vVEbCquMw
+And we all know that this is asking a lot, but, even if you are not governed by
+populist, dishonest or mediocre burocrats...
 
 ### Governments don't have enough competition
 
@@ -160,27 +157,6 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 There's a natural tendency for goverments to grow and freedoms to shrink.
 The government can default but not disappear. That is not fair with other competitors.
 
-Every policy that any organization imposes is an experiment basically. If the
-organization affects too many people, the experiment feels a lot like puting
-all the eggs in the same basket. Governments make decisions that are difficult
-in nature (basically they regulate how people should live), which is very
-dangerous if there is only one choice. Henseforth, centralized and external
-decision making doesn't seem like a good idea, even if the ones that make those
-decisions are doing what they think best. Governments should be as atomic as
-possible.
-
-See education, stupid regulations (gender on boards), clean energy, prohibition
-of drugs. Unforetold consequences of well [intentioned initiatives][7].
-
-The cost of switching to a different provider of public services is too high
-and sometimes unaffordable for a member of a society.
-The only choices left are:
-- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
-- You go outlaw
-- You change your government (if you are luky via elections or, if you are really unluky, via a revolution)
-
-Much more is achieved by lots of trial an error experiments rather than a single big plan
-
 > An economy has untold possible outcomes. Its complexity comes both from the
 > near infinite variety that can come from permutations of simple rules, and
 > from the fact that billions of humans are playing the game simultaneously,
@@ -190,6 +166,27 @@ Much more is achieved by lots of trial an error experiments rather than a single
 > full consequences of their decisions.
 >
 > <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
+
+Every policy that any organization imposes is an experiment basically. If the
+organization affects too many people, the experiment feels a lot like puting
+all the eggs in the same basket. Governments make decisions that are difficult
+in nature (basically they regulate how people should live), which is very
+dangerous if there is only one choice. Henseforth, centralized and external
+decision making doesn't seem like a good idea, even if the ones that make those
+decisions are doing what they think best.
+
+See education, stupid regulations (gender on boards), clean energy, prohibition
+of drugs. Unforetold consequences of well [intentioned initiatives][7].
+
+The cost of switching to a different provider of public services is too high
+and sometimes unaffordable for a member of a society.
+The only choices left are:
+
+- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
+- You go outlaw
+- You change your government (if you are luky via elections or, if you are really unluky, via a revolution)
+
+Much more is achieved by lots of trial an error experiments rather than a single big plan
 
 Ejemplo de los containers
 https://www.flexport.com/blog/port-automation-oakland-rotterdam/
@@ -201,12 +198,12 @@ of their workforce be women or black, or employees should be hired and valued
 regardless of their gender or the color of their skin?
 
 
-### Hypocrisy
+### Governments are the opium of the people
 
 > It is always easier to fight for one's principles than to live up to them.
 >
 > Alfred Adler
-
+Hypocrisy
 People think everything is free until they have to pay for it. When the
 government intervenes, is doesn't have that direct impact. If you care about
 something, there is for sure a way you can help, without forcing everyone else
@@ -274,6 +271,11 @@ As John Hick once stated, God allows suffering, by creating us "imperfect and im
 that humanity might grow and develop towards a genuine understanding and perception of the Creation.
 This could only be accomplished with free will, since otherwise, if we were either perfect or we had
 only one choice, our existence wouldn't be of much value.
+
+Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
+corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
+activity it cannot be tracked?.
+https://www.youtube.com/watch?v=k8vVEbCquMw
 
 There was no justice for dinosaurs. Even when they might have done everything
 they could in terms of adaptation through millions of years of evolution, they
