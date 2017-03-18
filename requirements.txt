@@ -1,2 +1,3 @@
 pelican==3.7.1
 Markdown==2.6.6
+csvkit==0.9.1
