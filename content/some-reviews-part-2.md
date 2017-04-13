@@ -398,3 +398,30 @@ all that there's normal people, which doesn't exclude and often involves
 things like burocracy, corruption, mediocricy, and backstabbing.
 Al Pacino's acting is superb.
 **score: 4.3**
+
+# Hell or High Water
+Kinda modern western that looks a lot after No Country for Old Men, showing the
+Death South of USA. The only thing I think was unnecessary was that in the
+shooting at the hill, S.W.A.T. appears, within a matter of minutes, while
+apparently it only took 30 to 40 minutes for the ranger to get around the hill
+and kill the shooter. Besides that the story and relationship between these
+brothers is interesting.
+**score: 4.4**
+
+# Trainspotting
+Don't do drugs.
+**score: 4.8**
+
+# Split
+The storytelling is boring, making it very linear. The characters suck, besides
+the maniac and the girl. Yes, the other two stupid girls die. There shouldn't
+have been so much information about the terapy sessions this maniac was going
+through.  If only the movie ended with some postmortem videos where the
+terapist is narating his case the movie would have less predictable. One point
+for the acting of the crazy guy.
+**score: 2.4**
+
+# The Phoenix Project
+Great intro to dealing with comporate burocacy, tribal wars between areas that
+work like silos You'll enjoy it better if you have worked in the IT business
+(there is some specific jargon involved too).
