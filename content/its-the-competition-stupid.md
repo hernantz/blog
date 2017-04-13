@@ -249,6 +249,10 @@ http://www.strongtowns.org/mission/#missioncopy
    live as gods in our own universe.
 
 
+Among the cities this new world has to offer I would choose a libertarian one,
+which one would you choose?
+
+
 ## Conclusion
 
 There is no absolute standard of justice. Justice should be provided in ways
