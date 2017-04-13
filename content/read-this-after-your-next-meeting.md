@@ -12,4 +12,6 @@ Team decision making should be made async and acron.
 The only way to achieve this is through text based comunication, which
 holds both properties.
 
+https://dave.cheney.net/2017/04/11/why-slack-is-inappropriate-for-open-source-communications
+
 [1]: http://hackaday.com/2016/10/06/life-on-contract-how-to-have-a-meeting/ "Life on contract: How to have a meeting"

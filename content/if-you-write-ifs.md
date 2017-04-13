@@ -177,3 +177,6 @@ http://degoes.net/articles/destroy-all-ifs
 
 Agrupar variables al pricipio de las funciones porque siempre agrupamos cosas que son lo mismo 
 variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma ideal de organizarse.
+
+http://jrsinclair.com/articles/2017/javascript-without-loops/
+http://pozorvlak.livejournal.com/94558.html

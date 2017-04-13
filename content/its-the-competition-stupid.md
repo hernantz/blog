@@ -267,10 +267,14 @@ It's the competition, [stupid][2].
 
 
 ## Notes
+Search for committed suicide because socialism had arrived.
 As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
 that humanity might grow and develop towards a genuine understanding and perception of the Creation.
 This could only be accomplished with free will, since otherwise, if we were either perfect or we had
 only one choice, our existence wouldn't be of much value.
+
+https://points.datasociety.net/when-good-intentions-backfire-786fb0dead03
+https://www.theguardian.com/global-development-professionals-network/2017/feb/08/obsession-with-ending-poverty-is-where-development-is-going-wrong
 
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
