@@ -1,8 +1,7 @@
-Title: Calendaring events with python 
-Date: 04-07-2017
+Title: Calendaring events with Python
+Date: 04-13-2017
 Category: Programming
-Tags: python
-Status: draft
+Tags: python, timezones
 Summary: Some gotchas you'll find when scheduling the next world's doomsday.
 
 
@@ -51,13 +50,13 @@ datetime.datetime(2017, 4, 4, 13, 37, 1, 833276)
 datetime.datetime(2017, 4, 4, 13, 37, 44, 500463, tzinfo=<UTC>)
 ```
 
-Despite [PEP495][6]'s attempt at providing some extra help to disambiguate
-naive dates, it is highly recommended that you **convert dates to UTC as soon
-as they enter the system** and work with them that way for calculations and
-queries. Despite the fact that you can take naive dates as being [UTC
+Some attempts have been made for providing extra help to disambiguate naive
+dates [^5], but still, it is highly recommended that you **convert dates to UTC
+as soon as they enter the system** and work with them that way for calculations
+and queries. Despite the fact that you can take naive dates as being [UTC
 implicitly][7], I would suggest to still [attach the UTC tz][10] to them [^6].
 This way, all the information is there, and it becomes easier to reason about
-date calculations.
+dates.
 
 For example, when logging events, you can see logs that have the same date,
 that would seem to be duplicated because of DST. Instead if you have them in
@@ -70,16 +69,16 @@ UTC and in the [ISO format][12], there is no place left for confusion.
 '2002-10-27T01:30:00-04:00'  # with timezone attached
 '2002-10-27T01:30:00-05:00'
 
-'2002-10-27T05:30:00+00:00'  # in UTC 
+'2002-10-27T05:30:00+00:00'  # in UTC, evidently there is an hour difference
 '2002-10-27T06:30:00+00:00'
 ```
 
 Even more, a sever could fire repeated crons or skip them if not configured to
 [use UTC][15] due to a DST switch.
 
-When doing calculations, despite the fact that you can manipulate aware dates
-transparently [^7] the math is evident for the programmer if those dates are in
-UTC:
+When doing calculations, despite the fact that you can manipulate
+aware dates transparently [^7] the math is evident for the programmer if those
+dates are in UTC:
 
 ```python
 >>> buenos_aires
@@ -89,35 +88,35 @@ datetime.datetime(2017, 4, 5, 2, 0,
 datetime.datetime(2017, 4, 5, 6, 0, 
     tzinfo=<DstTzInfo 'Europe/Madrid' CEST+2:00:00 DST>)
 >>> buenos_aires - madrid
-datetime.timedelta(0, 3600)  # mmm... hard to tell...
+datetime.timedelta(0, 3600)  # mmm... why? 
 >>> pytz.utc.normalize(buenos_aires)
 datetime.datetime(2017, 4, 5, 5, 0, tzinfo=<UTC>)
->>> pytz.utc.normalize(madrid)  # there is obviously a one hour diff
-datetime.datetime(2017, 4, 5, 4, 0, tzinfo=<UTC>)
+>>> pytz.utc.normalize(madrid)
+datetime.datetime(2017, 4, 5, 4, 0, tzinfo=<UTC>) # a one hour diff, obvi!
 >>> pytz.utc.normalize(buenos_aires) - pytz.utc.normalize(madrid)
 datetime.timedelta(0, 3600)  # yeah! same results
 ```
 
-Event durations can be counter-intuitive if you don't keep in mind the
+Moreover, event durations can be counter-intuitive if you don't keep in mind the
 in-between jumps of DST:
 
 ```python
 >>> eastern = pytz.timezone('US/Eastern')
 >>> loc_dt = datetime.datetime(2002, 10, 27, 1, 30, 00)  # date occured twice
->>> edt_dt = eastern.localize(loc_dt, is_dst=False)  # notice the is_dst flag
->>> edt_dt.isoformat()
+>>> end = eastern.localize(loc_dt, is_dst=False)  # notice the is_dst flag
+>>> end.isoformat()
 '2002-10-27T01:30:00-05:00'
->>> est_dt = eastern.localize(loc_dt, is_dst=True)
->>> est_dt.isoformat()
+>>> start = eastern.localize(loc_dt, is_dst=True)
+>>> start.isoformat()
 '2002-10-27T01:30:00-04:00'
->>> edt_dt - est_dt
-datetime.timedelta(0, 3600)
+>>> end - start
+datetime.timedelta(0, 3600)  # same date, time and tz, but different offset
 ```
 
 If your are rendering these kind of events in some sort of calendar, you'll
 have to decide if dates or duration is what determines how to represent this
 event in a slot. And when building these dates, the user needs to disambiguate
-them explicitly, provide the `is_dst` flag that is.
+them explicitly, providing the `is_dst` flag.
 
 Also, down the line of doing calculations in local timezones, we can see
 that when adding timedeltas to a `datetime` aware object, you may end up
@@ -140,7 +139,8 @@ with the wrong result.
 
 Last, but not least, remember to never use `replace()` for attaching timezones.
 Otherwise you will very probably end up with the wrong date as a result. Use
-pytz's `normalize()` and `localize()` methods instead.
+pytz's `normalize()` and `localize()` methods instead, since they use the tz
+table for convertions.
 
 ```python
 >>> dt = datetime.datetime(2002, 4, 7, 2, 30)  # never existed in US/Eastern
@@ -180,7 +180,8 @@ The procedure is perfectly explained [here][14] and involves naive dates on
 purpose!
 
 We first have to generate the occurrences regardless or the timezone settings,
-all at the same time (*basically by adding timedeltas*):
+all at the same time. Because of the way this lib works (*basically by adding
+timedeltas*), it is that we need to feed it with naive start and/or end dates:
 
 ```python
 >>> start = datetime.datetime(2014, 2, 22, 11, 0)  # Feb 22
@@ -193,8 +194,8 @@ all at the same time (*basically by adding timedeltas*):
 ```
 
 Now we will attach the user's timezone to these dates and normalize them to
-UTC, so that the change happens on the stored dates, but the time the user will
-see in their local timezone stays intact.
+UTC. You can see that the change happens on the stored dates, but the time the
+user will see in their local timezone stays intact.
 
 ```python
 >>> tz = pytz.timezone('America/Chicago')  # observes DST switch on March 9
@@ -218,8 +219,8 @@ generate a series based on the user preferences, but having all future
 occurrences generated in advance is wasteful.
 
 In this use case you only care about the next recurrence after now, and every
-now and then (i.e. every minute) you poll all scheduled reminders and calculate
-the next occurrence with a cron-like job [^9].
+now and then (i.e. every minute) you poll all scheduled reminders that expired
+and calculate the next occurrence with a cron-like job [^9].
 
 ```python
 tz = pytz.timezone('US/Eastern')
@@ -286,6 +287,7 @@ suggest you to read all linked pages, they are there for a reason!
           >>> dt.replace(fold=1).astimezone().strftime('%D %T %Z%z')
           '11/02/14 01:30:00 EST-0500'
       This way we can represent just one moment in time in an ambiguous case.
+      Other ideas were also discussed in [PEP431][18]
 [^6]: This is a peak at some of the terminology involved when dealing with dates:
 
       * naive datetime – a datetime object without a timezone.
@@ -322,3 +324,4 @@ suggest you to read all linked pages, they are there for a reason!
 [15]: http://www.creativedeletion.com/2015/08/07/why-not-to-use-server-local-time.html "Why not to ask the server for its "local time"
 [16]: http://tommikaikkonen.github.io/timezones/ "timezones"
 [17]: https://github.com/ambitioninc/django-localized-recurrence "Django localized recurrence"
+[18]: https://www.python.org/dev/peps/pep-0431/ "Timezone support improvements"
