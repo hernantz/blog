@@ -79,6 +79,7 @@ else's repertoire get so much better.
 |  Somebody is watching me     | Rockwell                 | Michael Jackson           |
 |  I can't feel my face        | The Weeknd               | Michael Jackson           |
 |  You get what you give       | New Radicals             | Mick Jagger               |
+|  Acid Fuzz                   | Toxic Holocaust          | Municipal Waste           |
 |  Honest Mistake              | The Bravery              | Muse                      |
 |  King of the kill            | Annihilator              | Newsted                   |
 |  Gone Suvering               | Stone Sour               | Newsted                   |
@@ -99,6 +100,7 @@ else's repertoire get so much better.
 |  My Sherona                  | The Knack                | The Beatles               |
 |  Gotta Go                    | Agnostic Front           | The Mistfits              |
 |  Danzig                      | Mother                   | The Mistfits              |
+|  Bitter End                  | Placebo                  | The Music                 |
 |  I Fought the Law            | The Clash                | The Ramones               |
 |  DMSLT                       | A Pale Horse Named Death | Type O Negative           |
 |  The Dark Inside             | Ackercocke               | Type O Negative           |
