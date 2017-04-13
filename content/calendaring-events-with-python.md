@@ -3,7 +3,7 @@ Date: 04-07-2017
 Category: Programming
 Tags: python
 Status: draft
-Summary: Some gotchas to keep in mind when scheduling your next doomsday
+Summary: Some gotchas you'll find when scheduling the next world's doomsday.
 
 
 ![Aztec sun stone](/images/aztec-calendar.png "Aztec sun stone")
@@ -19,9 +19,9 @@ Yes, working with dates is [hard][8].
 **Dates mean nothing without the proper context**, and that context is provided
 by what it is called a [timezone][2].
 
-**A timezone it doesn't mean just the offset**, because that offset can change,
-that is they have names, and are attached to a geographical location, under a
-certain jurisdiction. Unless we are speaking of the UTC timezone, which is a
+**A timezone doesn't mean just the offset**, because that offset can change.
+Instead they have names, and are attached to a geographical location, under a
+certain jurisdiction, unless we are speaking of the UTC timezone, which is a
 very special one.
 
 We should think UTC time as the entire world's current time you compare all
@@ -34,11 +34,11 @@ If that is something you cannot control, be advised that the dates your system
 is dealing with might not be correct (i.e. in an embedded device).
 
 Updates can be handled differently depending on the OS, program or language you
-use. For example, in linux there is a package `tzdata`, but some programs like
-the browser or postgres contain their own copies [^4].
+use. For example, in Linux there is a package `tzdata`, but some programs like
+the browser or Postgres contain their own copies [^4].
 
 Python provides naive dates by default through it's `datetime` module, and it
-is someone else's responsability to provide tz information, for example, `pytz`
+is someone else's responsibility to provide tz information, for example, `pytz`
 is a [library][5] that *"brings the Olson tz database into Python"* providing
 timezone classes to use with `datetime` objects.
 
@@ -51,17 +51,17 @@ datetime.datetime(2017, 4, 4, 13, 37, 1, 833276)
 datetime.datetime(2017, 4, 4, 13, 37, 44, 500463, tzinfo=<UTC>)
 ```
 
-Despite [PEP495][6]'s attempt at providing some extra help to desambiguate
-naive dates, it is highly recomended that you **convert dates to UTC as soon as
-they enter the system** and work with them that way for calculations and
+Despite [PEP495][6]'s attempt at providing some extra help to disambiguate
+naive dates, it is highly recommended that you **convert dates to UTC as soon
+as they enter the system** and work with them that way for calculations and
 queries. Despite the fact that you can take naive dates as being [UTC
 implicitly][7], I would suggest to still [attach the UTC tz][10] to them [^6].
-This way, all the information is there, and it becomes easier to reason about date
-calculations:
+This way, all the information is there, and it becomes easier to reason about
+date calculations.
 
-When logging events, you can see logs that have the same date, that would seem
-to be duplicated because of DST. Instead if you have them in UTC and in the
-[ISO format][12], there is no place left for confusion.
+For example, when logging events, you can see logs that have the same date,
+that would seem to be duplicated because of DST. Instead if you have them in
+UTC and in the [ISO format][12], there is no place left for confusion.
 
 ```python
 '2002-10-27T01:30:00'  # no timezone attached
@@ -76,36 +76,6 @@ to be duplicated because of DST. Instead if you have them in UTC and in the
 
 Even more, a sever could fire repeated crons or skip them if not configured to
 [use UTC][15] due to a DST switch.
-
-When retriving today's entries from a database, it is important to request
-those dates in the UTC version of the user's 00:00 to 23:59 time lapse, since
-*today* is relative to the timezone you are currently at, and using *UTC's
-today* is not an option. *Note*: Be extra carefull if you are caching these
-results, and make sure that the timezone is part of the cache's key.
-
-```python
-# Assuming event dates are stored in UTC (like postgres does).
-# These convertions might not be needed depending on the storage engine
-# or frameworks you are using.
-
-def active(self):
-    now = datetime.utcnow().replace(tzinfo=utc)
-    return events.filter(start<=now, end>=now)
-
-def future(self):
-    now = datetime.utcnow().replace(tzinfo=utc)
-    return events.filter(start>=now)
-
-def today_only(self):
-    # UTC's current date might be different from user's date
-    # datetime.datetime.combine returns naive dates :(
-    local_now = user_tz.normalize(datetime.utcnow().replace(tzinfo=utc))
-    local_today_min = user_tz.localize(datetime.combine(local_now, time.min))
-    local_today_max = user_tz.localize(datetime.combine(local_now, time.max))
-    today_min = utc.normalize(local_today_min)
-    today_max = utc.normalize(local_today_max)
-    return events.filter(start>=today_min, end<=today_max)
-```
 
 When doing calculations, despite the fact that you can manipulate aware dates
 transparently [^7] the math is evident for the programmer if those dates are in
@@ -128,9 +98,9 @@ datetime.datetime(2017, 4, 5, 4, 0, tzinfo=<UTC>)
 datetime.timedelta(0, 3600)  # yeah! same results
 ```
 
-Event durations can be conterintuitive ir you don't keep in mind the inbetween
-jumps of DST. And when building this dates, the user needs to desambiguate them 
-explicitly, provide the `is_dst` flag that is.
+Event durations can be counter-intuitive if you don't keep in mind the
+in-between jumps of DST:
+
 ```python
 >>> eastern = pytz.timezone('US/Eastern')
 >>> loc_dt = datetime.datetime(2002, 10, 27, 1, 30, 00)  # date occured twice
@@ -143,21 +113,56 @@ explicitly, provide the `is_dst` flag that is.
 >>> edt_dt - est_dt
 datetime.timedelta(0, 3600)
 ```
+
 If your are rendering these kind of events in some sort of calendar, you'll
 have to decide if dates or duration is what determines how to represent this
-event in a slot.
+event in a slot. And when building these dates, the user needs to disambiguate
+them explicitly, provide the `is_dst` flag that is.
 
-Now that we know that UTC aware dates everywhere [is the way to go][16],
-there are some extra details to pay attention to:
+Also, down the line of doing calculations in local timezones, we can see
+that when adding timedeltas to a `datetime` aware object, you may end up
+with the wrong result.
+
+```python
+>>> # Sunday, 7 April 2002, 02:00:00 clocks were turned forward 1 hour to
+>>> # Sunday, 7 April 2002, 03:00:00 local daylight time instead
+>>> eastern = pytz.timezone('US/Eastern')
+>>> loc_dt = datetime.datetime(2002, 4, 7, 2, 0, 0)
+>>> edt_dt = eastern.localize(loc_dt)
+>>> est_dt = edt_dt + datetime.timedelta(hours=1)
+>>> edt_dt.isoformat()
+'2002-04-07T02:00:00-05:00'
+>>> est_dt.isoformat()
+'2002-04-07T03:00:00-05:00'  # mmm they have the same offset, this is odd
+>>> eastern.normalize(est_dt).isoformat()
+'2002-04-07T04:00:00-04:00'  # this is what I expected
+```
+
+Last, but not least, remember to never use `replace()` for attaching timezones.
+Otherwise you will very probably end up with the wrong date as a result. Use
+pytz's `normalize()` and `localize()` methods instead.
+
+```python
+>>> dt = datetime.datetime(2002, 4, 7, 2, 30)  # never existed in US/Eastern
+>>> dt.replace(tzinfo=eastern)
+datetime.datetime(2002, 4, 7, 2, 30,
+    tzinfo=<DstTzInfo 'US/Eastern' LMT-1 day, 19:04:00 STD>)  # what?
+>>> eastern.normalize(eastern.localize(dt))
+datetime.datetime(2002, 4, 7, 3, 30,
+    tzinfo=<DstTzInfo 'US/Eastern' EDT-1 day, 20:00:00 DST>)  # much better
+```
+
+Moving on, now that we know that UTC aware dates everywhere [is the way to
+go][16], there are some extra details to pay attention to:
 
 1. It is a good idea to store the user's timezone, so that you are able
    to format dates in case you don't trust the clients ability to display them
-   correctly (due to an outdated db on their side, most likely).
+   correctly (due to an outdated db on their side, most likely, or just emails).
 2. If events are attached to a certain location, like a flight for instance, and
    that location changes it's timezone, then we need to recalculate all scheduled
    dates for that location and notify users about it.
 
-So storing the original timezone as way to get back to and from UTC is
+So storing **the timezone of origin** as way to get back to and from UTC is
 important.
 
 
@@ -174,7 +179,8 @@ switch at some point.
 The procedure is perfectly explained [here][14] and involves naive dates on
 purpose!
 
-We first have to generate the ocurrences regardless or the timezone settings.
+We first have to generate the occurrences regardless or the timezone settings,
+all at the same time (*basically by adding timedeltas*):
 
 ```python
 >>> start = datetime.datetime(2014, 2, 22, 11, 0)  # Feb 22
@@ -200,37 +206,49 @@ see in their local timezone stays intact.
 'Central: 2014-03-10 11:00:00-05:00; UTC: 2014-03-10 16:00:00+00:00'
 'Central: 2014-03-17 11:00:00-05:00; UTC: 2014-03-17 16:00:00+00:00'
 ```
-You should also set the `is_dst` flag when needed.
 
-## Reminder events
-When it comes to events that should happen of a given day and time, regardless
-of the timezone, the approach has to be a bit different.
+You should also set the `is_dst` flag in when calling `localize()` if needed.
 
-usar la libreria de prox notificacion en local time del usuario
+
+## Notification events
+
+When it comes to scheduling events like digest emails of notifications/news,
+lists of pending tasks, aggregated activities, etc, you will also need to
+generate a series based on the user preferences, but having all future
+occurrences generated in advance is wasteful.
+
+In this use case you only care about the next recurrence after now, and every
+now and then (i.e. every minute) you poll all scheduled reminders and calculate
+the next occurrence with a cron-like job [^9].
 
 ```python
-tz = user.time_zone
-now = utc.now().astimezone(tz)
+tz = pytz.timezone('US/Eastern')
+now = datetime.datetime.utcnow()
+days = [rrule.MO, rrule.WE]
 rule = rrule.rrule(rrule.WEEKLY, dtstart=now, byweekday=days,
-                   byhour=self.reminder_time.hour,
-                   byminute=self.reminder_time.minute)
+                   byhour=8, byminute=30)
 
-# Get the fist recurrence after after "now"
-next_reminder = rule.after(now)
+# Get the fist recurrence right after "now"
+next_reminder = tz.localize(rule.after(now))
 ```
+
+In case the user's timezone changes, remember to recalculate next occurrence.
 
 
 # Conclusions
+
+Timezones are like variables. They have a name and a value (the UTC offset),
+that changes over time thanks to some rules defined in the timezone's database.
+
+Dates without timezones don't really represent any moment in particular.
 
 Always use tz aware dates and specifically UTC aware dates inside your program,
 but keep a reference to a local timezone that makes sense in case you need to
 retrace changes. For all this, is vital to stay up to date with tz updates.
 
-Part of the idea of this post was make it a compendium of all things related to
-dates I have read about, and had to use for work. So I suggest you to read all
-linked pages, they are worth reading.
-
-I hope you found this useful.
+I hope you found this post useful. My idea was make it a compendium of all
+things related to dates I have read about, and had to work with in Python. So I
+suggest you to read all linked pages, they are there for a reason!
 
 
 [^1]: Many countries have started and stopped using DST and different times.
@@ -278,14 +296,14 @@ I hope you found this useful.
 
       As the Delorean docs [explain it][11].
 
-      *Attaching* a timezone should never be done using `.replace()` as you
-      might carelessly end up creating an invalid date.
-
 [^7]: Python cannot mix aware and naive dates or you will get a `TypeError:
       can't compare offset-naive and offset-aware datetimes` exception.
 
 [^8]: [dateutils][13] is a must if your app makes intensive use of dates. It
       also provides some other niceties like `relativedelta` and `parser.parse`.
+
+[^9]: If you are working with Django, you might find [django-localized-recurrence][17]
+      interesting.
 
 [1]: https://en.wikipedia.org/wiki/Daylight_saving_time "Daylight Saving Time"
 [2]: https://en.wikipedia.org/wiki/Tz_database "Olson Database"
@@ -303,3 +321,4 @@ I hope you found this useful.
 [14]: https://coderwall.com/p/7t3qdq/datetimes-and-timezones-and-dst-oh-my
 [15]: http://www.creativedeletion.com/2015/08/07/why-not-to-use-server-local-time.html "Why not to ask the server for its "local time"
 [16]: http://tommikaikkonen.github.io/timezones/ "timezones"
+[17]: https://github.com/ambitioninc/django-localized-recurrence "Django localized recurrence"
