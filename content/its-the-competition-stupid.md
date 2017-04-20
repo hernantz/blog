@@ -285,6 +285,8 @@ corruption and addicts cannot be treated since they don't fit in government budg
 activity it cannot be tracked?.
 https://www.youtube.com/watch?v=k8vVEbCquMw
 
+http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
+
 There was no justice for dinosaurs. Even when they might have done everything
 they could in terms of adaptation through millions of years of evolution, they
 couldn't survive a gigantic meteorite (something that doesn't frequently and
@@ -315,7 +317,7 @@ Instead of monopolies, we should think about the things that limit competition:
 - It works well and it's efficient
 - Accepted because it's powers are limited and can be changed every now and then (like governments)
 
-
+http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
 
 
