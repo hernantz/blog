@@ -55,6 +55,7 @@ else's repertoire get so much better.
 |  In Death's Embrace          | Dimmu Borgir             | Immortal                  |
 |  Excercise in Futility I     | Mgla                     | Immortal                  |
 |  Consumed Future             | Dreamshade               | In Flames                 |
+|  Roots To Sever              | BE'LAKOR                 | Insomnium                 |
 |  Abduction                   | Bruce Dickinson          | Iron Maiden               |
 |  Psycho Killer               | Talking Heads            | Joy Division              |
 |  Steady as she goes          | The Raconteurs           | Joy Division              |
@@ -102,11 +103,14 @@ else's repertoire get so much better.
 |  Danzig                      | Mother                   | The Mistfits              |
 |  Bitter End                  | Placebo                  | The Music                 |
 |  I Fought the Law            | The Clash                | The Ramones               |
+|  Amor Fati                   | Washed Out               | The Verve                 |
+|  In the Stars                | Witchfynde               | The Who                   |
 |  DMSLT                       | A Pale Horse Named Death | Type O Negative           |
 |  The Dark Inside             | Ackercocke               | Type O Negative           |
 |  Son Of The Morning          | Ackercocke               | Type O Negative           |
 |  Legalise Drugs & Murder     | Electric Wizard          | Type O Negative           |
 |  Wicked Game                 | HIM                      | Type O Negative           |
 |  Black Magic Woman           | Santana                  | Type O Negative           |
+|  Take On Me                  | a-ha                     | Virus                     |
 |  Movies                      | Alien Ant Farm           | Wezzer                    |
 |------------------------------+--------------------------+---------------------------|
