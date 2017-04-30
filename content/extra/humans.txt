@@ -18,13 +18,14 @@ else's repertoire get so much better.
 |------------------------------+--------------------------+---------------------------|
 |  Song                        | Original artist/band     | Proposed artist/band      |
 |------------------------------+--------------------------+---------------------------|
-|  We are Family               | Sistes Sledge            | ABBA                      |
+|  We are Family               | Sisters Sledge           | ABBA                      |
 |  Nightlife                   | IAMX                     | Above and Beyond          |
 |  Eyes of Suffering           | Crematory                | Acid Witch                |
 |  Wrecking Ball               | Miley Cirus              | Adele                     |
 |  Gold                        | Chect Faker              | Alt-J                     |
 |  Crushcrushcrush             | Paramore                 | Ashley Simpson            |
 |  Galaxies                    | Laura Veirs              | Aurora                    |
+|  Sprinter                    | Torres                   | Aurora                    |
 |  Stillborn                   | Black Label Society      | Black Sabbath             |
 |  Painkiller                  | Mech                     | Black Sabbath             |
 |  Starships                   | Nicki Minaj              | Britney Spears            |
@@ -37,7 +38,7 @@ else's repertoire get so much better.
 |  Coffee and TV               | Blur                     | Death Cab for Cutie       |
 |  New Millenium Jesus Cyanide | Meshuggah                | Decapitated               |
 |  Born to Be Wild             | Steppenwolf              | Deep Purple               |
-|  You Sping Me Round          | Dead or Alive            | Depeche Mode              |
+|  You Spin Me Round           | Dead or Alive            | Depeche Mode              |
 |  Shout                       | Tears for Fears          | Depeche Mode              |
 |  Baby Did a Bad Bad Thing    | Chris Isaak              | Elvis Presley             |
 |  Safe and Sound              | Capital Cities           | Empire of the Sun         |
@@ -45,7 +46,7 @@ else's repertoire get so much better.
 |  Ruby                        | Kaiser Chiefs            | Franz Ferdinand           |
 |  (Don't Fear) The Reaper     | Blue Oyster Cult         | Ghost                     |
 |  Walk                        | Pantera                  | Hammer                    |
-|  War for territory           | Sepultura                | Hammer                    |
+|  War for Territory           | Sepultura                | Hammer                    |
 |  Somebody to Love            | Jefferson Plane          | Heart                     |
 |  Life                        | Sonata Arctica           | Helloween                 |
 |  Too Many Words              | Sick Puppies             | Hoobastank                |
@@ -58,7 +59,7 @@ else's repertoire get so much better.
 |  Roots To Sever              | BE'LAKOR                 | Insomnium                 |
 |  Abduction                   | Bruce Dickinson          | Iron Maiden               |
 |  Psycho Killer               | Talking Heads            | Joy Division              |
-|  Steady as she goes          | The Raconteurs           | Joy Division              |
+|  Steady as She Goes          | The Raconteurs           | Joy Division              |
 |  Hellbreaker                 | Midnight Priest          | Judas Priest              |
 |  Bad for Good                | Skull Fist               | Judas Priest              |
 |  Proud To Be Loud            | Keel                     | KISS                      |
@@ -66,7 +67,7 @@ else's repertoire get so much better.
 |  Presuit of Happiness        | Lissie                   | Lana del Rey              |
 |  Paper Planes                | MIA                      | Lana del Rey              |
 |  Smooth Criminal             | Alien Ant Farm           | Limp Bizkit               |
-|  Freak on a leash            | Korn                     | Limp Bizkit               |
+|  Freak on a Leash            | Korn                     | Limp Bizkit               |
 |  Alone I Break               | Korn                     | Limp Bizkit               |
 |  Papercut                    | Linkin Park              | Limp Bizkit               |
 |  Boom                        | P.O.D.                   | Limp Bizkit               |
@@ -77,24 +78,27 @@ else's repertoire get so much better.
 |  Paranoid                    | Black Sabbath            | Megadeth                  |
 |  Cementary Gates             | Pantera                  | Megadeth                  |
 |  Get Lucky                   | Daft Punk                | Michael Jackson           |
-|  Somebody is watching me     | Rockwell                 | Michael Jackson           |
-|  I can't feel my face        | The Weeknd               | Michael Jackson           |
-|  You get what you give       | New Radicals             | Mick Jagger               |
+|  Somebody is Watching Me     | Rockwell                 | Michael Jackson           |
+|  I Can't Feel my Face        | The Weeknd               | Michael Jackson           |
+|  You Get What You Give       | New Radicals             | Mick Jagger               |
 |  Acid Fuzz                   | Toxic Holocaust          | Municipal Waste           |
+|  Self Control                | Jesus Was Homeless       | Muse                      |
 |  Honest Mistake              | The Bravery              | Muse                      |
-|  King of the kill            | Annihilator              | Newsted                   |
+|  King of the Kill            | Annihilator              | Newsted                   |
 |  Gone Suvering               | Stone Sour               | Newsted                   |
 |  Absolute Zero               | Stone Sour               | Newsted                   |
 |  Sacred Reich                | The American Way         | Newsted                   |
 |  Dead And Gone               | Shadows Fall             | Nightrage                 |
 |  Zombie Autopilot            | Unearth                  | Nightrage                 |
 |  Colossus                    | In Mourning              | Omnium Gatherum           |
+|  The Smoke                   | In Mourning              | Omnium Gatherum           |
+|  The Black Lodge             | In Mourning              | Omnium Gatherum           |
 |  Axiom                       | Ackercocke               | Opeth                     |
 |  Leviathan                   | Ackercocke               | Opeth                     |
 |  Believe                     | The Bravery              | Queens of the Stone Edge  |
-|  The suburbs                 | Arcade Fire              | Queens of the stone edge  |
+|  The Suburbs                 | Arcade Fire              | Queens of the stone edge  |
 |  Rockin' in the Free Wold    | Neil Young               | Rocky Erickson            |
-|  Empire of the clouds        | Iron Maiden              | Savatage                  |
+|  Empire of the Clouds        | Iron Maiden              | Savatage                  |
 |  Replica                     | Sonata Arctica           | Savatage                  |
 |  Changes                     | Tesla                    | Savatage                  |
 |  Imagenes Paganas            | Virus                    | Soda Stereo               |
