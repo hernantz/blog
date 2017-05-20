@@ -409,7 +409,7 @@ brothers is interesting.
 **score: 4.4**
 
 # Trainspotting
-Don't do drugs.
+Don't do drugs. But do watch this movie.
 **score: 4.8**
 
 # Split
@@ -425,3 +425,14 @@ for the acting of the crazy guy.
 Great intro to dealing with comporate burocacy, tribal wars between areas that
 work like silos You'll enjoy it better if you have worked in the IT business
 (there is some specific jargon involved too).
+
+# Snowpiercer
+The last bastion of humanity lives on a train that recreates humanity's social
+strata and economy problems, in an oniric weird story.
+**score: 3.8**
+
+# The Devil's Candy
+Metal and horror make up the ingredients of this film. Don't take it as a
+serious movie, the plot and characters are not developed in depth, but you will
+just enjoy it nonetheless.
+**score: 4.0**
