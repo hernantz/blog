@@ -129,11 +129,11 @@ Anyone can choose based on whatever their motivations and possibilities are.
 
 Lets assume politicians are honest and corruption is a thing of the past (left
 behind with the roman empire). They do what is correct and not what is
-politically correct. The are honest and would rather loose votes than lie to
+politically correct. They are honest and would rather loose votes than lie to
 their people and promise things they cannot deliver. They were elected because
-they are the right choice for the job, not because they are relatives or
-friends with powerful people, nor because they are famous or charismatic and
-give beautiful speeches. They convince people about their ideas by providing
+they are the right choice for the job, not because they are friends or family
+of powerful people, nor because they are famous or charismatic and give
+beautiful speeches. They convince people about their ideas by providing
 reasonable arguments backed by real data, and not through costly advertising
 campaings or feeding sensationalism. They define themselves as public servants
 and do not look to increase their influese and power and least they want to
@@ -255,17 +255,17 @@ which one would you choose?
 
 ## Conclusion
 
-There is no absolute standard of justice. Justice should be provided in ways
-that competes with other views or understandings of the same concept.
-
-In the long term, and even in an unfair system, competition is what drives
-progress.
-
-Centralized planning can be the public enemy number one.
+There is no absolute standard of justice and progress. Justice should be
+provided and progress should be seeked in ways that compete with other views
+or understandings of the same concepts.
 
 The availability of choices cannot guarantee, but increases the chances of
 prosperity in a free society by enabling ideas to be probed in competition with
 other alternatives.
+
+In the long term, and even in an unfair system, competition is what drives
+progress while centralized planning is the public enemy number one in this
+regard.
 
 It's the competition, [stupid][2].
 
@@ -280,6 +280,18 @@ only one choice, our existence wouldn't be of much value.
 https://points.datasociety.net/when-good-intentions-backfire-786fb0dead03
 https://www.theguardian.com/global-development-professionals-network/2017/feb/08/obsession-with-ending-poverty-is-where-development-is-going-wrong
 
+Although I'm against the governments making big plans, I might accept some of
+it at a municipal level, where shit gets real instead of academia bullshit
+about how everything should be handled.
+
+A society has to work as a lab. Sometimes the government can do so, other times
+is the free market who takes care of that. Which one is better? I can find
+examples of ideas that worked out well and came up from governments or the free
+market as well as examples of catastrophes. The important thing to note here
+is that society that test their ideas constantly will see higher chances of
+success over those who do not have a framework of constant improvement that
+challenges status quo.
+
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
 activity it cannot be tracked?.
@@ -290,7 +302,7 @@ http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
 There was no justice for dinosaurs. Even when they might have done everything
 they could in terms of adaptation through millions of years of evolution, they
 couldn't survive a gigantic meteorite (something that doesn't frequently and
-was impossible to anticipate).  Again, many factors one does not control.
+was impossible to anticipate). Again, many factors one does not control.
 
 These make the very reason why meritocracy, the socialist paradise or Adam
 Smith's invisible hand are all utopian ideals impossible to be reached in a
@@ -300,6 +312,8 @@ Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas
 termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
 o haya estado bajo tierra cuando cayo el metiorito.
 
+
+Monopolies:
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from pursuing a career/goal, should they have the opportunity and capacity to do it.
 
