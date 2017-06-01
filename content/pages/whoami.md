@@ -29,6 +29,9 @@ My tombstone will say [^1]:
 > Intenté hacer de este mundo un paraíso para todos y terminé creando un
 > infierno para mí solo.
 
+Me on the internetz:
+[Twitter](https://twitter.com/hernantz/) · [Github](https://github.com/hernantz) · [Reddit](https://www.reddit.com/user/hernantz/) · [MusicBrainz](https://musicbrainz.org/user/hernantz) · [Rotten Tomatoes](https://www.rottentomatoes.com/user/id/973196678) · [Good Reads](https://www.goodreads.com/hernantz)
+
 
 [^1]: The orignal quote says: *"Yo quise hacer de la tierra un paraíso para
       todos. La hice un infierno para mí."* by [Simón Rodríguez][1].
