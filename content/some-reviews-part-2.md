@@ -436,3 +436,38 @@ Metal and horror make up the ingredients of this film. Don't take it as a
 serious movie, the plot and characters are not developed in depth, but you will
 just enjoy it nonetheless.
 **score: 4.0**
+
+# 2001: Space Odissey
+The visuals of the movie aged really well, but not the phase. It's simply not
+possible to stay focused on scenes that take minutes, resambling the famous
+hold on tunes on help desk lines.  Still have to figure out what to make out of
+the last 10 minutes, otherwise the movie doesn't have a connecting idea behind
+the chapters appart from the monolith.  Anyhow, it's a classic that must be
+seen to further appreciate other sci-fy movies that were inspired by it.
+**score: 3.0**
+
+# Alien: Covenant
+I really liked David again! And the movie should have explored his experiments
+more. We are again forced to see a stupid crew die one by one (seems to be a
+requirement to be sent to space). And, not only we don't get many answers
+(which i'm cool with), but we see lots of plot holes, or nonsensical scenes:
+You don't wipe a civilization by destroying a city of beings that can travel
+around the galaxy (mankind doesn't live in NYC only), or Tennesse trying to
+control the ship is extremely forced scene, so on and so forth. The name of the
+movie should have been covenant, we know they put alien on it to sell more
+tickets.
+**score: 2.6**
+
+# Mascarade + Expansion
+Falls into the category of easy to learn and fast to play. Chaos is innevitable
+when playing above 5 player count. You'll be able to track only what's
+sorrunding you. The thing is that you have to track who you are, who other
+players are (to swap your card with a better character or have a clue if
+someone swaps with you), and also you need to pay attention to see if someone
+is about to win to avoid that. Naturally complots appear and some players will
+help you. Even though I don't realy enjoy don't having idea what's going on,
+this game is really fun and fast. The expansion, while not needed, adds some
+good characters that can replace some boring ones. with characters that have
+more habilities that simply take gold from the bank, i.e the queen can be
+replaced by the princess, which also forces a player to reveal his card.
+**score: 4.0**
