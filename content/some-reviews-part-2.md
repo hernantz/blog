@@ -428,7 +428,8 @@ work like silos You'll enjoy it better if you have worked in the IT business
 
 # Snowpiercer
 The last bastion of humanity lives on a train that recreates humanity's social
-strata and economy problems, in an oniric weird story.
+strata and economy problems, in an oniric weird story. If there is something
+that is going to destroy any society is the search for equality and justice.
 **score: 3.8**
 
 # The Devil's Candy
@@ -471,3 +472,17 @@ good characters that can replace some boring ones. with characters that have
 more habilities that simply take gold from the bank, i.e the queen can be
 replaced by the princess, which also forces a player to reveal his card.
 **score: 4.0**
+
+# Hero Realms
+Not having played Star Realms ever, I bought this re-theme because I though it
+would pack all the good ideas that were developed over time when issuing
+different expansions for Star Realms. As I was watching the reviews I noticed
+that there were some hero packs that were essential but not included in the
+base game. I said: fine, and got those too. But later saw that there are promo
+cards that you only get by buying the game through their Kickstarter campaign
+which, of course, I won't ever get (sad face). Anyways, the game is really fun.
+The art is anectodic, and I would rather have sticked with spaceships and
+bases. There is no concept of events as there is in Star Realms, which I think
+was a good addition. The hero packs are great, but I would have done the hero
+also be a playable card (as a champion).
+**score: 4.2**
