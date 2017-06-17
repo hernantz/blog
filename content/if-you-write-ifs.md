@@ -171,7 +171,7 @@ A Python Æsthetic
 https://www.youtube.com/watch?v=x-kB2o8sd5c
 http://rhodesmill.org/brandon/slides/2012-11-pyconca/
 
-
+https://twitter.com/raymondh/status/856663816981041152
 http://stackoverflow.com/questions/865741/else-considered-harmful-in-python
 http://degoes.net/articles/destroy-all-ifs
 
@@ -180,3 +180,4 @@ variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma i
 
 http://jrsinclair.com/articles/2017/javascript-without-loops/
 http://pozorvlak.livejournal.com/94558.html
+https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
