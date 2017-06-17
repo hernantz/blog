@@ -1,4 +1,4 @@
-Title: Make email great again 
+Title: Make usenets great again
 Date: 2016-04-29
 Category: Programming
 Tags: ideas, rants
@@ -23,6 +23,8 @@ Email feels odd for realtime communication. Threads are impossible to follow,
 quoting is hard.
 
 VER usenets, protocolos privados, apps para usar mail como chat.
+https://tools.ietf.org/html/rfc977
+
 
 Not easy to create lists.
 
@@ -70,6 +72,13 @@ Also, some emails could just be text-less and only contain meta information.
 This would be perfect for reactions (like, heart, angry face, etc) or sending
 "email received/seen" events.
 
+User info should include profile info like avatar, status (maintained as a heartbeat msg), signature (that would get displayed on first email only), full name.
+
+Allow editing/versioning: send new emails with diffs, then apps will display the latest version or handle it somehow.
+
+Approving/Rejecting posts.
+
+COmo hace retweets?
 Passwords are also emails: You can create a new password everytime, and get it emailed.
 
 
@@ -79,3 +88,6 @@ This way, we have replaced blogs, forums, social networks, IM apps. Apps
 would simply present emails in a different UI, but all textual means of
 communication have converged into the email platform. All hail the new
 communication overlord.
+
+http://nullprogram.com/blog/2017/03/12/ -> encryption
+https://josefsson.org/inline-openpgp-considered-harmful.html -> encryption
