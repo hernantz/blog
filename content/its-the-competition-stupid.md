@@ -312,6 +312,10 @@ Recordemos que la meritocracia no existe, ya que no es facil asegurar que el mas
 termine logrando los mejores resultados, puede pasar que alguien tenga mas suerte, mas influencias,
 o haya estado bajo tierra cuando cayo el metiorito.
 
+"tragedy of the commons"
+
+The more you limit compteition and experimentation, even with good intentions,
+the more you harm your chances of prosperity.
 
 Monopolies:
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
