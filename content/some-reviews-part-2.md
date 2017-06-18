@@ -483,6 +483,7 @@ cards that you only get by buying the game through their Kickstarter campaign
 which, of course, I won't ever get (sad face). Anyways, the game is really fun.
 The art is anectodic, and I would rather have sticked with spaceships and
 bases. There is no concept of events as there is in Star Realms, which I think
-was a good addition. The hero packs are great, but I would have done the hero
-also be a playable card (as a champion).
-**score: 4.2**
+was a good addition. The hero packs are shit, you get a bunch of useless cards:
+new per characters life trackers, a hero card (just a picture), more gold and
+new cards that introduce new rules/mechanics without reason.
+**score: 4.0**
