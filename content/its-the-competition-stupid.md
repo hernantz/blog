@@ -10,18 +10,15 @@ Status: draft
 
 ## Abstract
 
-I'm a libertarian who doesn't believe in justice, meritocracy, governments
-or free market. I just believe that higher degrees of freedom increase the
-chances of prosperity for the society, as whole, in the long run.
-
 Since high school I've always had the hunch that freedom was the obvious way for
 a society to progress in terms of efficiency, equality, wealth, knowledge and
 justice. I've been biased to justify everything as lack of freedom or as a
 consequence worth suffering because of an excess of freedom.
 
 I'm writing this post not to convince you of becoming a libertarian but to find
-a rational explanation on why I consider myself a libertarian and why I would
-continue to choose being one.
+a rational explanation on why I consider myself a libertarian and why I believe
+that higher degrees of freedom increase the chances of prosperity for the
+society, as whole, in the long run.
 
 
 ## ...And justice for all
@@ -50,15 +47,15 @@ consequences. Since no one knows the future for granted, there are always risks
 implied, unexpected outcomes. In other words, **success cannot be guaranteed**
 for anyone and by anyone.
 
-You can imagine that there is no perfect decision. We can point to an idea of
-"doing the best according to the circumstances we live in", and that in these
-circumstances, some of our future depends on the quality of decisions we make,
-and at times it depends on our luck. Because as it happens, in a sufficiently
-complex system, often those decisions are not made by us, yet we bear the
-consequences nonetheless: the candidate you didn't like gets elected president,
-a lighting strikes your home and burns your appliances, your neighbors were
-noisy celebrating a birthday and you couldn't sleep the night before the final
-exam, etc.
+We can point to an idea of "doing the best according to the circumstances we
+live in", and that in these circumstances, part of our future depends on the
+quality of decisions we make, and at times it depends on our luck. Because as
+it happens, in a sufficiently complex system, often those decisions are not
+made by us, yet we bear the consequences nonetheless: the candidate you didn't
+like gets elected president, a lighting strikes your home and burns your
+appliances, your neighbors were noisy celebrating a birthday and you couldn't
+sleep the night before the final exam, etc. You can imagine that, under these
+circumstances, **there is no perfect decision**.
 
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
@@ -75,10 +72,10 @@ newspaper and some just read the horoscope. Some eat healthy and do sports
 while others smoke and follow a sendentary lifestyle. Well you get the point,
 **equality of outcome cannot be guaranteed**.
 
-Seeing how complex and fragile our existence is, would you say that life is
-fair? And if not, who should fix it? How should justice be provided? What does
-justice or equality mean? What if to benefit some, others have to be affected
-negatively? Can a fair society be built? How would you define fair?
+Seeing how complex, limited and fragile our existence is, would you say that
+life is fair? And if not, who should fix it? How should justice be provided?
+What does justice or equality mean? What if to benefit some, others have to be
+affected negatively? Can a fair society be built? How would you define fair?
 
 But wait, not only we are interested in some form of justice, we also want to
 have the chance to enjoy the fruits of prosperity. So we have to agree on it's
@@ -86,25 +83,26 @@ definition too.
 
 Some societies may meassure progess by advancements in human rights or the
 level of happiness of it's individuals [^8], others by more [concrete
-figures][11] like GDP, child mortality or number of college graduates.
-Moreover, pray consider that there are multiple ways to meassure things like
-efficiency, innovation or poverty.
+figures][11] like GDP, child mortality, use of green energy or number of
+college graduates. Moreover, pray consider that there are multiple ways to
+meassure things like efficiency, innovation and even poverty.
 
 Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
 sacrifices needed to be done.
 
-All this leads to an obvious conclusion: **there is no absolute standard of
-justice and prosperity**. The pursuit of universal justice, equality and
-happiness for that matter, is futile. They can only be approximated to an
-agreed ideal that might change over time and is prone to subjective
-interpretation, if no reliable metrics are provided.
+If the right thing to do is not self evident, this leads to an obvious
+conclusion: **there is no absolute standard of justice and prosperity**. The
+pursuit of universal justice, equality and happiness for that matter, is
+futile. They can only be approximated to an agreed ideal that might change over
+time and is prone to subjective interpretation, if no reliable metrics are
+provided.
 
-The only thing left for us is to agree on a set of artificial impositions that
-we are all going to live by and that are better, to our understanding, for the
-kind of society we want to live in. While these arbitrary impositions cannot be
-agreed universally, ideally, we would have the capability to be part of their
-selection somehow.
+Something we can do to mitigate this GkjWe can agree on a set of artificial impositions and
+metrics that we are all going to live by and that are better, to our
+understanding, for the kind of society we want to live in. While these
+arbitrary rules cannot be agreed universally, ideally, we would have the
+capability to be part of their selection somehow.
 
 
 ## Public enemy number one
@@ -271,6 +269,7 @@ It's the competition, [stupid][2].
 
 
 ## Notes
+Open cities project?
 Search for committed suicide because socialism had arrived.
 As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
 that humanity might grow and develop towards a genuine understanding and perception of the Creation.
@@ -298,6 +297,10 @@ activity it cannot be tracked?.
 https://www.youtube.com/watch?v=k8vVEbCquMw
 
 http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
+
+https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8
+https://www.goodreads.com/quotes/877774-the-best-way-to-take-control-over-a-people-and
+https://www.nytimes.com/2017/06/30/world/asia/india-tax-narendra-modi.html
 
 There was no justice for dinosaurs. Even when they might have done everything
 they could in terms of adaptation through millions of years of evolution, they
