@@ -487,3 +487,22 @@ was a good addition. The hero packs are shit, you get a bunch of useless cards:
 new per characters life trackers, a hero card (just a picture), more gold and
 new cards that introduce new rules/mechanics without reason.
 **score: 4.0**
+
+# The Room
+I knew the movie was going to be bad, but never expected that fact to be it's biggest strength.
+I had soooo much fun watching it, that now I understand why it is a cult movie.
+**score: 4.8**
+
+# Get Out
+Honestly, I expected much more from it. The racist theme is what it proposes,
+but I would have like it not to be that explicit. I suspect the party was set
+up so that everyone could get a peek at their pray, but it seemed very awkard.
+If only a white cop descended and shooted dead the black dude just because, the
+ending would have been superb, and not riduculous as it was.
+**score: 3.2**
+
+# Insomnia
+Really engaging acting and plot, with multiple layers that are developed as the
+movie progresses in an excelent way. The ending was not convincing and follows
+the Hollywood mantra of every movie needs a happy ending.
+**score: 4.3**
