@@ -8,6 +8,12 @@ Summary: Some gotchas you'll find when scheduling the next world's doomsday.
 ![Aztec sun stone](/images/aztec-calendar.png "Aztec sun stone")
 
 
+Scheduling the next world's doomsday can be tricky, because working with dates
+is so. In this post I'll try to share some basic tips and gotchas I learned the
+hard way while building a calendaring app, that hopefully will make this task
+easier for you.
+
+
 ## One time events
 
 Because of the way we track time, a single moment can happen at different times
