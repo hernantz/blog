@@ -217,6 +217,67 @@ user will see in their local timezone stays intact.
 You should also set the `is_dst` flag in when calling `localize()` if needed.
 
 
+## Quering events
+
+```python
+# Assuming event dates are stored in UTC (like postgres does).
+# These convertions might not be needed depending on the storage engine
+# or frameworks you are using.
+
+def past():
+    now = datetime.utcnow().replace(tzinfo=utc)
+    return events.filter(end<=now)
+
+def future():
+    now = datetime.utcnow().replace(tzinfo=utc)
+    return events.filter(start>=now)
+```
+
+When retriving entries for a user we need to think in buckets determined by the
+user's localized start and end dates.
+
+For example, if we want today's entries, for a user with an offset of UTC-3, it
+is important to request those dates in the UTC version of the user's 00:00 to
+23:59 time lapse. *Today* is relative to the timezone you are currently at, and
+using *UTC's today* is not an option since it's going to get us entries from
+21:00 to 20:59 potentially including or excluding incorrect results. We need to
+normalize the user's range with UTC:
+
+| UTC offset | Day start | Day end | Meaning                                   |
+|------------|-----------|---------|-------------------------------------------|
+| -03:00     | 00:00     | 23:59   | User's date range                         |
+| +00:00     | 00:00     | 23:59   | UTC's date range                          |
+| -03:00     | 21:00     | 20:59   | UTC's date range compared to user's       |
+| +00:00     | 03:00     | 02:59   | User's date range normalized with UTC [✓] |
+
+
+The folowing piece of code shows exactly how to query today's entries for a user.
+See how `time.min` and `time.max` come in handy when calculating the start and
+end boundaries for a date:
+
+```python
+def today_only():
+    # datetime.datetime.combine returns naive dates :(
+    local_now = user_tz.normalize(datetime.utcnow().replace(tzinfo=utc))
+    local_today_min = user_tz.localize(datetime.combine(local_now, time.min))
+    local_today_max = user_tz.localize(datetime.combine(local_now, time.max))
+    today_min = utc.normalize(local_today_min)
+    today_max = utc.normalize(local_today_max)
+    return events.filter(start>=today_min, end<=today_max)
+```
+
+
+Be extra carefull if you are caching these results, and make sure that the
+timezone is part of the cache's key, otherwise this week's promotions won't be
+correctly applied to your users. This way, if the timezone changes, because the
+user is on a trip for instance, the cache gets invalidated automatically for
+that user.
+
+For next/previous month or next/previous week you should use `rrule` which can
+give you those dates, since the math is not as simple as adding 30 days to get
+the next month's boundaries or calculating when the next week starts.
+
+
 ## Notification events
 
 When it comes to scheduling events like digest emails of notifications/news,
@@ -229,14 +290,14 @@ now and then (i.e. every minute) you poll all scheduled reminders that expired
 and calculate the next occurrence with a cron-like job [^9].
 
 ```python
-tz = pytz.timezone('US/Eastern')
+user_tz = pytz.timezone('US/Eastern')
 now = datetime.datetime.utcnow()
 days = [rrule.MO, rrule.WE]
 rule = rrule.rrule(rrule.WEEKLY, dtstart=now, byweekday=days,
                    byhour=8, byminute=30)
 
 # Get the fist recurrence right after "now"
-next_reminder = tz.localize(rule.after(now))
+next_notification = user_tz.localize(rule.after(now))
 ```
 
 In case the user's timezone changes, remember to recalculate next occurrence.
