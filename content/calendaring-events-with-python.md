@@ -290,12 +290,14 @@ example.
 
 When it comes to scheduling events like digest emails of notifications/news,
 lists of pending tasks, aggregated activities, etc, you will also need to
-generate a series based on the user preferences, but having all future
-occurrences generated in advance is wasteful.
+generate a series based on the user preferences for when to receive them.
 
-In this use case you only care about the next recurrence after now, and every
-now and then (i.e. every minute) you poll all scheduled reminders that expired
-and calculate the next occurrence with a cron-like job [^9].
+You guessed it, `rrule` again to the rescue! But having all future occurrences
+generated in advance is wasteful.
+
+In this use case you only care about the next recurrence after now. Every now
+and then (i.e. every minute) you poll all scheduled reminders that expired,
+execute the task and calculate the next occurrence with a cron-like job [^9].
 
 ```python
 user_tz = pytz.timezone('US/Eastern')
@@ -320,7 +322,9 @@ Dates without timezones don't really represent any moment in particular.
 
 Always use tz aware dates and specifically UTC aware dates inside your program,
 but keep a reference to a local timezone that makes sense in case you need to
-retrace changes. For all this, is vital to stay up to date with tz updates.
+retrace changes.
+
+For all this, it is vital to stay up to date with tz updates.
 
 I hope you found this post useful. My idea was make it a compendium of all
 things related to dates I have read about, and had to work with in Python. So I
