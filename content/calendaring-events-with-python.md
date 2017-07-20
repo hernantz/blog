@@ -219,6 +219,51 @@ You should also set the `is_dst` flag in when calling `localize()` if needed.
 
 ## Quering events
 
+When retriving entries for a given period, we need to **think in buckets
+determined by the user's localized start and end boundaries** for that period.
+
+For example, if we want today's entries, for a user with an offset of UTC-3, it
+is important to request those dates in the UTC version of the user's 00:00 to
+23:59 time lapse. *Today* is relative to the timezone the user is currently at,
+and using *UTC's today* is not an option since it's going to get us entries
+from yesterday's 21:00 to today's 20:59 potentially including or excluding
+incorrect results. We need to normalize the user's date range to UTC:
+
+| UTC offset | Day start | Day end | Meaning                                   |
+|------------|-----------|---------|-------------------------------------------|
+| -03:00     | 00:00     | 23:59   | User's date range                         |
+| +00:00     | 00:00     | 23:59   | UTC's date range                          |
+| -03:00     | 21:00     | 20:59   | UTC's date range compared to user's       |
+| +00:00     | 03:00     | 02:59   | User's date range normalized with UTC [✓] |
+
+
+The following piece of code shows exactly how to query today's entries for a
+user. See how `time.min` and `time.max` come in handy when calculating the
+start and end boundaries for a date:
+
+```python
+def today_only():
+    # datetime.datetime.combine returns naive dates :(
+    local_now = user_tz.normalize(datetime.utcnow().replace(tzinfo=utc))
+    local_today_min = user_tz.localize(datetime.combine(local_now, time.min))
+    local_today_max = user_tz.localize(datetime.combine(local_now, time.max))
+    today_min = utc.normalize(local_today_min)
+    today_max = utc.normalize(local_today_max)
+    return events.filter(start>=today_min, end<=today_max)
+```
+
+For next/previous month or next/previous week you should use `rrule` which can
+give you those dates, since the math is not as simple as adding 30 days to get
+the next month's results (not every month has the same length) or calculating
+when the next week starts. Then you just have to follow the same aforementioned
+approach.
+
+Quering past or future events, with that sole condition, is a different story.
+Since dates are typically stored in UTC and we care about entries before or
+after *now*, it doesn't matter which timezone the user is at, *now* represents
+the same moment in any timezone, so we don't have to translate the user's *now*
+to UTC's *now*.
+
 ```python
 # Assuming event dates are stored in UTC (like postgres does).
 # These convertions might not be needed depending on the storage engine
@@ -233,49 +278,12 @@ def future():
     return events.filter(start>=now)
 ```
 
-When retriving entries for a user we need to think in buckets determined by the
-user's localized start and end dates.
-
-For example, if we want today's entries, for a user with an offset of UTC-3, it
-is important to request those dates in the UTC version of the user's 00:00 to
-23:59 time lapse. *Today* is relative to the timezone you are currently at, and
-using *UTC's today* is not an option since it's going to get us entries from
-21:00 to 20:59 potentially including or excluding incorrect results. We need to
-normalize the user's range with UTC:
-
-| UTC offset | Day start | Day end | Meaning                                   |
-|------------|-----------|---------|-------------------------------------------|
-| -03:00     | 00:00     | 23:59   | User's date range                         |
-| +00:00     | 00:00     | 23:59   | UTC's date range                          |
-| -03:00     | 21:00     | 20:59   | UTC's date range compared to user's       |
-| +00:00     | 03:00     | 02:59   | User's date range normalized with UTC [✓] |
-
-
-The folowing piece of code shows exactly how to query today's entries for a user.
-See how `time.min` and `time.max` come in handy when calculating the start and
-end boundaries for a date:
-
-```python
-def today_only():
-    # datetime.datetime.combine returns naive dates :(
-    local_now = user_tz.normalize(datetime.utcnow().replace(tzinfo=utc))
-    local_today_min = user_tz.localize(datetime.combine(local_now, time.min))
-    local_today_max = user_tz.localize(datetime.combine(local_now, time.max))
-    today_min = utc.normalize(local_today_min)
-    today_max = utc.normalize(local_today_max)
-    return events.filter(start>=today_min, end<=today_max)
-```
-
-
-Be extra carefull if you are caching these results, and make sure that the
-timezone is part of the cache's key, otherwise this week's promotions won't be
-correctly applied to your users. This way, if the timezone changes, because the
-user is on a trip for instance, the cache gets invalidated automatically for
-that user.
-
-For next/previous month or next/previous week you should use `rrule` which can
-give you those dates, since the math is not as simple as adding 30 days to get
-the next month's boundaries or calculating when the next week starts.
+**Be extra carefull if you are caching these results afected by a date range**,
+and make sure that the timezone is part of the cache's key. This way, if the
+timezone changes, because the user is on a trip for instance, the cache gets
+invalidated automatically for that user. Otherwise this week's promotions won't
+be correctly applied to customers in the case of an e-commerce site for
+example.
 
 
 ## Notification events
