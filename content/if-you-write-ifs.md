@@ -164,6 +164,7 @@ y si usamos excepciones como una forma de crear un canal alternativo para lo que
 pasa en nuestro programa? Las excepciones no son necesariamente algo malo, en python
 se pueden usar para crear un canal nuevo de comunicacion.
 http://www.holger-peters.de/exceptions-the-dark-side-of-the-force.html
+ifs for error handling ^
 
 https://coreos.com/blog/eliminating-journald-delays-part-1.html  -> journald NO usa ifs anidados
 

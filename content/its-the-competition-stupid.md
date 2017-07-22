@@ -104,6 +104,7 @@ understanding, for the kind of society we want to live in. While these
 arbitrary rules cannot be agreed universally, ideally, we would have the
 capability to be part of their selection somehow.
 
+COMMENT HOW NATURE WORKS HERE.
 
 ## Public enemy number one
 I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
@@ -297,7 +298,7 @@ activity it cannot be tracked?.
 https://www.youtube.com/watch?v=k8vVEbCquMw
 
 http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
-
+http://www.bbc.com/news/magazine-40669239 "Norway: The country where no salaries are secret"
 https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8
 https://www.goodreads.com/quotes/877774-the-best-way-to-take-control-over-a-people-and
 https://www.nytimes.com/2017/06/30/world/asia/india-tax-narendra-modi.html
