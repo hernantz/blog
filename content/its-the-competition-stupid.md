@@ -27,7 +27,7 @@ First we need to understand some key limitations about the nature of our existen
 
 We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter. The flow of time, the
-laws of physics, the birth and death of stars, the Creation itself [^3].
+laws of physics, the weather, the certanty of death, the Creation itself [^3].
 
 Because of that, we are not 100% free. **We are conditioned, limited and
 biased** by what we know and don't know, by what we can and cannot do, by what
@@ -39,34 +39,35 @@ your savings or to have unprotected sex. Other times those gambles are small:
 ignoring a phone call or trying a menu in your favorite fast-food restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
-our limited vision of partial facts. There is also the cost of opportunity, you
-only have so much money or some much time.
+our limited vision of partial facts. We also need to factor the cost of
+opportunity, you only have so much money or some much time.
 
-In every decision you make, you take your chances. Every choice has it's
+In every decision we make, we take our chances. Every choice has it's
 consequences. Since no one knows the future for granted, there are always risks
 implied, unexpected outcomes. In other words, **success cannot be guaranteed**
 for anyone and by anyone.
 
 We can point to an idea of "doing the best according to the circumstances we
 live in", and that in these circumstances, part of our future depends on the
-quality of decisions we make, and at times it depends on our luck. Because as
-it happens, in a sufficiently complex system, often those decisions are not
+quality of decisions we make, but other times it depends on our luck. Because
+as it happens, in a sufficiently complex system, often those decisions are not
 made by us, yet we bear the consequences nonetheless: the candidate you didn't
 like gets elected president, a lighting strikes your home and burns your
-appliances, your neighbors were noisy celebrating a birthday and you couldn't
-sleep the night before the final exam, etc. You can imagine that, under these
-circumstances, **there is no perfect decision**.
+appliances, your neighbors were noisy celebrating a birthday party and you
+couldn't sleep the night before the final exam, etc. You can imagine that,
+under these circumstances, **there is no perfect decision**, because the
+obvious one might not always be an option.
 
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
 ones. Some go to good schools and some don't even go to school. Some suffered
-an accident and some won the lottery. Some are deaf some are blind. Some are
-strong and some are weak. Some are handsome and some are ugly. Some were loved
-by their parents and some were not wanted.
+an accident and some won the lottery. Some are deaf and some are blind. Some
+are strong and some are weak. Some are handsome and some are ugly. Some were
+loved by their parents and some were not even wanted.
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some might
-want to travel, some just prefer to stay home [^9]. Some like to study or work
+love to travel, some just prefer to stay home [^9]. Some like to study or work
 hard and some simply like to slack. Some only read the finance section in the
 newspaper and some just read the horoscope. Some eat healthy and do sports
 while others smoke and follow a sendentary lifestyle. Well you get the point,
@@ -84,30 +85,32 @@ definition too.
 Some societies may meassure progess by advancements in human rights or the
 level of happiness of it's individuals [^8], others by more [concrete
 figures][11] like GDP, child mortality, use of green energy or number of
-college graduates. Moreover, pray consider that there are multiple ways to
-meassure things like efficiency, innovation and even poverty.
+college graduates.
 
 Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
 sacrifices needed to be done.
 
+Moreover, pray consider that there are multiple ways to meassure things like
+efficiency, innovation or even poverty.
+
 If the right thing to do is not self evident, this leads to an obvious
 conclusion: **there is no absolute standard of justice and prosperity**. The
-pursuit of universal justice, equality and happiness for that matter, is
-futile. They can only be approximated to an agreed ideal that might change over
-time and is prone to subjective interpretation, if no reliable metrics are
-provided.
+pursuit of universal goals is futile. They can only be approximated to an
+agreed ideal that might change over time and is prone to subjective
+interpretation, if no reliable metrics are provided.
 
-Something we can do to mitigate this GkjWe can agree on a set of artificial impositions and
-metrics that we are all going to live by and that are better, to our
-understanding, for the kind of society we want to live in. While these
+Something we can do to mitigate this is to agree on a set of artificial
+impositions and metrics that we are all going to live by and that are better,
+to our understanding, for the kind of society we want to live in. While these
 arbitrary rules cannot be agreed universally, ideally, we would have the
 capability to be part of their selection somehow.
 
 COMMENT HOW NATURE WORKS HERE.
 
 ## Public enemy number one
-I'm considering the government as an organization that defines rules and takes measures that are for all to obey or comply.
+I'm considering the government as an organization that defines rules and takes
+measures that are for all to obey or comply (a.k.a forced colectivism).
 Goverments have the power of law enforcement, which other organizations don't.
 
 Concepts like justice and equality are mere ideals hard to reach universally. What is fair
@@ -139,9 +142,9 @@ and do not look to increase their influese and power and least they want to
 perpetuate in it. They do listen to constructive feedback and do not demonize
 those who have different opinions. Finally, they do not believe reality can be
 shaped by laws [^10], but rather understand that changes have to be implemented
-in phases and tracked down.
+in scheduled phases and their results tracked down.
 
-And we all know that this is asking a lot, but, even if you are not governed by
+We all know that this is asking a lot, but, even if you are not governed by
 populist, dishonest or mediocre burocrats...
 
 ### Governments don't have enough competition
@@ -181,9 +184,9 @@ The cost of switching to a different provider of public services is too high
 and sometimes unaffordable for a member of a society.
 The only choices left are:
 
-- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
 - You go outlaw
-- You change your government (if you are luky via elections or, if you are really unluky, via a revolution)
+- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
+- You change your government (if you are luky via elections or, if you are really unluky, through a ~~violent~~ revolution)
 
 Much more is achieved by lots of trial an error experiments rather than a single big plan
 
@@ -270,6 +273,19 @@ It's the competition, [stupid][2].
 
 
 ## Notes
+If history teaches us anything, it’s that governments are always right, and they always do what’s in the best interest of the people, even at the expense of their own political agenda. In every situation, the answer is always more government and more regulation. If there are six billion people in the world, then all six billion should work for the government. More, if we could. And there should be at least twice as many laws as there are people in the world. And with more laws means more lawyers, so it’s a double benefit. It’s a win-win for both the government and the citizens, which of course there won’t be because in this utopian dream there are no citizens, there is only the government. The best part is the taxes will be super high, but they’re paid in full by the printing presses of the Geodesic Dome Society. Full benefits, zero unemployment, no chance of being fired, and a world so efficient it would make Rube Goldberg look like Fred Taylor or Henry Ford.
+Jarod Kintz
+
+the odds of succeding with top-down planning are low.
+
+Using mantras like seize the means of production, let the free market solve the
+problem, education should be free, etc are hollow and vague, without proper
+context, hypotesis and facts.
+
+A society where experimentation and decent are the core values, enabled by
+freedom understood as a very limited set of artificial impossitions, and guided
+by humility, to accept that one does not have all the answers.
+
 Open cities project?
 Search for committed suicide because socialism had arrived.
 As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
@@ -284,13 +300,13 @@ Although I'm against the governments making big plans, I might accept some of
 it at a municipal level, where shit gets real instead of academia bullshit
 about how everything should be handled.
 
-A society has to work as a lab. Sometimes the government can do so, other times
-is the free market who takes care of that. Which one is better? I can find
-examples of ideas that worked out well and came up from governments or the free
-market as well as examples of catastrophes. The important thing to note here
-is that society that test their ideas constantly will see higher chances of
-success over those who do not have a framework of constant improvement that
-challenges status quo.
+The important thing to note here is that society that test their ideas
+constantly will see higher chances of success over those who do not have a
+framework of constant improvement that challenges status quo. Does your society
+work as lab? Does it work through the free enterprise system? Does it work
+through government intervention? A bit of both?
+
+Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
 
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
@@ -302,6 +318,9 @@ http://www.bbc.com/news/magazine-40669239 "Norway: The country where no salaries
 https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8
 https://www.goodreads.com/quotes/877774-the-best-way-to-take-control-over-a-people-and
 https://www.nytimes.com/2017/06/30/world/asia/india-tax-narendra-modi.html
+http://peoriapublicradio.org/post/do-laptops-help-learning-look-only-statewide-school-laptop-program#stream/0
+https://www.quantamagazine.org/how-nature-solves-problems-through-computation-20170706/
+https://www.sitra.fi/en/blogs/basic-income-just-beginning-finland-one-innovative-governments-world-looks-citizen-driven-governance/
 
 There was no justice for dinosaurs. Even when they might have done everything
 they could in terms of adaptation through millions of years of evolution, they
