@@ -101,7 +101,7 @@ Roland reaches the Tower alone, as when he started his journey. He blows the Eld
 At the top of the tower he founds Stephen King as being the Crimson King (kings..., see the pun here?).
 The Mad King, creates universes, casts shadows in them, and forces others to do his bidding and works behind the scenes, in his writings.
 They have a conversation similar to the one with the Man in Black, where King says
-that he might be Gan but his crazy side at the same time, “There's someone greater than me. Remember Gunslinger,
+that he might be Gan but his crazy side at the same 9ime, “There's someone greater than me. Remember Gunslinger,
 the greatest mystery the universe offers is not life but size. Size encompasses life, and the Tower encompasses size.”.
 He wants to detroy the tower in the sense that he is tired of carring the burden of writing about it.
 Roland asks him to restore the world and Crimson King agrees to do so, but only if Roland gives his life as
@@ -499,6 +499,7 @@ but I would have like it not to be that explicit. I suspect the party was set
 up so that everyone could get a peek at their pray, but it seemed very awkard.
 If only a white cop descended and shooted dead the black dude just because, the
 ending would have been superb, and not riduculous as it was.
+The effects shown in the hipnosis scene are great and are worthy of a mention.
 **score: 3.2**
 
 # Insomnia
@@ -506,3 +507,85 @@ Really engaging acting and plot, with multiple layers that are developed as the
 movie progresses in an excelent way. The ending was not convincing and follows
 the Hollywood mantra of every movie needs a happy ending.
 **score: 4.3**
+
+# Under the dome
+If I had something to criticize it would be that I'm not convinced by how Dale
+Barbara escaped from prison, that felt like typical american destined heroism.
+Kids having visions was a great addon. Maybe that should have been
+the reason the military brought the big fans to push air into the dome.
+I liked the idea that (almost) everyone in town died because of a fire,
+and that there was no real happy ending.
+**score: 3.3**
+
+# Baby Driver
+There is nothing really new in this movie that cannot be seen in Drive. The
+idea of adding the music as scene driver (get the pun?) what creative but
+couldn't save the movie.
+**score: 3.0**
+
+# Manchester by the Sea 
+Super duper acting of an engaging yet really sad story.
+**score: 4.8**
+
+# It comes at night
+The adolescent listening to conversations, the weird "premonotiry" dreams, the
+sexual tension between the guest wife and the boy, what happened to world, how
+to survive, are some of the many subplots this movie has, but not all lead
+anywhere so it leaves you unsatisfied, almost bored.
+**score: 3.4**
+
+# Moon
+Brilliant idea, poorly executed. The acting is not convincing, the dialongs
+between the clones were cheap, the realization moment when they find out their
+lives were fake wasn't touching. Also the visions the first clone had, do not
+occur again, seeming like they needed a way to cause an accident and that is what
+they came up with.
+Dialogs could expand on things like: talking about childhood memories, what one
+clone has done to improve his personality and the other hasn't (bad temper for
+example), fighting about their stuff like "hey thats my toothbrush!".
+**score: 3.0**
+
+# Citadels
+I don't like the fact that the box is unnecessarily big. It has a lot of
+repleability with the character sets, and I'm happy they do propose many of
+them in the manual.  If players don't think their moves ahead, each round takes
+forever, this mostly noticible when playing sever or eight.
+**score: 4.6**
+
+# A ghost story
+Is very unconventional, but in a good way. This is one of those one in a 100
+movies that can generate an emotional inpact on you and leave you thinking.
+There are few dialongs, but important and pertinent, very long scenes, but with
+gorgeous photography and filled with immersive soundtrack, and in that sense is
+very artistic, yes the ghost is actually wearing a blanket with holes in it and
+moves through space and time in a very strange way, almost as if he was inside
+a vivid dream which could help explain why he acted in some ways or the perils
+of time travel.
+**score: 4.9**
+
+# Brawl in cell block 99
+The movie begins as a drama and ends up as an action moview. I was very
+surprised at the end to not have noticed the turning point at all.
+**score: 4.1**
+
+# Cave troll
+Bought this game trying to diversify my collection. It's got miniatures, a board and cards.
+It is a quick game to learn and takes 45 minutes aprox for 4 players. The only main complain I have
+is to make the miniatures bigger, they are hard to distinguish since they all look alike.
+Another suggestion I would make is to have the artifacts deployed in different chambers and make them part of the loot you take when entering the room.
+I'm a bit worried that the game will loose playability after many games since the board's design is fixed, and an obvious strategy arisises, but cannot tell since I only played it a couple of times so far.
+**score: 3.7**
+
+# Odin's ravens
+Beautifully designed filler game. Cannot complain at all. I love the cards
+design and their pictures. The whole concept is great!
+**score: 4.8**
+
+# Ultu Ulla - Rings of Saturn
+The every changing logo, the band name, the album names, the lyrics, the theme,
+the artwork, the alien tunes, the brutal rythms, the entire concept of the
+band, make a great combo. This things are the things that attrack me of metal
+bands, and what makes a band special and memorable. Not just good tracks, but
+all what surrounds is important too.
+This album was up to the quality I expected from them.
+**score: 4.9**
