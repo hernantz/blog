@@ -96,7 +96,7 @@ efficiency, innovation or even poverty.
 
 If the right thing to do is not self evident, this leads to an obvious
 conclusion: **there is no absolute standard of justice and prosperity**. The
-pursuit of universal goals is futile. They can only be approximated to an
+pursuit of these universal goals is futile. They can only be approximated to an
 agreed ideal that might change over time and is prone to subjective
 interpretation, if no reliable metrics are provided.
 
@@ -149,15 +149,11 @@ populist, dishonest or mediocre burocrats...
 
 ### Governments don't have enough competition
 
-Goverments are thought to be good monopolies
 
 USAR ESTE EJEMPLO>
 Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
-
-There's a natural tendency for goverments to grow and freedoms to shrink.
-The government can default but not disappear. That is not fair with other competitors.
 
 > An economy has untold possible outcomes. Its complexity comes both from the
 > near infinite variety that can come from permutations of simple rules, and
@@ -169,16 +165,19 @@ The government can default but not disappear. That is not fair with other compet
 >
 > <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
 
-Every policy that any organization imposes is an experiment basically. If the
-organization affects too many people, the experiment feels a lot like puting
-all the eggs in the same basket. Governments make decisions that are difficult
-in nature (basically they regulate how people should live), which is very
-dangerous if there is only one choice. Henseforth, centralized and external
-decision making doesn't seem like a good idea, even if the ones that make those
-decisions are doing what they think best.
 
-See education, stupid regulations (gender on boards), clean energy, prohibition
-of drugs. Unforetold consequences of well [intentioned initiatives][7].
+Governments make decisions that are difficult in nature (basically they
+regulate how people should live), which is very dangerous if there is only one
+choice.
+
+Every policy that any organization imposes is an experiment basically. If the
+organization affects too many people (an entire nation for example), the
+experiment feels a lot like puting all the eggs in the same basket.
+
+Henseforth, centralized and external decision making doesn't seem like a good
+idea, even if the ones that make those decisions are doing what they think
+best, specially when considering the unforetold consequences of well
+[intentioned initiatives][7].
 
 The cost of switching to a different provider of public services is too high
 and sometimes unaffordable for a member of a society.
@@ -282,9 +281,9 @@ Using mantras like seize the means of production, let the free market solve the
 problem, education should be free, etc are hollow and vague, without proper
 context, hypotesis and facts.
 
-A society where experimentation and decent are the core values, enabled by
-freedom understood as a very limited set of artificial impossitions, and guided
-by humility, to accept that one does not have all the answers.
+A society where experimentation and discord are the core values, enabled by
+freedom (understood as a very limited set of artificial impossitions), and
+guided by humility, to accept that one does not have all the answers.
 
 Open cities project?
 Search for committed suicide because socialism had arrived.
@@ -306,7 +305,6 @@ framework of constant improvement that challenges status quo. Does your society
 work as lab? Does it work through the free enterprise system? Does it work
 through government intervention? A bit of both?
 
-Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
 
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
 corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
@@ -341,6 +339,11 @@ The more you limit compteition and experimentation, even with good intentions,
 the more you harm your chances of prosperity.
 
 Monopolies:
+
+Governments are thought to be good monopolies
+There's a natural tendency for goverments to grow and freedoms to shrink.
+The government can default but not disappear. That is not fair with other competitors.
+
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from pursuing a career/goal, should they have the opportunity and capacity to do it.
 
