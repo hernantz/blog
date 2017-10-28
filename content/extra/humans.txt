@@ -26,6 +26,7 @@ else's repertoire get so much better.
 |  Crushcrushcrush              | Paramore                  | Ashley Simpson            |
 |  Galaxies                     | Laura Veirs               | Aurora                    |
 |  Sprinter                     | Torres                    | Aurora                    |
+|  Believers                    | Not Fun At All            | Bad Religion              |
 |  Stillborn                    | Black Label Society       | Black Sabbath             |
 |  Painkiller                   | Mech                      | Black Sabbath             |
 |  Starships                    | Nicki Minaj               | Britney Spears            |
@@ -40,6 +41,7 @@ else's repertoire get so much better.
 |  New Millenium Jesus Cyanide  | Meshuggah                 | Decapitated               |
 |  Born to Be Wild              | Steppenwolf               | Deep Purple               |
 |  You Spin Me Round            | Dead or Alive             | Depeche Mode              |
+|  Slow                         | Partners in Crime         | Depeche Mode              |
 |  Shout                        | Tears for Fears           | Depeche Mode              |
 |  Black Friday Rule            | Flogging Molly            | Dropkick Murphys          |
 |  Baby Did a Bad Bad Thing     | Chris Isaak               | Elvis Presley             |
@@ -72,11 +74,11 @@ else's repertoire get so much better.
 |  Presuit of Happiness         | Lissie                    | Lana del Rey              |
 |  Paper Planes                 | MIA                       | Lana del Rey              |
 |  Smooth Criminal              | Alien Ant Farm            | Limp Bizkit               |
+|  Butterfly                    | Crazy Town                | Limp Bizkit               |
 |  Freak on a Leash             | Korn                      | Limp Bizkit               |
 |  Alone I Break                | Korn                      | Limp Bizkit               |
 |  Papercut                     | Linkin Park               | Limp Bizkit               |
 |  Boom                         | P.O.D.                    | Limp Bizkit               |
-|  Killing in the Name          | Rage Against the Machine  | Limp Bizkit               |
 |  Just in Case                 | Static X                  | Limp Bizkit               |
 |  Dale Vieja Dale              | Ulises Bueno              | Los Caligaris             |
 |  Pumped Up Kicks              | Foster The People         | MGMT                      |
