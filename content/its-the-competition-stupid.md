@@ -166,18 +166,21 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 > <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
 
 
-Governments make decisions that are difficult in nature (basically they
-regulate how people should live), which is very dangerous if there is only one
-choice.
-
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people (an entire nation for example), the
 experiment feels a lot like puting all the eggs in the same basket.
+
+Governments make decisions that are difficult in nature (basically they
+regulate how people should live), which is very dangerous if there is only one
+choice.
 
 Henseforth, centralized and external decision making doesn't seem like a good
 idea, even if the ones that make those decisions are doing what they think
 best, specially when considering the unforetold consequences of well
 [intentioned initiatives][7].
+
+Now, you may be thinking this is a problem every organization suffers, so why
+is that we bring this topic to the table.
 
 The cost of switching to a different provider of public services is too high
 and sometimes unaffordable for a member of a society.
@@ -187,7 +190,7 @@ The only choices left are:
 - You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
 - You change your government (if you are luky via elections or, if you are really unluky, through a ~~violent~~ revolution)
 
-Much more is achieved by lots of trial an error experiments rather than a single big plan
+Much more is achieved by lots of trial an error experiments rather than a single big plan.
 
 Ejemplo de los containers
 https://www.flexport.com/blog/port-automation-oakland-rotterdam/
@@ -235,6 +238,20 @@ http://www.strongtowns.org/mission/#missioncopy
 > <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
 
 
+The important thing to note here is that even if the government is the chosen
+agent of change, the odds of succeding with top-down central planning are going
+to be low, compared to a society where descentrilized experimentation and
+discord are the core values.
+
+A society that [test their ideas constantly][11], enabled by freedom
+(understood as a very limited set of artificial impossitions), and guided by
+humility (necessary to accept that one does not have all the answers), will see
+higher chances of success over those who do not have a framework of constant
+improvement that challenges status quo.
+
+Does your society work as lab? Does it work through the free enterprise system?
+Does it work through government intervention? A bit of both?
+
 1. The pinnacle of competition: ciudades estado
    Cities should become laboratories of social and economic experiments.
    http://cityobservatory.org/about/
@@ -275,15 +292,10 @@ It's the competition, [stupid][2].
 If history teaches us anything, it’s that governments are always right, and they always do what’s in the best interest of the people, even at the expense of their own political agenda. In every situation, the answer is always more government and more regulation. If there are six billion people in the world, then all six billion should work for the government. More, if we could. And there should be at least twice as many laws as there are people in the world. And with more laws means more lawyers, so it’s a double benefit. It’s a win-win for both the government and the citizens, which of course there won’t be because in this utopian dream there are no citizens, there is only the government. The best part is the taxes will be super high, but they’re paid in full by the printing presses of the Geodesic Dome Society. Full benefits, zero unemployment, no chance of being fired, and a world so efficient it would make Rube Goldberg look like Fred Taylor or Henry Ford.
 Jarod Kintz
 
-the odds of succeding with top-down planning are low.
 
 Using mantras like seize the means of production, let the free market solve the
 problem, education should be free, etc are hollow and vague, without proper
 context, hypotesis and facts.
-
-A society where experimentation and discord are the core values, enabled by
-freedom (understood as a very limited set of artificial impossitions), and
-guided by humility, to accept that one does not have all the answers.
 
 Open cities project?
 Search for committed suicide because socialism had arrived.
@@ -298,12 +310,6 @@ https://www.theguardian.com/global-development-professionals-network/2017/feb/08
 Although I'm against the governments making big plans, I might accept some of
 it at a municipal level, where shit gets real instead of academia bullshit
 about how everything should be handled.
-
-The important thing to note here is that society that test their ideas
-constantly will see higher chances of success over those who do not have a
-framework of constant improvement that challenges status quo. Does your society
-work as lab? Does it work through the free enterprise system? Does it work
-through government intervention? A bit of both?
 
 
 Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
@@ -364,7 +370,6 @@ Instead of monopolies, we should think about the things that limit competition:
 http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
 
-
 [^3]: "There is a theory which states that if ever anyone discovers exactly
       what the Universe is for and why it is here, it will instantly disappear and
       be replaced by something even more bizarre and inexplicable.
@@ -398,5 +403,5 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [7]: http://www.forbes.com/sites/realspin/2016/11/29/thanks-to-fight-for-15-minimum-wage-mcdonalds-unveils-job-replacing-self-service-kiosks-nationwide/ "Thanks To 'Fight For $15' Minimum Wage, McDonald's Unveils Job-Replacing Self-Service Kiosks Nationwide"
 [8]: https://en.wikipedia.org/wiki/Gross_National_Happiness "Gross National Happiness"
 [9]: https://www.goodreads.com/quotes/1716-travel-is-fatal-to-prejudice-bigotry-and-narrow-mindedness-and-many
-[10]:
-[11]: https://twitter.com/BillGates/status/837751940356444160 "Progress is sometimes hard to see…"
+[10]: https://twitter.com/BillGates/status/837751940356444160 "Progress is sometimes hard to see…"
+[11]: https://www.learnliberty.org/blog/permissionless-innovation-the-fuzzy-idea-that-rules-our-lives/ "Permissionless innovation"
