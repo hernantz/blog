@@ -19,7 +19,8 @@ LINKS = (('blog', '/'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/hernantz'),
-          ('github', 'http://github.com/hernantz'), )
+          ('github', 'http://github.com/hernantz'),
+          ('last.fm', 'http://last.fm/user/hernantz'), )
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
