@@ -40,6 +40,7 @@ else's repertoire get so much better.
 |  Coffee and TV                | Blur                      | Death Cab for Cutie       |
 |  New Millenium Jesus Cyanide  | Meshuggah                 | Decapitated               |
 |  Born to Be Wild              | Steppenwolf               | Deep Purple               |
+|  Bullet                       | Covenant                  | Depeche Mode              |
 |  You Spin Me Round            | Dead or Alive             | Depeche Mode              |
 |  Slow                         | Partners in Crime         | Depeche Mode              |
 |  Shout                        | Tears for Fears           | Depeche Mode              |
@@ -81,6 +82,7 @@ else's repertoire get so much better.
 |  Boom                         | P.O.D.                    | Limp Bizkit               |
 |  Just in Case                 | Static X                  | Limp Bizkit               |
 |  Dale Vieja Dale              | Ulises Bueno              | Los Caligaris             |
+|  Panda                        | Astro                     | MGMT                      |
 |  Pumped Up Kicks              | Foster The People         | MGMT                      |
 |  Midnight City                | M83                       | MGMT                      |
 |  Pure Shores                  | All Saints                | Madonna                   |
