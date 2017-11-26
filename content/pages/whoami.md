@@ -15,22 +15,19 @@ have an easy answer.
 
 So far I can tell three things about me, that might help you understand why.
 
-I'm a generalist (like everyone else?), which sounds great until you realize it
+a) I'm a generalist (like everyone else?), which sounds great until you realize it
 is actually a burden. One might think that a generalist can contribute
 *everywhere*, but in reality you never end up fitting *anywhere*. It's easy to
 wander. My life is a constant struggle to keep a goal, discipline myself and
 take baby steps towards *somewhere*.
 
-I don't fear learning whatever is needed to assert the success of a project.
+b) I don't fear learning whatever is needed to assert the success of a project.
 Indeed, I love to learn.
 
-My tombstone will say [^1]:
+c) My tombstone will say [^1]:
 
 > Intenté hacer de este mundo un paraíso para todos y terminé creando un
 > infierno para mí solo.
-
-Me on the internetz:
-[Twitter](https://twitter.com/hernantz/) · [Github](https://github.com/hernantz) · [Reddit](https://www.reddit.com/user/hernantz/) · [MusicBrainz](https://musicbrainz.org/user/hernantz) · [Rotten Tomatoes](https://www.rottentomatoes.com/user/id/973196678) · [Good Reads](https://www.goodreads.com/hernantz)
 
 
 [^1]: The orignal quote says: *"Yo quise hacer de la tierra un paraíso para
