@@ -10,18 +10,36 @@ Status: draft
 
 ## Abstract
 
-Since high school I've always had the hunch that freedom was the obvious way for
-a society to progress in terms of efficiency, equality, wealth, knowledge and
-justice. I've been biased to justify everything as lack of freedom or as a
+Since high school I've always had the hunch that freedom was the obvious way
+for a society to progress in terms of efficiency, equality, wealth, knowledge
+and justice. I've been biased to justify everything as lack of freedom or as a
 consequence worth suffering because of an excess of freedom.
 
-I'm writing this post not to convince you of becoming a libertarian but to find
-a rational explanation on why I consider myself a libertarian and why I believe
-that higher degrees of freedom increase the chances of prosperity for the
-society, as whole, in the long run.
+But I later came to a realization: concepts like justice and equality are mere
+ideals hard to reach universally. What is fair for some, might not be so for
+others. They only make sense when applied in a pragmatic way in a given time
+and place.
+
+So maybe socialists, anarchists, conservatives and liberals all have something
+to add to the table. To some extent their claims might be relevant or absurd,
+again, depending on the context of such claims.
+
+Using mantras like seize the means of production, let the free market solve the
+problem, education should be our priority, etc, are hollow and vague, without
+proper context, hypotesis and facts.
+
+So now I don't simply praise freedom per se, but freedom to explore different
+ideas, freedom as a framework for decision making, that on purpose or as a
+consequence, increases the chances of prosperity for our society, as a whole,
+in the long run.
 
 
 ## ...And justice for all
+
+
+> Justice, if only we knew what it was.
+>
+> <cite>Socrates</cite>
 
 First we need to understand some key limitations about the nature of our existence.
 
@@ -36,7 +54,7 @@ we perceive and feel, by what we believe.
 Every day, all of us are making decisions that involve gambles. These gambles
 are sometimes big like what occupation to pursue, whom to marry, how to invest
 your savings or to have unprotected sex. Other times those gambles are small:
-ignoring a phone call or trying a menu in your favorite fast-food restaurant.
+ignoring a phone call or trying a different menu in your favorite fast-food restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. We also need to factor the cost of
@@ -113,10 +131,6 @@ I'm considering the government as an organization that defines rules and takes
 measures that are for all to obey or comply (a.k.a forced colectivism).
 Goverments have the power of law enforcement, which other organizations don't.
 
-Concepts like justice and equality are mere ideals hard to reach universally. What is fair
-for some, might not be so for others. They only make sense when applied in a pragmatic way in a
-given time and place.
-
 Now how do get there? As it happens, in the search for justice, equality, happiness or a better life for that matter,
 we come together with people alike and form organization.
 
@@ -163,7 +177,7 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 > businesses, and governments are all players, and none of them can know the
 > full consequences of their decisions.
 >
-> <cite>[To survive, the game of business needs to update its rules][1]</cite>. Tim O'Reilly.
+> <cite>Tim O'Reilly, [To survive, the game of business needs to update its rules][1].</cite>
 
 
 Every policy that any organization imposes is an experiment basically. If the
@@ -293,10 +307,6 @@ If history teaches us anything, it’s that governments are always right, and th
 Jarod Kintz
 
 
-Using mantras like seize the means of production, let the free market solve the
-problem, education should be free, etc are hollow and vague, without proper
-context, hypotesis and facts.
-
 Open cities project?
 Search for committed suicide because socialism had arrived.
 As John Hick once stated, God allows suffering, by creating us "imperfect and immature", so
@@ -388,10 +398,11 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
       men and things cannot be acquired by vegetating in one little corner of the
       earth all one's lifetime."
 
-      ― Mark Twain, [The Innocents Abroad/Roughing It][8]
+      ― Mark Twain, [The Innocents Abroad/Roughing It][9]
 
-[^10]: No written law has ever been more binding
-       than unwritten custom supported by popular opinion.
+[^10]: "No written law has ever been more binding
+       than unwritten custom supported by popular opinion."
+
        ― Carrie Chapman Catt
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
