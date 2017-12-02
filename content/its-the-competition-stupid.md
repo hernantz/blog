@@ -29,9 +29,9 @@ problem, education should be our priority, etc, are hollow and vague, without
 proper context, hypotesis and facts.
 
 So now I don't simply praise freedom per se, but freedom to explore different
-ideas, freedom as a framework for decision making, that on purpose or as a
-consequence, increases the chances of prosperity for our society, as a whole,
-in the long run.
+ideas, freedom as a framework for decision making, that on purpose or as an
+unintended consequence, increases the chances of prosperity for our society, as
+a whole, in the long run.
 
 
 ## ...And justice for all
@@ -41,7 +41,8 @@ in the long run.
 >
 > <cite>Socrates</cite>
 
-First we need to understand some key limitations about the nature of our existence.
+First we need to understand some key limitations about the nature of our
+existence.
 
 We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter. The flow of time, the
@@ -54,7 +55,8 @@ we perceive and feel, by what we believe.
 Every day, all of us are making decisions that involve gambles. These gambles
 are sometimes big like what occupation to pursue, whom to marry, how to invest
 your savings or to have unprotected sex. Other times those gambles are small:
-ignoring a phone call or trying a different menu in your favorite fast-food restaurant.
+ignoring a phone call or trying a different menu in your favorite fast-food
+restaurant.
 
 The decisions we make are based on ideas of a reality we interpret according to
 our limited vision of partial facts. We also need to factor the cost of
@@ -119,14 +121,19 @@ agreed ideal that might change over time and is prone to subjective
 interpretation, if no reliable metrics are provided.
 
 Something we can do to mitigate this is to agree on a set of artificial
-impositions and metrics that we are all going to live by and that are better,
-to our understanding, for the kind of society we want to live in. While these
-arbitrary rules cannot be agreed universally, ideally, we would have the
-capability to be part of their selection somehow.
+impositions and metrics that we are all going to live by. Rules of the game, if
+you will, that are better, to our understanding, for the kind of society we
+want to live in.
+
+While these arbitrary rules might come from traditions, the constitution, moral
+conventions or even cientific papers, they cannot be agreed universally, nor
+will they be perfect. Ideally we would have the capability to be part of their
+selection and later fine tuning somehow.
 
 COMMENT HOW NATURE WORKS HERE.
 
 ## Public enemy number one
+
 I'm considering the government as an organization that defines rules and takes
 measures that are for all to obey or comply (a.k.a forced colectivism).
 Goverments have the power of law enforcement, which other organizations don't.
