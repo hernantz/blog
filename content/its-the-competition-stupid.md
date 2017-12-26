@@ -17,11 +17,11 @@ consequence worth suffering because of an excess of freedom.
 
 But I later came to a realization: concepts like justice and equality are mere
 ideals hard to reach universally. What is fair for some, might not be so for
-others. They only make sense when applied in a pragmatic way in a given time
-and place.
+others. Concepts like these, only make sense when applied in a pragmatic way in
+a given time and place.
 
 So maybe socialists, anarchists, conservatives and liberals all have something
-to add to the table. To some extent their claims might be relevant or absurd,
+to add to the table. To some extent, their claims might be relevant or absurd,
 again, depending on the context of such claims.
 
 Using mantras like seize the means of production, let the free market solve the
@@ -37,9 +37,11 @@ a whole, in the long run.
 ## ...And justice for all
 
 
-> Justice, if only we knew what it was.
+> There is no way to specify in precise general rules, known beforehand, what
+> might be necessary to achieve results that would meet the standards of cosmic
+> justice.
 >
-> <cite>Socrates</cite>
+> <cite>Thomas Sowell, [The Quest for Cosmic Justice][12]</cite>
 
 First we need to understand some key limitations about the nature of our
 existence.
@@ -127,7 +129,7 @@ want to live in.
 
 While these arbitrary rules might come from traditions, the constitution, moral
 conventions or even cientific papers, they cannot be agreed universally, nor
-will they be perfect. Ideally we would have the capability to be part of their
+will they be perfect. Ideally we would have the oportunity to be part of their
 selection and later fine tuning somehow.
 
 COMMENT HOW NATURE WORKS HERE.
@@ -151,25 +153,63 @@ Anyone can choose based on whatever their motivations and possibilities are.
 ### Governments are run by politicians
 
 Lets assume politicians are honest and corruption is a thing of the past (left
-behind with the roman empire). They do what is correct and not what is
-politically correct. They are honest and would rather loose votes than lie to
-their people and promise things they cannot deliver. They were elected because
-they are the right choice for the job, not because they are friends or family
-of powerful people, nor because they are famous or charismatic and give
-beautiful speeches. They convince people about their ideas by providing
-reasonable arguments backed by real data, and not through costly advertising
-campaings or feeding sensationalism. They define themselves as public servants
-and do not look to increase their influese and power and least they want to
-perpetuate in it. They do listen to constructive feedback and do not demonize
-those who have different opinions. Finally, they do not believe reality can be
-shaped by laws [^10], but rather understand that changes have to be implemented
-in scheduled phases and their results tracked down.
+behind with the roman empire). They are honest and would rather loose votes
+than lie to their people and promise things they cannot deliver.
+
+They were elected because they are the right choice for the job, not because
+they are friends or family of powerful people, nor because they are famous or
+charismatic and give beautiful speeches. They do what is correct and not what
+is politically correct. They define themselves as public servants and do not
+look to increase their influese and power and least they want to perpetuate in
+it.
+ 
+They convince people about their ideas by providing reasonable arguments backed
+by real data, and not through costly advertising campaings or feeding
+sensationalism.  They do listen to constructive feedback and do not demonize
+those who have different opinions.
+
+Finally, they do not believe reality can be shaped by laws [^10], but rather
+understand that changes have to be implemented in scheduled phases and their
+results tracked down.
 
 We all know that this is asking a lot, but, even if you are not governed by
 populist, dishonest or mediocre burocrats...
 
-### Governments don't have enough competition
 
+### Governments are the opium of the people
+
+See, it's not all about politicians.
+
+Alfred Adler once said: "It is always easier to fight for one's principles than
+to live up to them", and this is precisely why it is very common to have
+zombies supporting visions that sometimes they don't fully understand or have
+the interest in scrutenizing them.
+
+This hyprocrisy is a golden oportunity for aspiring leaders to influense people
+desires and discontent.
+
+Political campaigns nowadays are not that different from marketing campaings,
+where ideas of a "better nation" or "let me solve all your problems for free"
+are being sold by messianic politicians.
+
+The state, as any other organization, is a living organism, that expands trying
+to survive and perpetuate. There's a natural tendency for goverments to grow
+and freedoms to shrink, taxes are never enough, regulations lead to more
+regulations.
+
+Soon the government becomes a services company, providing or overseeing
+unemployment insurance, energy production and distribution, healthcare,
+education, food stamps, shelter, security, you name it, taking decisions for
+people as opposed to having each individual figure out their ways to solve
+their particular necessities, through voluntary transactions. Now there is a
+government dependant orde of voters that need someone to fix their problems.
+Decision making is transfered to the state. The costs, never acounted for.
+
+The existance of the state is a necessary evil, but a constant menace to free
+society if limits are not imposed to it's responsibilities and size.
+
+
+### Governments don't have enough competition
 
 USAR ESTE EJEMPLO>
 Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
@@ -185,6 +225,10 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 > full consequences of their decisions.
 >
 > <cite>Tim O'Reilly, [To survive, the game of business needs to update its rules][1].</cite>
+
+Governments are thought to be *good* monopolies
+
+The government can default but not disappear. That is not fair with other competitors.
 
 
 Every policy that any organization imposes is an experiment basically. If the
@@ -222,17 +266,18 @@ that determine a fair salary?. Should employers be required to have a percentage
 of their workforce be women or black, or employees should be hired and valued
 regardless of their gender or the color of their skin?
 
+The way representative democracies work today is a winner takes all kind of
+game. Sure you can change it every 4 or 5 years, but people buy a combo of
+politicies. You like the minister of education but you dislike the minister of
+culture? want to keep the economic policies but change the migration policies?
+You cannot handpick what you want and what you don't want.
 
-### Governments are the opium of the people
+Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
 
-> It is always easier to fight for one's principles than to live up to them.
->
-> Alfred Adler
-Hypocrisy
-People think everything is free until they have to pay for it. When the
-government intervenes, is doesn't have that direct impact. If you care about
-something, there is for sure a way you can help, without forcing everyone else
-to commit as you.
+Politicians simply overwhelm people with their rhetoric
+
+Your choices are limited to picking an ideology and backing it up so that it gets to power
+and 
 
 
 Video Milton Friedman sobre justicia, libertad.
@@ -363,9 +408,6 @@ the more you harm your chances of prosperity.
 
 Monopolies:
 
-Governments are thought to be good monopolies
-There's a natural tendency for goverments to grow and freedoms to shrink.
-The government can default but not disappear. That is not fair with other competitors.
 
 A career open to all talents: every person should not have artificial impositions or obstacles that prevent
 them from pursuing a career/goal, should they have the opportunity and capacity to do it.
@@ -423,3 +465,4 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [9]: https://www.goodreads.com/quotes/1716-travel-is-fatal-to-prejudice-bigotry-and-narrow-mindedness-and-many
 [10]: https://twitter.com/BillGates/status/837751940356444160 "Progress is sometimes hard to see…"
 [11]: https://www.learnliberty.org/blog/permissionless-innovation-the-fuzzy-idea-that-rules-our-lives/ "Permissionless innovation"
+[12]: https://www.goodreads.com/book/show/86312.The_Quest_for_Cosmic_Justice "The Quest for Cosmic Justice"
