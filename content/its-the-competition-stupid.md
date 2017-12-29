@@ -205,16 +205,8 @@ their particular necessities, through voluntary transactions. Now there is a
 government dependant orde of voters that need someone to fix their problems.
 Decision making is transfered to the state. The costs, never acounted for.
 
-The existance of the state is a necessary evil, but a constant menace to free
-society if limits are not imposed to it's responsibilities and size.
-
 
 ### Governments don't have enough competition
-
-USAR ESTE EJEMPLO>
-Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
-http://blog.ycombinator.com/moving-forward-on-basic-income
-http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
 > An economy has untold possible outcomes. Its complexity comes both from the
 > near infinite variety that can come from permutations of simple rules, and
@@ -225,11 +217,6 @@ http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-povert
 > full consequences of their decisions.
 >
 > <cite>Tim O'Reilly, [To survive, the game of business needs to update its rules][1].</cite>
-
-Governments are thought to be *good* monopolies
-
-The government can default but not disappear. That is not fair with other competitors.
-
 
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people (an entire nation for example), the
@@ -244,21 +231,44 @@ idea, even if the ones that make those decisions are doing what they think
 best, specially when considering the unforetold consequences of well
 [intentioned initiatives][7].
 
-Now, you may be thinking this is a problem every organization suffers, so why
-is that we bring this topic to the table.
+Moreover, governments have become accepted monopolies. The way representative
+democracies work today resembles a lot like a winner takes all kind of game.
+Sure you can change it every 2, 4 or 5 years, but what voters are end up doing
+is buying a combo of politicies. You like the minister of education but you
+dislike the minister of culture? want to keep the economic policies but change
+the immigration policies? You cannot handpick what you want and what you don't
+want, it's an all-in, pretty much.
+
+In this sense, your choices are limited to picking an ideology and backing it
+up so that it gets to power and hope the government does more of what you
+support and less of what you dislike. 
+
+Now, you may be thinking, this is a problem every organization suffers from, so
+why is that we bring this topic now?
 
 The cost of switching to a different provider of public services is too high
-and sometimes unaffordable for a member of a society.
-The only choices left are:
+and sometimes unaffordable for a member of a society. The only choices left
+for free citizens are:
 
 - You go outlaw
-- You leave the country/state/province/city (if you are lucky you just leave the city, if you are unluky you leave the country, if you are really unluky you'll have to leave the region/continent)
-- You change your government (if you are luky via elections or, if you are really unluky, through a ~~violent~~ revolution)
+- You leave the country/state/province/city (if you are lucky you just leave
+  the city, if you are unluky you leave the country, if you are really unluky
+  you'll have to leave the region/continent)
+- You change your government (if you are luky via elections or, if you are
+  really unluky, through a ~~violent~~ revolution)
 
-Much more is achieved by lots of trial an error experiments rather than a single big plan.
+The existance of the state is a necessary evil, but a constant menace to free
+society if limits are not imposed to it's responsibilities and size.
+
+Governments are thought to be *good* monopolies
+
+The government can default but not disappear. That is not fair with other competitors.
 
 Ejemplo de los containers
 https://www.flexport.com/blog/port-automation-oakland-rotterdam/
+
+
+Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
 
 Should employers be required to pay men and women the same salary for the same
 job, or are there too many variables such as education, incentives or experience
@@ -266,19 +276,9 @@ that determine a fair salary?. Should employers be required to have a percentage
 of their workforce be women or black, or employees should be hired and valued
 regardless of their gender or the color of their skin?
 
-The way representative democracies work today is a winner takes all kind of
-game. Sure you can change it every 4 or 5 years, but people buy a combo of
-politicies. You like the minister of education but you dislike the minister of
-culture? want to keep the economic policies but change the migration policies?
-You cannot handpick what you want and what you don't want.
-
-Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
-
-Politicians simply overwhelm people with their rhetoric
-
-Your choices are limited to picking an ideology and backing it up so that it gets to power
-and 
-
+Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
+http://blog.ycombinator.com/moving-forward-on-basic-income
+http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
 Video Milton Friedman sobre justicia, libertad.
 https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
@@ -299,7 +299,8 @@ http://www.strongtowns.org/mission/#missioncopy
 
 ## Possible solutions
 
-> To have progress, you want a system that is competitive, not one that is dominated by a single power.
+> To have progress, you want a system that is competitive, not one that is
+> dominated by a single power.
 >
 > <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
 
@@ -308,6 +309,9 @@ The important thing to note here is that even if the government is the chosen
 agent of change, the odds of succeding with top-down central planning are going
 to be low, compared to a society where descentrilized experimentation and
 discord are the core values.
+
+Much more is achieved by lots of trial an error experiments rather than a
+single big plan.
 
 A society that [test their ideas constantly][11], enabled by freedom
 (understood as a very limited set of artificial impossitions), and guided by
