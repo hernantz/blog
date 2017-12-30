@@ -201,7 +201,7 @@ desires and discontent.
 
 Political campaigns nowadays are not that different from marketing campaings,
 where ideas of a "better nation" or "let me solve all your problems for free"
-are being sold by messianic politicians.
+are being sold by messianic reformers.
 
 The state, as any other organization, is a living organism, that expands trying
 to survive and perpetuate. There's a natural tendency for goverments to grow
@@ -237,75 +237,48 @@ Governments make decisions that are difficult in nature (basically they
 regulate how people should live), which is very dangerous if there is only one
 choice.
 
-Henseforth, centralized and external decision making doesn't seem like a good
-idea, even if the ones that make those decisions are doing what they think
-best, specially when considering the unforetold consequences of well
-[intentioned initiatives][7].
+In this regard, governments have become accepted monopolies. More specifically,
+they are thought to be *good* monopolies, managed by well intentioned experts
+with grand schemes to solve big problems.
 
-Moreover, governments have become accepted monopolies. The way representative
-democracies work today resembles a lot like a winner takes all kind of game.
-Sure you can change it every 2, 4 or 5 years, but what voters are end up doing
-is buying a combo of politicies. You like the minister of education but you
-dislike the minister of culture? want to keep the economic policies but change
-the immigration policies? You cannot handpick what you want and what you don't
-want, it's an all-in, pretty much.
+Policymakers might only be *"experts"* on some field but will never come up
+with a sufficiently intelligent design for social engeneering and problem
+solving, that compares to the vast knowledge embedded in the [cultural
+intelligence][13] of a society, afected by descentrilized flows of information
+and a luck-affected trial-and-error method for dealing with challenges.
+
+Moreover, the way representative democracies work today resembles a lot like a
+winner takes all kind of game.  Sure you can change it every 2, 4 or 5 years,
+but what voters are end up doing is buying a combo of politicies. You like the
+minister of education but you dislike the minister of culture? want to keep the
+economic policies but change the immigration policies? You cannot handpick what
+you want and what you don't want, it's an all-in, pretty much.
 
 In this sense, your choices are limited to picking an ideology and backing it
 up so that it gets to power and hope the government does more of what you
 support and less of what you dislike. 
 
-Now, you may be thinking, this is a problem every organization suffers from, so
-why is that we bring this topic now?
+What this really means is that governments as a mean of change, can be slow and
+inefficiant, they can become a bottleneck for progress.
 
-The cost of switching to a different provider of public services is too high
-and sometimes unaffordable for a member of a society. The only choices left
-for free citizens are:
+Should something go wrong, the cost of switching to a different provider of
+public planning is too high and sometimes unaffordable for a member of a
+society, considering that the only choices left for free citizens are:
 
-- You go outlaw
-- You leave the country/state/province/city (if you are lucky you just leave
-  the city, if you are unluky you leave the country, if you are really unluky
+- To go outlaw
+- To leave the country/state/province/city (if you are lucky you just leave the
+  city, if you are unluky you leave the country, if you are really unluky
   you'll have to leave the region/continent)
-- You change your government (if you are luky via elections or, if you are
-  really unluky, through a ~~violent~~ revolution)
+- To change government (if you are luky via elections or, if you are really
+  unluky, through a ~~violent~~ revolution)
+
+Henseforth, centralized and external decision making doesn't seem like a good
+idea, even if the ones that make those decisions are doing what they think
+best, specially when considering the unforetold consequences of well
+[intentioned initiatives][7].
 
 The existance of the state is a necessary evil, but a constant menace to free
-society if limits are not imposed to it's responsibilities and size.
-
-Governments are thought to be *good* monopolies
-
-The government can default but not disappear. That is not fair with other competitors.
-
-Ejemplo de los containers
-https://www.flexport.com/blog/port-automation-oakland-rotterdam/
-
-
-Governments as a mean of change, can be slow and inefficiant, they can become a bottleneck.
-
-Should employers be required to pay men and women the same salary for the same
-job, or are there too many variables such as education, incentives or experience
-that determine a fair salary?. Should employers be required to have a percentage
-of their workforce be women or black, or employees should be hired and valued
-regardless of their gender or the color of their skin?
-
-Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
-http://blog.ycombinator.com/moving-forward-on-basic-income
-http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
-
-Video Milton Friedman sobre justicia, libertad.
-https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
-
-http://plato.stanford.edu/entries/equal-opportunity/
-http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
-
-http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
-
-http://www.smithsonianmag.com/innovation/san-francisco-startup-puts-everything-you-need-two-acre-farm-shipping-container-180961567/
-
-http://www.nationalaffairs.com/publications/detail/madison-and-the-perils-of-populism
-http://www.nationalaffairs.com/publications/detail/cultural-intelligence
-https://twitter.com/randal_olson/status/754703494108569601
-http://www.strongtowns.org/mission/#missioncopy
-
+society if strict limits are not imposed to it's responsibilities and size.
 
 
 ## Possible solutions
@@ -328,7 +301,7 @@ A society that [test their ideas constantly][11], enabled by freedom
 (understood as a very limited set of artificial impossitions), and guided by
 humility (necessary to accept that one does not have all the answers), will see
 higher chances of success over those who do not have a framework of constant
-improvement that challenges status quo.
+improvement that challenges *status quo*.
 
 Does your society work as lab? Does it work through the free enterprise system?
 Does it work through government intervention? A bit of both?
@@ -372,6 +345,40 @@ It's the competition, [stupid][2].
 ## Notes
 If history teaches us anything, it’s that governments are always right, and they always do what’s in the best interest of the people, even at the expense of their own political agenda. In every situation, the answer is always more government and more regulation. If there are six billion people in the world, then all six billion should work for the government. More, if we could. And there should be at least twice as many laws as there are people in the world. And with more laws means more lawyers, so it’s a double benefit. It’s a win-win for both the government and the citizens, which of course there won’t be because in this utopian dream there are no citizens, there is only the government. The best part is the taxes will be super high, but they’re paid in full by the printing presses of the Geodesic Dome Society. Full benefits, zero unemployment, no chance of being fired, and a world so efficient it would make Rube Goldberg look like Fred Taylor or Henry Ford.
 Jarod Kintz
+
+
+Ejemplo de los containers
+https://www.flexport.com/blog/port-automation-oakland-rotterdam/
+
+
+
+The government can default but not disappear. That is not fair with other competitors.
+
+Should employers be required to pay men and women the same salary for the same
+job, or are there too many variables such as education, incentives or experience
+that determine a fair salary?. Should employers be required to have a percentage
+of their workforce be women or black, or employees should be hired and valued
+regardless of their gender or the color of their skin?
+
+Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
+http://blog.ycombinator.com/moving-forward-on-basic-income
+http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
+
+Video Milton Friedman sobre justicia, libertad.
+https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
+
+http://plato.stanford.edu/entries/equal-opportunity/
+http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
+
+http://www.theatlantic.com/magazine/archive/1993/12/how-the-world-works/305854/?single_page=true
+
+http://www.smithsonianmag.com/innovation/san-francisco-startup-puts-everything-you-need-two-acre-farm-shipping-container-180961567/
+
+http://www.nationalaffairs.com/publications/detail/madison-and-the-perils-of-populism
+https://twitter.com/randal_olson/status/754703494108569601
+http://www.strongtowns.org/mission/#missioncopy
+
+
 
 
 Open cities project?
@@ -481,3 +488,4 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [10]: https://twitter.com/BillGates/status/837751940356444160 "Progress is sometimes hard to see…"
 [11]: https://www.learnliberty.org/blog/permissionless-innovation-the-fuzzy-idea-that-rules-our-lives/ "Permissionless innovation"
 [12]: https://www.goodreads.com/book/show/86312.The_Quest_for_Cosmic_Justice "The Quest for Cosmic Justice"
+[13]: http://www.nationalaffairs.com/publications/detail/cultural-intelligence "Cultural Intelligence"
