@@ -26,9 +26,9 @@ again, depending on the context of such claims.
 
 Using mantras like seize the means of production, let the free market solve the
 problem, education should be our priority, etc, are hollow and vague, without
-proper context, hypotesis and facts.
+proper context, hypotheses and facts.
 
-So now I don't simply praise freedom per se, but freedom to explore different
+So now I don't simply praise freedom *per se*, but freedom to explore different
 ideas, freedom as a framework for decision making, that on purpose or as an
 unintended consequence, increases the chances of prosperity for our society, as
 a whole, in the long run.
@@ -132,22 +132,33 @@ conventions or even cientific papers, they cannot be agreed universally, nor
 will they be perfect. Ideally we would have the oportunity to be part of their
 selection and later fine tuning somehow.
 
-COMMENT HOW NATURE WORKS HERE.
 
 ## Public enemy number one
+
+Now how do get there? As it happens, in the search for justice, equality,
+happiness or a better life for that matter, we come together with people alike
+and form an organization, that would persue the common goals we share.
+
+To achieve those goals, different organizations might have different
+approaches.
+
+There are organizations that allow other organizations to co-exists, i.e
+multiple newspapers, soccer teams, brands of cookies, NGOs, etc. Anyone can
+choose which one to interact with, based on whatever their motivations and
+possibilities are.
+
+There are other types of organizations that don't allow alternatives to
+co-exist. Governments are the most representative example of this kind.
 
 I'm considering the government as an organization that defines rules and takes
 measures that are for all to obey or comply (a.k.a forced colectivism).
 Goverments have the power of law enforcement, which other organizations don't.
 
-Now how do get there? As it happens, in the search for justice, equality, happiness or a better life for that matter,
-we come together with people alike and form organization.
+Can governments be the right tool for the job, to become agents of change,
+bring prosperity and justice to it's people? Of course they can!
 
-Kinds of organizations:
-
-* There are aspects that allow choices to co-exists i.e multiple newspapers, soccer teams, brands of cookies, etc.
-Anyone can choose based on whatever their motivations and possibilities are.
-* There are other things that don't allow other alternatives to co-exist. Governments are the most representative example of this kind.
+Yet you might want to hear some aspects to keep in mind before you fully commit
+to them.
 
 
 ### Governments are run by politicians
