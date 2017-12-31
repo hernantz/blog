@@ -41,7 +41,7 @@ a whole, in the long run.
 > might be necessary to achieve results that would meet the standards of cosmic
 > justice.
 >
-> <cite>Thomas Sowell, [The Quest for Cosmic Justice][12]</cite>
+> <cite> ― Thomas Sowell, [The Quest for Cosmic Justice][12]</cite>
 
 First we need to understand some key limitations about the nature of our
 existence.
@@ -189,6 +189,14 @@ populist, dishonest or mediocre burocrats...
 
 ### Governments are the opium of the people
 
+> The best way to take control over a people and control them utterly is
+> to take a little of their freedom at a time, to erode rights by a thousand
+> tiny and almost imperceptible reductions. In this way, the people will not
+> see those rights and freedoms being removed until past the point at which
+> these changes cannot be reversed.
+>
+> <cite>― Pat Miller, [Willfully Ignorant][15]</cite>
+
 See, it's not all about politicians.
 
 Alfred Adler once said: "It is always easier to fight for one's principles than
@@ -196,8 +204,8 @@ to live up to them", and this is precisely why it is very common to have
 zombies supporting visions that sometimes they don't fully understand or have
 the interest in scrutenizing them.
 
-This hyprocrisy is a golden oportunity for aspiring leaders to influense people
-desires and discontent.
+This hyprocrisy is a golden oportunity for aspiring leaders to influense
+people's desires and discontent.
 
 Political campaigns nowadays are not that different from marketing campaings,
 where ideas of a "better nation" or "let me solve all your problems for free"
@@ -206,11 +214,11 @@ are being sold by messianic reformers.
 The state, as any other organization, is a living organism, that expands trying
 to survive and perpetuate. There's a natural tendency for goverments to grow
 and freedoms to shrink, taxes are never enough, regulations lead to more
-regulations.
+regulations [^16].
 
 Soon the government becomes a services company, providing or overseeing
 unemployment insurance, energy production and distribution, healthcare,
-education, food stamps, shelter, security, you name it, taking decisions for
+education, food stamps, housing, security, you name it, taking decisions for
 people as opposed to having each individual figure out their ways to solve
 their particular necessities, through voluntary transactions. Now there is a
 government dependant orde of voters that need someone to fix their problems.
@@ -227,7 +235,7 @@ Decision making is transfered to the state. The costs, never acounted for.
 > businesses, and governments are all players, and none of them can know the
 > full consequences of their decisions.
 >
-> <cite>Tim O'Reilly, [To survive, the game of business needs to update its rules][1].</cite>
+> <cite>― Tim O'Reilly, [To survive, the game of business needs to update its rules][1].</cite>
 
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people (an entire nation for example), the
@@ -243,16 +251,18 @@ with grand schemes to solve big problems.
 
 Policymakers might only be *"experts"* on some field but will never come up
 with a sufficiently intelligent design for social engeneering and problem
-solving, that compares to the vast knowledge embedded in the [cultural
-intelligence][13] of a society, afected by descentrilized flows of information
+solving, that compares to the vast knowledge embedded in the cultural
+intelligence [^13] of a society, afected by descentrilized flows of information
 and a luck-affected trial-and-error method for dealing with challenges.
 
 Moreover, the way representative democracies work today resembles a lot like a
-winner takes all kind of game.  Sure you can change it every 2, 4 or 5 years,
-but what voters are end up doing is buying a combo of politicies. You like the
-minister of education but you dislike the minister of culture? want to keep the
-economic policies but change the immigration policies? You cannot handpick what
-you want and what you don't want, it's an all-in, pretty much.
+winner takes all kind of game. Sure you can change it every 2, 4 or 5 years,
+but what voters are end up doing is buying a combo of politicies, or giving a
+blank check to full-time employed senators paid with generous wages to figure
+out new regulations. You like the minister of education but you dislike the
+minister of culture? want to keep the economic policies but change the
+immigration policies? You cannot handpick what you want and what you don't
+want, it's an all-in, pretty much.
 
 In this sense, your choices are limited to picking an ideology and backing it
 up so that it gets to power and hope the government does more of what you
@@ -286,22 +296,22 @@ society if strict limits are not imposed to it's responsibilities and size.
 > To have progress, you want a system that is competitive, not one that is
 > dominated by a single power.
 >
-> <cite>Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
+> <cite>― Joel Mokyr, [Why the Industrial Revolution didn't happen in China][5]</cite>.
 
 
 The important thing to note here is that even if the government is the chosen
 agent of change, the odds of succeding with top-down central planning are going
-to be low, compared to a society where descentrilized experimentation and
+to be low [^14], compared to a society where descentrilized experimentation and
 discord are the core values.
 
-Much more is achieved by lots of trial an error experiments rather than a
-single big plan.
-
-A society that [test their ideas constantly][11], enabled by freedom
+A society that [tests it's ideas constantly][11], enabled by freedom
 (understood as a very limited set of artificial impossitions), and guided by
 humility (necessary to accept that one does not have all the answers), will see
 higher chances of success over those who do not have a framework of constant
 improvement that challenges *status quo*.
+
+since much more is achieved by lots
+of trial an error experiments rather than a single big plan
 
 Does your society work as lab? Does it work through the free enterprise system?
 Does it work through government intervention? A bit of both?
@@ -343,8 +353,6 @@ It's the competition, [stupid][2].
 
 
 ## Notes
-If history teaches us anything, it’s that governments are always right, and they always do what’s in the best interest of the people, even at the expense of their own political agenda. In every situation, the answer is always more government and more regulation. If there are six billion people in the world, then all six billion should work for the government. More, if we could. And there should be at least twice as many laws as there are people in the world. And with more laws means more lawyers, so it’s a double benefit. It’s a win-win for both the government and the citizens, which of course there won’t be because in this utopian dream there are no citizens, there is only the government. The best part is the taxes will be super high, but they’re paid in full by the printing presses of the Geodesic Dome Society. Full benefits, zero unemployment, no chance of being fired, and a world so efficient it would make Rube Goldberg look like Fred Taylor or Henry Ford.
-Jarod Kintz
 
 
 Ejemplo de los containers
@@ -476,6 +484,38 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
        ― Carrie Chapman Catt
 
+[^13]: Science journalist Matt Ridley's most recent book, The Evolution of
+       Everything, argues that we observe the decentralized, incremental,
+       trial-and-error process of evolution in all human endeavors, including
+       culture, law, business, and technology. Like Henrich, Ridley argues that we
+       tend to overstate the importance of the individual genius or leader while
+       understating the gradual, cumulative nature of change.
+       [Cultural Intelligence][13]
+[^14]: "If history teaches us anything, it’s that governments are always right,
+       and they always do what’s in the best interest of the people, even at the
+       expense of their own political agenda. In every situation, the answer is
+       always more government and more regulation. If there are six billion people
+       in the world, then all six billion should work for the government. More, if
+       we could. And there should be at least twice as many laws as there are people
+       in the world.  And with more laws means more lawyers, so it’s a double
+       benefit. It’s a win-win for both the government and the citizens, which of
+       course there won’t be because in this utopian dream there are no citizens,
+       there is only the government. The best part is the taxes will be super high,
+       but they’re paid in full by the printing presses of the Geodesic Dome
+       Society. Full benefits, zero unemployment, no chance of being fired, and a
+       world so efficient it would make Rube Goldberg look like Fred Taylor or Henry
+       Ford."
+
+       ― Jarod Kintz
+[^16]: The effects of regulation -- both benefits and costs -- are difficult to
+       measure, particularly when considered in the aggregate. As a result, analysts
+       often turn to indirect proxies to understand the reach and impact of
+       regulations over time. Some of the statistics used to track aggregate
+       regulatory activity over time are presented [here][16].
+
+
+
+
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
 [2]: https://en.wikipedia.org/wiki/It%27s_the_economy,_stupid "It's the economy, stupid"
 [3]: https://www.goodreads.com/quotes/2397-there-is-a-theory-which-states-that-if-ever-anyone "Douglas Adams, The Restaurant at the End of the Universe"
@@ -489,3 +529,5 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [11]: https://www.learnliberty.org/blog/permissionless-innovation-the-fuzzy-idea-that-rules-our-lives/ "Permissionless innovation"
 [12]: https://www.goodreads.com/book/show/86312.The_Quest_for_Cosmic_Justice "The Quest for Cosmic Justice"
 [13]: http://www.nationalaffairs.com/publications/detail/cultural-intelligence "Cultural Intelligence"
+[15]: https://www.goodreads.com/book/show/22033450-willfully-ignorant "Willfully Ignorant"
+[16]: https://regulatorystudies.columbian.gwu.edu/reg-stats
