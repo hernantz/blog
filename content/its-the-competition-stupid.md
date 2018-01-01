@@ -118,8 +118,8 @@ efficiency, innovation or even poverty.
 
 If the right thing to do is not self evident, this leads to an obvious
 conclusion: **there is no absolute standard of justice and prosperity**. The
-pursuit of these universal goals is futile. They can only be approximated to an
-agreed ideal that might change over time and is prone to subjective
+pursuit of these universal goals [is futile][17]. They can only be approximated
+to an agreed ideal that might change over time and is prone to subjective
 interpretation, if no reliable metrics are provided.
 
 Something we can do to mitigate this is to agree on a set of artificial
@@ -310,29 +310,18 @@ humility (necessary to accept that one does not have all the answers), will see
 higher chances of success over those who do not have a framework of constant
 improvement that challenges *status quo*.
 
-since much more is achieved by lots
-of trial an error experiments rather than a single big plan
+This is precisely what free markets propose and, to some extent, accomplish.
+Non profit and for-profit organizations compete openly to achieve their goals
+through transactions and resource management in a profit and loss system.
 
-Does your society work as lab? Does it work through the free enterprise system?
-Does it work through government intervention? A bit of both?
+At a govermental level, forms of direct democracy can help reduce the gap between
+what the state does and what people want.
 
-1. The pinnacle of competition: ciudades estado
-   Cities should become laboratories of social and economic experiments.
-   http://cityobservatory.org/about/
-   http://www.seasteading.org/
-   The amount of power an organization should have should be inversely
-   proportional to the amount of people it affects or controls. In other words give
-   more power to local governments over federal governments.
-2. Virtual worlds.
-   Let's face it, the future is [non-human][6]. Artificial beings will rule eventually,
-   and the only place left for mankind in the evolution race is to somehow merge with these superior forms of
-   life. Inmersive virtual reality offers an interesting solution to how this
-   process should happen, by hosting our human brains as software and letting us
-   live as gods in our own universe.
+Also, social experimentation to test ideas and their impact can also help
+reduce the risks of new legislation.
 
-
-Among the cities this new world has to offer I would choose a libertarian one,
-which one would you choose?
+The closer the government is to it's gorvernned, the better, prefer local
+governments over federal governments.
 
 
 ## Conclusion
@@ -349,7 +338,7 @@ In the long term, and even in an unfair system, competition is what drives
 progress while centralized planning is the public enemy number one in this
 regard.
 
-It's the competition, [stupid][2].
+It's the competition, stupid [^2].
 
 
 ## Notes
@@ -372,8 +361,6 @@ Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
 http://www.nytimes.com/2016/06/01/business/economy/universal-basic-income-poverty.html
 
-Video Milton Friedman sobre justicia, libertad.
-https://www.youtube.com/watch?v=dCnxOICRtLE (Equality and Freedom)
 
 http://plato.stanford.edu/entries/equal-opportunity/
 http://www.wsj.com/articles/why-the-west-and-the-rest-got-rich-1463754427
@@ -412,7 +399,6 @@ https://www.youtube.com/watch?v=k8vVEbCquMw
 http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
 http://www.bbc.com/news/magazine-40669239 "Norway: The country where no salaries are secret"
 https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8
-https://www.goodreads.com/quotes/877774-the-best-way-to-take-control-over-a-people-and
 https://www.nytimes.com/2017/06/30/world/asia/india-tax-narendra-modi.html
 http://peoriapublicradio.org/post/do-laptops-help-learning-look-only-statewide-school-laptop-program#stream/0
 https://www.quantamagazine.org/how-nature-solves-problems-through-computation-20170706/
@@ -435,6 +421,25 @@ o haya estado bajo tierra cuando cayo el metiorito.
 
 The more you limit compteition and experimentation, even with good intentions,
 the more you harm your chances of prosperity.
+
+
+1. The pinnacle of competition: ciudades estado
+   Cities should become laboratories of social and economic experiments.
+   http://cityobservatory.org/about/
+   http://www.seasteading.org/
+   The amount of power an organization should have should be inversely
+   proportional to the amount of people it affects or controls. In other words give
+   more power to local governments over federal governments.
+2. Virtual worlds.
+   Let's face it, the future is [non-human][6]. Artificial beings will rule eventually,
+   and the only place left for mankind in the evolution race is to somehow merge with these superior forms of
+   life. Inmersive virtual reality offers an interesting solution to how this
+   process should happen, by hosting our human brains as software and letting us
+   live as gods in our own universe.
+
+
+Among the cities this new world has to offer I would choose a libertarian one,
+which one would you choose?
 
 Monopolies:
 
@@ -459,6 +464,8 @@ Instead of monopolies, we should think about the things that limit competition:
 http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
 
+[^2]: "It's the competition, stupid" is a slight variation of the phrase ["It's
+      the economy, stupid"][2]
 [^3]: "There is a theory which states that if ever anyone discovers exactly
       what the Universe is for and why it is here, it will instantly disappear and
       be replaced by something even more bizarre and inexplicable.
@@ -531,3 +538,4 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [13]: http://www.nationalaffairs.com/publications/detail/cultural-intelligence "Cultural Intelligence"
 [15]: https://www.goodreads.com/book/show/22033450-willfully-ignorant "Willfully Ignorant"
 [16]: https://regulatorystudies.columbian.gwu.edu/reg-stats
+[17]: https://www.youtube.com/watch?v=dCnxOICRtLE "Milton Friedman - Equality and Freedom"
