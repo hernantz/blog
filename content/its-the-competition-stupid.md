@@ -305,23 +305,29 @@ to be low [^14], compared to a society where descentrilized experimentation and
 discord are the core values.
 
 A society that [tests it's ideas constantly][11], enabled by freedom
-(understood as a very limited set of artificial impossitions), and guided by
-humility (necessary to accept that one does not have all the answers), will see
-higher chances of success over those who do not have a framework of constant
-improvement that challenges *status quo*.
+(understood as a very limited set of artificial impossitions [^18]), and guided
+by humility (necessary to accept that one does not have all the answers), will
+see higher chances of success over those who do not have a framework of
+constant improvement that challenges *status quo*.
 
 This is precisely what free markets propose and, to some extent, accomplish.
 Non profit and for-profit organizations compete openly to achieve their goals
 through transactions and resource management in a profit and loss system.
 
-At a govermental level, forms of direct democracy can help reduce the gap between
-what the state does and what people want.
+Some governments are also implementing some form of social experimentation to
+test ideas and their impact and help reduce the risks of new legislation.
 
-Also, social experimentation to test ideas and their impact can also help
-reduce the risks of new legislation.
+Consider the controversial example of universal basic income, in which poeple
+are given money for the sole reason of being alive, no strings attached. This
+idea brings up many intriguing possibilities, like reducing poverty,
+simplifying governmental aid programs, but at the risk of letting people slack
+and spend the money on vices.
 
-The closer the government is to it's gorvernned, the better, prefer local
-governments over federal governments.
+The closer the government is to it's gorverned, the better, prefer local
+governments over federal governments and direct democracy to help reduce the
+gap between what the sate does and what people want. This way, lots of small
+and independant goverments can act as socio-economic labs running experiments
+simultaneously. Cities could be a good unit of government.
 
 
 ## Conclusion
@@ -349,13 +355,7 @@ https://www.flexport.com/blog/port-automation-oakland-rotterdam/
 
 
 
-The government can default but not disappear. That is not fair with other competitors.
 
-Should employers be required to pay men and women the same salary for the same
-job, or are there too many variables such as education, incentives or experience
-that determine a fair salary?. Should employers be required to have a percentage
-of their workforce be women or black, or employees should be hired and valued
-regardless of their gender or the color of their skin?
 
 Caso del banco de los pobres como alternativa a subsidios + caso de ycombinator
 http://blog.ycombinator.com/moving-forward-on-basic-income
@@ -389,12 +389,6 @@ https://www.theguardian.com/global-development-professionals-network/2017/feb/08
 Although I'm against the governments making big plans, I might accept some of
 it at a municipal level, where shit gets real instead of academia bullshit
 about how everything should be handled.
-
-
-Politicians tend to think that laws rule reality, and ban drugs consumption and commerce, which created
-corruption and addicts cannot be treated since they don't fit in government budgets and since it's an ilegal
-activity it cannot be tracked?.
-https://www.youtube.com/watch?v=k8vVEbCquMw
 
 http://www.vox.com/2016/4/8/11380356/swedish-taxes-love
 http://www.bbc.com/news/magazine-40669239 "Norway: The country where no salaries are secret"
@@ -437,15 +431,10 @@ the more you harm your chances of prosperity.
    process should happen, by hosting our human brains as software and letting us
    live as gods in our own universe.
 
-
-Among the cities this new world has to offer I would choose a libertarian one,
-which one would you choose?
-
 Monopolies:
 
+The government can default but not disappear. That is not fair with other competitors.
 
-A career open to all talents: every person should not have artificial impositions or obstacles that prevent
-them from pursuing a career/goal, should they have the opportunity and capacity to do it.
 
 
 There are two primal fears in modern societies:
@@ -519,8 +508,10 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
        often turn to indirect proxies to understand the reach and impact of
        regulations over time. Some of the statistics used to track aggregate
        regulatory activity over time are presented [here][16].
-
-
+[^18]: Napoleon Bonaparte said: "My motto has always been: A career open to all
+       talents, without distinctions of birth", meaning that every person should not
+       have artificial impositions or obstacles that prevent them from pursuing a
+       career/goal, should they have the opportunity and capacity to do it.
 
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
