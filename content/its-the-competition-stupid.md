@@ -48,7 +48,7 @@ existence.
 
 We live and die in a universe where many things are defined in a way we do not
 understand nor control and can change for that matter. The flow of time, the
-laws of physics, the weather, the certanty of death, the Creation itself [^3].
+laws of physics, the weather, the certainty of death, the Creation itself [^3].
 
 Because of that, we are not 100% free. **We are conditioned, limited and
 biased** by what we know and don't know, by what we can and cannot do, by what
@@ -85,14 +85,14 @@ guaranteed** either. Some are born in rich families and some are born in poor
 ones. Some go to good schools and some don't even go to school. Some suffered
 an accident and some won the lottery. Some are deaf and some are blind. Some
 are strong and some are weak. Some are handsome and some are ugly. Some were
-loved by their parents and some were not even wanted.
+loved by their parents and some were not even wanted [^19].
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some might
 love to travel, some just prefer to stay home [^9]. Some like to study or work
 hard and some simply like to slack. Some only read the finance section in the
 newspaper and some just read the horoscope. Some eat healthy and do sports
-while others smoke and follow a sendentary lifestyle. Well you get the point,
+while others smoke and follow a sedentary lifestyle. Well you get the point,
 **equality of outcome cannot be guaranteed**.
 
 Seeing how complex, limited and fragile our existence is, would you say that
@@ -104,7 +104,7 @@ But wait, not only we are interested in some form of justice, we also want to
 have the chance to enjoy the fruits of prosperity. So we have to agree on it's
 definition too.
 
-Some societies may meassure progess by advancements in human rights or the
+Some societies may measure progress by advancements in human rights or the
 level of happiness of it's individuals [^8], others by more [concrete
 figures][11] like GDP, child mortality, use of green energy or number of
 college graduates.
@@ -113,7 +113,7 @@ Maybe all of them are desirable, but which one is more important and how much
 more important? Remember you always have limited resources, so there will be
 sacrifices needed to be done.
 
-Moreover, pray consider that there are multiple ways to meassure things like
+Moreover, pray consider that there are multiple ways to measure things like
 efficiency, innovation or even poverty.
 
 If the right thing to do is not self evident, this leads to an obvious
@@ -128,8 +128,8 @@ you will, that are better, to our understanding, for the kind of society we
 want to live in.
 
 While these arbitrary rules might come from traditions, the constitution, moral
-conventions or even cientific papers, they cannot be agreed universally, nor
-will they be perfect. Ideally we would have the oportunity to be part of their
+conventions or even scientific papers, they cannot be agreed universally, nor
+will they be perfect. Ideally we would have the opportunity to be part of their
 selection and later fine tuning somehow.
 
 
@@ -137,12 +137,12 @@ selection and later fine tuning somehow.
 
 Now how do get there? As it happens, in the search for justice, equality,
 happiness or a better life for that matter, we come together with people alike
-and form an organization, that would persue the common goals we share.
+and form an organization, that would pursue the common goals we share.
 
 To achieve those goals, different organizations might have different
 approaches.
 
-There are organizations that allow other organizations to co-exists, i.e
+There are organizations that allow other organizations to co-exists, ie.
 multiple newspapers, soccer teams, brands of cookies, NGOs, etc. Anyone can
 choose which one to interact with, based on whatever their motivations and
 possibilities are.
@@ -151,8 +151,8 @@ There are other types of organizations that don't allow alternatives to
 co-exist. Governments are the most representative example of this kind.
 
 I'm considering the government as an organization that defines rules and takes
-measures that are for all to obey or comply (a.k.a forced colectivism).
-Goverments have the power of law enforcement, which other organizations don't.
+measures that are for all to obey or comply (a.k.a forced collectivism).
+Governments have the power of law enforcement, which other organizations don't.
 
 Can governments be the right tool for the job, to become agents of change,
 bring prosperity and justice to it's people? Of course they can!
@@ -171,11 +171,11 @@ They were elected because they are the right choice for the job, not because
 they are friends or family of powerful people, nor because they are famous or
 charismatic and give beautiful speeches. They do what is correct and not what
 is politically correct. They define themselves as public servants and do not
-look to increase their influese and power and least they want to perpetuate in
+look to increase their influence and power and least they want to perpetuate in
 it.
  
 They convince people about their ideas by providing reasonable arguments backed
-by real data, and not through costly advertising campaings or feeding
+by real data, and not through costly advertising campaigns or feeding
 sensationalism.  They do listen to constructive feedback and do not demonize
 those who have different opinions.
 
@@ -184,7 +184,7 @@ understand that changes have to be implemented in scheduled phases and their
 results tracked down.
 
 We all know that this is asking a lot, but, even if you are not governed by
-populist, dishonest or mediocre burocrats...
+populist, dishonest or mediocre bureaucrats...
 
 
 ### Governments are the opium of the people
@@ -202,27 +202,32 @@ See, it's not all about politicians.
 Alfred Adler once said: "It is always easier to fight for one's principles than
 to live up to them", and this is precisely why it is very common to have
 zombies supporting visions that sometimes they don't fully understand or have
-the interest in scrutenizing them.
+the interest in scrutinizing them.
 
-This hyprocrisy is a golden oportunity for aspiring leaders to influense
+This hypocrisy is a golden opportunity for aspiring leaders to influence
 people's desires and discontent.
 
-Political campaigns nowadays are not that different from marketing campaings,
+Political campaigns nowadays are not that different from marketing campaigns,
 where ideas of a "better nation" or "let me solve all your problems for free"
 are being sold by messianic reformers.
 
+In this sense, paternalism, understood as a mechanism of managing individuals,
+often benevolently, but intrusively for sure, is a real threat for the
+governed.
+
 The state, as any other organization, is a living organism, that expands trying
-to survive and perpetuate. There's a natural tendency for goverments to grow
+to survive and perpetuate. There's a natural tendency for governments to grow
 and freedoms to shrink, taxes are never enough, regulations lead to more
 regulations [^16].
 
 Soon the government becomes a services company, providing or overseeing
-unemployment insurance, energy production and distribution, healthcare,
+unemployment insurance, energy production and distribution, health care,
 education, food stamps, housing, security, you name it, taking decisions for
 people as opposed to having each individual figure out their ways to solve
 their particular necessities, through voluntary transactions. Now there is a
-government dependant orde of voters that need someone to fix their problems.
-Decision making is transfered to the state. The costs, never acounted for.
+government dependent horde of voters that need someone to fix their problems.
+Decision making is transfered to the state. The costs, are never accounted for
+neither mentioned explicitly.
 
 
 ### Governments don't have enough competition
@@ -239,7 +244,7 @@ Decision making is transfered to the state. The costs, never acounted for.
 
 Every policy that any organization imposes is an experiment basically. If the
 organization affects too many people (an entire nation for example), the
-experiment feels a lot like puting all the eggs in the same basket.
+experiment feels a lot like putting all the eggs in the same basket.
 
 Governments make decisions that are difficult in nature (basically they
 regulate how people should live), which is very dangerous if there is only one
@@ -250,17 +255,17 @@ they are thought to be *good* monopolies, managed by well intentioned experts
 with grand schemes to solve big problems.
 
 Policymakers might only be *"experts"* on some field but will never come up
-with a sufficiently intelligent design for social engeneering and problem
+with a sufficiently intelligent design for social engineering and problem
 solving, that compares to the vast knowledge embedded in the cultural
-intelligence [^13] of a society, afected by descentrilized flows of information
+intelligence [^13] of a society, affected by decentralized flows of information
 and a luck-affected trial-and-error method for dealing with challenges.
 
 Moreover, the way representative democracies work today resembles a lot like a
 winner takes all kind of game. Sure you can change it every 2, 4 or 5 years,
-but what voters are end up doing is buying a combo of politicies, or giving a
+but what voters are end up doing is buying a combo of policies, or giving a
 blank check to full-time employed senators paid with generous wages to figure
 out new regulations. You like the minister of education but you dislike the
-minister of culture? want to keep the economic policies but change the
+minister of culture? Want to keep the economic policies but change the
 immigration policies? You cannot handpick what you want and what you don't
 want, it's an all-in, pretty much.
 
@@ -269,7 +274,7 @@ up so that it gets to power and hope the government does more of what you
 support and less of what you dislike. 
 
 What this really means is that governments as a mean of change, can be slow and
-inefficiant, they can become a bottleneck for progress.
+inefficient, they can become a bottleneck for progress.
 
 Should something go wrong, the cost of switching to a different provider of
 public planning is too high and sometimes unaffordable for a member of a
@@ -277,17 +282,17 @@ society, considering that the only choices left for free citizens are:
 
 - To go outlaw
 - To leave the country/state/province/city (if you are lucky you just leave the
-  city, if you are unluky you leave the country, if you are really unluky
+  city, if you are unlucky you leave the country, if you are really unlucky
   you'll have to leave the region/continent)
-- To change government (if you are luky via elections or, if you are really
-  unluky, through a ~~violent~~ revolution)
+- To change government (if you are lucky via elections or, if you are really
+  unlucky, through a ~~violent~~ revolution)
 
-Henseforth, centralized and external decision making doesn't seem like a good
+Henceforth, centralized and external decision making doesn't seem like a good
 idea, even if the ones that make those decisions are doing what they think
 best, specially when considering the unforetold consequences of well
 [intentioned initiatives][7].
 
-The existance of the state is a necessary evil, but a constant menace to free
+The existence of the state is a necessary evil, but a constant menace to free
 society if strict limits are not imposed to it's responsibilities and size.
 
 
@@ -300,12 +305,12 @@ society if strict limits are not imposed to it's responsibilities and size.
 
 
 The important thing to note here is that even if the government is the chosen
-agent of change, the odds of succeding with top-down central planning are going
-to be low [^14], compared to a society where descentrilized experimentation and
+agent of change, the odds of succeeding with top-down central planning are going
+to be low [^14], compared to a society where decentralized experimentation and
 discord are the core values.
 
 A society that [tests it's ideas constantly][11], enabled by freedom
-(understood as a very limited set of artificial impossitions [^18]), and guided
+(understood as a very limited set of artificial impositions [^18]), and guided
 by humility (necessary to accept that one does not have all the answers), will
 see higher chances of success over those who do not have a framework of
 constant improvement that challenges *status quo*.
@@ -317,23 +322,23 @@ through transactions and resource management in a profit and loss system.
 Some governments are also implementing some form of social experimentation to
 test ideas and their impact and help reduce the risks of new legislation.
 
-Consider the controversial example of universal basic income, in which poeple
+Consider the controversial example of universal basic income, in which people
 are given money for the sole reason of being alive, no strings attached. This
 idea brings up many intriguing possibilities, like reducing poverty,
 simplifying governmental aid programs, but at the risk of letting people slack
-and spend the money on vices.
+and spend the money on vices or simply bankrupt the system.
 
-The closer the government is to it's gorverned, the better, prefer local
+The closer the government is to it's governed, the better, prefer local
 governments over federal governments and direct democracy to help reduce the
 gap between what the sate does and what people want. This way, lots of small
-and independant goverments can act as socio-economic labs running experiments
+and independent governments can act as socio-economic labs running experiments
 simultaneously. Cities could be a good unit of government.
 
 
 ## Conclusion
 
 There is no absolute standard of justice and progress. Justice should be
-provided and progress should be seeked in ways that compete with other views
+provided and progress should be sought in ways that compete with other views
 or understandings of the same concepts.
 
 The availability of choices cannot guarantee, but increases the chances of
@@ -349,7 +354,15 @@ It's the competition, stupid [^2].
 
 ## Notes
 
-
+Once one concedes that a single world government is not necessary, then where
+does one logically stop at the permissibility of separate states? If Canada and
+the United States can be separate nations without being denounced as in a state
+of impermissible "anarchy", why may not the South secede from the United
+States? New York State from the Union? New York City from the state? Why may
+not Manhattan secede? Each neighborhood? Each block? Each house? Each person?
+Murray Rothbard
+ 
+ 
 Ejemplo de los containers
 https://www.flexport.com/blog/port-automation-oakland-rotterdam/
 
@@ -413,7 +426,7 @@ o haya estado bajo tierra cuando cayo el metiorito.
 
 "tragedy of the commons"
 
-The more you limit compteition and experimentation, even with good intentions,
+The more you limit competition and experimentation, even with good intentions,
 the more you harm your chances of prosperity.
 
 
@@ -454,7 +467,8 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
 
 [^2]: "It's the competition, stupid" is a slight variation of the phrase ["It's
-      the economy, stupid"][2]
+      the economy, stupid"][2]. At some point I even thought on putting
+      "Competition motherfucker, do you speak it?".
 [^3]: "There is a theory which states that if ever anyone discovers exactly
       what the Universe is for and why it is here, it will instantly disappear and
       be replaced by something even more bizarre and inexplicable.
@@ -487,15 +501,15 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
        tend to overstate the importance of the individual genius or leader while
        understating the gradual, cumulative nature of change.
        [Cultural Intelligence][13]
-[^14]: "If history teaches us anything, it’s that governments are always right,
-       and they always do what’s in the best interest of the people, even at the
+[^14]: "If history teaches us anything, it's that governments are always right,
+       and they always do what's in the best interest of the people, even at the
        expense of their own political agenda. In every situation, the answer is
        always more government and more regulation. If there are six billion people
        in the world, then all six billion should work for the government. More, if
        we could. And there should be at least twice as many laws as there are people
-       in the world.  And with more laws means more lawyers, so it’s a double
-       benefit. It’s a win-win for both the government and the citizens, which of
-       course there won’t be because in this utopian dream there are no citizens,
+       in the world. And with more laws means more lawyers, so it's a double
+       benefit. It's a win-win for both the government and the citizens, which of
+       course there won't be because in this utopian dream there are no citizens,
        there is only the government. The best part is the taxes will be super high,
        but they’re paid in full by the printing presses of the Geodesic Dome
        Society. Full benefits, zero unemployment, no chance of being fired, and a
@@ -512,6 +526,9 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
        talents, without distinctions of birth", meaning that every person should not
        have artificial impositions or obstacles that prevent them from pursuing a
        career/goal, should they have the opportunity and capacity to do it.
+[^19]: Amidst the multiple factors that generate differences in a population
+       there's gender. Very basic and yet very profound in [it's impact on
+       personality and behavior][18].
 
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
@@ -530,3 +547,4 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [15]: https://www.goodreads.com/book/show/22033450-willfully-ignorant "Willfully Ignorant"
 [16]: https://regulatorystudies.columbian.gwu.edu/reg-stats
 [17]: https://www.youtube.com/watch?v=dCnxOICRtLE "Milton Friedman - Equality and Freedom"
+[18]: https://www.psychologytoday.com/articles/201711/the-truth-about-sex-differences
