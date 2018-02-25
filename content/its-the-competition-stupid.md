@@ -28,9 +28,9 @@ Using mantras like seize the means of production, let the free market solve the
 problem, education should be our priority, etc, are hollow and vague, without
 proper context, hypotheses and facts.
 
-So now I don't simply praise freedom *per se*, but freedom to explore different
-ideas, freedom as a framework for decision making, that on purpose or as an
-unintended consequence, increases the chances of prosperity for our society, as
+So now I don't simply praise freedom *per se*, but freedom as a framework for
+decision making,  freedom to explore different ideas, that on purpose or as an
+unintended consequence, increase the chances of prosperity for our society, as
 a whole, in the long run.
 
 
@@ -78,14 +78,18 @@ like gets elected president, a lighting strikes your home and burns your
 appliances, your neighbors were noisy celebrating a birthday party and you
 couldn't sleep the night before the final exam, etc. You can imagine that,
 under these circumstances, **there is no perfect decision**, because the
-obvious one might not always be an option.
+obvious right thing to do might not always be an option.
 
 In a sufficiently diverse society, **equality of opportunities is not
 guaranteed** either. Some are born in rich families and some are born in poor
 ones. Some go to good schools and some don't even go to school. Some suffered
 an accident and some won the lottery. Some are deaf and some are blind. Some
 are strong and some are weak. Some are handsome and some are ugly. Some were
-loved by their parents and some were not even wanted [^19].
+loved by their parents and some were not even wanted.
+
+Amidst the multiple factors that generate differences in a population there's
+gender. Very basic and yet very profound in [it's impact on personality and
+behavior][18].
 
 And even if opportunities are provided, not everyone might be wise to take
 advantage of them. Some act rationally and some act compulsively. Some might
@@ -143,9 +147,9 @@ To achieve those goals, different organizations might have different
 approaches.
 
 There are organizations that allow other organizations to co-exists, ie.
-multiple newspapers, soccer teams, brands of cookies, NGOs, etc. Anyone can
-choose which one to interact with, based on whatever their motivations and
-possibilities are.
+multiple newspapers, soccer teams, microprocessors manufacturers, NGOs, etc.
+Anyone can choose which one to interact with, based on whatever their
+motivations and possibilities are.
 
 There are other types of organizations that don't allow alternatives to
 co-exist. Governments are the most representative example of this kind.
@@ -164,8 +168,8 @@ to them.
 ### Governments are run by politicians
 
 Lets assume politicians are honest and corruption is a thing of the past (left
-behind with the roman empire). They are honest and would rather loose votes
-than lie to their people and promise things they cannot deliver.
+behind with the roman empire). They would rather loose votes than lie to their
+people and promise things they cannot deliver.
 
 They were elected because they are the right choice for the job, not because
 they are friends or family of powerful people, nor because they are famous or
@@ -179,7 +183,7 @@ by real data, and not through costly advertising campaigns or feeding
 sensationalism.  They do listen to constructive feedback and do not demonize
 those who have different opinions.
 
-Finally, they do not believe reality can be shaped by laws [^10], but rather
+Finally, they do not believe reality can be shaped by laws, but rather
 understand that changes have to be implemented in scheduled phases and their
 results tracked down.
 
@@ -226,7 +230,7 @@ education, food stamps, housing, security, you name it, taking decisions for
 people as opposed to having each individual figure out their ways to solve
 their particular necessities, through voluntary transactions. Now there is a
 government dependent horde of voters that need someone to fix their problems.
-Decision making is transfered to the state. The costs, are never accounted for
+Decision making is transfered to the state. The costs, are never accounted for,
 neither mentioned explicitly.
 
 
@@ -277,8 +281,8 @@ What this really means is that governments as a mean of change, can be slow and
 inefficient, they can become a bottleneck for progress.
 
 Should something go wrong, the cost of switching to a different provider of
-public planning is too high and sometimes unaffordable for a member of a
-society, considering that the only choices left for free citizens are:
+public affers planning is too high and sometimes unaffordable for and
+individual, the only choices left for free citizens are:
 
 - To go outlaw
 - To leave the country/state/province/city (if you are lucky you just leave the
@@ -305,11 +309,11 @@ society if strict limits are not imposed to it's responsibilities and size.
 
 
 The important thing to note here is that even if the government is the chosen
-agent of change, the odds of succeeding with top-down central planning are going
-to be low [^14], compared to a society where decentralized experimentation and
+agent of change, the odds of succeeding with top-down central planning are
+going to be low, compared to a society where decentralized experimentation and
 discord are the core values.
 
-A society that [tests it's ideas constantly][11], enabled by freedom
+**A society that tests it's ideas constantly**, enabled by freedom
 (understood as a very limited set of artificial impositions [^18]), and guided
 by humility (necessary to accept that one does not have all the answers), will
 see higher chances of success over those who do not have a framework of
@@ -317,22 +321,25 @@ constant improvement that challenges *status quo*.
 
 This is precisely what free markets propose and, to some extent, accomplish.
 Non profit and for-profit organizations compete openly to achieve their goals
-through transactions and resource management in a profit and loss system.
+through transactions and resource management, trying to influence one another,
+in a profit and loss system.
 
-Some governments are also implementing some form of social experimentation to
-test ideas and their impact and help reduce the risks of new legislation.
+A handful of governments are also implementing some form of social
+experimentation to test ideas and their impact and help reduce the risks of new
+legislation.
 
 Consider the controversial example of universal basic income, in which people
 are given money for the sole reason of being alive, no strings attached. This
 idea brings up many intriguing possibilities, like reducing poverty,
 simplifying governmental aid programs, but at the risk of letting people slack
-and spend the money on vices or simply bankrupt the system.
+and spend the money on vices or simply bankrupt the system. How much money, how often,.
 
 The closer the government is to it's governed, the better, prefer local
 governments over federal governments and direct democracy to help reduce the
 gap between what the sate does and what people want. This way, lots of small
 and independent governments can act as socio-economic labs running experiments
-simultaneously. Cities could be a good unit of government.
+simultaneously. Cities could be a minimal viable independent unit of
+government.
 
 
 ## Conclusion
@@ -469,6 +476,7 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [^2]: "It's the competition, stupid" is a slight variation of the phrase ["It's
       the economy, stupid"][2]. At some point I even thought on putting
       "Competition motherfucker, do you speak it?".
+
 [^3]: "There is a theory which states that if ever anyone discovers exactly
       what the Universe is for and why it is here, it will instantly disappear and
       be replaced by something even more bizarre and inexplicable.
@@ -489,34 +497,13 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 
       ― Mark Twain, [The Innocents Abroad/Roughing It][9]
 
-[^10]: "No written law has ever been more binding
-       than unwritten custom supported by popular opinion."
-
-       ― Carrie Chapman Catt
-
-[^13]: Science journalist Matt Ridley's most recent book, The Evolution of
-       Everything, argues that we observe the decentralized, incremental,
-       trial-and-error process of evolution in all human endeavors, including
-       culture, law, business, and technology. Like Henrich, Ridley argues that we
-       tend to overstate the importance of the individual genius or leader while
-       understating the gradual, cumulative nature of change.
+[^13]: The Evolution of Everything, a book by Matt Ridley, argues that we
+       observe the decentralized, incremental, trial-and-error process of evolution
+       in all human endeavors, including culture, law, business, and technology.
+       Aparently we tend to overstate the importance of the individual genius
+       or leader while understating the gradual, cumulative nature of change.
        [Cultural Intelligence][13]
-[^14]: "If history teaches us anything, it's that governments are always right,
-       and they always do what's in the best interest of the people, even at the
-       expense of their own political agenda. In every situation, the answer is
-       always more government and more regulation. If there are six billion people
-       in the world, then all six billion should work for the government. More, if
-       we could. And there should be at least twice as many laws as there are people
-       in the world. And with more laws means more lawyers, so it's a double
-       benefit. It's a win-win for both the government and the citizens, which of
-       course there won't be because in this utopian dream there are no citizens,
-       there is only the government. The best part is the taxes will be super high,
-       but they’re paid in full by the printing presses of the Geodesic Dome
-       Society. Full benefits, zero unemployment, no chance of being fired, and a
-       world so efficient it would make Rube Goldberg look like Fred Taylor or Henry
-       Ford."
 
-       ― Jarod Kintz
 [^16]: The effects of regulation -- both benefits and costs -- are difficult to
        measure, particularly when considered in the aggregate. As a result, analysts
        often turn to indirect proxies to understand the reach and impact of
@@ -526,9 +513,7 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
        talents, without distinctions of birth", meaning that every person should not
        have artificial impositions or obstacles that prevent them from pursuing a
        career/goal, should they have the opportunity and capacity to do it.
-[^19]: Amidst the multiple factors that generate differences in a population
-       there's gender. Very basic and yet very profound in [it's impact on
-       personality and behavior][18].
+       [Permissionless innovation][11]
 
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
