@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+pelican = "==3.7.1"
+Markdown = "==2.6.6"
+csvkit = "==0.9.1"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
