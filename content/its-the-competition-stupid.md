@@ -277,8 +277,8 @@ In this sense, your choices are limited to picking an ideology and backing it
 up so that it gets to power and hope the government does more of what you
 support and less of what you dislike. 
 
-What this really means is that governments as a mean of change, can be slow and
-inefficient, they can become a bottleneck for progress.
+What this really means is that governments as a mean of change, can be slow,
+inefficient and a bottleneck for progress.
 
 Should something go wrong, the cost of switching to a different provider of
 public affers planning is too high and sometimes unaffordable for and
@@ -403,8 +403,6 @@ that humanity might grow and develop towards a genuine understanding and percept
 This could only be accomplished with free will, since otherwise, if we were either perfect or we had
 only one choice, our existence wouldn't be of much value.
 
-https://points.datasociety.net/when-good-intentions-backfire-786fb0dead03
-https://www.theguardian.com/global-development-professionals-network/2017/feb/08/obsession-with-ending-poverty-is-where-development-is-going-wrong
 
 Although I'm against the governments making big plans, I might accept some of
 it at a municipal level, where shit gets real instead of academia bullshit
@@ -415,7 +413,6 @@ http://www.bbc.com/news/magazine-40669239 "Norway: The country where no salaries
 https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8
 https://www.nytimes.com/2017/06/30/world/asia/india-tax-narendra-modi.html
 http://peoriapublicradio.org/post/do-laptops-help-learning-look-only-statewide-school-laptop-program#stream/0
-https://www.quantamagazine.org/how-nature-solves-problems-through-computation-20170706/
 https://www.sitra.fi/en/blogs/basic-income-just-beginning-finland-one-innovative-governments-world-looks-citizen-driven-governance/
 
 There was no justice for dinosaurs. Even when they might have done everything
@@ -456,7 +453,6 @@ Monopolies:
 The government can default but not disappear. That is not fair with other competitors.
 
 
-
 There are two primal fears in modern societies:
 
 1. Monopolies: concentration of power in evil people that could get privileges.
@@ -478,42 +474,60 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
       "Competition motherfucker, do you speak it?".
 
 [^3]: "There is a theory which states that if ever anyone discovers exactly
-      what the Universe is for and why it is here, it will instantly disappear and
-      be replaced by something even more bizarre and inexplicable.
-      There is another theory which states that this has already happened."
+      what the Universe is for and why it is here, it will instantly disappear
+      and be replaced by something even more bizarre and inexplicable.  There
+      is another theory which states that this has already happened."
 
       ― Douglas Adams, [The Restaurant at the End of the Universe][3]
 
 [^8]: [Gross National Happiness][8]: The term was coined in 1972 by Bhutan's
-      fourth Dragon King, Jigme Singye Wangchuck. Originally the phrase represented
-      a commitment to building an economy that would serve Bhutan's culture based on
-      Buddhist spiritual values, instead of western material development gauged by
-      gross domestic product (GDP).
+      fourth Dragon King, Jigme Singye Wangchuck. Originally the phrase
+      represented a commitment to building an economy that would serve Bhutan's
+      culture based on Buddhist spiritual values, instead of western material
+      development gauged by gross domestic product (GDP).
 
-[^9]: "Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our
-      people need it sorely on these accounts. Broad, wholesome, charitable views of
-      men and things cannot be acquired by vegetating in one little corner of the
-      earth all one's lifetime."
+[^9]: "Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many
+      of our people need it sorely on these accounts. Broad, wholesome,
+      charitable views of men and things cannot be acquired by vegetating in
+      one little corner of the earth all one's lifetime."
 
       ― Mark Twain, [The Innocents Abroad/Roughing It][9]
 
-[^13]: The Evolution of Everything, a book by Matt Ridley, argues that we
-       observe the decentralized, incremental, trial-and-error process of evolution
-       in all human endeavors, including culture, law, business, and technology.
-       Aparently we tend to overstate the importance of the individual genius
-       or leader while understating the gradual, cumulative nature of change.
-       [Cultural Intelligence][13]
+[^13]: Aparently we tend to overstate the importance of the individual genius
+       or leader while understating the gradual, cumulative nature of
+       change. The Evolution of Everything, a book by Matt Ridley, argues that
+       we observe the decentralized, incremental, trial-and-error process of
+       evolution in all human endeavors, including culture, law, business, and
+       technology. All this learning and knowledge is condenced in the
+       [Cultural Intelligence][13] of a society.
+       This might also explain why top-down solutions to alleviate extreme
+       poverty are [often innefective][19].
 
 [^16]: The effects of regulation -- both benefits and costs -- are difficult to
-       measure, particularly when considered in the aggregate. As a result, analysts
-       often turn to indirect proxies to understand the reach and impact of
-       regulations over time. Some of the statistics used to track aggregate
-       regulatory activity over time are presented [here][16].
-[^18]: Napoleon Bonaparte said: "My motto has always been: A career open to all
-       talents, without distinctions of birth", meaning that every person should not
-       have artificial impositions or obstacles that prevent them from pursuing a
-       career/goal, should they have the opportunity and capacity to do it.
-       [Permissionless innovation][11]
+       measure, particularly when considered in the aggregate. As a result,
+       analysts often turn to indirect proxies to understand the reach and
+       impact of regulations over time. Some of the statistics used to track
+       aggregate regulatory activity over time are presented [here][16].
+
+[^18]: [Innovation][11] is often threatened by regulators who require licenses
+       or interfere with it through incentives and subsidies.  Napoleon
+       Bonaparte said: "My motto has always been: A career open to all talents,
+       without distinctions of birth", meaning that every person should not
+       have artificial impositions or obstacles that prevent them from pursuing
+       a career/goal, should they have the opportunity and capacity to do it.
+
+[^19]: Plans not always go as expected. Sometimes is because the solution was
+       narrow-focused on solving just one side of the equation, and the
+       solution backfires because afected agents react. For example, a minimum
+       wage law is focused in getting workers paid more, yet this could
+       increase prices consumers have to pay and increase the willingness of
+       shops to [replace employees with self-service kiosks][7], affecting
+       existing a future employees that were supposed to be benefited by this
+       regulation.
+       Another example is environmental legislation forces industries to
+       use/sell energy efficient products, in hopes of reducing energy
+       consumption and polution, just to later find out that this leads to a
+       [greater demand of energy][20].
 
 
 [1]: https://www.linkedin.com/pulse/survive-game-business-needs-update-rules-tim-o-reilly "To survive, the game of business needs to update its rules"
@@ -533,3 +547,5 @@ http://prospect.org/article/hidden-monopolies-raise-drug-prices
 [16]: https://regulatorystudies.columbian.gwu.edu/reg-stats
 [17]: https://www.youtube.com/watch?v=dCnxOICRtLE "Milton Friedman - Equality and Freedom"
 [18]: https://www.psychologytoday.com/articles/201711/the-truth-about-sex-differences
+[19]: https://www.theguardian.com/global-development-professionals-network/2017/feb/08/obsession-with-ending-poverty-is-where-development-is-going-wrong "Obsession with ending poverty is where development is going wrong"
+[20]: https://en.wikipedia.org/wiki/Jevons_paradox "Jevons paradox"
