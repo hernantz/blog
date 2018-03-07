@@ -226,10 +226,10 @@ regulations [^5].
 
 Soon the government becomes a services company, providing or overseeing
 unemployment insurance, energy production and distribution, health care,
-education, food stamps, housing, security, you name it, taking decisions for
-people as opposed to having each individual figure out their ways to solve
+education, food stamps, housing, border security, you name it, taking decisions
+for people as opposed to having each individual figure out their ways to solve
 their particular necessities, through voluntary transactions. Now there is a
-government dependent horde of voters that need someone to fix their problems.
+government-dependent horde of voters that need someone to fix their problems.
 Decision making is transfered to the state. The costs, are never accounted for,
 neither mentioned explicitly.
 
@@ -268,8 +268,8 @@ flows of information.
 Moreover, the way representative democracies work today resembles a lot like a
 winner takes all kind of game. Sure you can change it every 2, 4 or 5 years,
 but what voters end up doing is buying a combo of policies, or giving a blank
-check to full-time employed senators paid with generous wages to figure out new
-regulations. You like the minister of education but you dislike the
+check to full-time employed senators, paid with generous wages, to figure out
+new regulations. You like the minister of education but you dislike the
 minister of culture? Want to keep the economic policies but change the
 immigration policies? You cannot handpick what you want and what you don't
 want, it's an all-in, pretty much.
@@ -279,8 +279,8 @@ up so that it gets to power and hope the government does more of what you
 support and less of what you dislike. 
 
 Should something go wrong, the cost of switching to a different provider of
-public affairs planning is too high and sometimes unaffordable for and
-individual, the only choices left for free citizens are:
+public affairs planning is too high and sometimes unaffordable for an
+individual. The only choices left for free citizens are:
 
 - To go outlaw
 - To leave the country/state/province/city (if you are lucky you just leave the
@@ -289,8 +289,8 @@ individual, the only choices left for free citizens are:
 - To change government (if you are lucky via elections or, if you are really
   unlucky, through a ~~violent~~ revolution)
 
-Henceforth, centralized and external decision making doesn't seem like a good
-idea, even if the ones that make those decisions are doing what they think
+Henceforth, **centralized and external decision making doesn't seem like a good
+idea**, even if the ones that make those decisions are doing what they think
 best, specially when considering the unforetold consequences of well
 intentioned initiatives [^7].
 
@@ -344,7 +344,7 @@ institutions over federal governments and direct democracy to help reduce
 collateral damages and the gap between what the sate does and what people want.
 This way, lots of [small and independent governments][24] can act as
 socio-economic labs running experiments simultaneously. Cities could be a
-minimal viable independent unit of government.
+minimum, viable and independent unit of government.
 
 
 ## Conclusion
@@ -354,11 +354,11 @@ provided and progress should be sought in ways that compete with other views
 or understandings of the same concepts.
 
 The availability of choices cannot guarantee, but increases the chances of
-prosperity in a free society by enabling ideas to be probed in competition with
-other alternatives.
+prosperity in a free society, by enabling ideas to be probed in competition
+with other alternatives.
 
 In the long term, and even in an unfair system, competition is what drives
-progress while centralized planning is the public enemy number one in this
+progress, while centralized planning is the public enemy number one in this
 regard.
 
 It's the competition, stupid [^9].
