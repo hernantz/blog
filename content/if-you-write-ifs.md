@@ -8,12 +8,17 @@ Summary: AKA else considered harmful.
 
 ![Tree branches](/images/tree-branches.jpg "Tree branches")
 
+In Python we strongly emphasize that code must be elegant and easy to
+interpret, but with PEP8 alone is not enough, many times our logic can be
+nested in a cataract of if(s) and else(s) difficult to maintain. In this
+talk we explored some strategies to avoid that unnecessary complexity.
+
 I'm writing this article to encourage some code structure techniques and never
 again have to discuss this in the future.
 
 As a programmer, most of your time you will be writing ifs.
 Not only becouse this is the main flow control structure, in c like languages,
-but becouse writing an else is (or shoud be at least) a code smell. It's a trap. 
+but because writing an else is (or shoud be at least) a code smell. It's a trap.
 
 ## Cut the flow ifs
 
@@ -182,3 +187,7 @@ variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma i
 http://jrsinclair.com/articles/2017/javascript-without-loops/
 http://pozorvlak.livejournal.com/94558.html
 https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
+https://youtu.be/D_6ybDcU5gc?t=8m43s
+
+
+Django PermissionDenied para custom authentication backend
