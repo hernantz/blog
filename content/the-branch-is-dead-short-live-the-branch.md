@@ -103,7 +103,7 @@ happens that the ship is sailing! and it cannot wait on stand-by mode until it
 gets fixed, re-painted and it's oars replaced, all this must be done on the fly.
 
 All the aforementioned pain points cannot be avoided but mitigated, with enough
-care and discipline, but this last one requires a mind change, commiting towards
+care and discipline, but this last one requires a mind change, committing towards
 **shipping something valuable** sprint by sprint. This becomes especially
 important once the app is already being used because of the unpredictable
 [nature of software projects][8], where priorities and requirements change quite
@@ -122,15 +122,16 @@ thing is that **each task that is finished has to be mergeable**, and this
 implies that:
 
 1. Merge conflicts are resolved from day one.
-2. Other features, refactores and bugfixes have to deal with or can make use of
+2. Other features, refactors and bugfixes have to deal with or can make use of
    the new (good quality? working?) code that is shipped sprint after sprint.
 3. Changes might not be tackled in the original logical order, but the
    transition towards the big changeset happens in a smooth and predictable
    manner.
 4. You avoid doing something you should [never do in software][12].
 
-Dispite having mentioned branches a lot, the ideas expressed here still apply,
-no matter the technique used to integrate the changes.
+Despite having mentioned branches a lot, the ideas expressed here still apply,
+no matter the technique used to integrate the changes. Some have gone as far as
+suggest a [branchless trunk model][14].
 
 
 ## Some examples of smooth transitions
@@ -141,7 +142,7 @@ are implemented by using other strategies than long-lived branches.
 
 Among all the [strategies available][7] to **migrate an Python app from Python 2
 to Python 3**, I would try to modify the code so that it runs under both Python
-2 and Python 3  as much as I can. I certaintly wouldn't create a
+2 and Python 3  as much as I can. I certainly wouldn't create a
 *python-3-migration* branch to do all the work there, because chances are that
 your Python 2 app would still be used for a long time until the migration is
 finished, and you'll have to be duplicating features, bugs and bugfixes in your
@@ -149,7 +150,7 @@ main branch and in the migration branch. The guys at Pinterest had to go through
 a [similar experience][13] but with their frontend framework.
 
 To **translate the app** into another language, you can start by notifying the
-entire team that translation is in progress so that each new piece of ui that is
+entire team that translation is in progress so that each new piece of UI that is
 added has the labels modified to be translatable.
 
 The customer wants **a redesign of the site** (change colors and layouts), and
@@ -181,3 +182,4 @@ keeping all the parts integrated in the same codebase.
 [11]: http://blog.travis-ci.com/2014-03-04-use-feature-flags-to-ship-changes-with-confidence/ "Using Feature Flags to Ship Changes with Confidence"
 [12]: http://www.joelonsoftware.com/articles/fog0000000069.html "Things You Should Never Do, Part I"
 [13]: https://engineering.pinterest.com/blog/migrating-pinterest-profiles-react "Migrating Pinterest profiles to React"
+[14]: https://trunkbaseddevelopment.com/ "Trunk Based Development"
