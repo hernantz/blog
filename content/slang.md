@@ -31,3 +31,6 @@ ojalata = ojala
 chorizo = choro
 maraca = maricon
 va lenteja = va lento
+de costeleta = de costado
+solapa = solo
+norma = no
