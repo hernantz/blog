@@ -12,16 +12,40 @@ number of settings, with the goal of providing more flexibility to the users of
 such software.
 
 Configuration management is an important aspect of the architecture of any
-system. But it is sometimes overlooked. The purpose of this post is to explore
-a proposed solution for proper config management in general, and for a python
-app in particular.
+system. But it is sometimes overlooked.
+
+The purpose of this post is to explore a proposed solution for proper config
+management in general, and for a python app in particular.
+
+
+## Types of configuration
+
+Hold on a moment. Configuration understood as a mechanism of altering the state
+and behavior of a program can be very broad.
+
+We are interested in the *deterministic configuration* that presets the state
+of a program, without having to interact with it, like static config files or
+envirionment variables.
+
+On the other hand, there's the *runtime configuration*, which happens when the
+user interacts with the system. User preferences are a typical example of this
+kind.
+
+It may not always apply, but a general rule of thumb is to separate config by
+how it affects code: Code that varies depending on where it is run (static),
+as oposed on how it is used (runtime).
+
+We make the distiction because the later is not very general and is up to the
+developer to decide how to manage it. If it is a desktop app, a file or a
+sqlite database might suffice, but for a cloud app, maybe a distributed
+key-value store is needed.
 
 
 ## Project (app) vs Library
 
 The first thing to determine is the type of software that needs to be
 configured. There is a difference between configuring a library vs configuring
-a project. 
+a project.
 
 Lets see an example of how `sqlalchemy`, a database toolkit library, provides
 us with the needed building blocks for us to use as we please.
@@ -67,13 +91,16 @@ what it needs, not the library.
 
 ## How to configure a project (or application)
 
-It is important to provide a [clear separation][0] of configuration and code.
-This is because config varies substantially across deploys and executions, code
-does not. The same code can be run inside a container or in a regular machine,
-it can be executed in production or in testing environments.
+It is important to provide a clear separation of configuration and code. This
+is because config varies substantially across deploys and executions, code does
+not. The same code can be run inside a container or in a regular machine, it
+can be executed in production or in testing environments.
 
-Environment variables are important. But we have to be careful on how we use
-them. Why not use environment variables directly?  There is a common pattern to
+
+### Where to get configuration settings from
+
+[Environment variables][0] are important. But we have to be careful on how we use
+them. Why not use environment variables directly? There is a common pattern to
 read configurations in environment variable that look similar to the code
 below:
 
@@ -90,34 +117,102 @@ if env var `DEBUG=False` this code will print `True` because
 `os.environ.get("DEBUG", False)` will return an string `‘False’` instead of a
 boolean `False`. And a non-empty string has a `True` boolean value. We can’t
 (dis|en)able debug with env var `DEBUG=yes|no`, `DEBUG=1|0`,
-`DEBUG=True|False`. We need to start casting/parsing everywhere. If we want to
-use this configuration during development we need to define this env var all
-the time. We can’t define this setting in a configuration file that will be
-used if DEBUG envvar is not defined.  We also need to consolidate configuration
-in a single source of truth to avoid having config management scattered all
-over the codebase. This is because a well designed application needs to allow
-different ways to be configured.
+`DEBUG=True|False`. We need to start casting/parsing everywhere.
 
-Discoverability of settings:
+If we want to use this configuration during development we need to define this
+env var all the time. We can’t define this setting in a configuration file that
+will be used if `DEBUG` envvar is not defined.
+
+We also face another issue. If we need to configure an application and also
+some specific processes of that application, we don't have a hierarchical way
+of defining system-wide vs process-specific settings. This would force us to
+give every process a full copy of all global + overwritten settings.
+
+Well designed applications allow different ways to be configured. A proper
+settings-discoverability chain goes as follows:
 
 1. cli args
 2. environment variables
 3. Config files in different directories
 4. Hardcoded constants
 
-And you should have all this configuration management handled before the
-program starts, to avoid parsing files, or passing CLI args everywhere. So
-ideally we would have a single settings.py file where configuration is
+The rises the need to consolidate configuration in a single source of truth to
+avoid having config management scattered all over the codebase. 
+
+All this configuration management should be handled before the program starts,
+to avoid parsing files, or passing CLI args everywhere. So ideally we would
+have a single settings.py file where configuration is
 gathered/parsed/processed. The app imports that config module and distributes
 it to all the different libraries it is using.
 
+An example startup script for your app could be:
+
+```python
+import sys
+import os
+from settings import gather_settings
+
+if __name__ == '__main__':
+    conf = gather_settings(sys.argv, os.environ, open('config_file').read())
+    main(conf)  # conf is a dict of settings
+```
+
 Config files are very convenient since they can be version-controlled, can be
 put into templates by Config Management/Orchestration tools and come handy when
-developing.  It is also possible to put ENV VARS into a file that gets loaded
+developing. It is also possible to put ENV VARS into a file that gets loaded
 before the program starts. The convention is to put configuration in `.env`
 files. Many tools that manage processes/containers, like docker-compose and
 systemd, have support for loading them.
 
+
+### A single executable file
+
+Another anti-pattern to be aware of is having as many configuration modules as
+environment there are:  `dev_settings.py`, `staging_settings.py`,
+`local_settings.py`, etc, and including different logic on them.
+
+A very simple example of custom logic is:
+
+```python
+# base_settings.py
+PLUGINS = ['foo', 'bar']
+
+
+# dev_settings.py
+from base_settings import *
+PLUGINS = PLUGINS + ['baz']
+```
+
+Should be a single `settings.py`:
+
+
+```python
+PLUGINS = BASE_PLUGINS + EXTRA_PLUGINS
+```
+
+which gets its config from a local ini file for example:
+
+```ini
+# config.ini for everyone
+BASE_PLUGINS = ['foo', 'bar']
+EXTRA_PLUGINS = []
+
+
+# config.ini for developers
+EXTRA_PLUGINS = ['baz']
+```
+
+This way the only thing that changes is pure configuration variables, but the
+same configuration code gets executed everywhere. We also were able to separate configuration from code:
+which allows us to:
+
+1. Ship configuration separately from code.
+2. No need to know Python to configure the app. Vagrant for example, uses Ruby
+   for it's `Vagrantfile`, it is a bummer to have to learn the syntax of a
+   language just to use a tool.
+
+
+trick of using `settings.py.template`
 
 ## Installer
 
@@ -163,8 +258,6 @@ The dev(ops) flow has two clearly distinct realms:
 
 ```
 
-
-
 If you use different tools when developing and when deploying, all these
 scripts and templates will start to increse in number. When that moment comes,
 there will be the temptation to delegate all this responsability to the app to
@@ -181,20 +274,21 @@ The important thing to note here is that the application's code should not
 install dependencies or start services or export variables to the environment
 because mongo needs them.
 
+
 ## Proposed architechture
-Always use a single config.py file and load it before starting the program. Use prettyconf since it follows this architecture (or will soon: https://github.com/osantana/prettyconf/issues/18).
-Configuration for other services should be handled separately.
-Keep in mind what belongs to which realm when writing code/scripts. Everything can live in the same repo, but at least they will be in different folders (src and ops, for example).
-Consolidate a very similar set of tools for dev and production envs. Containers are gaining popularity everywhere, we can either use docker/ansible-container for both realms.
-Ansible container: https://github.com/ansible/ansible-container
-Docker: https://www.docker.com/
+
+Always use a single config.py file and load it before starting the program. Use
+prettyconf since it follows this architecture (or will soon:
+https://github.com/osantana/prettyconf/issues/18).  Configuration for other
+services should be handled separately.  Keep in mind what belongs to which
+realm when writing code/scripts. Everything can live in the same repo, but at
+least they will be in different folders (src and ops, for example).
+Consolidate a very similar set of tools for dev and production envs. Containers
+are gaining popularity everywhere, we can either use docker/ansible-container
+for both realms.  Ansible container:
+https://github.com/ansible/ansible-container Docker: https://www.docker.com/
 
 
-La base de datos tmb es una forma de configuracion para un programa.
-Por ejemplo las config de los juegos sobre la resolucion, sensibilidad del mouse, etc.
-O feature flags, esto es configuracion dinamica, vs configuracion estatica de prettyconf.
-
-https://en.wikipedia.org/wiki/Windows_Registry
 
 
 ## Managing config changes
@@ -208,17 +302,17 @@ But for a program to scale in a cluster, it is better not to force any db/connec
 
 
 ------
-Show the problem with `local_settings.py` -> custom code that imports *
-Why is better for config to be static
-you shouldn't need to learn python to configure your program
+
+how to dynamically update settings (process signals?)
 
 Introducing prettyconf
 
 How to reload program when config changes with systemd?
 
-settings stored in a db
 how to dynamically update settings (process signals?)
 trick of using `settings.py.template`
+
+https://en.wikipedia.org/wiki/Windows_Registry
 
 <zoredache> hernantz: maybe make an example vars file or something that is in the vcs, then instruct the devs to copy+populate the template to a name that is excluded by a gitignore?
 Problem with this is that from time to time settings names might change, and when switching to that branch you have to manually change settings file that is not versioned.
@@ -227,13 +321,6 @@ Si las configs son como una base de datos en un archivo, por ahi puede existir u
 How to manage secrets for tests (should not be secrets, because testing should not have any dangerous side effect) the same applies for continuous integration tools.
 
 
-1 x entorno
-separar datos del codigo (config input vs code that uses that input)
-clases para herencia vs import *
-run env vs test config (solo cambian los datos)
-manage.py params?
-
-
-Code that varies depending on where it is run
-
 [0]: https://12factor.net/config "The twelve-factor app | config"
+[1]: https://12factor.net/backing-services "The twelve-factor app | backing services"
+[2]: https://12factor.net/dev-prod-parity "The twelve-factor app | dev/prod parity"
