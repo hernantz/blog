@@ -97,7 +97,7 @@ not. The same code can be run inside a container or in a regular machine, it
 can be executed in production or in testing environments.
 
 
-### Where to get configuration settings from
+### Where to get configuration from
 
 [Environment variables][0] are important. But we have to be careful on how we use
 them. Why not use environment variables directly? There is a common pattern to
@@ -157,13 +157,6 @@ if __name__ == '__main__':
     main(conf)  # conf is a dict of settings
 ```
 
-Config files are very convenient since they can be version-controlled, can be
-put into templates by Config Management/Orchestration tools and come handy when
-developing. It is also possible to put ENV VARS into a file that gets loaded
-before the program starts. The convention is to put configuration in `.env`
-files. Many tools that manage processes/containers, like docker-compose and
-systemd, have support for loading them.
-
 
 ### A single executable file
 
@@ -206,30 +199,52 @@ This way the only thing that changes is pure configuration variables, but the
 same configuration code gets executed everywhere. We also were able to separate configuration from code:
 which allows us to:
 
-1. Ship configuration separately from code.
-2. No need to know Python to configure the app. Vagrant for example, uses Ruby
-   for it's `Vagrantfile`, it is a bummer to have to learn the syntax of a
-   language just to use a tool.
+1. Ship configuration separately from code. There is no need to modify code in
+   order to change it's behavior.
+2. Plain text files are *universal*. Can be edited with any text editor, no
+   need to mess with db connectors/sql/scripts to configure an app.
+3. No need to know a programming language to configure the app. [Vagrant][3],
+   for example, uses Ruby for it's `Vagrantfile`, it is a bummer to have to
+   learn the syntax of a language just to use a tool.
 
 
-trick of using `settings.py.template`
+### The `settings.template` trick
 
-## Installer
+We still need a way to bundle settings for different environments: QA, stating,
+production, test, Bill's dev machine, etc
 
-Code needs to be packaged (built), distributed, installed, executed
-(https://12factor.net/build-release-run).  These are all steps that make use of
-external tools that are not part of the codebase and should be replaceable.  An
-app could be packaged for Ubuntu or Windows differently, can be installed
-manually or put in a container.  For this reason, code should be as agnostic of
-these steps as possible and delegate that to another actor called
-"Installer/Builder".  This new actor can be one or many tools combined, for
-example docker-compose, yum, gcc, ansible, etc.  The installer actor is the one
-that knows how to bind code with the right configuration it needs and how to do
-it (through env vars or files or cli args or all of them). Because it knows the
-configuration it needs to inject into the project, it makes a good candidate to
-manage configuration.  It can do so by having configuration templates for files
-or settings that will be injected into the environment, it knows about keeping
-secret/sensistive information protected, etc.
+Config files are very convenient since they can be version-controlled, can be
+put into templates by Config Management/Orchestration tools and come handy when
+developing. It is also possible to put ENV VARS into a file that gets loaded
+before the program starts. The convention is to put configuration in `.env`
+files. Many tools that manage processes/containers, like docker-compose and
+systemd, have support for loading them.
+
+A litmus test for whether an app has all config correctly factored out of the
+code is whether the codebase could be made open source at any moment, without
+compromising any credentials.
+
+
+### Devops tools
+
+Code needs to be [packaged, distributed, installed, executed][4].
+
+These are all steps that make use of external tools that are not part of the
+codebase and should be replaceable. An app could be packaged for Ubuntu or
+Windows differently, can be installed manually or put in a container. For this
+reason, code should be as agnostic of these steps as possible and delegate that
+to another actor called: *Installer/Builder*.
+
+This new actor can be one or many tools combined, for example docker-compose,
+yum, gcc, ansible, etc.
+
+The installer actor is the one that knows how to bind code with the right
+configuration it needs and how to do it (through env vars or files or cli args
+or all of them). Because it knows the configuration it needs to inject into the
+project, it makes a good candidate to manage configuration.  It can do so by
+having configuration templates for files or settings that will be injected into
+the environment, it knows about keeping secret/sensistive information
+protected, etc.
 
 The dev(ops) flow has two clearly distinct realms:
 
@@ -255,24 +270,37 @@ The dev(ops) flow has two clearly distinct realms:
 +-------------------+---------------------------------------------------------------+
 |    code realm     |                   Devops/CM/Orchestraion realm                |
 +-------------------+---------------------------------------------------------------+
-
 ```
 
 If you use different tools when developing and when deploying, all these
 scripts and templates will start to increse in number. When that moment comes,
 there will be the temptation to delegate all this responsability to the app to
-"autoconfigure and install itself".  Sometimes an app not only needs to be
-configured, but it might need other services to be running, so you'll have to
-replace an orchestration tool and a supervisor
-(https://12factor.net/backing-services).  This basically means that you will be
-replacing specialiced tools with battle-tested ready-made solutions with your
-own implementation. More code, mode problems.  Ideally, a project should
-support one build tool and use it for development and production. For example:
-docker everywhere.
+"autoconfigure and install itself".
+
+Sometimes an app not only needs to be configured, but it might need [other
+services to be running][1], so you'll have to replace an orchestration tool and
+a supervisor. This basically means that you will be replacing specialiced tools
+with battle-tested ready-made solutions with your own implementation. More
+code, mode problems.
+
+Ideally, a project should support [one build tool][2] and use it for
+development and production. For example: docker everywhere.
 
 The important thing to note here is that the application's code should not
 install dependencies or start services or export variables to the environment
-because mongo needs them.
+because an external service needs them.
+
+
+### Managing config changes
+
+consult template -> places template -> emits reload signal -> program picks up new config
+reload config signal (reload(config))
+Database based configuration can bring the chickend and egg problem, for a large system.
+Sqlite can be usefull for some programs, to store configuration provided by a non technical user (like screen resolution for counter strike).
+But for a program to scale in a cluster, it is better not to force any db/connector/table/etc, by just issuing a file and and accepting reload.
+
+how to dynamically update settings (process signals?)
+How to reload program when config changes with systemd?
 
 
 ## Proposed architechture
@@ -289,28 +317,10 @@ for both realms.  Ansible container:
 https://github.com/ansible/ansible-container Docker: https://www.docker.com/
 
 
-
-
-## Managing config changes
-
-consult template -> places template -> emits reload signal -> program picks up new config
-reload config signal (reload(config))
-Database based configuration can bring the chickend and egg problem, for a large system.
-Sqlite can be usefull for some programs, to store configuration provided by a non technical user (like screen resolution for counter strike).
-But for a program to scale in a cluster, it is better not to force any db/connector/table/etc, by just issuing a file and and accepting reload.
-
-
-
 ------
 
-how to dynamically update settings (process signals?)
 
 Introducing prettyconf
-
-How to reload program when config changes with systemd?
-
-how to dynamically update settings (process signals?)
-trick of using `settings.py.template`
 
 https://en.wikipedia.org/wiki/Windows_Registry
 
@@ -324,3 +334,5 @@ How to manage secrets for tests (should not be secrets, because testing should n
 [0]: https://12factor.net/config "The twelve-factor app | config"
 [1]: https://12factor.net/backing-services "The twelve-factor app | backing services"
 [2]: https://12factor.net/dev-prod-parity "The twelve-factor app | dev/prod parity"
+[3]: https://www.vagrantup.com/docs/vagrantfile/ "Vagrantfile"
+[4]: https://12factor.net/build-release-run "The twelve-factor app | build, release, run"
