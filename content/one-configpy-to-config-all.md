@@ -131,10 +131,12 @@ give every process a full copy of all global + overwritten settings.
 Well designed applications allow different ways to be configured. A proper
 settings-discoverability chain goes as follows:
 
-1. cli args
-2. environment variables
-3. Config files in different directories
-4. Hardcoded constants
+1. CLI args.
+2. Environment variables.
+3. Config files in different directories, that also imply some hierarchy. For
+   example: config files in `/etc/myapp/settings.ini` are applied system-wide,
+   while `~/.config/myapp/settings.ini` take precedence and are user-specific.
+4. Hardcoded constants.
 
 The rises the need to consolidate configuration in a single source of truth to
 avoid having config management scattered all over the codebase. 
@@ -196,8 +198,8 @@ EXTRA_PLUGINS = ['baz']
 ```
 
 This way the only thing that changes is pure configuration variables, but the
-same configuration code gets executed everywhere. We also were able to separate configuration from code:
-which allows us to:
+same configuration code gets executed everywhere. We also were able to separate
+configuration from code, which gives us some nice features:
 
 1. Ship configuration separately from code. There is no need to modify code in
    order to change it's behavior.
@@ -206,6 +208,14 @@ which allows us to:
 3. No need to know a programming language to configure the app. [Vagrant][3],
    for example, uses Ruby for it's `Vagrantfile`, it is a bummer to have to
    learn the syntax of a language just to use a tool.
+4. Since config files are not executable, they can partially override other
+   config files in a line of hierarchy, as oposed to `.vimrc` files for
+   example, that are executable and have to be *forked* to be adapted and a
+   base config cannot be shared for all users in the system).
+
+The example of configuring plugins is not accidental. The idea is to show that
+if you need to enable the user to do some scripting as customization, do so
+through a plugin system, but never through scriptable config files.
 
 
 ### The `settings.template` trick
@@ -213,16 +223,27 @@ which allows us to:
 We still need a way to bundle settings for different environments: QA, stating,
 production, test, Bill's dev machine, etc
 
+Also, a litmus test for whether an app has all config correctly factored out of
+the code is whether the codebase could be made open source at any moment,
+without compromising any credentials. What this means is that credentials and
+secrets should also be kept outside the codebase and made configurable.
+
+So secrets and envirionment dependant settings have to be handled somehow.
+
 Config files are very convenient since they can be version-controlled, can be
 put into templates by Config Management/Orchestration tools and come handy when
-developing. It is also possible to put ENV VARS into a file that gets loaded
-before the program starts. The convention is to put configuration in `.env`
-files. Many tools that manage processes/containers, like docker-compose and
-systemd, have support for loading them.
+developing.
 
-A litmus test for whether an app has all config correctly factored out of the
-code is whether the codebase could be made open source at any moment, without
-compromising any credentials.
+Even env vars can be put into a file (tipically named `.env`) that gets loaded
+before the program starts. Many tools that manage processes/containers, like
+[docker-compose][5] and [systemd][6], or even [libraries][8] have support for
+loading them.
+
+It is common practice to put an example `settings.template` file that is in the
+vcs, and then provide a way to copy + populate that template to a name that is
+excluded by your vcs so that we never accidentally commit that. These files
+might also be tracked by vcs, but encrypted, like it is done with [Ansible
+Vault][9].
 
 
 ### Devops tools
@@ -235,18 +256,17 @@ Windows differently, can be installed manually or put in a container. For this
 reason, code should be as agnostic of these steps as possible and delegate that
 to another actor called: *Installer/Builder*.
 
-This new actor can be one or many tools combined, for example docker-compose,
-yum, gcc, ansible, etc.
+This new actor can be one or many tools combined, for example `docker-compose`,
+`yum`, `gcc`, `ansible`, etc.
 
 The installer actor is the one that knows how to bind code with the right
 configuration it needs and how to do it (through env vars or files or cli args
 or all of them). Because it knows the configuration it needs to inject into the
-project, it makes a good candidate to manage configuration.  It can do so by
-having configuration templates for files or settings that will be injected into
-the environment, it knows about keeping secret/sensistive information
-protected, etc.
+project, it makes a good candidate to manage  configuration templates for
+files, vars that will be injected into the environment, or how to keep
+secret/sensistive information protected.
 
-The dev(ops) flow has two clearly distinct realms:
+The devevelpment and operations flow has two clearly distinct realms:
 
 ```
 +-------+           +-------+          +--------+         +-------+         +-------+
@@ -283,52 +303,96 @@ a supervisor. This basically means that you will be replacing specialiced tools
 with battle-tested ready-made solutions with your own implementation. More
 code, mode problems.
 
-Ideally, a project should support [one build tool][2] and use it for
-development and production. For example: docker everywhere.
-
 The important thing to note here is that the application's code should not
 install dependencies or start services or export variables to the environment
 because an external service needs them.
 
+Ideally, a project should support [one set of build tools][2] and use it for
+development and production. For example: docker everywhere.
+
 
 ### Managing config changes
 
-consult template -> places template -> emits reload signal -> program picks up new config
-reload config signal (reload(config))
-Database based configuration can bring the chickend and egg problem, for a large system.
-Sqlite can be usefull for some programs, to store configuration provided by a non technical user (like screen resolution for counter strike).
-But for a program to scale in a cluster, it is better not to force any db/connector/table/etc, by just issuing a file and and accepting reload.
+The [SIGHUP signal][7] is usually used to trigger a reload of configurations
+for daemons.
 
-how to dynamically update settings (process signals?)
-How to reload program when config changes with systemd?
+In Python, this can be achieved with the `signal` module, as the following gist shows:
+
+```python
+import os
+import signal
+
+def get_config(rel=False):
+    import config
+    if rel:
+        reload(config)
+    return config
+
+running = True
+
+def run():
+    while running:
+        # do something with get_config().foo
+    else:
+        # teardown
+
+def signal_handler(signum, frame):
+    # Use kill -15 <pid>
+    if signum == signal.SIGTERM:
+        global running
+        running = False  # terminate daemon
+
+    # kill -1 <pid>
+    elif signum == signal.SIGHUP:
+        get_config(rel=True)  # reload config
 
 
-## Proposed architechture
-
-Always use a single config.py file and load it before starting the program. Use
-prettyconf since it follows this architecture (or will soon:
-https://github.com/osantana/prettyconf/issues/18).  Configuration for other
-services should be handled separately.  Keep in mind what belongs to which
-realm when writing code/scripts. Everything can live in the same repo, but at
-least they will be in different folders (src and ops, for example).
-Consolidate a very similar set of tools for dev and production envs. Containers
-are gaining popularity everywhere, we can either use docker/ansible-container
-for both realms.  Ansible container:
-https://github.com/ansible/ansible-container Docker: https://www.docker.com/
+signal.signal(signal.SIGHUP, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
 
 
-------
+if __name__ == '__main__':
+    run()
+```
+
+Then, the program can be notified about new config by using `kill -1` or: 
 
 
-Introducing prettyconf
+```sh
+$ sudo systemctl reload application.service
+```
 
-https://en.wikipedia.org/wiki/Windows_Registry
+If the app is part of a distributed cloud system, the same principle can still
+be used. For example, Consul, a tool for service and configuration discovery
+provides `consult-template`, a command to populate values from Consul into
+automatically [updated templates][11] that can emit reload commands to programs
+to pick it up.
 
-<zoredache> hernantz: maybe make an example vars file or something that is in the vcs, then instruct the devs to copy+populate the template to a name that is excluded by a gitignore?
-Problem with this is that from time to time settings names might change, and when switching to that branch you have to manually change settings file that is not versioned.
-Si las configs son como una base de datos en un archivo, por ahi puede existir un modelo que las represente y tener un sistema de migraciones entre schemas.
+```sh
+$ consul-template \
+    -template "/tmp/nginx.ctmpl:/var/nginx/nginx.conf:nginx -s reload" \
+    -template "/tmp/redis.ctmpl:/var/redis/redis.conf:service redis restart" \
+    -template "/tmp/haproxy.ctmpl:/var/haproxy/haproxy.conf"
+```
 
-How to manage secrets for tests (should not be secrets, because testing should not have any dangerous side effect) the same applies for continuous integration tools.
+
+## Conclusions
+
+Always use a single `config.py` file that gathers all settings and load it
+before starting the program. Use [prettyconf][15] since it follows the settings
+discovery architecture for projects that we've shown, [or will soon][12].
+
+Configuration for each service should be handled separately, do not use a
+single `config.py` to configure nginx and postgres for instance.
+
+Keep in mind what belongs to which realm when writing code/scripts. Everything
+can live in the same repo, but at least they will be in different folders (src
+and ops, for example).
+
+Consolidate a very similar set of tools for dev and production envs.
+Containers are gaining popularity everywhere, use something like [docker][13]
+or [ansible-container][14] for both realms.
+
 
 
 [0]: https://12factor.net/config "The twelve-factor app | config"
@@ -336,3 +400,14 @@ How to manage secrets for tests (should not be secrets, because testing should n
 [2]: https://12factor.net/dev-prod-parity "The twelve-factor app | dev/prod parity"
 [3]: https://www.vagrantup.com/docs/vagrantfile/ "Vagrantfile"
 [4]: https://12factor.net/build-release-run "The twelve-factor app | build, release, run"
+[5]: https://docs.docker.com/compose/env-file/ "Declare default environment variables in file"
+[6]: https://coreos.com/os/docs/latest/using-environment-variables-in-systemd-units.html "Using environment variables in systemd units"
+[7]: https://en.wikipedia.org/wiki/Signal_(IPC)#SIGHUP "Posix signals"
+[8]: https://github.com/theskumar/python-dotenv "python-dotenv"
+[9]: https://docs.ansible.com/ansible/2.4/vault.html "Ansible Vault"
+[10]: https://www.consul.io/ "Consul"
+[11]: https://vimeo.com/109626825 "Consul template demo"
+[12]: https://github.com/osantana/prettyconf/issues/18)
+[13]: https://www.docker.com/ "Docker"
+[14]: https://github.com/ansible/ansible-container "Ansible Container"
+[15]: https://github.com/osantana/prettyconf "Prettyconf"
