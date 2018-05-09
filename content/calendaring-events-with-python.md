@@ -1,5 +1,5 @@
 Title: Calendaring events with Python
-Date: 04-13-2017
+Date: 2017-04-13
 Category: Programming
 Tags: python, timezones
 Summary: Some gotchas you'll find when scheduling the next world's doomsday.
