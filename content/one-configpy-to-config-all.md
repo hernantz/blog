@@ -25,7 +25,7 @@ and behavior of a program can be very broad.
 
 We are interested in the *deterministic configuration* that presets the state
 of a program, without having to interact with it, like static config files or
-envirionment variables.
+environment variables.
 
 On the other hand, there's the *runtime configuration*, which happens when the
 user interacts with the system. User preferences are a typical example of this
@@ -35,7 +35,7 @@ It may not always apply, but a general rule of thumb is to separate config by
 how it affects code: Code that varies depending on where it is run (static),
 as oposed on how it is used (runtime).
 
-We make the distiction because the later is not very general and is up to the
+We make the distinction because the later is not very general and is up to the
 developer to decide how to manage it. If it is a desktop app, a file or a
 sqlite database might suffice, but for a cloud app, maybe a distributed
 key-value store is needed.
@@ -72,7 +72,7 @@ Base.metadata.create_all(engine)
 A library is meant to be a reusable piece of code that should not make
 assumptions on where and how it is going to be used. 
 
-Imagine if `sqlalchemy` gathered it's engine configuation from an environment
+Imagine if `sqlalchemy` gathered it's engine configuration from an environment
 variable `SQLALCHEMY_ENGINE=sqlite:///sqlalchemy_example.db` or a file in
 `/etc/sqlalchemy/engine.cfg`. It would be complicated for an app reuse that
 library to connect to different databases.
@@ -116,12 +116,12 @@ Why is getting config variables directly a bad idea?
 
 If env var `DEBUG=False` this code will print `True` because
 `os.environ.get("DEBUG", False)` will return an string `‘False’` instead of a
-boolean `False`. And a non-empty string has a `True` boolean value. We can’t
+boolean `False`. And a non-empty string has a `True` boolean value. We can't
 (dis|en)able debug with env var `DEBUG=yes|no`, `DEBUG=1|0`,
 `DEBUG=True|False`. We need to start casting/parsing everywhere.
 
 If we want to use this configuration during development we need to define this
-env var all the time. We can’t define this setting in a configuration file that
+env var all the time. We can't define this setting in a configuration file that
 will be used if `DEBUG` envvar is not defined.
 
 Well designed applications allow different ways to be configured. A proper
@@ -185,7 +185,7 @@ config = ConfigParser('config.ini')
 PLUGINS = config['BASE_PLUGINS'] + config['EXTRA_PLUGINS']
 ```
 
-which gets its config from a local ini file for example:
+Which gets its config from a local ini file for example:
 
 ```ini
 # /etc/app/config.ini for everyone
@@ -207,7 +207,7 @@ configuration from code, which gives us some nice features:
    for example, uses Ruby for it's `Vagrantfile`, it is a bummer to have to
    learn the syntax of a language just to use a tool.
 4. Since config files are not executable, they can partially override other
-   config files in a line of hierarchy, as oposed to `.vimrc` files for
+   config files in a line of hierarchy, as opposed to `.vimrc` files for
    example, that are executable and have to be *forked* to be adapted and a
    base config cannot be shared for all users in the system).
 
@@ -226,7 +226,7 @@ the code is whether the codebase could be made open source at any moment,
 without compromising any credentials. What this means is that credentials and
 secrets should also be kept outside the codebase and made configurable.
 
-So secrets and envirionment dependant settings have to be handled somehow.
+So secrets and environment dependant settings have to be handled somehow.
 
 Config files are very convenient since they can be version-controlled, can be
 put into templates by Config Management/Orchestration tools and come handy when
@@ -240,15 +240,15 @@ Following the example above, a `config.ini.template` could look like this:
 # SECRET_KEY = <change me>
 ```
 
-Even env vars can be put into a file (tipically named `.env`) that gets loaded
+Even env vars can be put into a file (typically named `.env`) that gets loaded
 before the program starts. Many tools that manage processes/containers, like
 [docker-compose][5] and [systemd][6], or even [libraries][8] have support for
 loading them.
 
 It is common practice to put an example `settings.template` file that is in the
-vcs, and then provide a way to copy + populate that template to a name that is
-excluded by your vcs so that we never accidentally commit that. These files
-might also be tracked by vcs, but encrypted, like it is done with [Ansible
+VCS, and then provide a way to copy + populate that template to a name that is
+excluded by your VCS so that we never accidentally commit that. These files
+might also be tracked by VCS, but encrypted, like it is done with [Ansible
 Vault][9].
 
 
@@ -270,9 +270,9 @@ configuration it needs and how to do it (through env vars or files or cli args
 or all of them). Because it knows the configuration it needs to inject into the
 project, it makes a good candidate to manage  configuration templates for
 files, vars that will be injected into the environment, or how to keep
-secret/sensistive information protected.
+secret/sensitive information protected.
 
-The devevelpment and operations flow has two clearly distinct realms:
+The development and operations flow has two clearly distinct realms:
 
 ```
 +-------+           +-------+          +--------+         +-------+         +-------+
@@ -299,13 +299,13 @@ The devevelpment and operations flow has two clearly distinct realms:
 ```
 
 If you use different tools when developing and when deploying, all these
-scripts and templates will start to increse in number. When that moment comes,
-there will be the temptation to delegate all this responsability to the app to
-"autoconfigure and install itself".
+scripts and templates will start to increase in number. When that moment comes,
+there will be the temptation to delegate all this responsibility to the app to
+"auto-configure and install itself".
 
 Sometimes an app not only needs to be configured, but it might need [other
 services to be running][1], so you'll have to replace an orchestration tool and
-a supervisor. This basically means that you will be replacing specialiced tools
+a supervisor. This basically means that you will be replacing specialized tools
 with battle-tested ready-made solutions with your own implementation. More
 code, mode problems.
 
@@ -384,7 +384,7 @@ $ consul-template \
 
 ## Conclusions
 
-Don't take responsability of gathering configuration when developing a library.
+Don't take responsibility of gathering configuration when developing a library.
 
 In your app, always use a single `config.py` file that gathers all settings and
 load it before starting the program. Use [prettyconf][15] since it follows the
@@ -392,10 +392,10 @@ settings discovery architecture for projects that we've shown, [or will
 soon][12].
 
 Keep in mind what belongs to which realm when writing code/scripts. Everything
-can live in the same repo, but at least they will be in different folders (src
-and ops, for example). Configuration for each service should be handled
-separately, do not use a single `config.py` to configure nginx and postgres for
-instance.
+can live in the same repo, but at least they will be in different folders
+(`src/` and `ops/`, for example). Configuration for each service should be
+handled separately, do not use a single `config.py` to configure Nginx and
+Postgres for instance.
 
 Consolidate a very similar set of tools for dev and production envs.
 Containers are gaining popularity everywhere, use something like [docker][13]
