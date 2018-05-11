@@ -99,10 +99,11 @@ can be executed in production or in testing environments.
 
 ### Where to get configuration from
 
-[Environment variables][0] are important. But we have to be careful on how we use
-them. Why not use environment variables directly? There is a common pattern to
-read configurations in environment variable that look similar to the code
-below:
+Configuration for a project might come from different sources, like `.ini`
+files, envirionment variables, etc.
+
+For example, there is a common pattern to read configurations in [environment
+variables][0] that look similar to the code below:
 
 ```python
 if os.environ.get("DEBUG", False):
@@ -111,9 +112,9 @@ else:
     print(False)
 ```
 
-But this code have some issues:
+Why is getting config variables directly a bad idea?
 
-if env var `DEBUG=False` this code will print `True` because
+If env var `DEBUG=False` this code will print `True` because
 `os.environ.get("DEBUG", False)` will return an string `‘False’` instead of a
 boolean `False`. And a non-empty string has a `True` boolean value. We can’t
 (dis|en)able debug with env var `DEBUG=yes|no`, `DEBUG=1|0`,
@@ -122,11 +123,6 @@ boolean `False`. And a non-empty string has a `True` boolean value. We can’t
 If we want to use this configuration during development we need to define this
 env var all the time. We can’t define this setting in a configuration file that
 will be used if `DEBUG` envvar is not defined.
-
-We also face another issue. If we need to configure an application and also
-some specific processes of that application, we don't have a hierarchical way
-of defining system-wide vs process-specific settings. This would force us to
-give every process a full copy of all global + overwritten settings.
 
 Well designed applications allow different ways to be configured. A proper
 settings-discoverability chain goes as follows:
@@ -143,19 +139,19 @@ avoid having config management scattered all over the codebase.
 
 All this configuration management should be handled before the program starts,
 to avoid parsing files, or passing CLI args everywhere. So ideally we would
-have a single settings.py file where configuration is
-gathered/parsed/processed. The app imports that config module and distributes
-it to all the different libraries it is using.
+have a single `config.py` file where settings are gathered, parsed and
+processed. The app imports that config module and distributes it to all the
+different libraries it is using.
 
 An example startup script for your app could be:
 
 ```python
 import sys
 import os
-from settings import gather_settings
+from config import gather_conf
 
 if __name__ == '__main__':
-    conf = gather_settings(sys.argv, os.environ, open('config_file').read())
+    conf = gather_conf(sys.argv, os.environ, open('/etc/app/config_file').read())
     main(conf)  # conf is a dict of settings
 ```
 
@@ -182,19 +178,21 @@ Should be a single `settings.py`:
 
 
 ```python
-PLUGINS = BASE_PLUGINS + EXTRA_PLUGINS
+# settings.py
+config = ConfigParser('config.ini')
+
+# this is what the app uses
+PLUGINS = config['BASE_PLUGINS'] + config['EXTRA_PLUGINS']
 ```
 
 which gets its config from a local ini file for example:
 
 ```ini
-# config.ini for everyone
-BASE_PLUGINS = ['foo', 'bar']
-EXTRA_PLUGINS = []
+# /etc/app/config.ini for everyone
+BASE_PLUGINS = foo,bar
 
-
-# config.ini for developers
-EXTRA_PLUGINS = ['baz']
+# ~/.config/app/config.ini that a user overrides based on the template
+EXTRA_PLUGINS = baz
 ```
 
 This way the only thing that changes is pure configuration variables, but the
@@ -233,6 +231,14 @@ So secrets and envirionment dependant settings have to be handled somehow.
 Config files are very convenient since they can be version-controlled, can be
 put into templates by Config Management/Orchestration tools and come handy when
 developing.
+
+Following the example above, a `config.ini.template` could look like this:
+
+```ini
+# config.ini.template that each environment can implement
+# EXTRA_PLUGINS = one_plugin,another_plugin
+# SECRET_KEY = <change me>
+```
 
 Even env vars can be put into a file (tipically named `.env`) that gets loaded
 before the program starts. Many tools that manage processes/containers, like
@@ -378,16 +384,18 @@ $ consul-template \
 
 ## Conclusions
 
-Always use a single `config.py` file that gathers all settings and load it
-before starting the program. Use [prettyconf][15] since it follows the settings
-discovery architecture for projects that we've shown, [or will soon][12].
+Don't take responsability of gathering configuration when developing a library.
 
-Configuration for each service should be handled separately, do not use a
-single `config.py` to configure nginx and postgres for instance.
+In your app, always use a single `config.py` file that gathers all settings and
+load it before starting the program. Use [prettyconf][15] since it follows the
+settings discovery architecture for projects that we've shown, [or will
+soon][12].
 
 Keep in mind what belongs to which realm when writing code/scripts. Everything
 can live in the same repo, but at least they will be in different folders (src
-and ops, for example).
+and ops, for example). Configuration for each service should be handled
+separately, do not use a single `config.py` to configure nginx and postgres for
+instance.
 
 Consolidate a very similar set of tools for dev and production envs.
 Containers are gaining popularity everywhere, use something like [docker][13]
