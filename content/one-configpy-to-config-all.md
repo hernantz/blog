@@ -1,8 +1,8 @@
 Title: One config.py to config them all
 Summary: How to do configuration management.
-Date: 2018-05-05
+Date: 2018-05-11
 Category: Programming
-Tags: python, best-practices, configuration, architecture, django
+Tags: python, best-practices, configuration, architecture, tools
 
 ![configuration management](/images/configuration.png "Configuration management")
 
