@@ -47,7 +47,7 @@ This talk was given at an in-company session at Machinalis offices
 (2017-04-13) and at [Pycon Argentina 2017][2] (2017-11-17).
 
 
-## One config.py to config them all
+## Una config.py para configurarlos a todos
 
 Configuration management, understood as a way to alter the behavior of a
 program without changing the code, is a mechanism that requires a well thought
