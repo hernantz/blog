@@ -13,6 +13,9 @@ In the early days, Django didn't ship a built-in migrations framework. South
 was the most popular app to do that. This talk exposed some common pitfalls and
 quirks, some of them might still apply to newer Django versions.
 
+This talk was given at an in-company session at Machinalis offices
+(2014-04-30).
+
 
 ## Cada mock es un moco
 
