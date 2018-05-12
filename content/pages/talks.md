@@ -5,10 +5,13 @@ Tags: personal
 Summary: Talks I've given 
 Url: talks.html
 Save_as: talks.html
-Status: Draft
 
 
 ## The ring goes south
+
+In the early days, Django didn't ship a built-in migrations framework. South
+was the most popular app to do that. This talk exposed some common pitfalls and
+quirks, some of them might still apply to newer Django versions.
 
 
 ## Cada mock es un moco
@@ -44,6 +47,19 @@ This talk was given at an in-company session at Machinalis offices
 (2017-04-13) and at [Pycon Argentina 2017][2] (2017-11-17).
 
 
+## One config.py to config them all
+
+Configuration management, understood as a way to alter the behavior of a
+program without changing the code, is a mechanism that requires a well thought
+architecture. In this talk I focus on static configuration in general, and an
+approach for python. The contents of this talk are based on this post: [One
+config.py to configure them all][3].
+
+This talk was given at [Pyday La Plata 2018][4] (2018-05-12).
+
+
 [0]: https://www.meetup.com/Cordoba-Python-Meetup/events/226908468/ "Python Meetup Event"
 [1]: {filename}/calendaring-events-with-python.md "Calendaring events with Python"
 [2]: http://ar.pycon.org/ "PyconAr"
+[3]: {filename}/one-configpy-to-config-all.md "One config.py to configure them all"
+[4]: https://pydaylp.python.org.ar/ "Pyday La plata 2018"
