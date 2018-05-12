@@ -20,6 +20,8 @@ As a programmer, most of your time you will be writing ifs.
 Not only becouse this is the main flow control structure, in c like languages,
 but because writing an else is (or shoud be at least) a code smell. It's a trap.
 
+https://news.ycombinator.com/item?id=16678209
+
 ## Cut the flow ifs
 
     ::python
@@ -191,3 +193,34 @@ https://youtu.be/D_6ybDcU5gc?t=8m43s
 
 
 Django PermissionDenied para custom authentication backend
+
+
+
+    def extract_timestamp(self):
+        record = self.get_parsed_record()
+        timestamp = record.get('timestamp')
+        if timestamp is None:
+            return None
+        if isinstance(timestamp, datetime):
+            return timestamp
+        return dateutil.parser.parse(record['timestamp'])
+
+
+
+    def get_parsed_record(self):
+        record = self.record
+        event_name = self.event_name
+        if event_name in (SasEvents.KNOWLEDGE_COMPONENT_MODEL,
+                          SasEvents.KCM_UPDATE):
+            parsed_record = record
+        elif event_name == CeEvents.QUESTION_PART_ATTEMPT:
+            require_kcm = 'knowledge_component_model' in record
+            parsed_record = qpa.parse_question_part_attempt(
+                record, require_kcm=require_kcm)
+        elif event_name == SasEvents.TUNING_STATUS_CHANGED:
+            parsed_record = record
+        else:
+            parsed_record = record
+
+        return parsed_record
+
