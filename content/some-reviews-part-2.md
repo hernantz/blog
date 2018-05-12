@@ -589,3 +589,69 @@ bands, and what makes a band special and memorable. Not just good tracks, but
 all what surrounds is important too.
 This album was up to the quality I expected from them.
 **score: 4.9**
+
+
+#  Breaking Bad
+Sometimes comedy, sometimes bizarre, sometimes drama, all deliciously combined,
+so that you love and hate each one of the characters. I really liked that the
+series actually had an ending, and it wasn't one of those shows that are kept
+so long as there is an audience.
+**score: 4.9**
+
+# The disaster artist
+If only this had been done like a mockmentary with acted parts, it would've
+been sooo much better. James Franco did a really good job in impersonating
+Tommy Wiseau. Reading trivia about the movie or watching interviews with Tommy
+you can easily realize that there is much more to be told, even darker stories
+other than look a this weirdo and it's dream of being a Hollywood star.
+**score: 2.3**
+
+
+# Dr Strangelove
+Tragicomedy about something that could have actually happened. Dialogs and
+acting are superb.
+**score: 3.7**
+
+# Kickass
+Super funny super hero movie with explicit language and graphics. It is an
+exact copy of Deadpool.
+**score: 4.8**
+
+
+# Cloverfield Paradox
+The idea behind the movie is very similar to Coherence, and definetly nothing
+to connect to with the CLoverfield franchise. The movie already warns you at
+the begining what is going to happen, so there is no mental work to do when
+watching the movie. All dialogs feel unreal, as if all actors knew they were in
+a movie. A guy looses his arm and next minute he is making jokes about it.
+I personally think that these multidimensional puzzles fit better on a
+scientific test scenario, as in 400 days or hypercube.
+**score: 1.2**
+
+# Geralds's Game
+The story is really good, but WTF was up with the creep being an actual human
+and not part of her imagination! The effects were also veeery cheap.
+**score: 2.8**
+
+# Three billboards outside Ebbing, Missouri I enjoyed the movie from the get go
+till the end. The only thing I would complain about is the teenage dumb
+girlfriend who is making silly jokes on very instense scenes.  The other thing,
+whiich is kind of awkard, is that there are many subpots that don't get
+resolved, like the insident with the police officer and the publisher. Or why
+the soldier went to the gift store to harass the mother. But even the movie is
+open ended so it might be it was all done on purpose.
+**score: 4.0**
+
+
+# BLack Miror Season 4
+It revolves a lot around hosting minds somewhere else eternaly. The last two
+episodes really brought something new. Also, the dogs really look like products
+of Boston Dynamics.
+**score: 3.9**
+
+
+# Scarface
+Despite some shoot not having aged very well, and the fact that Al Pacino
+doesn't look or talk like a cuban refugee, this movie is a classic worth
+watching.
+**score: 3.4**
