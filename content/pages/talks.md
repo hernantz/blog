@@ -11,7 +11,8 @@ Save_as: talks.html
 
 In the early days, Django didn't ship a built-in migrations framework. South
 was the most popular app to do that. This talk exposed some common pitfalls and
-quirks, some of them might still apply to newer Django versions.
+quirks, some of them might still apply to newer Django versions. The title is
+based on a song from the Lord Of the Rings soundtrack.
 
 This talk was given at an in-company session at Machinalis offices
 (2014-04-30).
@@ -21,7 +22,10 @@ This talk was given at an in-company session at Machinalis offices
 
 While sometimes mocks are needed, they should not be the first tool you use to
 write tests. In this talk I try to explain why It is a pity to be mocking your
-code when you could be writing meaningful tests at *almost* the same cost. 
+code when you could be writing meaningful tests at *almost* the same cost.  The
+title reffers to moco (snot in spanish) and mock being *homonyms*. The contents
+of this talk are based on the contents of this post: [Mock yourself not your
+tests][5].
 
 This talk was given at an in-company session at Machinalis offices
 (2015-07-27).
@@ -56,7 +60,9 @@ Configuration management, understood as a way to alter the behavior of a
 program without changing the code, is a mechanism that requires a well thought
 architecture. In this talk I focus on static configuration in general, and an
 approach for python. The contents of this talk are based on this post: [One
-config.py to configure them all][3].
+config.py to configure them all][3]. The title reffers to The Lord of the Rings
+inscription: *"... One Ring to rule them all, One Ring to find them, One Ring
+to bring them all and in the darkness bind them"*.
 
 This talk was given at [Pyday La Plata 2018][4] (2018-05-12).
 
@@ -66,3 +72,4 @@ This talk was given at [Pyday La Plata 2018][4] (2018-05-12).
 [2]: http://ar.pycon.org/ "PyconAr"
 [3]: {filename}/one-configpy-to-config-all.md "One config.py to configure them all"
 [4]: https://pydaylp.python.org.ar/ "Pyday La plata 2018"
+[5]: {filename}/mock-yourself-not-your-tests.md "Mock yourself not your tests"
