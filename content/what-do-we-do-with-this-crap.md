@@ -7,6 +7,7 @@ Author: hernantz
 Status: draft
 Summary: Currently there is a serious environmental problem: the trash.
 
+https://www.bloomberg.com/view/articles/2018-06-27/plastic-recycling-is-a-problem-consumers-can-t-solve
 
 ## The problem
 
@@ -14,7 +15,7 @@ Currently there is a serious environmental problem: the trash.
 Trash is usually buried or burned to produce energy, but with high rates of pollution, 
 which threaten the welfare of the people and all living things in general.
 Sure the is recycling but supose a company that manufactures a product such as a sachet of milk, 
-it knows it ain't easy to recycle, but will produce it anyways, and someone buys it anyways.  
+it knows it ain't easy to recycle, but will produce it anyways, and someone buys it anyways.
 Here is how the producer takes care of the problem that generated, by transferring it to the consumer. 
 He sells a product, together with a problem (for the same price!).
 Now, consumers seek to satisfy their needs with the product you just bought . 
