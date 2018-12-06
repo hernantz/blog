@@ -190,6 +190,7 @@ http://jrsinclair.com/articles/2017/javascript-without-loops/
 http://pozorvlak.livejournal.com/94558.html
 https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
 https://youtu.be/D_6ybDcU5gc?t=8m43s
+https://www.youtube.com/watch?v=rrBJVMyD-Gs
 
 
 Django PermissionDenied para custom authentication backend
