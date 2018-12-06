@@ -6,6 +6,7 @@ Tags: python, best-practices, configuration, architecture, tools
 
 ![configuration management](/images/configuration.png "Configuration management")
 
+Configuration is another API for you app.
 
 Configuration allows us to modify the behavior of our software based on a
 number of settings, with the goal of providing more flexibility to the users of
