@@ -28,7 +28,7 @@ We are interested in the *deterministic configuration* that presets the state
 of a program, without having to interact with it, like static config files or
 environment variables.
 
-On the other hand, there's the *runtime configuration*, which happens when the
+On the other hand, there's the *runtime configuration*, which is set when the
 user interacts with the system. User preferences are a typical example of this
 kind.
 
@@ -93,9 +93,9 @@ what it needs, not the library.
 ## How to configure a project (or application)
 
 It is important to provide a clear separation of configuration and code. This
-is because config varies substantially across deploys and executions, code does
-not. The same code can be run inside a container or in a regular machine, it
-can be executed in production or in testing environments.
+is because config varies substantially across deploys and executions, code
+*should* not. The same code can be run inside a container or in a regular
+machine, it can be executed in production or in testing environments.
 
 
 ### Where to get configuration from
