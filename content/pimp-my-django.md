@@ -8,6 +8,7 @@ Status: draft
 https://hynek.me/articles/python-app-deps-2018/
 https://hynek.me/articles/virtualenv-lives/
 https://github.com/pypa/pipenv/issues/3285
+https://github.com/pypa/pipenv/blob/master/Dockerfile
 
 # Managing dependencies
 
@@ -24,5 +25,6 @@ Use `.env` file.
 Another image without build tools, just the venv with production dependencies.
 
 Docker ONBUILD
+
 
 [1]: http://blog.getpelican.com/

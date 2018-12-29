@@ -1,5 +1,6 @@
 Title: Pythonistas don't let pythonistas write Javascript
 Date: 2017-05-25
+Tags: python, javascript
 Status: Draft
 
 Poner imagen de jesus rompiendo los puestos en el mercado
@@ -18,6 +19,10 @@ http://wgross.net/essays/spas-are-harder
 https://sonniesedge.co.uk/blog/a-day-without-javascript
 https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/?single_page=true
 https://micro-frontends.org/
+
+https://blog.mgechev.com/2018/05/09/introducing-guess-js-data-driven-user-experiences-web/
+https://www.youtube.com/watch?v=eEVRapHQFKI
+https://www.django-rest-framework.org/topics/html-and-forms/
 
 los bundles de webpack son lo mismo que cargar las paginas de antes
 
