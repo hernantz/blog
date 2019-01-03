@@ -1,9 +1,9 @@
 Title: Improvement marathon
-Date: 2013-11-26 22:29
+Date: 2013-11-26
 Category: Personal
 Tags: personal
 Summary: What I'm planning spending my time and (little) money on.
-Status: hidden
+Status: Draft
 
 I quitted my job. Got some money to spare (very little though). And lots of time.
 In the following moths (starting today), I'm planning spending them both on:
