@@ -7,6 +7,8 @@ SITENAME = u'README.txt'
 SITESUBTITLE = '- Mostly lies and rants in plain text.'
 SITEURL = ''
 
+PATH = 'content'
+
 TIMEZONE = 'America/Buenos_Aires'
 
 DEFAULT_LANG = u'en'
@@ -21,6 +23,8 @@ LINKS = (('blog', '/'),)
 SOCIAL = (('twitter', 'http://twitter.com/hernantz'),
           ('github', 'http://github.com/hernantz'),
           ('last.fm', 'http://last.fm/user/hernantz'), )
+
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
