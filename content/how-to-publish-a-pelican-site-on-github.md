@@ -1,5 +1,5 @@
 Title: How to publish a pelican site on Github
-Date: 2014-05-18 17:50
+Date: 2014-05-18
 Category: Programming 
 Tags: pelican, git, python
 Summary: Step by step guide on how to publish a pelican website on Github.

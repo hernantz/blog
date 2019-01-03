@@ -1,5 +1,5 @@
 Title: An MVP is not a product, it's an MVP
-Date: 2013-11-09 12:03
+Date: 2013-11-09
 Category: Startups
 Tags: rants, mvp
 Summary: Build, measure and learn. But don't avoid best practices afterwards.

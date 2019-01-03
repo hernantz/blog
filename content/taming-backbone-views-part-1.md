@@ -1,5 +1,5 @@
 Title: Taming Backbone Views: Part 1
-Date: 2014-08-25 19:42
+Date: 2014-08-25
 Category: Programming
 Tags: backbonejs, best-practices, javascript
 Author: hernantz

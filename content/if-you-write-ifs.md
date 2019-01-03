@@ -1,5 +1,5 @@
 Title: If you write ifs
-Date: 2013-10-24 22:56
+Date: 2013-10-24
 Category: Programming 
 Tags: python, ideas
 Status: draft

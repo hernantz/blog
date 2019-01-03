@@ -1,5 +1,5 @@
 Title: From zero to hero with ansible and django 
-Date: 2015-02-25 12:25
+Date: 2015-02-25
 Category: sysadmin
 Tags: django, sysadmin, linux
 Slug: from-zero-to-hero-with-ansible-and-django

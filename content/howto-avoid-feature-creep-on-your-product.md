@@ -1,5 +1,5 @@
 Title: Feature creep anti-patterns 
-Date: 2015-07-17 22:15
+Date: 2015-07-17
 Category: Personal
 Tags: personal
 Status: draft

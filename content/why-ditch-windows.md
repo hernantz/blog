@@ -1,5 +1,5 @@
 Title: Why ditch Windows
-Date: 2013-07-03 18:06
+Date: 2013-07-03
 Category: linux
 Tags: linux, personal
 Slug: why-ditch-windows 

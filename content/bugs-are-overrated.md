@@ -1,7 +1,6 @@
 Title: Bugs are overrated 
 Category: Programming
-Date: 2015-05-15 16:46
-Status: draft
+Date: 2015-05-15
 Tags: rants, ideas, agile
 Summary: Everything that is not an emergency, can and should be planned.
  

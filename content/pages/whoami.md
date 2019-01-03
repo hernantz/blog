@@ -1,5 +1,5 @@
 Title: whoami
-Date: 2013-08-04 19:26
+Date: 2013-08-04
 Category: personal
 Tags: personal
 Summary: Allow me to introduce myself

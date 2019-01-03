@@ -1,5 +1,5 @@
 Title: Air, the next big thing
-Date: 2015-04-27 19:53
+Date: 2015-04-27
 Category: Startups
 Tags: startups
 Summary: What is wrong with startups today?

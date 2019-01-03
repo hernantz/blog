@@ -1,5 +1,5 @@
 Title: In the beginning there was static HTML
-Date: 2013-10-02 10:43
+Date: 2013-10-02
 Category: Internet
 Tags: cache, internet 
 Slug: in-the-beginning-there-was-static-html

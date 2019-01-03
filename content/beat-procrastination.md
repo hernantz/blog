@@ -1,5 +1,5 @@
 Title: Beat procrastination
-Date: 2013-07-03 18:06
+Date: 2013-07-03
 Category: Personal
 Tags: pelican, personal
 Slug: beat-procrastination

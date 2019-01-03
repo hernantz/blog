@@ -1,5 +1,5 @@
 Title: Read this after your next meeting
-Date: 2013-07-03 18:06
+Date: 2013-07-03
 Category: Management
 Tags: devops, bizops, ideas
 Summary: Are meetings helping to get things done? 

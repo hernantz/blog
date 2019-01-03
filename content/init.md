@@ -1,5 +1,5 @@
 Title: Init
-Date: 2013-07-03 18:06
+Date: 2013-07-03
 Category: Personal
 Tags: pelican, ideas 
 Summary: This is my new static blog.

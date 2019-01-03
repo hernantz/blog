@@ -1,5 +1,5 @@
 Title: What do we do with this crap?
-Date: 2013-11-16 12:20
+Date: 2013-11-16
 Category: Personal
 Tags: pelican, personal
 Slug: what-do-we-do-with-this-crap
