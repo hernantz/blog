@@ -10,8 +10,17 @@ SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'America/Buenos_Aires'
+DATE_FORMATS = {
+    'en': '%Y-%m-%d',
+}
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
+
+DEFAULT_PAGINATION = 20
+
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_PATH = 'output/'
+OUTPUT_RETENTION = ['.hg', '.git', '.bzr']
 
 # Feed generation is usually not desired when developing
 FEED_RSS = 'rss.xml'
@@ -23,8 +32,6 @@ LINKS = (('blog', '/'),)
 SOCIAL = (('twitter', 'http://twitter.com/hernantz'),
           ('github', 'http://github.com/hernantz'),
           ('last.fm', 'http://last.fm/user/hernantz'), )
-
-DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
