@@ -6,11 +6,9 @@ Tags: python, best-practices, configuration, architecture, tools
 
 ![configuration management](/images/configuration.png "Configuration management")
 
-Configuration is another API for you app.
-
-Configuration allows us to modify the behavior of our software based on a
-number of settings, with the goal of providing more flexibility to the users of
-such software.
+Configuration is just another API of your app. It allows us to preset or modify
+it's behavior based on where it is installed and how it will be executed,
+providing more flexibility to the users of such software.
 
 Configuration management is an important aspect of the architecture of any
 system. But it is sometimes overlooked.
@@ -362,8 +360,8 @@ if __name__ == '__main__':
     run()
 ```
 
-Then, the program can be notified about new config by using `kill -1` or: 
-
+Then, the program can be notified about new config by using `kill -1` or, with
+systemd:
 
 ```sh
 $ sudo systemctl reload application.service
@@ -382,15 +380,50 @@ $ consul-template \
     -template "/tmp/haproxy.ctmpl:/var/haproxy/haproxy.conf"
 ```
 
+## Introducing prettyconf
+
+[Prettyconf][15] is a framework agnostic python library created to make easy
+the separation of configuration and code. It lets you use the principles we
+discribed about configuration-discovery.
+
+```python
+from prettyconf import Configuration
+from prettyconf.loaders import CommandLine, Environment, IniFile
+
+system_config = '/etc/myapp/config.ini'
+user_config = '~/.config/myapp.ini'
+config = Configuration(
+    loaders=[
+        CommandLine(parser=parser),
+        Environment(),
+        IniFile(user_config),
+        IniFile(system_config)
+    ]
+)
+
+DEBUG_MODE = config('debug', cast=config.boolean, default=False)
+```
+
+With the snippet above, the `debug` config will be discovered from the command
+line args, the enviroment or different `.ini` files, even following good naming
+conventions, like checking for `DEBUG` in the environment but `debug` in the
+ini files, and pasing that to a boolean.
+
+With prettyconf there are no excuses not to follow best pratices for
+configuration management in your app.
+
+Now, not everything that is configuration should me handled through prettyconf.
+For example, [lektor][12] is a flat-file cms, that lets you define the models
+in `.ini` files. This type of configuration that goes beyond doing a setting's
+key lookup, should be handled apart from prettyconf.
+
 
 ## Conclusions
 
 Don't take responsibility of gathering configuration when developing a library.
 
 In your app, always use a single `config.py` file that gathers all settings and
-load it before starting the program. Use [prettyconf][15] since it follows the
-settings discovery architecture for projects that we've shown, [or will
-soon][12].
+load it before starting the program.
 
 Keep in mind what belongs to which realm when writing code/scripts. Everything
 can live in the same repo, but at least they will be in different folders
@@ -416,7 +449,7 @@ or [ansible-container][14] for both realms.
 [9]: https://docs.ansible.com/ansible/2.4/vault.html "Ansible Vault"
 [10]: https://www.consul.io/ "Consul"
 [11]: https://vimeo.com/109626825 "Consul template demo"
-[12]: https://github.com/osantana/prettyconf/issues/18)
+[12]: https://www.getlektor.com/ "Lektor"
 [13]: https://www.docker.com/ "Docker"
 [14]: https://github.com/ansible/ansible-container "Ansible Container"
 [15]: https://github.com/osantana/prettyconf "Prettyconf"
