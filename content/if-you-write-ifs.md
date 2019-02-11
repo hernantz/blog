@@ -1,7 +1,7 @@
 Title: If you write ifs
 Date: 2013-10-24
 Category: Programming 
-Tags: python, ideas
+Tags: python, ideas, best-practices
 Status: draft
 Summary: AKA else considered harmful.
  
@@ -132,23 +132,7 @@ para usar generadores y asi evirtar for loops y while loops?
 
 https://speakerdeck.com/nb/else-considered-harmful
 
-////////////
-   
-Titulo charla: Tenemos que dejar de escribir else por dos anos
 
-En Python hacemos fuerte incapie en que el codigo sea elegante y facil de interpretar,
-pero con PEP8 solo no alcanza, muchas veces nuestra logica puede quedar anidada en 
-una catarata de if(s) y else(s) dificil de mantener.
-En esta charla exploraremos algunas estrategias para evitar esa complejidad inecesaria.
-
-Se llama Hernan Lozano, pero se pone hernantz de nickname,
-le gusta la musica en general y el metal en particular, pero no tiene una banda,
-es hincha de Talleres, pero nunca va a la cancha,
-es avido lector, pero casi siempre termina leyendo el mismo autor,
-y por sobre todo, le gusta aprender cosas nuevas, pero despues nunca hace nada con lo que aprendio.
-
-
-###################
 http://code.activestate.com/recipes/577786-smarter-default-arguments/
 Currently if you want to avoid any confusion with mutable defaults, you set the default argument to some (immutable) sentinel that indicates the real default argument should be used:
 
@@ -162,7 +146,6 @@ You can no longer introspect the default argument.
 If you want to have the default actually be None, you will have to use some other value for the sentinel. At that point you'll probably then have two different sentinels in use: None and and its surrogate.
 The real default must be re-evaluated during each call it is used.
 There are two more [seemingly superfluous] lines cluttering up your function body.
-###################
 
 
 La monada de usear [] o [User]
@@ -191,7 +174,7 @@ http://pozorvlak.livejournal.com/94558.html
 https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
 https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
-
+https://fsharpforfunandprofit.com/rop/
 
 Django PermissionDenied para custom authentication backend
 
@@ -224,4 +207,3 @@ Django PermissionDenied para custom authentication backend
             parsed_record = record
 
         return parsed_record
-
