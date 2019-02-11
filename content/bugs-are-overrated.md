@@ -3,6 +3,7 @@ Category: Programming
 Date: 2015-05-15
 Tags: rants, ideas, agile
 Summary: Everything that is not an emergency, can and should be planned.
+Status: draft
  
 ![Medieval Beekeeper](/images/bugs-are-overrated.png "Medieval Beekeeper")
 
