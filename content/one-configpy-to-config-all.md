@@ -142,7 +142,7 @@ have a single `config.py` file where settings are gathered, parsed and
 processed. The app imports that config module and distributes it to all the
 different libraries it is using.
 
-An example startup script for your app could be:
+An example startup script for your app could be [^2]:
 
 ```python
 import sys
@@ -200,8 +200,8 @@ configuration from code, which gives us some nice features:
 
 1. Ship configuration separately from code. There is no need to modify code in
    order to change it's behavior.
-2. Plain text files are *universal*. Can be edited with any text editor, no
-   need to mess with db connectors/sql/scripts to configure an app.
+2. Plain text files are *universal* [^4]. Can be edited with any text editor,
+   no need to mess with db connectors/sql/scripts to configure an app.
 3. No need to know a programming language to configure the app. [Vagrant][3],
    for example, uses Ruby for it's `Vagrantfile`, it is a bummer to have to
    learn the syntax of a language just to use a tool.
@@ -255,7 +255,7 @@ Vault][9].
 
 Code needs to be [packaged, distributed, installed, executed][4].
 
-These are all steps that make use of external tools that are not part of the
+These are all steps that make use of [external tools][16] that are not part of the
 codebase and should be replaceable. An app could be packaged for Ubuntu or
 Windows differently, can be installed manually or put in a container. For this
 reason, code should be as agnostic of these steps as possible and delegate that
@@ -267,7 +267,7 @@ This new actor can be one or many tools combined, for example `docker-compose`,
 The installer actor is the one that knows how to bind code with the right
 configuration it needs and how to do it (through env vars or files or cli args
 or all of them). Because it knows the configuration it needs to inject into the
-project, it makes a good candidate to manage  configuration templates for
+project, it makes a good candidate to manage configuration templates for
 files, vars that will be injected into the environment, or how to keep
 secret/sensitive information protected.
 
@@ -369,7 +369,7 @@ $ sudo systemctl reload application.service
 
 If the app is part of a distributed cloud system, the same principle can still
 be used. For example, Consul, a tool for service and configuration discovery
-provides `consult-template`, a command to populate values from Consul into
+provides `consult-template`, a command to populate values from Consul [^3] into
 automatically [updated templates][11] that can emit reload commands to programs
 to pick it up.
 
@@ -387,11 +387,17 @@ the separation of configuration and code. It lets you use the principles we
 discribed about configuration-discovery.
 
 ```python
+import argparse
 from prettyconf import Configuration
 from prettyconf.loaders import CommandLine, Environment, IniFile
 
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--debug')
+
 system_config = '/etc/myapp/config.ini'
 user_config = '~/.config/myapp.ini'
+
 config = Configuration(
     loaders=[
         CommandLine(parser=parser),
@@ -407,15 +413,11 @@ DEBUG_MODE = config('debug', cast=config.boolean, default=False)
 With the snippet above, the `debug` config will be discovered from the command
 line args, the enviroment or different `.ini` files, even following good naming
 conventions, like checking for `DEBUG` in the environment but `debug` in the
-ini files, and pasing that to a boolean.
+ini files, and pasing that to a boolean. All these loaders are optional, and
+won't fail if the files are missing.
 
 With prettyconf there are no excuses not to follow best pratices for
-configuration management in your app.
-
-Now, not everything that is configuration should me handled through prettyconf.
-For example, [lektor][12] is a flat-file cms, that lets you define the models
-in `.ini` files. This type of configuration that goes beyond doing a setting's
-key lookup, should be handled apart from prettyconf.
+configuration management in your app [^1].
 
 
 ## Conclusions
@@ -436,6 +438,41 @@ Containers are gaining popularity everywhere, use something like [docker][13]
 or [ansible-container][14] for both realms.
 
 
+[^1]: Now, not everything that is configuration should me handled through prettyconf.
+      For example, [lektor][12] is a flat-file cms, that lets you define the models
+      in `.ini` files. This type of configuration that goes beyond doing a setting's
+      key lookup, should be handled apart from prettyconf.
+
+      Another responsability that doesn't belong to prettyconf is populating
+      configuration files of setting variables in the environment, since it is
+      someone else's duty, like [python-dotenv][18].
+
+[^2]: Turns out that using `ChainMap` you can implement this very simple
+      [lookup algorithm][17].
+
+[^3]: A nice thing about `consul-template` is that it let's you use the same
+      configuration system on any environment. So when developing locally, you
+      don't care about Consul, you app simply reads a config file. When in
+      production, you can inject dynamic settings and [even secrets][18] to the app
+      lookup algorithm.
+
+[^4]: The problem with using something other than plain text files is that you
+      will necessarily have to execute a program in order to get the desired
+      configuration out of it. A programming language has control structures, can
+      make calls to the internet, etc, so you can't known in advance the output you
+      will get. [PEP518][21] is a proposal to use a TOML file for this and other
+      issues.
+
+      Take as an example python's `setup.py`. You can't execute a `setup.py`
+      file without knowing its dependencies, but currently there is no standard
+      way to know what those dependencies are in an automated fashion without
+      executing the `setup.py` file where that information is stored.
+
+      Another application that faces a similar problem is Vim with it's
+      `.vimrc` file, it's written in a custom language called `VimL`. The [Xi][20]
+      editor, fixed this problem by switching to TOML files and plugins for
+      extending functionality.
+
 
 [0]: https://12factor.net/config "The twelve-factor app | config"
 [1]: https://12factor.net/backing-services "The twelve-factor app | backing services"
@@ -453,3 +490,9 @@ or [ansible-container][14] for both realms.
 [13]: https://www.docker.com/ "Docker"
 [14]: https://github.com/ansible/ansible-container "Ansible Container"
 [15]: https://github.com/osantana/prettyconf "Prettyconf"
+[16]: https://twitter.com/raymondh/status/1039628786491248640
+[17]: https://blog.florimondmanca.com/a-practical-usage-of-chainmap-in-python
+[18]: https://github.com/theskumar/python-dotenv
+[19]: https://www.hashicorp.com/blog/why-we-need-dynamic-secrets "Why we need dynamic secrets"
+[20]: https://xi-editor.io/xi-editor/docs/config.html "Xi editor"
+[21]: https://www.python.org/dev/peps/pep-0518/
