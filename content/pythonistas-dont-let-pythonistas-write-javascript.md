@@ -74,3 +74,4 @@ You don't need javascript
 https://unpoly.com/
 https://www.oreilly.com/ideas/its-time-to-rebuild-the-web
 http://intercoolerjs.org/docs.html
+https://www.256kilobytes.com/content/show/4399/get-these-dependencies-off-my-lawn-5-tasks-you-didnt-know-could-be-done-with-pure-html-and-css
