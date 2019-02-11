@@ -3,6 +3,13 @@ Category: Personal
 Date: 2015-08-09
 Tags: reviews, rants, ideas
 Summary: Books, series, games and movies reviews. Part 1? 
+Save_as: some-reviews.html
+Status: hidden
+
+
+```
+Of course I stopped doing reviews, so there won't be a part 2, nor 3 or 4.
+```
 
 
 I plan to be reviewing books, series, albums, games, bands and movies. I'm no
