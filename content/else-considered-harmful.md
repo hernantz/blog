@@ -1,9 +1,9 @@
-Title: If you write ifs
+Title: Else considered harmful
 Date: 2013-10-24
 Category: Programming 
 Tags: python, ideas, best-practices
 Status: draft
-Summary: AKA else considered harmful.
+Summary: Some practices and ideas for flow-control in Python.
  
 
 ![Tree branches](/images/tree-branches.jpg "Tree branches")
@@ -20,9 +20,13 @@ As a programmer, most of your time you will be writing ifs.
 Not only becouse this is the main flow control structure, in c like languages,
 but because writing an else is (or shoud be at least) a code smell. It's a trap.
 
+The if/else couple reduces expresability of your program.
+
 https://news.ycombinator.com/item?id=16678209
 
-## Cut the flow ifs
+## If you write ifs
+
+Cut the flow ifs
 
     ::python
     for item in items:
