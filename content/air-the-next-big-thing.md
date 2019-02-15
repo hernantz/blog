@@ -1,11 +1,10 @@
 Title: Air, the next big thing
 Date: 2015-04-27
 Category: Startups
-Tags: startups
-Summary: What is wrong with startups today?
-Status: draft
+Tags: startups, rants
+Summary: What is wrong with *some* startups today?
 
-What is wrong with startups today?
+What is wrong with *some* startups today?
 
 Slack is [valuated at $1.12b][4].
 While freenode hosts ~55846 chat rooms and ~89238 users, or even when
