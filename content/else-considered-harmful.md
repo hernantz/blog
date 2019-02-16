@@ -24,53 +24,171 @@ The if/else couple reduces expresability of your program.
 
 https://news.ycombinator.com/item?id=16678209
 
-## If you write ifs
+
+## If you write else
+
+When reading code, we programmers keep a heap of variables and flow control in
+our heads.
+
+The problem with using else is that it implies a jump (or goto) to another
+context, that is the contrary of what was previously stated.
+
+Let's check some code that we all might have written at some point:
+
+```python
+def func():
+    if foo or bar:
+        ###
+        ###
+
+        if bar in baz:
+            ###
+            ###
+
+        else:
+            ###
+            ###
+
+            if foo not in qux:
+                ###
+                ###
+                ###
+    else:
+        ###
+        ###
+
+###
+###
+```
+
+This might be perfectly valid PEP8 Python code, but it has it's problems.  When
+reading from top to bottom, the programmer has to keep track of each execution
+path that could reach a certain piece of code, in the example above, this would
+be:
+
+```python
+def func():
+    if foo or bar:
+        ### <------ TRUE
+        ###
+
+        if bar in baz: 
+            ### <------ TRUE & TRUE
+            ###
+
+        else:
+            ### <------ TRUE & FALSE
+            ###
+
+            if foo not in qux:
+                ### <------ TRUE & FALSE & TRUE
+                ###
+                ###
+    else:
+        ### <------ FALSE
+        ###
+
+###
+###
+```
+
+But most likely, in our minds we are keeping track like:
+
+```python
+def func():
+    if foo or bar:
+        ### <------ foo or bar
+        ###
+
+        if bar in baz: 
+            ### <------ for or bar & bar in baz
+            ###
+
+        else:
+            ### <------ foo or bar & bar not in baz
+            ###
+
+            if foo not in qux:
+                ### <------ foo or bar & bar not in baz
+                ###              & foo not in qux
+                ###
+    else:
+        ### <------ not foo & not bar
+        ###
+
+###
+###
+```
+
+Probably by the time you reach an else statement, the context switch will cause
+this code to be hard to reason about.
+
+```python
+def min(x, y):
+    if x < y:
+        return x
+    else:
+        return y
+```
+
+should be written as
+
+```python
+def min(x, y):
+    if x < y:
+        return x
+    return y
+```
+
+## If you write if
+
 
 Cut the flow ifs
 
-    ::python
-    for item in items:
-        if item is None:
-            continue
+```python
+for item in items:
+    if item is None:
+        continue
 
-    for item in items:
-        if item is None:
-            log('None found')
-            break
+for item in items:
+    if item is None:
+        log('None found')
+        break
+```
 
 rather than
 
-    ::python
-    for item in items:
-        if item is not None:
+```python
+for item in items:
+    if item is not None:
+        blah
+        blah 
+        blah
+        blah 
+        if is_nested_if:
             blah
             blah 
-            blah
-            blah 
-            if is_nested_if:
+            try:
                 blah
+            except:
                 blah 
-                try:
-                    blah
-                except:
-                    blah 
-    else:
-        log('None found')
-        
+else:
+    log('None found')
+```
 
-If your programming language has curly braces, nesting ifs leads you to
-the pyramid of doom.
-Pyramid of doom picture here.
+
+The staircase of doom (or if the language has curly braces, pyramid of doom)
 While in Python it looks more like a stairs of doom.
 stair of doom in python picture
 In functional languages, it pretty much always looks ugly.
 
-## Single check ifs 
-    ::python
-    if (this and not that) or there and (here or nearby):
-        blah
 
-if your are asking too many contions and of different kind, you are doing it 
+```python
+if (this and not that) or there and (here or nearby):
+    blah
+```
+
+if your are asking too many conditions and of different kind, you are doing it
 wrong
 
 
@@ -78,32 +196,22 @@ NOMBRAR LAS CONDICIONES EN VARIABLES
 USAR NOMBRES POSITIVOS no (not is_admin)
 
 
-def min(x, y):
-    if x < y:
-        return x
-    else:
-        return y
-
-should be written as
-
-def min(x, y):
-    if x < y:
-        return x
-    return y
-
-
 USAR LAZYNESS
 
+```python
 >>> from toolz import map  # toolz' map is lazy by default
 >>> loud_book = map(str.upper, book)
+```
 
 HABLAR DE por que no usar el inline if/else 
 
+```python
 >>> a = 'hola' if False else True if False else None
 >>> a
 >>> a = 'hola' if False else True if False else 'chau'
 >>> a
 'chau'
+```
 
 http://www.idiotinside.com/2015/10/18/5-methods-to-use-else-block-in-python/
 
@@ -183,31 +291,32 @@ https://fsharpforfunandprofit.com/rop/
 Django PermissionDenied para custom authentication backend
 
 
+```python
+def extract_timestamp(self):
+    record = self.get_parsed_record()
+    timestamp = record.get('timestamp')
+    if timestamp is None:
+        return None
+    if isinstance(timestamp, datetime):
+        return timestamp
+    return dateutil.parser.parse(record['timestamp'])
 
-    def extract_timestamp(self):
-        record = self.get_parsed_record()
-        timestamp = record.get('timestamp')
-        if timestamp is None:
-            return None
-        if isinstance(timestamp, datetime):
-            return timestamp
-        return dateutil.parser.parse(record['timestamp'])
 
 
+def get_parsed_record(self):
+    record = self.record
+    event_name = self.event_name
+    if event_name in (SasEvents.KNOWLEDGE_COMPONENT_MODEL,
+                      SasEvents.KCM_UPDATE):
+        parsed_record = record
+    elif event_name == CeEvents.QUESTION_PART_ATTEMPT:
+        require_kcm = 'knowledge_component_model' in record
+        parsed_record = qpa.parse_question_part_attempt(
+            record, require_kcm=require_kcm)
+    elif event_name == SasEvents.TUNING_STATUS_CHANGED:
+        parsed_record = record
+    else:
+        parsed_record = record
 
-    def get_parsed_record(self):
-        record = self.record
-        event_name = self.event_name
-        if event_name in (SasEvents.KNOWLEDGE_COMPONENT_MODEL,
-                          SasEvents.KCM_UPDATE):
-            parsed_record = record
-        elif event_name == CeEvents.QUESTION_PART_ATTEMPT:
-            require_kcm = 'knowledge_component_model' in record
-            parsed_record = qpa.parse_question_part_attempt(
-                record, require_kcm=require_kcm)
-        elif event_name == SasEvents.TUNING_STATUS_CHANGED:
-            parsed_record = record
-        else:
-            parsed_record = record
-
-        return parsed_record
+    return parsed_record
+```
