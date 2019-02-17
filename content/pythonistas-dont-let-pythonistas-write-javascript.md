@@ -75,3 +75,4 @@ https://unpoly.com/
 https://www.oreilly.com/ideas/its-time-to-rebuild-the-web
 http://intercoolerjs.org/docs.html
 https://www.256kilobytes.com/content/show/4399/get-these-dependencies-off-my-lawn-5-tasks-you-didnt-know-could-be-done-with-pure-html-and-css
+https://journal.plausible.io/you-probably-dont-need-a-single-page-app
