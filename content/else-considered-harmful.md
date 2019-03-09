@@ -22,8 +22,6 @@ but because writing an else is (or shoud be at least) a code smell. It's a trap.
 
 The if/else couple reduces expresability of your program.
 
-https://news.ycombinator.com/item?id=16678209
-
 
 ## If you write else
 
@@ -287,6 +285,7 @@ https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
 https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
 https://fsharpforfunandprofit.com/rop/
+https://news.ycombinator.com/item?id=16678209
 
 Django PermissionDenied para custom authentication backend
 
