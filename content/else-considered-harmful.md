@@ -266,6 +266,8 @@ se pueden usar para crear un canal nuevo de comunicacion.
 http://www.holger-peters.de/exceptions-the-dark-side-of-the-force.html
 ifs for error handling ^
 
+"You either will end up with if something is not None: on almost every line and global pollution of your logic by type-checking conditionals, or will suffer from TypeError every day. Not a pleasant choice."
+
 https://coreos.com/blog/eliminating-journald-delays-part-1.html  -> journald NO usa ifs anidados
 
 A Python Æsthetic
@@ -275,6 +277,7 @@ http://rhodesmill.org/brandon/slides/2012-11-pyconca/
 https://twitter.com/raymondh/status/856663816981041152
 http://stackoverflow.com/questions/865741/else-considered-harmful-in-python
 http://degoes.net/articles/destroy-all-ifs
+https://returns.readthedocs.io/en/latest/index.html
 
 Agrupar variables al pricipio de las funciones porque siempre agrupamos cosas que son lo mismo 
 variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma ideal de organizarse.
@@ -319,3 +322,5 @@ def get_parsed_record(self):
 
     return parsed_record
 ```
+
+https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern

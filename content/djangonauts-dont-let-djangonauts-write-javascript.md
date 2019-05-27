@@ -64,7 +64,7 @@ webapp) to arrive to a conclusion.
 ## The ilusion of speed
 - offline views -> caching?
 - js minimo https://www.engineyard.com/blog/using-jquery-with-rails-how-to
-- turbolinks & preload attr
+- turbolinks & preload attr (https://3perf.com/blog/link-rels/)
 - pjax
 - https://daverupert.com/2015/12/intrinsic-placeholders-with-picture/
 - http://www.chrisharrison.net/index.php/Research/ProgressBars2
@@ -72,6 +72,8 @@ webapp) to arrive to a conclusion.
 
 
 ## Maybe you don't need javascript at all
+- https://javascript.works-hub.com/learn/a-javascript-free-frontend-61275
+- https://addyosmani.com/blog/lazy-loading/
 - https://www.256kilobytes.com/content/show/4399/get-these-dependencies-off-my-lawn-5-tasks-you-didnt-know-could-be-done-with-pure-html-and-css
   native datepickers in firefox
 - new tags for progressive images https://www.html5rocks.com/en/tutorials/responsive/picture-element/ o https://jmperezperez.com/medium-image-progressive-loading-placeholder/ http://daverupert.com/2015/12/intrinsic-placeholders-with-picture/
@@ -96,7 +98,9 @@ React vs Marionettejs
 Reducers: Object es un controller disponible como singleton
 Actions -> radio requests
 
+https://chanind.github.io/rails/2019/03/28/why-i-miss-rails.html
 http://wgross.net/essays/spas-are-harder
+https://dev.to/winduptoy/a-javascript-free-frontend-2d3e
 https://sonniesedge.co.uk/blog/a-day-without-javascript
 https://www.theatlantic.com/technology/archive/2017/02/why-some-apps-use-fake-progress-bars/517233/?single_page=true
 https://micro-frontends.org/
@@ -109,13 +113,15 @@ https://www.django-rest-framework.org/topics/html-and-forms/
 
 Modernizr v3.6 and Normalize
 
-
-
+-https://arp242.net/jquery.html
+- https://www.pikapkg.com/blog/pika-web-a-future-without-webpack/#
 - server side rendering with Jinja: https://news.ycombinator.com/item?id=14776780 (for fast initial loads and no caveats around SEO)
 - ajax forms
 https://unpoly.com/
 https://www.oreilly.com/ideas/its-time-to-rebuild-the-web
 http://intercoolerjs.org/docs.html
+https://engineering.instawork.com/iterating-with-simplicity-evolving-a-django-app-with-intercooler-js-8ed8e69d8a52
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app
+https://alistapart.com/article/responsible-javascript-part-1/
 
 [1]: https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html
