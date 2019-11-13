@@ -10,20 +10,19 @@ Summary: Some practices and ideas for flow-control in Python.
 
 In Python we strongly emphasize that code must be elegant and easy to
 interpret, but with PEP8 alone is not enough, many times our logic can be
-nested in a cataract of if(s) and else(s) difficult to maintain. In this
-talk we explored some strategies to avoid that unnecessary complexity.
+nested in a cataract of if(s) and else(s) difficult to maintain. In this post
+we explore strategies that structure our code to avoid that unnecessary
+complexity in readability.
 
-I'm writing this article to encourage some code structure techniques and never
-again have to discuss this in the future.
-
-As a programmer, most of your time you will be writing ifs.
-Not only becouse this is the main flow control structure, in c like languages,
-but because writing an else is (or shoud be at least) a code smell. It's a trap.
 
 The if/else couple reduces expresability of your program.
 
 
 ## If you write else
+
+As a programmer, most of your time you will be writing ifs.
+Not only becouse this is the main flow control structure, in c like languages,
+but because writing an else is (or shoud be) a code smell. It's a trap.
 
 When reading code, we programmers keep a heap of variables and flow control in
 our heads.
@@ -119,7 +118,76 @@ def func():
 ```
 
 Probably by the time you reach an else statement, the context switch will cause
-this code to be hard to reason about.
+this code to be hard to reason about. Also you might check if every `if` is
+connected to some `else`, which condition is it conected to, if that condition
+is altered, is the `else` still valid?
+
+A better approach to handle these cases while avoiding the context switch is to
+do context increments.
+
+```python
+def func():
+    if foo or bar:
+        ### <------ TRUE
+        ###
+
+        if bar in baz: 
+            ### <------ TRUE & TRUE
+            ###
+
+            if foo == quix: 
+                ### <------ TRUE & TRUE & TRUE
+                ###
+
+    ###
+    ###
+```
+
+See how on every branch we are only adding more information, not negating some
+other statement.
+
+We are, nonetheless still stacking the new context, so we need to keep in our 
+heads everything that is going on from the begining. This is what I call the
+stairway of doom (a.k.a pyramid of doom in languages with curly brances).
+
+Nesting context is better that switcing and jumping around but a An alternative
+to this is having the full context on every branch, to fully understand what's
+happening.
+
+```python
+def func():
+    if foo or bar:
+        ### <------ TRUE
+        ###
+
+    if (foo or bar) and bar in baz:
+        ### <------ TRUE & TRUE
+        ###
+
+    if (foo or bar) and bar in baz and foo == quix:
+        ### <------ TRUE & TRUE & TRUE
+        ###
+
+    ###
+    ###
+```
+
+You can stablish a parallelism between full context and truth tables
+in which you have all the variables and their combinations on a single
+place at simple glance.
+
+
+| p | q | r | p ∨ q | r ∧ p | ¬(r ∧ p) | (p ∨ q) → ¬(r ∧ p) |
+|---|---|---|-------|-------|----------|--------------------|
+| V | V | V |   V   |   V   |     F    |          F         |
+| V | V | F |   V   |   F   |     V    |          V         |
+| V | F | V |   V   |   F   |     V    |          V         |
+| V | F | F |   V   |   F   |     V    |          V         |
+| F | V | F |   V   |   F   |     V    |          V         |
+| F | F | V |   F   |   F   |     V    |          V         |
+| F | F | F |   F   |   F   |     V    |          V         |
+
+
 
 ```python
 def min(x, y):
@@ -175,7 +243,7 @@ else:
 ```
 
 
-The staircase of doom (or if the language has curly braces, pyramid of doom)
+
 While in Python it looks more like a stairs of doom.
 stair of doom in python picture
 In functional languages, it pretty much always looks ugly.
@@ -195,7 +263,8 @@ USAR NOMBRES POSITIVOS no (not is_admin)
 
 
 USAR LAZYNESS
-
+allows you to express pieces of computation, without having to pay the costs
+until you really need them.
 ```python
 >>> from toolz import map  # toolz' map is lazy by default
 >>> loud_book = map(str.upper, book)
@@ -212,8 +281,6 @@ HABLAR DE por que no usar el inline if/else
 ```
 
 http://www.idiotinside.com/2015/10/18/5-methods-to-use-else-block-in-python/
-
-Al no anidar if/else estamos leyendo una tabla de la verdad y compuertas logicas
 
 
 PARA GUARDAR VALORES BOOLEANOS USAR
@@ -289,6 +356,7 @@ https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
 https://fsharpforfunandprofit.com/rop/
 https://news.ycombinator.com/item?id=16678209
+http://wiki.c2.com/?WhatIsNull
 
 Django PermissionDenied para custom authentication backend
 
@@ -323,4 +391,9 @@ def get_parsed_record(self):
     return parsed_record
 ```
 
+This is supposed to be a guideline on how to express programs with logic
+branches, of course real life is more complex with lots of gray areas.
+
+Talk about cyclomatic complexity
+https://www.youtube.com/watch?v=dqdsNoApJ80
 https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
