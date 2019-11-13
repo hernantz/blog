@@ -63,6 +63,7 @@ webapp) to arrive to a conclusion.
 
 ## The ilusion of speed
 - offline views -> caching?
+- https://css-tricks.com/prefetching-preloading-prebrowsing/
 - js minimo https://www.engineyard.com/blog/using-jquery-with-rails-how-to
 - turbolinks & preload attr (https://3perf.com/blog/link-rels/)
 - pjax
@@ -123,5 +124,6 @@ http://intercoolerjs.org/docs.html
 https://engineering.instawork.com/iterating-with-simplicity-evolving-a-django-app-with-intercooler-js-8ed8e69d8a52
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app
 https://alistapart.com/article/responsible-javascript-part-1/
+https://www.pika.dev/cdn (reducir babel y polyfills)
 
 [1]: https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html
