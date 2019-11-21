@@ -10,24 +10,23 @@ Summary: Some practices and ideas for flow-control in Python.
 
 In Python we strongly emphasize that code must be elegant and easy to
 interpret, but with PEP8 alone is not enough, many times our logic can be
-nested in a cataract of if(s) and else(s) difficult to maintain. In this post
-we explore strategies that structure our code to avoid that unnecessary
-complexity in readability.
+nested in a cataract of `if`/`else` combinations, which is difficult to
+maintain and reduces expresability of your program.
 
-
-The if/else couple reduces expresability of your program.
+In this post we explore strategies that structure our code to avoid that
+unnecessary complexity in readability.
 
 
 ## If you write else
 
-As a programmer, most of your time you will be writing ifs.
-Not only becouse this is the main flow control structure, in c like languages,
-but because writing an else is (or shoud be) a code smell. It's a trap.
+As a programmer, most of your time you will be writing `if`s.  Not only becouse
+this is the main flow control structure, in C like languages, but because
+writing an `else` is (or shoud be) a code smell. It's a trap.
 
 When reading code, we programmers keep a heap of variables and flow control in
 our heads.
 
-The problem with using else is that it implies a jump (or goto) to another
+The problem with using `else` is that it implies a jump (or goto) to another
 context, that is the contrary of what was previously stated.
 
 Let's check some code that we all might have written at some point:
@@ -172,9 +171,9 @@ def func():
     ###
 ```
 
-You can stablish a parallelism between full context and truth tables
-in which you have all the variables and their combinations on a single
-place at simple glance.
+You can stablish a parallelism between the full context and truth tables in
+which you have all the variables and their combinations on a single place at
+simple glance.
 
 
 | p | q | r | p ∨ q | r ∧ p | ¬(r ∧ p) | (p ∨ q) → ¬(r ∧ p) |
@@ -188,77 +187,98 @@ place at simple glance.
 | F | F | F |   F   |   F   |     V    |          V         |
 
 
-
-```python
-def min(x, y):
-    if x < y:
-        return x
-    else:
-        return y
-```
-
-should be written as
-
-```python
-def min(x, y):
-    if x < y:
-        return x
-    return y
-```
-
 ## If you write if
 
-
-Cut the flow ifs
-
-```python
-for item in items:
-    if item is None:
-        continue
-
-for item in items:
-    if item is None:
-        log('None found')
-        break
-```
-
-rather than
+In programming readability counts. Every line of code has to be decoded in our
+heads. When reading code, we are mentally parsing a program. 
 
 ```python
-for item in items:
-    if item is not None:
-        blah
-        blah 
-        blah
-        blah 
-        if is_nested_if:
-            blah
-            blah 
-            try:
-                blah
-            except:
-                blah 
-else:
-    log('None found')
+if user.is_active and user.has_permission('foo') and user.credit >= SOME_PRICE:
+    ######
+    ###
+    ########
 ```
 
-
-
-While in Python it looks more like a stairs of doom.
-stair of doom in python picture
-In functional languages, it pretty much always looks ugly.
-
+In the snipped above, we are checking if the user should access a certain
+feature and if it has enough credit to do so. Then, why not simply write the
+statement in clear words? Naming the conditionals lowers our cognitive
+overhead.
 
 ```python
-if (this and not that) or there and (here or nearby):
-    blah
+can_access_foo = user.is_active and user.has_permission('foo')
+has_credit = user.credit >= SOME_PRICE
+
+if can_access_foo and has_credit:
+    ######
+    ###
+    ########
 ```
 
-if your are asking too many conditions and of different kind, you are doing it
-wrong
+Now say that we need to handle the cases where the user cannot access and return an error:
+
+```python
+can_access_foo = user.is_active and user.has_permission('foo')
+has_credit = user.credit >= SOME_PRICE
+
+if can_access_foo and has_credit:
+    ######
+    ###               <--------- what matters
+    ########
+
+if not can_access_foo:
+    return # or raise error
+
+if not has_credit:
+    return # or raise error
+
+############
+###                  <--------- what matters
+#######
+```
+
+It is easy to get distracted by validations and checks, from what is important.
+Instead we should cut the flow of the program with guards and return early, so
+we don't have to worry about certain checks later in the code.
+
+```python
+can_access_foo = user.is_active and user.has_permission('foo')
+has_credit = user.credit >= SOME_PRICE
+
+if not can_access_foo:
+    return # or raise error
+
+if not has_credit:
+    return # or raise error
+
+######
+########            <--------- what matters
+############
+###
+#######
+```
+
+If this code was inside a function, we could move this checks outside of it to
+some decorators.
+
+```python
+@requires_access('foo')
+@requires_credit(SOME_PRICE)
+def foo(user):
+    ######
+    ########        <--------- what matters
+    ############
+    ###
+    #######
+```
+
+This patern greatly improves the maintenability (these decoratiors are reusable) and expresability of the program.
 
 
-NOMBRAR LAS CONDICIONES EN VARIABLES
+## If you handle errors
+
+Most of the time we are writing `if`s to check for errors or types.
+On type-checking and error-handling without writing `if`s at all.
+
 USAR NOMBRES POSITIVOS no (not is_admin)
 
 
