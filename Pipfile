@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-pelican = "==4.0.1"
+pelican = "*"
 markdown = "==2.6.6"
 csvkit = "==1.0.3"
 
