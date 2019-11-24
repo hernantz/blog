@@ -1,4 +1,4 @@
-Title: Else considered harmful
+Title: If considered harmful
 Date: 2013-10-24
 Category: Programming 
 Tags: python, ideas, best-practices
@@ -13,8 +13,8 @@ interpret, but with PEP8 alone is not enough, many times our logic can be
 nested in a cataract of `if`/`else` combinations, which is difficult to
 maintain and reduces expresability of your program.
 
-In this post we explore strategies that structure our code to avoid that
-unnecessary complexity in readability.
+In this post we *incrementally* explore strategies that structure our code to
+avoid that unnecessary complexity in readability.
 
 
 ## If you write else
@@ -271,18 +271,75 @@ def foo(user):
     #######
 ```
 
-This patern greatly improves the maintenability (these decoratiors are reusable) and expresability of the program.
+This patern greatly improves the maintenability and expresability of the
+program. These decoratiors are reusable and there are less (seemingly
+superfluous) lines cluttering up your function body.
 
 
-## If you handle errors
+## if you write elif
 
-Most of the time we are writing `if`s to check for errors or types.
-On type-checking and error-handling without writing `if`s at all.
+Most of the time we are writing `if`s for type-checking and error-handling.
+There are some ways of not writting `if`s altogether. 
 
-USAR NOMBRES POSITIVOS no (not is_admin)
+In the case of `elif`s, it's easy to observe the paterns that emerge from the
+code, and patterns are easy to refactor.
 
+```python
+def fn(self):
+    #####
+    ########
 
-USAR LAZYNESS
+    if var == 'foo':
+        self.do_foo()
+    elif var == 'bar':
+        self.do_baz()
+    elif var == 'baz'
+        self.do_baz()
+```
+
+Can be replaced by a different form of pattern matching and written as:
+
+```python
+def fn(self):
+    #####
+    ########
+
+    getattr(self, f'do_{var}')()
+```
+
+This way if we need to extend the code with more `do_{var}` methods, we
+get this branching logic for free.
+
+Another example is turning flags on/off, with code like this:
+
+```python
+var = False
+
+if foo:
+    var = True
+elif bar:
+    var = True
+elif baz:
+    var = True
+```
+
+Can be simply put like:
+
+```python
+var = foo or bar or baz
+```
+
+I guess the point here is, the less the number of lines the more readable.
+
+## if you have mutable default arguments
+Mutable arguments => immutable arguments
+
+## if you have computation
+Computationally intensive jobs => lazyness => ej del orm django
+
+## if you check for errors
+Errors => exceptions => monads
+
 allows you to express pieces of computation, without having to pay the costs
 until you really need them.
 ```python
@@ -290,39 +347,6 @@ until you really need them.
 >>> loud_book = map(str.upper, book)
 ```
 
-HABLAR DE por que no usar el inline if/else 
-
-```python
->>> a = 'hola' if False else True if False else None
->>> a
->>> a = 'hola' if False else True if False else 'chau'
->>> a
-'chau'
-```
-
-http://www.idiotinside.com/2015/10/18/5-methods-to-use-else-block-in-python/
-
-
-PARA GUARDAR VALORES BOOLEANOS USAR
-x = this or that
-x = is not None 
-x = something 
-
-instead of 
-
-if this or that:
-   x = true
-
-if something:
-    x = True
-else:
-    x = False
-
-POST SOBRE COUNTING THINGS IN PYTHON
-escribir sobre cadena de responsabilidad?
-escribir sobre actions: {} y despues actions[var]() como reemplazo al switch
-
-Usar all([condicion==condicion2, condicion3==condicion4, etc])
 
 VER GENERATORS WILL FREE YOUR MIND
 para usar generadores y asi evirtar for loops y while loops?
@@ -354,8 +378,6 @@ http://www.holger-peters.de/exceptions-the-dark-side-of-the-force.html
 ifs for error handling ^
 
 "You either will end up with if something is not None: on almost every line and global pollution of your logic by type-checking conditionals, or will suffer from TypeError every day. Not a pleasant choice."
-
-https://coreos.com/blog/eliminating-journald-delays-part-1.html  -> journald NO usa ifs anidados
 
 A Python Æsthetic
 https://www.youtube.com/watch?v=x-kB2o8sd5c
@@ -411,9 +433,12 @@ def get_parsed_record(self):
     return parsed_record
 ```
 
-This is supposed to be a guideline on how to express programs with logic
-branches, of course real life is more complex with lots of gray areas.
-
 Talk about cyclomatic complexity
 https://www.youtube.com/watch?v=dqdsNoApJ80
 https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
+
+## Endif
+
+This is supposed to be a guideline on how to express programs with logic
+branches, of course real life is more complex with lots of gray areas. The
+examples here are not real world snippets, but simply put to make a point.
