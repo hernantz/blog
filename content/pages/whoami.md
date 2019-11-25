@@ -7,24 +7,18 @@ Url: whoami.html
 Save_as: whoami.html
 
 
-One way to get to know someone is to asks about his aspirations.
+So far I can tell three things about me.
 
-*What would you like to do with your life?* is the question I fear the most when
-meeting new people (that ask that kind of questions), because I simply don't
-have an easy answer.
-
-So far I can tell three things about me, that might help you understand why.
-
-a) I'm a generalist (like everyone else?), which sounds great until you realize it
+I'm a *generalist* (like everyone else?), which sounds great until you realize it
 is actually a burden. One might think that a generalist can contribute
 *everywhere*, but in reality you never end up fitting *anywhere*. It's easy to
 wander. My life is a constant struggle to keep a goal, discipline myself and
 take baby steps towards *somewhere*.
 
-b) I don't fear learning whatever is needed to assert the success of a project.
+I'm *curious*. I don't fear learning whatever is needed to assert the success of a project.
 Indeed, I love to learn.
 
-c) My tombstone will say [^1]:
+I'm *idealist*. My tombstone will say [^1]:
 
 > Intenté hacer de este mundo un paraíso para todos y terminé creando un
 > infierno para mí solo.
