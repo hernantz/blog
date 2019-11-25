@@ -237,7 +237,7 @@ if not has_credit:
 ```
 
 It is easy to get distracted by validations and checks, from what is important.
-Instead we should cut the flow of the program with guards and return early, so
+Instead we should cut the flow of the program with guards and [return early][0], so
 we don't have to worry about certain checks later in the code.
 
 ```python
@@ -276,7 +276,7 @@ program. These decoratiors are reusable and there are less (seemingly
 superfluous) lines cluttering up your function body.
 
 
-## if you write elif
+## If you write elif
 
 Most of the time we are writing `if`s for type-checking and error-handling.
 There are some ways of not writting `if`s altogether. 
@@ -310,6 +310,37 @@ def fn(self):
 This way if we need to extend the code with more `do_{var}` methods, we
 get this branching logic for free.
 
+Although I'm not a big fan of OOP, I should point out that polymorphism can
+also replace conditionals. Consider this checks on the type of user to
+determine the right permissions:
+
+```python
+def get_permissions(user):
+    if user.is_admin():
+        return ['read', 'write', 'delete']
+    elif user.is_editor():
+        return ['read', 'write']
+    elif user.is_authenticated():
+        return ['read']
+    return []
+```
+
+Which could simply be replaced with:
+
+```python
+class Admin(User):
+    def get_permission(self):
+        return ['read', 'write', 'delete']
+
+
+class Editor(User):
+    def get_permission(self):
+        return ['read', 'write']
+```
+
+So you would simply write `user.get_permissions()` and let the type
+of the class determine the right method to be executed.
+
 Another example is turning flags on/off, with code like this:
 
 ```python
@@ -329,7 +360,8 @@ Can be simply put like:
 var = foo or bar or baz
 ```
 
-I guess the point here is, the less the number of lines the more readable.
+I guess the point here is to use the right pattern that replaces the
+switch/elif structure with more readable/maintainable code.
 
 ## if you have mutable default arguments
 Mutable arguments => immutable arguments
@@ -347,6 +379,8 @@ until you really need them.
 >>> loud_book = map(str.upper, book)
 ```
 
+
+functions as if conditions that can be reused like predicates for filter()
 
 VER GENERATORS WILL FREE YOUR MIND
 para usar generadores y asi evirtar for loops y while loops?
@@ -381,7 +415,6 @@ ifs for error handling ^
 
 A Python Æsthetic
 https://www.youtube.com/watch?v=x-kB2o8sd5c
-http://rhodesmill.org/brandon/slides/2012-11-pyconca/
 
 https://twitter.com/raymondh/status/856663816981041152
 http://stackoverflow.com/questions/865741/else-considered-harmful-in-python
@@ -392,46 +425,13 @@ Agrupar variables al pricipio de las funciones porque siempre agrupamos cosas qu
 variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma ideal de organizarse.
 
 http://jrsinclair.com/articles/2017/javascript-without-loops/
-http://pozorvlak.livejournal.com/94558.html
 https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
 https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
 https://fsharpforfunandprofit.com/rop/
-https://news.ycombinator.com/item?id=16678209
-http://wiki.c2.com/?WhatIsNull
 
 Django PermissionDenied para custom authentication backend
 
-
-```python
-def extract_timestamp(self):
-    record = self.get_parsed_record()
-    timestamp = record.get('timestamp')
-    if timestamp is None:
-        return None
-    if isinstance(timestamp, datetime):
-        return timestamp
-    return dateutil.parser.parse(record['timestamp'])
-
-
-
-def get_parsed_record(self):
-    record = self.record
-    event_name = self.event_name
-    if event_name in (SasEvents.KNOWLEDGE_COMPONENT_MODEL,
-                      SasEvents.KCM_UPDATE):
-        parsed_record = record
-    elif event_name == CeEvents.QUESTION_PART_ATTEMPT:
-        require_kcm = 'knowledge_component_model' in record
-        parsed_record = qpa.parse_question_part_attempt(
-            record, require_kcm=require_kcm)
-    elif event_name == SasEvents.TUNING_STATUS_CHANGED:
-        parsed_record = record
-    else:
-        parsed_record = record
-
-    return parsed_record
-```
 
 Talk about cyclomatic complexity
 https://www.youtube.com/watch?v=dqdsNoApJ80
@@ -440,5 +440,13 @@ https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
 ## Endif
 
 This is supposed to be a guideline on how to express programs with logic
-branches, of course real life is more complex with lots of gray areas. The
-examples here are not real world snippets, but simply put to make a point.
+branches. That being said, I'm not against writing `if`, `else` or `elif` per
+se. These are some ideas related to something so mundane like conditionals.
+
+Of course real life is more complex with lots of gray areas. The examples here
+are [not real world snippets][1], but simply put to make a point.
+
+
+[0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
+[1]: https://gist.github.com/hernantz/ca79890b9b212c6df45e615d94320f6e
+[2]: https://stackoverflow.com/a/1554691/518918
