@@ -439,7 +439,7 @@ https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
 
 ## Endif
 
-This is supposed to be a guideline on how to express programs with logic
+This is supposed to be a [guideline][3] on how to express programs with logic
 branches. That being said, I'm not against writing `if`, `else` or `elif` per
 se. These are some ideas related to something so mundane like conditionals.
 
@@ -450,3 +450,4 @@ are [not real world snippets][1], but simply put to make a point.
 [0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
 [1]: https://gist.github.com/hernantz/ca79890b9b212c6df45e615d94320f6e
 [2]: https://stackoverflow.com/a/1554691/518918
+[3]: https://meyerweb.com/eric/comment/chech.html "“Considered Harmful” Essays Considered Harmful"
