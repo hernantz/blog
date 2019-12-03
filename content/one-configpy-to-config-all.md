@@ -1,5 +1,5 @@
 Title: One config.py to config them all
-Summary: How to do configuration management.
+Summary: How to do write configuration-friendly apps.
 Date: 2018-05-11
 Category: Programming
 Tags: python, best-practices, configuration, architecture, tools
@@ -142,17 +142,33 @@ have a single `config.py` file where settings are gathered, parsed and
 processed. The app imports that config module and distributes it to all the
 different libraries it is using.
 
-An example startup script for your app could be [^2]:
+An example startup script for your app could be:
 
 ```python
-import sys
+import argparse
 import os
-from config import gather_conf
+import configparser
+from app import main
+from collections import ChainMap
 
-if __name__ == '__main__':
-    conf = gather_conf(sys.argv, os.environ, open('/etc/app/config_file').read())
-    main(conf)  # conf is a dict of settings
+defaults = {'debug': False}
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--debug')
+args = parser.parse_args()
+cli_args = {key: value for key, value in vars(args).items() if value}
+
+iniparser = configparser.ConfigParser()
+iniparser.read(['/etc/app/config.ini', os.path.expanduser('~/.myapp.ini')]
+ini = iniparser['app']
+
+config = ChainMap(cli_args, os.environ, ini, defaults)
+
+if __name___ == '__main__':
+    main(config)
 ```
+
+This snippet uses `ChainMap`[^2] to lookup values in different dictionary-like objects. To our convenience, the `configparser` module has builtin support to read multiple `.ini` files and merge them.
 
 
 ### A single executable file
@@ -235,6 +251,7 @@ Following the example above, a `config.ini.template` could look like this:
 
 ```ini
 # config.ini.template that each environment can implement
+#
 # EXTRA_PLUGINS = one_plugin,another_plugin
 # SECRET_KEY = <change me>
 ```
@@ -253,7 +270,8 @@ Vault][9].
 
 ### Devops tools
 
-Code needs to be [packaged, distributed, installed, executed][4].
+Code needs to be [packaged, distributed, configured, installed, executed and
+monitored][4].
 
 These are all steps that make use of [external tools][16] that are not part of the
 codebase and should be replaceable. An app could be packaged for Ubuntu or
@@ -273,7 +291,7 @@ secret/sensitive information protected.
 
 The development and operations flow has two clearly distinct realms:
 
-```
+```python
 +-------+           +-------+          +--------+         +-------+         +-------+
 |       |           |       |          |        |         |       |         |       |
 | code  +---------->| build +--------->|        |<--------+service|<--------+ conf  +
@@ -298,22 +316,9 @@ The development and operations flow has two clearly distinct realms:
 ```
 
 If you use different tools when developing and when deploying, all these
-scripts and templates will start to increase in number. When that moment comes,
-there will be the temptation to delegate all this responsibility to the app to
-"auto-configure and install itself".
-
-Sometimes an app not only needs to be configured, but it might need [other
-services to be running][1], so you'll have to replace an orchestration tool and
-a supervisor. This basically means that you will be replacing specialized tools
-with battle-tested ready-made solutions with your own implementation. More
-code, mode problems.
-
-The important thing to note here is that the application's code should not
-install dependencies or start services or export variables to the environment
-because an external service needs them.
-
-Ideally, a project should support [one set of build tools][2] and use it for
-development and production. For example: docker everywhere.
+scripts and templates will start to increase in number. Ideally, a project
+should support [one set of build tools][2] and use it for development and
+production. For example: docker everywhere.
 
 
 ### Managing config changes
@@ -380,6 +385,9 @@ $ consul-template \
     -template "/tmp/haproxy.ctmpl:/var/haproxy/haproxy.conf"
 ```
 
+As you can see, there is another tool in charge of managing configuration, building it and notifying our code about it.
+
+
 ## Introducing prettyconf
 
 [Prettyconf][15] is a framework agnostic python library created to make easy
@@ -429,13 +437,11 @@ load it before starting the program.
 
 Keep in mind what belongs to which realm when writing code/scripts. Everything
 can live in the same repo, but at least they will be in different folders
-(`src/` and `ops/`, for example). Configuration for each service should be
-handled separately, do not use a single `config.py` to configure Nginx and
-Postgres for instance.
+(`src/` and `ops/`, for example). Configuration for each service (Nginx, Postgresql, etc) should be handled separately, by specialized tools.
 
-Consolidate a very similar set of tools for dev and production envs.
-Containers are gaining popularity everywhere, use something like [docker][13]
-or [ansible-container][14] for both realms.
+And speaking of tools, consolidate a very similar set of tool for dev and
+production envs.  Containers are gaining popularity everywhere, use something
+like [docker][13] or [ansible-container][14] for both realms.
 
 
 [^1]: Now, not everything that is configuration should me handled through prettyconf.
