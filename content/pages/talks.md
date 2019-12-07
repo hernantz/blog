@@ -64,7 +64,7 @@ config.py to configure them all][3]. The title reffers to The Lord of the Rings
 inscription: *"... One Ring to rule them all, One Ring to find them, One Ring
 to bring them all and in the darkness bind them"*.
 
-This talk was given at [Pyday La Plata 2018][4] (2018-05-12).
+This talk was given at [Pyday La Plata 2018][4] (2018-05-12) and [PyconAr Buenos Aires 2019][6] (2019-12-06).
 
 
 [0]: https://www.meetup.com/Cordoba-Python-Meetup/events/226908468/ "Python Meetup Event"
@@ -73,3 +73,4 @@ This talk was given at [Pyday La Plata 2018][4] (2018-05-12).
 [3]: {filename}/one-configpy-to-config-all.md "One config.py to configure them all"
 [4]: https://pydaylp.python.org.ar/ "Pyday La plata 2018"
 [5]: {filename}/mock-yourself-not-your-tests.md "Mock yourself not your tests"
+[6]: https://eventos.python.org.ar/events/pyconar2019/schedule "PyconAr 2019"
