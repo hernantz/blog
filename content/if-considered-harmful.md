@@ -1,7 +1,7 @@
 Title: If considered harmful
 Date: 2013-10-24
 Category: Programming 
-Tags: python, ideas, best-practices
+Tags: python, ideas
 Status: draft
 Summary: Some practices and ideas for flow-control in Python.
  
@@ -14,7 +14,8 @@ nested in a cataract of `if`/`else` combinations, which is difficult to
 maintain and reduces expresability of your program.
 
 In this post we *incrementally* explore strategies that structure our code to
-avoid that unnecessary complexity in readability.
+avoid that unnecessary complexity in readability in an attempt to write
+branchless code.
 
 
 ## If you write else
@@ -189,8 +190,8 @@ simple glance.
 
 ## If you write if
 
-In programming readability counts. Every line of code has to be decoded in our
-heads. When reading code, we are mentally parsing a program. 
+In programming readability counts. When reading code we are mentally parsing a
+program, every line of code has to be decoded in our heads.
 
 ```python
 if user.is_active and user.has_permission('foo') and user.credit >= SOME_PRICE:
@@ -199,9 +200,9 @@ if user.is_active and user.has_permission('foo') and user.credit >= SOME_PRICE:
     ########
 ```
 
-In the snipped above, we are checking if the user should access a certain
+In the snippet above, we are checking if the user should access a certain
 feature and if it has enough credit to do so. Then, why not simply write the
-statement in clear words? Naming the conditionals lowers our cognitive
+statement in clearer words? Naming the conditionals lowers our cognitive
 overhead.
 
 ```python
@@ -214,7 +215,8 @@ if can_access_foo and has_credit:
     ########
 ```
 
-Now say that we need to handle the cases where the user cannot access and return an error:
+Now say that we need to handle the cases where the user cannot access and
+return an error:
 
 ```python
 can_access_foo = user.is_active and user.has_permission('foo')
@@ -257,7 +259,7 @@ if not has_credit:
 #######
 ```
 
-If this code was inside a function, we could move this checks outside of it to
+If this code was inside a function, we could move these checks outside of it to
 some decorators.
 
 ```python
@@ -272,8 +274,8 @@ def foo(user):
 ```
 
 This patern greatly improves the maintenability and expresability of the
-program. These decoratiors are reusable and there are less (seemingly
-superfluous) lines cluttering up your function body.
+program. Not only we have less (seemingly superfluous) lines cluttering up your
+function body, but these decorators are reusable/composable functions.
 
 
 ## If you write elif
@@ -282,50 +284,24 @@ Most of the time we are writing `if`s for type-checking and error-handling.
 There are some ways of not writting `if`s altogether. 
 
 In the case of `elif`s, it's easy to observe the paterns that emerge from the
-code, and patterns are easy to refactor.
+code, and patterns are easy to refactor. Consider this checks on the type of
+user to determine the right permissions:
 
 ```python
-def fn(self):
+def get_permissions(self):
     #####
     ########
 
-    if var == 'foo':
-        self.do_foo()
-    elif var == 'bar':
-        self.do_baz()
-    elif var == 'baz'
-        self.do_baz()
+    if user == 'admin':
+        perms = self.get_admin_permissions()
+    elif var == 'editor':
+        perms = self.get_editor_permissions()
+    elif var == 'authenticated'
+        perms = self.get_authenticated_permissions()
 ```
-
-Can be replaced by a different form of pattern matching and written as:
-
-```python
-def fn(self):
-    #####
-    ########
-
-    getattr(self, f'do_{var}')()
-```
-
-This way if we need to extend the code with more `do_{var}` methods, we
-get this branching logic for free.
 
 Although I'm not a big fan of OOP, I should point out that polymorphism can
-also replace conditionals. Consider this checks on the type of user to
-determine the right permissions:
-
-```python
-def get_permissions(user):
-    if user.is_admin():
-        return ['read', 'write', 'delete']
-    elif user.is_editor():
-        return ['read', 'write']
-    elif user.is_authenticated():
-        return ['read']
-    return []
-```
-
-Which could simply be replaced with:
+also replace conditionals.
 
 ```python
 class Admin(User):
@@ -340,6 +316,23 @@ class Editor(User):
 
 So you would simply write `user.get_permissions()` and let the type
 of the class determine the right method to be executed.
+
+But I suppose that at some point we will need to have the `if` logic
+to determine which instance of User to create.
+
+So a more pythonic way of doing this form of pattern matching is to user
+dictionary lookups:
+
+```python
+def get_permissions(self):
+    #####
+    ########
+
+    perms = getattr(self, f'do_{user}_permissions')()
+```
+
+This way if we need to extend the code with more `do_{user}_permissions`
+methods, we get this branching logic for free.
 
 Another example is turning flags on/off, with code like this:
 
@@ -363,14 +356,54 @@ var = foo or bar or baz
 I guess the point here is to use the right pattern that replaces the
 switch/elif structure with more readable/maintainable code.
 
-## if you have mutable default arguments
+
+## If you work with iterables
+
+Many times we are working with collections of data that need to be filtered,
+re-grouped, sliced, etc.
+
+The `itertools` module offers some functions that allow us to hide our `if`s
+(along with our [loops][5]) by simply passing *predicates* to these functions:
+
+```python
+>>> import itertools
+>>>
+>>> less_than_one = lambda x: x < 1
+>>> numbers = [1, 2, 3, 0]
+>>>
+>>> list(filter(less_than_one, numbers))
+[0]
+>>> list(itertools.filterfalse(less_than_one, numbers))
+[1, 2, 3]
+>>>
+>>> for key, group in itertools.groupby(numbers, less_than_one):
+...     print(f'{key}: {list(group)}')
+... 
+False: [1, 2, 3]
+True: [0]
+```
+
+## If you write sentinels
+
 Mutable arguments => immutable arguments
+http://code.activestate.com/recipes/577786-smarter-default-arguments/
+Currently if you want to avoid any confusion with mutable defaults, you set the default argument to some (immutable) sentinel that indicates the real default argument should be used:
 
-## if you have computation
+```python
+def f(x=None):
+    if x is None:
+        x = []
+```
+There are downsides though:
+
+The default argument no longer reflects the expectation for the argument type.
+You can no longer introspect the default argument.
+If you want to have the default actually be None, you will have to use some other value for the sentinel. At that point you'll probably then have two different sentinels in use: None and and its surrogate.
+The real default must be re-evaluated during each call it is used.
+
+esconder el if con el interprete de python
+
 Computationally intensive jobs => lazyness => ej del orm django
-
-## if you check for errors
-Errors => exceptions => monads
 
 allows you to express pieces of computation, without having to pay the costs
 until you really need them.
@@ -379,28 +412,13 @@ until you really need them.
 >>> loud_book = map(str.upper, book)
 ```
 
-
-functions as if conditions that can be reused like predicates for filter()
+## if you check for errors
+Errors => exceptions => monads
 
 VER GENERATORS WILL FREE YOUR MIND
 para usar generadores y asi evirtar for loops y while loops?
 
-https://speakerdeck.com/nb/else-considered-harmful
 
-
-http://code.activestate.com/recipes/577786-smarter-default-arguments/
-Currently if you want to avoid any confusion with mutable defaults, you set the default argument to some (immutable) sentinel that indicates the real default argument should be used:
-
-def f(x=None):
-    if x is None:
-        x = []
-There are downsides though:
-
-The default argument no longer reflects the expectation for the argument type.
-You can no longer introspect the default argument.
-If you want to have the default actually be None, you will have to use some other value for the sentinel. At that point you'll probably then have two different sentinels in use: None and and its surrogate.
-The real default must be re-evaluated during each call it is used.
-There are two more [seemingly superfluous] lines cluttering up your function body.
 
 
 La monada de usear [] o [User]
@@ -424,7 +442,6 @@ https://returns.readthedocs.io/en/latest/index.html
 Agrupar variables al pricipio de las funciones porque siempre agrupamos cosas que son lo mismo 
 variables en un lado, clases en otro archivo, etc. Mezclar todo no es la forma ideal de organizarse.
 
-http://jrsinclair.com/articles/2017/javascript-without-loops/
 https://blog.feabhas.com/2017/02/abusing-c-switch-statement-beauty-eye-beholder/
 https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
@@ -437,17 +454,29 @@ Talk about cyclomatic complexity
 https://www.youtube.com/watch?v=dqdsNoApJ80
 https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
 
+
 ## Endif
 
-This is supposed to be a [guideline][3] on how to express programs with logic
-branches. That being said, I'm not against writing `if`, `else` or `elif` per
-se. These are some ideas related to something so mundane like conditionals.
+There are many *considered harmful* essays out there. One of those is even
+called: *["Considered Harmful" Essays Considered Harmful][3]*.
 
-Of course real life is more complex with lots of gray areas. The examples here
-are [not real world snippets][1], but simply put to make a point.
+[Else considered harmful][4] is a talk that inspired this post.  It explains
+why writing `else` can be problematic and how to get rid of it, and I thought,
+can we go further and make the same attempt with `if`?
+
+The result is supposed to be a guideline on how to express programs with less
+logic branches. That being said, I'm not against writing `if`, `else` or `elif`
+per se, life is more complex with lots of gray areas. The examples here are
+[not real world snippets][1], but simply put to make a point.
+
+Interestingly enough, all the expermients lead to functional programmig
+principles, like composing functions, processing iterables, lazyness and
+immutability, etc.
 
 
 [0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
 [1]: https://gist.github.com/hernantz/ca79890b9b212c6df45e615d94320f6e
 [2]: https://stackoverflow.com/a/1554691/518918
 [3]: https://meyerweb.com/eric/comment/chech.html "“Considered Harmful” Essays Considered Harmful"
+[4]: https://speakerdeck.com/nb/else-considered-harmful
+[5]: https://jrsinclair.com/articles/2017/javascript-without-loops/ "JavaScript Without Loops"
