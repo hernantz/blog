@@ -101,8 +101,8 @@ machine, it can be executed in production or in testing environments.
 Configuration for a project might come from different sources, like `.ini`
 files, envirionment variables, etc.
 
-For example, there is a common pattern to read configurations in [environment
-variables][0] that look similar to the code below:
+For example, there is a common pattern to read configurations in environment
+variables[^0] that look similar to the code below:
 
 ```python
 if os.environ.get("DEBUG", False):
@@ -126,8 +126,8 @@ will be used if `DEBUG` envvar is not defined.
 Well designed applications allow different ways to be configured. A proper
 settings-discoverability chain goes as follows:
 
-1. CLI args.
-2. Environment variables.
+1. CLI args, mostly used to allow users do some exploration while running your program.
+2. Environment variables, that can be set in `.bashrc` or `.env` files and, since they are global, they should have some sort of prefix like `MYAPP_*`.
 3. Config files in different directories, that also imply some hierarchy. For
    example: config files in `/etc/myapp/settings.ini` are applied system-wide,
    while `~/.config/myapp/settings.ini` take precedence and are user-specific.
@@ -315,6 +315,9 @@ The development and operations flow has two clearly distinct realms:
 +-------------------+---------------------------------------------------------------+
 ```
 
+Notice that developers are also users of the software, that need to configure
+it and are constantly doing micro-releases while developing.
+
 If you use different tools when developing and when deploying, all these
 scripts and templates will start to increase in number. Ideally, a project
 should support [one set of build tools][2] and use it for development and
@@ -322,6 +325,13 @@ production. For example: docker everywhere.
 
 
 ### Managing config changes
+
+Ideally, programs should have the ability to be notified when there are new 
+configs to be picked up.
+
+This is possible if configuration is provided through files, not so easy if we
+used environment vars or CLI arguments, in which case we would have to restart
+the program.
 
 The [SIGHUP signal][7] is usually used to trigger a reload of configurations
 for daemons.
@@ -419,7 +429,7 @@ DEBUG_MODE = config('debug', cast=config.boolean, default=False)
 ```
 
 With the snippet above, the `debug` config will be discovered from the command
-line args, the enviroment or different `.ini` files, even following good naming
+line args, the environment or different `.ini` files, even following good naming
 conventions, like checking for `DEBUG` in the environment but `debug` in the
 ini files, and pasing that to a boolean. All these loaders are optional, and
 won't fail if the files are missing.
@@ -437,12 +447,18 @@ load it before starting the program.
 
 Keep in mind what belongs to which realm when writing code/scripts. Everything
 can live in the same repo, but at least they will be in different folders
-(`src/` and `ops/`, for example). Configuration for each service (Nginx, Postgresql, etc) should be handled separately, by specialized tools.
+(`src/` and `ops/`, for example). Configuration for each service (Nginx,
+Postgresql, etc) should be handled separately, by specialized tools.
 
 And speaking of tools, consolidate a very similar set of tool for dev and
 production envs.  Containers are gaining popularity everywhere, use something
 like [docker][13] or [ansible-container][14] for both realms.
 
+
+[^0]: They are [very common][0], specially among cloud platforms, like AWS lambda
+      functions. It's one of the simplest ways for configuring programs without the
+      need to mess with files (which requires access to a filesystem) or CLI parsers,
+      since this ENV vars are available as is, like an already parsed config file.
 
 [^1]: Now, not everything that is configuration should me handled through prettyconf.
       For example, [lektor][12] is a flat-file cms, that lets you define the models
