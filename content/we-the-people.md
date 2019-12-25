@@ -1,9 +1,12 @@
 Title: We the people
 Date: 2019-12-25
 Category: Politics
-Tags: rants
+Tags: rants, ideas
 Summary: A rant on rants agains the electronic voting system 
 Status: draft
+
+![soviet congress](https://www.marxists.org/history/ussr/government/party-congress/27/congress-ccpsu.jpg "Soviet Congress")
+
 
 CONTAR CASOS DE BUENOS GOBERNANTES DE LA ANTIGUEDAD
 
@@ -55,3 +58,9 @@ por que no delegarle el poder para que gestione todos los aspectos del la vida
 de una sociedad? Es decir, implementar el comunismo? Bueno resulta que si vemos
 nuevamente la historia de la humanidad, ese sistema no termina muy bien para
 los gobernados, comparado con sociedades mas libres y estados mas limitados.
+
+Por el otro lado, las ideas libertarias consideran la concentracion de poder
+como un mal a evitar, y son siempre escepticas de la capacidad del gobierno de
+conseguir el bien comun. En cambio, confia en la esponanea colaboracion
+voluntaria de la sociedad civil libre para llevar a cabo procesos de transformacion 
+y progreso.
