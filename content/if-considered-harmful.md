@@ -66,34 +66,6 @@ be:
 ```python
 def func():
     if foo or bar:
-        ### <------ TRUE
-        ###
-
-        if bar in baz: 
-            ### <------ TRUE & TRUE
-            ###
-
-        else:
-            ### <------ TRUE & FALSE
-            ###
-
-            if foo not in qux:
-                ### <------ TRUE & FALSE & TRUE
-                ###
-                ###
-    else:
-        ### <------ FALSE
-        ###
-
-###
-###
-```
-
-But most likely, in our minds we are keeping track like:
-
-```python
-def func():
-    if foo or bar:
         ### <------ foo or bar
         ###
 
@@ -174,18 +146,7 @@ def func():
 
 You can stablish a parallelism between the full context and truth tables in
 which you have all the variables and their combinations on a single place at
-simple glance.
-
-
-| p | q | r | p ∨ q | r ∧ p | ¬(r ∧ p) | (p ∨ q) → ¬(r ∧ p) |
-|---|---|---|-------|-------|----------|--------------------|
-| V | V | V |   V   |   V   |     F    |          F         |
-| V | V | F |   V   |   F   |     V    |          V         |
-| V | F | V |   V   |   F   |     V    |          V         |
-| V | F | F |   V   |   F   |     V    |          V         |
-| F | V | F |   V   |   F   |     V    |          V         |
-| F | F | V |   F   |   F   |     V    |          V         |
-| F | F | F |   F   |   F   |     V    |          V         |
+[simple glance][6].
 
 
 ## If you write if
@@ -357,10 +318,60 @@ I guess the point here is to use the right pattern that replaces the
 switch/elif structure with more readable/maintainable code.
 
 
-## If you work with iterables
+## If you write flags
+
+Flags or sentinels are checks we do to avoid executing pieces of code that are
+optional or blocks that are computationally expensive.
+
+```python
+def f(filter=False):
+    ###
+    #####
+
+    if filter:
+        ###
+        #####  <---- optinal piece of code that gets activated
+```
+
+Would be better off if we let the user of our function execute any pluggable code
+to filter:
+
+```python
+def noop(*args, **kws):
+    return None
+
+def f(filter=noop):
+    ###
+    #####
+
+    filter(some, args)  # <-- look ma, no ifs!
+```
+
+We know that function arguments hide `if`s behind the interpreter to initialize
+variables, by allowing you to set some defaults that can be overriwritten at
+runtime. But currently if you want to avoid any confusion with mutable
+defaults, you set the default argument to some (immutable) sentinel that
+indicates the real default argument should be used.
+
+```python
+def f(x=None):
+    if x is None:
+        x = [1, 2, 3]
+
+    ###
+    #####
+```
+
+Should be ideally written with some immutable data structure:
+
+```python
+def f(x=(1, 2, 3)):
+    ###
+    #####
+```
 
 Many times we are working with collections of data that need to be filtered,
-re-grouped, sliced, etc.
+re-grouped, sliced, etc. These checks are also flags!
 
 The `itertools` module offers some functions that allow us to hide our `if`s
 (along with our [loops][5]) by simply passing *predicates* to these functions:
@@ -383,25 +394,6 @@ False: [1, 2, 3]
 True: [0]
 ```
 
-## If you write sentinels
-
-Mutable arguments => immutable arguments
-http://code.activestate.com/recipes/577786-smarter-default-arguments/
-Currently if you want to avoid any confusion with mutable defaults, you set the default argument to some (immutable) sentinel that indicates the real default argument should be used:
-
-```python
-def f(x=None):
-    if x is None:
-        x = []
-```
-There are downsides though:
-
-The default argument no longer reflects the expectation for the argument type.
-You can no longer introspect the default argument.
-If you want to have the default actually be None, you will have to use some other value for the sentinel. At that point you'll probably then have two different sentinels in use: None and and its surrogate.
-The real default must be re-evaluated during each call it is used.
-
-esconder el if con el interprete de python
 
 Computationally intensive jobs => lazyness => ej del orm django
 
@@ -412,7 +404,7 @@ until you really need them.
 >>> loud_book = map(str.upper, book)
 ```
 
-## if you check for errors
+## if you handle errors
 Errors => exceptions => monads
 
 VER GENERATORS WILL FREE YOUR MIND
@@ -470,8 +462,11 @@ per se, life is more complex with lots of gray areas. The examples here are
 [not real world snippets][1], but simply put to make a point.
 
 Interestingly enough, all the expermients lead to functional programmig
-principles, like composing functions, processing iterables, lazyness and
-immutability, etc.
+principles, like composing functions, passing functions as parameters,
+processing iterables, lazyness and immutability, etc.
+
+Maybe this implies that functional languages are superior in terms of
+expresability.
 
 
 [0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
@@ -480,3 +475,4 @@ immutability, etc.
 [3]: https://meyerweb.com/eric/comment/chech.html "“Considered Harmful” Essays Considered Harmful"
 [4]: https://speakerdeck.com/nb/else-considered-harmful
 [5]: https://jrsinclair.com/articles/2017/javascript-without-loops/ "JavaScript Without Loops"
+[6]: https://en.wikipedia.org/wiki/Truth_table "Truth table"
