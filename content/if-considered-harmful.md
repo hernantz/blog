@@ -266,12 +266,12 @@ also replace conditionals.
 
 ```python
 class Admin(User):
-    def get_permission(self):
+    def get_permissions(self):
         return ['read', 'write', 'delete']
 
 
 class Editor(User):
-    def get_permission(self):
+    def get_permissions(self):
         return ['read', 'write']
 ```
 
@@ -281,19 +281,29 @@ of the class determine the right method to be executed.
 But I suppose that at some point we will need to have the `if` logic
 to determine which instance of User to create.
 
-So a more pythonic way of doing this form of pattern matching is to user
+So a more pythonic way of doing this form of pattern matching is to use
 dictionary lookups:
 
 ```python
-def get_permissions(self):
+def get_admin_permissions():
     #####
     ########
 
-    perms = getattr(self, f'do_{user}_permissions')()
+def get_editor_permissions():
+    #####
+    ########
+    
+def get_permissions(user):
+    perms = {
+        'admin': get_admin_permissions,
+        'editor': get_editor_permissions
+    }
+
+    return perms[user]()
 ```
 
-This way if we need to extend the code with more `do_{user}_permissions`
-methods, we get this branching logic for free.
+This way if we need to extend the code with more permissions
+functions, we get this branching logic for free.
 
 Another example is turning flags on/off, with code like this:
 

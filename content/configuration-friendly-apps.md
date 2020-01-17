@@ -1,5 +1,5 @@
-Title: One config.py to config them all
-Summary: How to do write configuration-friendly apps.
+Title: Configuration-friendly apps
+Summary: Some guidelines for config management in general and Python apps in particular.
 Date: 2018-05-11
 Category: Programming
 Tags: python, best-practices, configuration, architecture, tools

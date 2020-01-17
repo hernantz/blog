@@ -7,7 +7,7 @@ After publishing the post under this title, a redditor commented:
 
 > *"long live the branch" meaning: short live the branch* 
 >
-> [*The branch is dead, long live the branch!*][0] Skyler827
+> [Skyler827][0]
 
 Which I believe is a better title for [this article][1].
 
