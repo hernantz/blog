@@ -1,7 +1,7 @@
 Title: Privileged victimhood
 Date: 2020-02-10
 Category: Politics
-Tags: rants, ideas
+Tags: rants, ideas, libertarianism
 Summary: The dangers of identity politics and State imposed privileges 
 Status: draft
 
@@ -29,4 +29,4 @@ The problem is whether those privileges are achieved through the repressive powe
 
 Society, understood as a set of individuals who through trade and free exchange of ideas (although there are always preconditions), can lead to results that are undesirable or, at least, questionable by certain people. But it is in each one's responsibility, to analyze alternatives and propose them in competition with the ideas that still govern in society.
 
-To imply that the State must be in charge of imposing privileges is a very dangerous idea. Like any public policy, it is difficult to anticipate its effects by making that experiment much more risky for the whole society. Class conflicts, sexism, xenophobia, antisemitism, racism, cultural wars, etc. are some of the possible consequences of trying to subject certain groups to the ideology of others. Someday the tide can turn around and this often doesn't end well.
+To imply that the State must be in charge of imposing privileges is a very dangerous idea. Like any public policy, it is difficult to anticipate its effects, thus making that experiment much more risky for the whole society. Class conflicts, sexism, xenophobia, antisemitism, racism, cultural wars, etc. are some of the possible consequences of trying to subject certain groups to the ideology of others. Someday the tide can turn around and this often doesn't end well.

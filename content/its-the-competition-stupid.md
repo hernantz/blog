@@ -1,7 +1,7 @@
 Title: It's the competition, stupid
 Date: 2018-03-07
 Category: Politics
-Tags: ideas
+Tags: ideas, libertarianism
 Summary: Increasing your chances of prosperity.
 
 ![it's the competition stupid](/images/competition.jpg "Picture of Advertisements in Saigon, Vietnam")
