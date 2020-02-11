@@ -17,11 +17,11 @@ Profiting from your suffering or alleged oppressed conditions is morally debatab
 
 If a certain university wants to facilitate the admission to ethnic minorities, or if in a company, it is enough that any woman denounces harassment to immediately result in your dismissal without prior trial, it is still your choice to study in that university or work for that company.
 
-Consider a case where a group of employees asks for free coffee at the office. Nobody would claim that it is an inalienable human right, and it is an obligation for the company to provide it. It's resolution is left as a private affair. But in the case of identity politics, is a different story. The privileges being demanded are not to be questioned. Of course they are not referred to as privileges, but as social justice or historical compensations or human rights instead. They are a public affair, thus making them prone to be used as a platform by politicians to get to power and liberate the oppressed.
-
 A less controversial example could be extended maternity leave, which might be a way for a company to attract more valuable female workers, away from their competition. This is a privilege that company can offer, that may or may not work, but it is a risk that is contained within the walls of that organization.
 
 It is through tolerance of experimentation that a society can learn what ideas work and which ones don't. Tolerance is a pillar of a free society, where there are no artificial impediments for anyone to live according to their beliefs, their sexuality or their ideology, and to run these kind of experiments accordingly.
+
+Consider a case where a group of employees asks for free coffee at the office. Nobody would claim that it is an inalienable human right, and it is an obligation for the company to provide it. It's resolution is left as a private affair. But in the case of identity politics, is a different story. The privileges being demanded are not to be questioned. Of course they are not referred to as privileges, but as social justice or historical compensations or human rights instead. They are a public affair, thus making them prone to be used as a platform by politicians to get to power and liberate the oppressed.
 
 The morality or effectiveness of these ideas should not be censored, but fought with logical arguments and tested in real life. After all, opinions should also compete in a market of ideas and speeches.
 
