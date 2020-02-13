@@ -25,9 +25,9 @@ Consider a case where a group of employees asks for free coffee at the office. N
 
 The morality or effectiveness of these ideas should not be censored, but fought with logical arguments and tested in real life. After all, opinions should also compete in a market of ideas and speeches.
 
-The problem is whether those privileges are achieved through the repressive power of the state. There, they are not the result of a voluntary transaction between parties, but instead a violent imposition.
-
 A free exchange of ideas in a society (understood as a set of individuals) can lead to results that are undesirable or, at least, questionable by certain people. But it is in each persons's responsibility to analyze alternatives and propose them in competition with those ideas that still govern society.
+
+The problem is whether those privileges are achieved through the repressive power of the state. There, they are not the result of a voluntary transaction between parties, but instead a violent imposition.
 
 To imply that the state must be in charge of imposing privileges is a very dangerous idea. Like any public policy, it is difficult to anticipate its effects, thus making that experiment much more risky for society as a whole.
 
