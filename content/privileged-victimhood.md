@@ -2,7 +2,7 @@ Title: Privileged victimhood
 Date: 2020-02-10
 Category: Politics
 Tags: rants, ideas, libertarianism
-Summary: The dangers of identity politics and State imposed privileges 
+Summary: The dangers of identity politics and state imposed privileges
 Status: draft
 
 There is nothing wrong with seeking privileges that generate inequality in your favor. It is what every lobby or group does to improve their individual or collective well-being, be that a better salary, more stability, less taxes, less controls, free stuff, etc.
@@ -21,12 +21,14 @@ A less controversial example could be extended maternity leave, which might be a
 
 It is through tolerance of experimentation that a society can learn what ideas work and which ones don't. Tolerance is a pillar of a free society, where there are no artificial impediments for anyone to live according to their beliefs, their sexuality or their ideology, and to run these kind of experiments accordingly.
 
-Consider a case where a group of employees asks for free coffee at the office. Nobody would claim that it is an inalienable human right, and it is an obligation for the company to provide it. It's resolution is left as a private affair. But in the case of identity politics, is a different story. The privileges being demanded are not to be questioned. Of course they are not referred to as privileges, but as social justice or historical compensations or human rights instead. They are a public affair, thus making them prone to be used as a platform by politicians to get to power and liberate the oppressed.
+Consider a case where a group of employees asks for free coffee at the office. Nobody would claim that it is an inalienable human right, and it is an obligation for the company to provide it. It's resolution is left as a private affair. But in the case of identity politics, is a different story. The privileges being demanded are not to be questioned. Of course they are not referred to as privileges, but as social justice, historical compensations or human rights instead. They are a public affair, thus making them prone to be used as a platform by politicians to get to power and liberate the oppressed.
 
 The morality or effectiveness of these ideas should not be censored, but fought with logical arguments and tested in real life. After all, opinions should also compete in a market of ideas and speeches.
 
 The problem is whether those privileges are achieved through the repressive power of the state. There, they are not the result of a voluntary transaction between parties, but instead a violent imposition.
 
-Society, understood as a set of individuals who through trade and free exchange of ideas (although there are always preconditions), can lead to results that are undesirable or, at least, questionable by certain people. But it is in each persons's responsibility to analyze alternatives and propose them in competition with those ideas that still govern society.
+A free exchange of ideas in a society (understood as a set of individuals) can lead to results that are undesirable or, at least, questionable by certain people. But it is in each persons's responsibility to analyze alternatives and propose them in competition with those ideas that still govern society.
 
-To imply that the state must be in charge of imposing privileges is a very dangerous idea. Like any public policy, it is difficult to anticipate its effects, thus making that experiment much more risky for society as a whole. Class conflicts, sexism, xenophobia, antisemitism, racism, cultural wars, etc. are some of the possible consequences of trying to subject certain groups to the ideology of others. Someday the tide can turn around and history shows it doesn't end well.
+To imply that the state must be in charge of imposing privileges is a very dangerous idea. Like any public policy, it is difficult to anticipate its effects, thus making that experiment much more risky for society as a whole.
+
+If you can assign privileges to a collective, you might as well attribute guilt to it. Class conflicts, sexism, xenophobia, antisemitism, racism, cultural wars, etc. are some of the possible consequences of trying to subject certain groups to the ideology of others. Someday the tide can turn around and history shows it doesn't end well.
