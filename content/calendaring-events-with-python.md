@@ -166,7 +166,8 @@ go][16], there are some extra details to pay attention to:
    correctly (due to an outdated db on their side, most likely, or just emails).
 2. If events are attached to a certain location, like a flight for instance, and
    that location changes it's timezone, then we need to recalculate all scheduled
-   dates for that location and notify users about it.
+   dates for that location and notify users about it. [Simply storing these
+   dates in UTC is not enough][19].
 
 So storing **the timezone of origin** as way to get back to and from UTC is
 important.
@@ -404,3 +405,4 @@ suggest you to read all linked pages, they are there for a reason!
 [16]: http://tommikaikkonen.github.io/timezones/ "timezones"
 [17]: https://github.com/ambitioninc/django-localized-recurrence "Django localized recurrence"
 [18]: https://www.python.org/dev/peps/pep-0431/ "Timezone support improvements"
+[19]: https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/ "Storing UTC is not a silver bullet"
