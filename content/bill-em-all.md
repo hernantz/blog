@@ -1,7 +1,8 @@
-Title: Bill'em all
-Summary: Thougth experiment to design a *generic* billing system.
+Title: Architecture of a billing system
+Summary: Thought experiment to design a *generic* billing system.
 Date: 2016-05-04
 Category: Programming
+Tags: ideas
 Status: Draft
 
 
@@ -32,7 +33,7 @@ app (ie: tickets sold in a cinema, are also a metric for how many people
 watched the movie). It might also overlap with a stocks system, since each
 purchase or refund has to be accounted as a monetary and material transaction.
 
-Getting paid is a whole topic on it's own, you can issue single invoice
+Getting paid is a whole topic on it's own. You can issue single invoice
 but get paid in several instalments for example. These systems are known as
 **payment gateways**, an need to interact with the billing system too.
 
@@ -63,7 +64,7 @@ Because billing systems are also very tightly coupled with business rules,
 it's really hard to build a generic catch-all solution, making it difficult to
 attempt a proper sepparation of [mechanism and policy][0]. It's also evident
 that the boundaries of these systems aren't so clear in terms of
-responsabilities, but this doesn't mean that a common underling architecture
+responsabilities, but this doesn't mean that a common underlying architecture
 cannot be identified.
 
 
@@ -71,7 +72,7 @@ cannot be identified.
 
 From a 30k feet view, a billing system must:
 
-* Determine what his billing status is: ***who*** owes ***how much*** and
+* Determine what the customer's billing status is: ***who*** owes ***how much*** and
   ***why***.
 * Articulate with other specialized systems (ie: be able to query and be
   queried, import/export data).
@@ -84,10 +85,12 @@ But first we must take a step back so that we can identify which are the sources
 of profit:
 
 * **Free**: the simplest one, no profits though.
-* **Single sales**: when you purchase an item or service like train tickets or
-  house cleaning.
-* **Subscriptions**: cable tv, hotels, insurance, fixed term deposits.
-* **Usage-based**: like power supply or phone calls.
+* **One time charges**: when you purchase an item or single transaction service
+  like train tickets or house cleaning.
+* **Subscriptions**: cable tv, hotel rooms, insurance, fixed term deposits,
+  where the amount is a product of time and a fixed plan fee.
+* **Usage-based**: like power supply or cell data, there is a meter that
+  meassures consumption that might have different rates depending on demand.
 * **A combination** of all these.
 
 All these sources of profit have to be translated to money somehow.
@@ -95,9 +98,9 @@ For this to happen, we need to **determine when to record that something has
 generated some profit** that needs to be "collected".
 
 In the case of single sales it's simple to identify that moment, since it's
-usually when the buy order is submitted or when the user takes hands on the
-product. But how do we determine how much someone owes in case of subscriptions
-or usage-based models?
+usually when the buy order is submitted or when the user receives the product.
+But to determine how much someone owes in case of subscriptions or usage-based
+models, we need a ticking clock, that ticks every minute, day, fortnight, etc.
 
 Buying and selling items is an *atomic* operation per se, but transactions which
 are always *on-going* aren't and we have to make them atomic somehow. Non-atomic
@@ -108,7 +111,7 @@ profit.
 
 The other determination that needs to be taken is **when to charge the
 customer**, and for that it's up to the business owner to say if to use a
-**pre-bill model** (like when renting a house) or **post-bill model** (like the
+**pay upfront model** (like when renting a house) or **pay later model** (like the
 telephone bill).
 
 
@@ -116,17 +119,44 @@ telephone bill).
 
 To acomplish the goals of a billing system we need some basic building blocks:
 
-* Account: holds data about contracts, pricing plans, billing details, etc.
-* Event: contains an atomic transaction and all it's context
-* Journal: events are stored in an append-only journal. It contains all the billing history of an account. Can be used for an audit.
-* Clock: it's in charge of quering the journal to determine totals, debts, which accounts are past-due, etc.
-* Processor: The journal can be digested by procressors that can understand
-  the deltas between each event to determine the current status
-  of an account.
+* **Event**: contains an atomic transaction and all it's context (type,
+  timestamp, description, amount, metadata, etc), it can be an invoice, a
+  refund, a product sale, a payment, etc.
+* **Meter**: when billing based on consumption we need a meter that ticks every
+  X amount of time (every minute, day, month) and meassures the consumption of
+  time, data, electricity, etc to create an event to account for that
+  transaction. The interval depends on business rules. In case of
+  subscriptions, it's the same idea, what is being consumed is time under
+  contract, the only difference is that since the time consumed chaned at a
+  constant phase, we might only care on changes in the pricing plans and
+  start/end dates, not every second that ticks.
+* **Journal**: events are stored in an append-only journal. It contains all the
+  billing history of an account. Can be used for an audit.
+* **Processor**: The journal can be digested by procressors that can understand
+  the deltas between each event to determine the current status of an account.
+  Since the journal is immutable, you can cache results up to a point for
+  performance reasons, to obtain intermediate balances, determine totals,
+  debts, which accounts are past-due, etc, but replaying events becomes
+  problematic over time also due to changes in schema, so your processor will
+  need to understand every event, old and new.
+
+Contracts, payment gateways, stock management systems, permission systems, etc
+are all auxiliary entities that support a billing system.
+
+This architecture is known as event-sourcing.
 
 
-## Handling changes
-TODO: explain here flexible and fault tolerant.
+## Real world examples
+
+So far I hope is clear what a billing system must do and what it needs to do it.
+But we still haven't tested our theory we real world examples.
+
+- EPEC cobra de acuerdo al horario y al consumo.
+- Hotel
+And these can be combined (rent a room in a hotel, and cosume
+some snack from the mini-fridge). Holidays and weekends are more expensive, a change of room might happen.
+- Ad clicks and views for website
+- Sass app (trials, change in plan, discounts, etc)
 
 Every change is represented by an event. An event should never be mutated.
 Events should freeze all context needed to fully understand them.
@@ -135,34 +165,17 @@ Ability to schedule changes to take effect in the future. Example:
 apply this new plan next month.
 When applying changes (and even when scheduling them?), the system
 should look for conflicts in all transactions, including the ones
-that had not taken place yet.
-
-Payments should refer to the respective source invoice(s) = [1,2,3].
-
-
-## Real world examples
-
-So far I hope is clear what a billing system must do and what it needs to do it.
-But we still haven't tested our theory we real world examples.
-
-- EPEC
-- Hotel
-And these can be combined (rent a room in a hotel, and cosume
-some snack from the mini-fridge).
-- ISP
-- Ad based website
-- Sass app (trials, discounts, etc)
+that had not taken place yet. Payments should refer to the respective source invoice(s) = [1,2,3].
 
 https://www.petekeen.net/stripe
 
 Django billing
 
-
 https://martinfowler.com/articles/201701-event-driven.html
 https://techblog.commercetools.com/webhooks-the-devil-in-the-details-ca7f7982c24f#.5z8ej1fli
 Lambda architecture
-Command-query responsability separation (CQRS)
-https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
 
-[0]: http://www.machinalis.com/blog/separating-mechanism-from-policy/ "Separating mechanism from policy"
+Happy billling!
+
+[0]: https://web.archive.org/web/20161101134056/http://www.machinalis.com/blog/separating-mechanism-from-policy/ "Separating mechanism from policy"
 [1]: https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard "PCI copliance"
