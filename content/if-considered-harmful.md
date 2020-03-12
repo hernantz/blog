@@ -449,12 +449,26 @@ https://youtu.be/D_6ybDcU5gc?t=8m43s
 https://www.youtube.com/watch?v=rrBJVMyD-Gs
 https://fsharpforfunandprofit.com/rop/
 
+3 formas de manejar errores:
+1- excepciones
+2- result value (int or boolean), multiple return values (like go), a structured object that represents a result: un objecto en js -> monada (maybe) -> response message like a json api
+3- callbacks -> Promises
+http://stupidpythonideas.blogspot.com/2015/05/if-you-dont-like-exceptions-you-dont.html
+
 Django PermissionDenied para custom authentication backend
 
+Compiler-driven development: the need for runtime-checking is reduced when using the compiler to do this for us with Typechecking automatically https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#standard-duck-types
+
+flag argument: https://www.martinfowler.com/bliki/FlagArgument.html
 
 Talk about cyclomatic complexity
 https://www.youtube.com/watch?v=dqdsNoApJ80
 https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
+
+
+if's are flow control structures used for:
+- validation (parse, don't validate post?)
+- error handling
 
 
 ## Endif
