@@ -1,80 +1,208 @@
 Title: Childe Roland to the Dark Tower came
-Category: Personal
 Date: 2016-02-05
+Category: Writtings
+Description: My attempt to fixing the Dark Tower series.
+Tags: reviews, rants
+Status: Draft
 
-Many of these books I read a long time ago.
-Stephen King's magnum opus ended up being too ambitious and I reckon he felt
-this urge to finish it somehow, after the accident ofcourse.  And, the fact
-that he is now sober doesn't help either.
 
-1. The gunslinger
-2. The drawing of the three
-3. Wolfs of Callah. They find Callah (the far end of their known Mid-World)
-   after chasing the robot which was visiting the north central positronics
-   post with some shardik's reference (plus we learn a bit about the myth of
-   the guardians). , they prepare for the battle trainning, Eddie and Sussanah
-   get trained by Roland. Sussanah becames a sister of Oriza. Commalah, police
-   work, etc. He reseives black 13 from the cult that worshiped doors. We
-   understand why Roland is how he is, and why he wants to set the Tower aside
-   to help this town, to redeem himself. His determination for the tower is
-   succumbing now, he feels guilty, he is not as cold-hearted as he seems.
-   Jake's death would be Roland's secret to this ka-tet, and that's hunting
-   him, giving him nightmares, also about his past friends and one true love.
-   (Roland's past story is intercalated, he tells no one but Talitha, which
-   dies and is burried, but gives roland her cross to lay at the Tower)
-4. The wind through the keyhole + The little sisters of Eluria () (roland tells
-   the little sisters of eluria story to kids while waiting for the wolfs,
-   including the story about the story of the young gunslinger that slayed a
-   werewolf? that the good sister tells roland while he was sick), they defeat
-   the wolfs and hung the traitor. But Eddie and Susannah die in this fight,
-   they were not true knights after all. Their bodies are buried with their
-   weapons, and roses are planted in their graves like a gunslinger funeral.
-   The robbot says: Oh Discordia. The Tower demanded another sacrifice, now
-   roland is determined to end this curse.  Ka is a wheel, and again, for
-   saving the day, he must pay with blood of his loved ones. The rode to the
-   tower is paved in blood.
-5. Wastelands. Rolands follows the railways up to Lud (were wolfs come from)
-   with Oy, Black 13 and the Robot? In Lud, we enjoy all the post-apocaliptic
-   cyberpunk goodness and some slow mutants. Gangs stole kids to give them to
-   Dandelo, a minion of the Crimson King. He finds that there are good people
-   still, he kills one of them and someone says, you didn't have to kill him,
-   it was his birthday today, oh discordia... The kids that returned ruined,
-   were returned by some good people (someone saved my life tonight).  In this
-   book, Oy dies (his last word is "tower"), because of the injuries he
-   received while attacking Tik-Tak, who also dies.
-6. The Dark Tower. Roland beats the train with a stupid riddle Curthbert once
-   told him, and he is left in the final stop, Tower Station, before Blaine commits
-   suicide. There he find mentalists monks that were breaking the Beams, a
-   survivor tells him that the Crimson King has gone mad and killed them all,
-   and has gone to the dark tower.  He also finds the door to the Tower, the
-   only one in Mid-World, and puts the black orb into some kind of placeholder
-   to open it.
+![Roland and the Dark Tower](/images/the-dark-tower.jpg "Roland and the Dark Tower")
 
-Here is my attempt at fixing everything: I would leave the first and second books as is, since they are brilliant
-(you can almost feel the effect of drugs kicking in Stephen's mind).
-The Wastelands is where the story starts to deteriorate.
-I would have never resurrected Jake and I would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet Corp, angul siento, Calvin Tower, Mordred and Dixie Pig, this all could have been a sequel of father kallahan.
+I tend to be very critic with the movies and books I consume. And, if the ideas
+behind them are any good, I get hooked and start to think of ways they could be
+improved.
 
-Alone he was when he started his journey, and alone is how Roland reaches the Tower. The Tower is the aphoteosis of all towers. Black of course. The entrance is a huge sandalwood door and depicts all the 12 guardians of the beam engraved on it. He blows Eld's horn to open it and leaves Talitha's cross in the floor.
+Since many people tend to canalize this spark in some form of fan-fiction, I
+figured, why not do the same?
 
-The inside is void. it would be pitch black if it wasn't for light that the open door behind him lets in. There are no windows and no decorations on the wall, only spiraling steps a hundred? or a thouthand maybe? that reach all the way to the top, where a very dim light suggests there is some sort of hole in the rooftop.
+In this case I'll review the Dark Tower book series, which I read a long time
+ago. In my opinion, Stephen King's magnum opus ended up being too ambitious and
+I reckon he felt this urge to finish it somehow, after the accident of course.
+And, the fact that he is now sober did't help either.
 
-He begins to climb.
+See, not many people disagree with me:
 
-After a while, he is halfway to the top and takes some time to recover, then, more steps. His hands touch something on the wall, some sort of pattern, also blood, the tower is bleading, and that blood feeds the field of roses through its roots.
-When the light that sheds from the top is enough, he realizes there are murals carved on them. Murals that tell the origin of it all, the legend of Eld, the fall of Gilead, he keeps going, more steps.
+> [...] Wolves of the Calla, Song Of Susannah (UGH!) and this, The Dark Tower. They
+> all seem to have been written in a rush after King's brush with mortality
+> when he was hit by that van. What a waste of all the great material he had to
+> work with. If I was rating the first four books, my review would have been
+> five stars. Unfortunately...
+> 
+> Hated the way the vast world of the gunslinger kept getting smaller, with
+> constant trips back to good old New York, to dabble in real estate and
+> investing in Microsoft. Real friggin' epic. [...]
+>
+> *[A Goodreads review][0] by Thomas*
 
-To his surprise, the murals now tell his life, Alain and Cuthbert, the battle of Jerico hill, his true and only love Susan (his heart beats faster), eluria, the desert, the man in black (he shivers), Jake (tears start to fall), Boys don't cry maggot! Hears Cort shout him. The doors at the beach, Calla, Lud, Blaine.
 
-It feels it's been a lifetime climbing. This thought clicked in his mind in a weird way. Finally, he reaches the top.
+## My attempt at fixing everything
 
-There is a typewritter on a desk. Next to it, a poem titled: Childe Roland to the dark tower came. Roland reads it, although it makes no sense to him, an climbs to the rooftop.
+I loved the first (before it's re-edition) and second books as is, they are
+brilliant (you can almost feel the effect of drugs kicking in Stephen's mind).
+The Wastelands is where the story starts to deteriorate. I would have never
+resurrected Jake and I would forget about the whole idea of 19, The Wizzard of
+Oz, Ka-tet Corp, Angul Siento, Calvin Tower, Mordred and Dixie Pig. This all
+could have been great material for a sequel of Salem's Lot to find out what
+happend with father Kallahan. But here it felt weird.
 
-The sunset has started. He sees the never ending sea of roses.
+This is how I would mixed and re-organize the world of the Dark Tower, based
+entirely on content from the series.
 
-The Crimson King is seated next to a lit lamp.
+1. **The gunslinger**. Stays almost intact. The town folk, rallied by the
+   preacher woman, has beaten and raped the bartender girl. She begs Roland to
+   kill her. Oh Discordia! she screams before getting a headshot.
+2. **The drawing of the three**. Pretty much stays intact. When Roland looses
+   his fingerslaments with O Discordia. He doesn't save Jake. The third member
+   of the ka-tet is Oy.
+3. **Wizzard and glass**. We learn about Roland's youth story at Mejis. When
+   the ka-tet returns from Mejis, brought the Grapefruit orb and a kid with
+   them, Bill, who is now an orphan because of the gang of the Big Coffin
+   Hunters killed his parents. After Gabrielle Deschain's murder, Roland and
+   Jamie travel back to Serenity, where the women agree to adopt young Bill.
+   The sisters that run the place also give Roland a note written by his mother
+   during her stay in there. In this note, his mother reveals that Marten has
+   predicted that Roland will one day kill her. Although this has caused her to
+   slowly lose her sanity, in the end she forgives Roland and asks that he
+   forgive her infidelity to his father and betrayal of Gilead in return.
+   Roland never talks about this with his father. I think this is a good
+   closure for that story.
+3. **Wolfs of Calla**. They find Calla (the far end of their known Mid-World)
+   after chasing someone who was visiting the North Central Positronics Dogan.
+   The Dogan becomes the standard metaphor for the internal workings of the
+   brain of the ka-tet and Mia's possesion. There is a door they cannot open
+   with the Crimson's King eye graffitied. They are introduced to the town
+   folk, the wolfs, dance the Commalah, etc. They prepare for the battle
+   trainning, with Roland's martial knowledge. The kat-tet receives Black
+   Thirteen from the cult that worshiped doors, the Mannis. Eddie sees Rolands
+   past in it and how he will betray them for the Tower. Rolands sees Jake
+   falling, Sussanah gets possesed by Mia, a demon from the Prim that inhabited
+   inside the orb, and starts to grow in her. We understand why Roland is how
+   he is, and why he wants to set the Tower aside to help this town, to redeem
+   himself. His determination for the tower is succumbing now, he feels guilty,
+   he is not as cold-hearted as he seems. Jake's death would be Roland's secret
+   to this ka-tet, and that's hunting him, giving him nightmares, he tells no
+   one but Talitha, the matriach of the town, which dies and is burried, but
+   gives Roland possession of her cross to lay at the Tower). Andy, her robotic
+   personal assistant, fond of telling horoscopes, says: Oh Discordia! They
+   later, after a fight realise they have been keeping secrets from each other,
+   and Black Thirteen is the culprit, so the reconcile and share mind (like the
+   Dogan metafor that will later be used to defeat the wolfs). Eddie gets
+   knighted as a gunslinger. Sussanah becames a sister of Oriza, women musn't
+   bear guns.
+4. **The wind through the keyhole**. Roland is hidding with the kids of Calla
+   waiting for the worlfs. Want to hear the story of the young gunslinger who
+   slayed a Werewolf? He tells the little sisters of Eluria story. Basically
+   the good sister tell him *the wind through the keyhole* story one night,
+   while Roland is recovering from the sickness so he could sleep. The story is
+   the same but the young boy slayed a werewolf in the swamp instead of
+   encountering a dragon, with the gun and silver bullet that the Covenant Man
+   gives him. He is later slayed by a dragon in the same swamp when trying when
+   he returns to the enchanted forest looking to save another girl. Back in
+   Calla, they defeat the wolfs, many folks die, including children. They
+   notice that someone has given information to the wolfs. Eddie dies in this
+   fight, he was not true knights after all. His body is buried with his gun,
+   and a rose is planted in his grave like a gunslinger funeral. In front of
+   all the new graves, Roland gives a speech, that ends with: Oh Discordia! The
+   Tower demanded another sacrifice, now Roland is determined to end this
+   curse. Ka is a wheel, and again, for saving the day, he must pay with blood
+   of his loved ones, and looses his ka-tet again. His road to the Tower is
+   paved in blood.They burn the jaw of the men in black, and ask the fire a
+   question and the fire shows them a vision of the traitor, who they hung. *I,
+   Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector
+   of the Dark Tower, sentence you to die*. Sussanah get's finally possesed and
+   tries to murder the gunslinger but gets exorsised by the Mannis with some
+   remnants of magic and magnets and throw the demon through a portal in the
+   Doorway Cave to the Todash. After that Sussanah decides to stay at Calla as
+   a sister of Oriza, and marries someone there.
+5. **Wastelands**. Roland returns to the North Central Positronics dogan, with
+   help of Andy, they open the locked door and get a terminal to tell them
+   where the beam is and they figure that it is connected with Lud. With some
+   shardik's reference, we learn a bit about the myth of the guardians. That is
+   where the wolfs come from. They follow it into the Outer-World to Lud with
+   Oy, Black thirteen and the Robot? In Lud, we enjoy all the post-apocaliptic
+   cyberpunk goodness ala Mad Max or The 100, graffities of the Crimson King
+   eye and some slow mutants too. We learn that gangs stole kids to give them
+   to Dandelo, a minion of the Crimson King, who roont them, a monster similar
+   to IT, if not IT itself. Roland finds that there are good people still in
+   this ruined world. The kids that returned roont, were helped by some good
+   folk (someone saved my life tonight?). When he kills one of them: *you
+   didn't have to kill him, it was his birthday today, oh Discordia...*. Oy
+   dies (his last word is *Tower*), because of the injuries he received while
+   attacking Tik-Tak, who also dies. Blain kills everyone in the city by orders
+   of the Crimson King, who has gone mad and is now recluded at the top of the
+   Tower.
+6. **The Dark Tower**. Roland beats the train with a stupid riddle Curthbert
+   once told him, before the battle at Jerico hill, where we learn a bit more
+   about the fate of Farson. After passing some of the worlds of other stories
+   (the Tower is colapsing and all the worlds are blending), Roland is left in
+   the final stop, Tower Station, the door to the Tower, the only one in
+   All-World. The old ones built this station and tried everything to open that
+   portal, yet never successfuly. Blaine commits suicide. Roland has Black
+   Thirteen that *weaks up* and starts to absorb everything like a blackhole,
+   including him. The gunslinger has this vision of the rose that holds all the
+   suns and all the universes that Jake saw in NYC, and all the lovecroftian
+   darkness and beings of the Prim in between worlds. Wakes up in the crimson
+   fields of Can'-Ka No Rey.
 
-Long days and pleasant nights, sai.
+
+## My attempt at ending the series
+
+And this is how I imagine the final encounter. I put special atention to the
+opening line.
+
+*Alone he was when he started his journey, and alone is how Roland reaches the
+Dark Tower.*
+
+The Tower is the aphoteosis of all towers. Black of course. The stones have
+cracks, and in between each huge stone he notices something dense fluid. Blood
+of course. The Tower is bleading, and that blood feeds the surrounding fields
+of roses through its roots. The Tower is alive, but in agony.
+
+The entrance is a huge ghostwood door and depicts all the twelve guardians of
+the beam engraved on it.
+
+Roland knows what to do. Leaves Talitha's cross in the floor and blows
+Cuthbert's horn to open it. And it opens, of course.
+
+The inside is void. There are no windows and no decorations on the walls. Only
+spiraling steps. A hundred? Or a thouthand maybe? He begins to climb.
+
+After a while, he is halfway to the top and takes some time to recover, then,
+more steps. His hands touch something on the wall, some sort of pattern. He
+realizes there are murals carved on them. Murals that tell the origin of it
+all, the legend of Eld, he keeps going, the fall of Gilead, more steps.
+
+To his surprise, the murals now tell his life, Alain and Cuthbert, the battle
+of Jerico hill, the girl at the window - his true and only love Susan. 
+
+His heart halts abruptly. Eluria, the Mohaine desert, Jake, the man in black.
+He shivers. Talitha, Eddie, Sussanah, Oy. It's too much. Tears start to fall.
+
+Boys don't cry maggot! Hears Cort shout him in his mind, yet it echoes all over
+the tower.
+
+The doors by the beach, Calla, Lud, Blaine. More steps.
+
+It feels it's been a lifetime climbing. This thought clicked in his mind in a
+weird way. Finally, he reaches the top.
+
+There is a strange typing machine on a desk, with some sort of writing in low
+speech. He reads: *Alone he was when he started his journey, and alone is how
+Roland reaches the Dark Tower.*
+
+Roland reads it, although it makes no sense to him.
+
+There is one last door. A red one, with an Eye painted in blood. The eye of the
+Crimson King. He opens it and he is finally at the rooftop.
+
+The sunset has started. He sees the never ending sea of roses laying under the
+infinite shade casted by the Tower.
+
+The Crimson King, in a human shape, is seated next to pile of black rocks he is
+stacking in what seems an imposible balance.
+
+Childe Roland to the dark tower came! Long days and pleasant nights, sai - he
+says.
 
 Roland, not sure what how to respond, says nothing.
 
@@ -84,69 +212,192 @@ What do you mean? Asked Roland.
 
 Take a seat Roland, it's about time we talked.
 
-I know what you want to hear, gunslinger, what you came here for. You are looking for answers, but most importantly, for a redemption. I'll give you as much as I can of both. 
-You are not a bad person, nor a good one. In this level of the tower, I get to judge that. But you did well, better than I expected, And yes, it was worth it, all the blood and tears. Your loved ones left behind, their names in your head right now, and everything your ever cared. All this sacrifice, your existance, was used to construct this tower. Every door you have opened in your life, has been inside this Tower. It will withstand the eons of time, and your story will prevail in it's murals, Roland.
+Since I've thought about this moment carefully, you deserve it, I thought it
+would be best to write it down. Says the man as he unfolds a piece of paper, a
+letter. And begins to read.
 
-This Tower is also my prison. I've been trying to destroy it all my life. It's been my obsession, a heavyweight burden, it's been one of my most ambitious projects, and I can't bear writing about it anymore. The pieces of the puzzle must fit, to balance the forces all together, of keeping you alive. I've tried to stop you, time and time again, but you stayed on track in your crusade. One grows fond of every character and story that tells, each takes a peace, they feed from you, they become alive! Creating an universe, watch it grow and most importantly, keeping it balanced, is an exhausting task. We all have our tower, our epic quest, you are part of mine. We know it demands a lot of sacrifice, it might even mean our end, yet it is our duty to hold it's existance together and for that we have to find it, that is our redemption. All roads are different, because all towers are different, my road to the Tower is paved in ink. It might be something that only matters to us, but in the grand scheme we are nothing but dust. But we have to do it. And where is the Tower of all towers? What would the nature of such tower be? Who will wait for us atop? Will anyone be there? No one knows.
+Dear Roland.
 
-The Crimson King looks at the constelations sprawling above. All twelve guardians are there, shinnig brightly, perfectly aligned around the tower. The sword of Eld could easyly be appreciated in all it's splendor too.
+I know what you want to hear, gunslinger, what you came here for.
 
-Who are you?
+You are looking for answers, but most importantly, for a redemption. I'll give
+you as much as I can of both. You are not a bad person, nor a good one. Most
+importantly, you have not forgotten the face of your father. 
+
+The Crimson king takes a moment and continues.
+
+In this level of the tower, I get to judge that. But you did well, better than
+I expected, And yes, it was worth it, all the blood and tears. Your loved ones
+left behind, their names in your head right now, and everything your ever
+cared. All this sacrifice, your existance, was used to construct this tower.
+Every door you have opened in your life, has been inside this place. It will
+withstand the eons of time, and your story will prevail in it's murals, Roland.
+
+This Tower is also my prison. I've been trying to end it all my life. It's been
+my obsession, a heavyweight burden, and one of my most ambitious projects. The
+pieces of the puzzle that must fit, to balance the forces all together, to keep
+you alive. I've tried to stop you, time and time again, but you stayed on track
+in your crusade, and I can't bear writing about it anymore, Roland.
+
+One grows fond of every character and story that tells, each takes a peace,
+they feed from you, they become alive! Creating an universe, watching it grow
+and most importantly, keeping it balanced, is an exhausting task. 
+
+We all have our tower, our epic quest. You are part of mine, gunslinger. 
+
+We know it demands a lot of sacrifice, it might even mean our end, yet it is
+our duty to hold it's existance together, for that we are destined to find it.
+ 
+All roads are different, because all towers are different. My road to the Tower
+is paved in ink. It might be something that only matters to us, but in the
+grand scheme we are nothing but dust. We have to do it. That is our redemption
+and we pay the price. 
+
+And where is the Tower of all towers? What would the nature of such tower be?
+Who will wait for us atop? Will anyone be there? No one knows.
+
+The Crimson King looks at Roland, folds the letter again and then observes the
+constelations sprawling above. Roland does the same. All twelve guardians are
+there, shinnig brightly, perfectly aligned around the tower. The sword of Eld
+could easyly be appreciated in all it's splendor too.
+
+Who are you? Asked Roland.
 
 I have many names, the Crimson King is one of them, it is how I'm known here.
-But my real name is Stephen, Stephen King, see the pun? I'm a writer. As such I get to
-create universes, casts light and shadows in them, and force others to do my bidding as I work behind the scenes, behind the curtain, in my writings. It's all in my mind, hunting me until I write it into existance. You, this tower, everything. I'm afraid all of this could fall apart at anytime. You don't get an idea how close I've been to death, and with that, the end of this all. Oh discordia.
+But my real name is Stephen, Stephen King, see the pun? I'm a writer. As such I
+get to create universes, casts light and shadows in them, and force others to
+do my bidding as I work behind the scenes, behind the curtain, in my writings
+- and gestures with his fingers as if typing in the air.
 
-The gunslinger, plain as he is, doesn't like this talking. Shivers run through his spine. 
+It's all in my mind, hunting me until I write it into existance. You, this
+tower, everything... 
+
+I'm afraid all of this could fall apart at anytime. You don't get an idea how
+close I've been to death, and with that, the end of this all. Oh Discordia! - the
+Crimson King laments.
+
+- The gunslinger, plain as he is, doesn't like this talking. Shivers run through
+his spine. 
+
+I am your maker, Roland. Consider yourself lucky, how many get that chance? I
+hadn't, yet... I hope. I know there's someone greater than me. There always is.
+Remember gunslinger, the greatest mystery the Universe offers is not life but
+size. Size encompasses life, and the Tower encompasses size.
+
+"Would you risk destroying that world as well as this, and the other worlds
+said King has touched with his imagination, and drawn from? For it was not he
+that created them, you know. To peek in Gan’s novel does not make one Gan,
+although many creative people seem to think so. Would you risk it all?"
+
+"No writer is Gan - no painter, no sculptor, no maker of music. We are kas-ka
+Gan. The prophets of Gan."
+
 Bullshit, you are a charlatan, that's what you are.
-I can't be fiction. Look I'm real, the floor is real, this tower is real!
+This can't be fiction. Look I'm real, my life is real, this tower is real!
 
-I am your maker, Roland. Consider yourself lucky, how many get that chance? I hadn't, yet... I hope. I know there's someone greater than me. There always is.
-Remember gunslinger, the greatest mystery the Universe offers is not life but size. Size encompasses life, and the Tower encompasses size.
+The Crimson King shrugs.
 
-See, I need you as much as you need me. We are both our nemesis and our redeemers.
-All things must come to an end, and this one story, your story is no exception. It's time we say our goodbyes, Roland.
+First comes smiles, then lies. Last comes gunfire - thought Roland.
 
-Enough, I need this to end and put my mind at ease. I'll shoot you! Roland said.
+Enough of this! I want to hear no more. I'll shoot you! - Roland said.
 
-Redemption and death are tied together. Death, yet not for you, gunslinger. Death is nothing but another door. I will move on for sure, I'm mortal after all, you will soon find out. It is in your destinity to kill me. 
+Tonight redemption and death are tied together. Death, gunslinger, yet not for
+you.
+
+I will move on for sure, I'm mortal after all, you will soon find out. It is in
+your destinity to kill me. Do what you have to do. It will put your mind at
+ease.
+
+See, I need you as much as you need me. We are both our nemesis and our
+redeemers. All things must come to an end, and this one story, your story is
+no exception. It's time we say our goodbyes, Roland.
 
 What will happen after?
 
-I'll let you be. And you will walk through that door behind you. Where it leads it won't matter to me anymore, another tower perhaps! Ka, or destiny, is a wheel, it manifest as cyclic but spiraling. One does not swim in the same river twice. We get to the same situations in our journeys again and again, but with new perspectives, we are not the same person we were one second ago and you won't be the same person the next tower to reach.
+I'll let you be. And you will walk through that door behind you. Where it leads
+it won't matter to me anymore, another tower perhaps! Ka is a wheel. It
+manifest as a cycle but it is spiraling in nature. One does not swim in the
+same river twice. We get to the same situations in our journeys again and
+again, but with new perspectives, we are not the same person we were one second
+ago and you won't be the same person the next tower to reach.
 
 I though THIS was the Tower!
 
-This is YOUR Tower. You had to be here, gunslinger, it was your inevitable destiny. It was very important for me that you did it. I say thankee. 
-I know you are a bit overwelmed now. Belive me, this is not any easier for me either. I don't know how much could I bear if I were you. What universal truths would I have to swallow once I get to my Tower... I try not to think... It might be... mmm... unwise.
+This is YOUR Tower. You had to be here, gunslinger, it was your inevitable
+destiny. It was very important for me that you did it. I say thankya. I know
+you are a bit overwelmed now. Belive me, this is not any easier for me either.
+I don't know how much could I bear if I were you. What universal truths would I
+have to swallow once I get to my Tower... I try not to think... It might be...
+mmm... unwise.
 
 Both stare at the lamp in silence for what seemed a very long time.
 
-Stephen King knows it has been enough. They both know it has been enough.
+The Crimson King knows it has been enough. They both know it has been enough.
 
-So.. I'm ready whenever you are ready. Said King.
+So.. I'm ready whenever you are ready — said King.
 
-Roland nods, to accept the deal.
+Death is nothing but another door, it's time I cross it.
 
-It's time I go, there are other worlds than these. Said King with a smirk.
 
-I, Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector of the Dark Tower, sentence you to die.
-He shoots the Mad King dead as the first rays of dawn appear in the horizon. The Crimson King is nothing but bones now.
-Is this a trick or are you truly dead? How many lies did you tell me?
+Roland still unsure what to make out of this encounter, he still confused. But
+he will deliver, so he stand up, draws his heavy, ancient and deadly pistols.
 
-As he stares at the sunrise, he speaks the names of all his friends and deaths ones. New roses appear in the field for every name, after all, every rose that surrounds the Tower belongs to someone whose name has been spoken inside, in another story, in another universe perhaps.
+King looks at them, takes a moment and adds with a smirk — go then, there are
+other worlds than these.
 
-He can now see that right in front of the Tower there is a door, and it reads something in high speech.
+Roland nods.
+
+He shoots the Crimson King dead as the first rays of dawn appear in the
+horizon. The creature that claimed to be his creator trips and falls down.
+With his red robe, that contrast with the pitch black color of the Tower,
+making it seem as if he was ablaze while falling.
+
+As now he stares at the sunrise for a while, it is beautiful. He then closes
+his eyes as he speaks up the names of all his friends and deaths ones. He never
+gets to notice, but new roses appear in the field for every name. After all,
+every rose that surrounds the Tower belongs to someone whose name has been
+spoken inside, in another story, in another universe perhaps.
+
+Something catches his atention.
+
+While going down, he notices that the cracks in the walls are sealed. The Tower
+seems to be healing. That's good — he thinks.
+
+Once at base, he observes the Crimson King is nothing but bones now.
+
+Is this a trick or are you truly dead? How many lies did you tell me? — says
+Roland at the horrible sight.
+
+He can now see that, that something was a door. A sandalwood door with a name
+in high speech on it's top.
 
 *Roland*.
 
-He walks in, wakes up in the desert. Ka is a wheel.
+This is the end of his world. He has other place to go and no one is waiting
+for him.
 
-*The man in black fled across the dessert, and the gunslinger followed.*
+As soon as he enters through the door and shuts it, and a new rose suddendly
+replaces it.
 
-I think this idea of meta-fiction was really interesting, but I didn't like how King did in the series.
-I believe this is a better closure for the series.
-With this twist in the story I have remarked the main ideas that are present throughout all the books:
-* There are other worlds than these, and doors that lead to them. Death being one.
-* Ka is a wheel, it's cyclyc but also moves, entangled with the meaning of the Tower.
+Hope you like this ending better. As you can see it is heavily insipired by the
+encounter with the man in black, which I think was breathtaking. The Crimson
+King falling from the Tower is also a very memorable image. Maybe this series
+
+I think this idea of meta-fiction was really interesting, but I didn't like how
+King did it in the series. He fits the perfect final villain of all universes.
+The only worthy enemy.
+With this twist in the story I have remarked the main ideas that are present
+throughout all the books:
+
+* The Oh Discordia! phrase, that King said he heard in a dream.
+* There are other worlds than these, many doors that lead to them, and death is
+  one.
+* How Ka is a wheel. It is cyclyc but also moves.
 * Size is the greatest mystery the Universe offers.
+* And all this, entangled with the meaning of the Tower.
+
+The vast universe created by King is all his novels together, not just The Dark
+Tower, and this way he would accomplish his dream of creating something vast
+and complex as Tokien did.
+
+[0]: https://www.goodreads.com/review/show/3920288?book_show_action=true&from_review_page=1
