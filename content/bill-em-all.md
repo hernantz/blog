@@ -143,7 +143,7 @@ To acomplish the goals of a billing system we need some basic building blocks:
 Contracts, payment gateways, stock management systems, permission systems, etc
 are all auxiliary entities that support a billing system.
 
-This architecture is known as event-sourcing.
+This architecture is known as [event-sourcing][2].
 
 
 ## Real world examples
@@ -171,7 +171,7 @@ https://www.petekeen.net/stripe
 
 Django billing
 
-https://martinfowler.com/articles/201701-event-driven.html
+
 https://techblog.commercetools.com/webhooks-the-devil-in-the-details-ca7f7982c24f#.5z8ej1fli
 Lambda architecture
 
@@ -179,3 +179,4 @@ Happy billling!
 
 [0]: https://web.archive.org/web/20161101134056/http://www.machinalis.com/blog/separating-mechanism-from-policy/ "Separating mechanism from policy"
 [1]: https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard "PCI copliance"
+[2]: https://martinfowler.com/articles/201701-event-driven.html "What do you mean by “Event-Driven”?"
