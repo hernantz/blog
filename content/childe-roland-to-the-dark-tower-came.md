@@ -50,11 +50,21 @@ entirely on content from the series.
 
 1. **The gunslinger**. First edition of course, stays almost intact. The town
    folk, rallied by the preacher woman, has beaten and raped the bartender
-   girl. She begs Roland to kill her. O Discordia! she screams before getting
-   a headshot.
+   girl. She begs Roland to kill her. O Discordia! she screams before getting a
+   headshot. The Man in Black also mentions the reasons behind following the
+   Crimson King: *"You think that John Farson or I are on the bad side. But
+   what makes you believe you are on the right side? The Crimson King might
+   have gone mad, and his ways are misterious, yes. But that is nothing to do
+   with my reason to be with his cause. The problem with this whole good & bad
+   thing is that chaos is not evil any more then order is good. Balance between
+   chaos and order is necessary. With no chaos nothing would ever change or be
+   created. Without order nothing could ever thrive once it is created.
+   Conflict forces change and change is how progress happens. Sometimes in
+   order to create, one must first destroy. The Crimson King is starting a
+   revolution, and for it to succeed, the Tower must fall!"*
 2. **The drawing of the three**. Pretty much stays intact too. When Roland
-   looses his fingers laments with O Discordia. He doesn't save Jake. The
-   third member of the ka-tet is Oy.
+   looses his fingers laments with O Discordia. He doesn't save Jake. The third
+   member of the ka-tet is Oy.
 3. **Wizzard and glass**. We learn about Roland's youth story at Mejis. When
    the ka-tet returns from Mejis, brought the Grapefruit orb and a kid with
    them, Bill, who is now an orphan because of the gang of the Big Coffin
@@ -182,7 +192,7 @@ realizes there are murals carved on them. Murals that tell the origin of it
 all, the legend of Eld, he keeps going, the fall of Gilead, more steps.
 
 To his surprise, the murals now tell his life, Alain and Cuthbert, the battle
-of Jerico hill, the girl at the window - his true and only love Susan. 
+of Jerico hill, the girl at the window — his true and only love Susan.
 
 His heart halts abruptly. Eluria, the Mohaine desert, Jake, the man in black.
 He shivers. Talitha, Eddie, Sussanah, Oy. It's too much. Tears start to fall.
@@ -197,9 +207,7 @@ weird way. Finally, he reaches the top.
 
 There is a strange typing machine on a desk, with some sort of writing in low
 speech. He reads: *Alone he was when he started his journey, and alone is how
-Roland reaches the Dark Tower.*
-
-Roland reads it, although it makes no sense to him.
+Roland reaches the Dark Tower.* — it makes no sense to him.
 
 There is one last door. A red one, with an Eye painted in blood. The eye of the
 Crimson King. He opens it and he is finally at the rooftop.
@@ -210,7 +218,7 @@ infinite shade casted by the Tower.
 The Crimson King, in a human shape, is seated next to pile of black rocks he is
 stacking in what seems an imposible balance.
 
-Childe Roland to the dark tower came! Long days and pleasant nights, sai - he
+Childe Roland to the dark tower came! Long days and pleasant nights, sai — he
 says.
 
 Roland, not sure what how to respond, says nothing.
@@ -240,7 +248,7 @@ the blood and tears. Your loved ones left behind, their names in your head
 right now, and everything your ever cared. All this sacrifice, your existance,
 was used to construct this tower. Every door you have opened in your life, has
 been inside this place. It will withstand the eons of time, and your story will
-prevail in it's murals, Roland.
+prevail in it's murals, and in other worlds, Roland.
 
 The Crimson king takes a moment and continues.
 
@@ -254,11 +262,6 @@ One grows fond of every character and story that tells, each takes a peace,
 they feed from you, they become alive! Creating an universe, watching it grow
 and most importantly, keeping it alive, is an exhausting task. I'm afraid of
 never be able to finish it.
-
-The problem with this whole good/bad thing is that chaos is not evil any more
-then order is good. Balance between chaos and order is necessary. With no chaos
-nothing would ever change or be created. Without order nothing could ever
-thrive once it is created.
 
 Would I risk destroying your world as well as the other worlds I have touched
 my imagination, and drawn from? Would you risk it all?
@@ -288,21 +291,22 @@ I have many names, the Crimson King is one of them, it is how I'm known here.
 But my real name is Stephen, Stephen King, see the pun? I'm a writer. As such I
 get to create universes, casts light and shadows in them, and force others to
 do my bidding as I work behind the scenes, behind the curtain, in my writings
-- and gestures with his fingers as if typing in the air.
+— and gestures with his fingers as if typing in the air.
 
 It's all in my mind, hunting me until I write it into existance. You, this
 tower, everything... 
 
 But if I have to be honest, it is not trully me that created them, you know. To
 peek in Gan’s novel does not make one Gan, although many creative people seem
-to think so. No writer is Gan - no painter, no sculptor, no maker of music. We
-are kas-ka Gan. The prophets of Gan.
+to think so. No writer is Gan — no painter, no sculptor, no maker of music. We
+are kas-ka Gan. The prophets of Gan. Each prophet has a style. Mine is to put
+characters in dificult situations they have to overcome.
 
 I'm afraid all of this could fall apart at anytime. You don't get an idea how
-close I've been to death, and with that, the end of this all. O Discordia! - the
+close I've been to death, and with that, the end of this all. O Discordia! — the
 Crimson King laments.
 
-- The gunslinger, plain as he is, doesn't like this talking. Shivers run through
+— The gunslinger, plain as he is, doesn't like this talking. Shivers run through
 his spine. 
 
 I am your maker, Roland. Consider yourself lucky, how many get that chance? I
