@@ -37,23 +37,24 @@ See, not many people disagree with me:
 
 ## My attempt at fixing everything
 
-I loved the first (before it's re-edition) and second books as is, they are
-brilliant (you can almost feel the effect of drugs kicking in Stephen's mind).
-The Wastelands is where the story starts to deteriorate. I would have never
-resurrected Jake and I would forget about the whole idea of 19, The Wizzard of
-Oz, Ka-tet Corp, Angul Siento, Calvin Tower, Mordred and Dixie Pig. This all
-could have been great material for a sequel of Salem's Lot to find out what
-happend with father Kallahan. But here it felt weird.
+I loved the first and second books as is, they are brilliant (you can almost
+feel the effect of drugs kicking in Stephen's mind). The Wastelands is where
+the story starts to deteriorate. I would have never resurrected Jake and I
+would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet Corp, Angul
+Siento, Calvin Tower, Mordred and Dixie Pig. This all could have been great
+material for a sequel of Salem's Lot to find out what happend with father
+Kallahan. But here it felt weird.
 
 This is how I would mixed and re-organize the world of the Dark Tower, based
 entirely on content from the series.
 
-1. **The gunslinger**. Stays almost intact. The town folk, rallied by the
-   preacher woman, has beaten and raped the bartender girl. She begs Roland to
-   kill her. Oh Discordia! she screams before getting a headshot.
-2. **The drawing of the three**. Pretty much stays intact. When Roland looses
-   his fingerslaments with O Discordia. He doesn't save Jake. The third member
-   of the ka-tet is Oy.
+1. **The gunslinger**. First edition of course, stays almost intact. The town
+   folk, rallied by the preacher woman, has beaten and raped the bartender
+   girl. She begs Roland to kill her. O Discordia! she screams before getting
+   a headshot.
+2. **The drawing of the three**. Pretty much stays intact too. When Roland
+   looses his fingers laments with O Discordia. He doesn't save Jake. The
+   third member of the ka-tet is Oy.
 3. **Wizzard and glass**. We learn about Roland's youth story at Mejis. When
    the ka-tet returns from Mejis, brought the Grapefruit orb and a kid with
    them, Bill, who is now an orphan because of the gang of the Big Coffin
@@ -76,19 +77,22 @@ entirely on content from the series.
    Thirteen from the cult that worshiped doors, the Mannis. Eddie sees Rolands
    past in it and how he will betray them for the Tower. Rolands sees Jake
    falling, Sussanah gets possesed by Mia, a demon from the Prim that inhabited
-   inside the orb, and starts to grow in her. We understand why Roland is how
-   he is, and why he wants to set the Tower aside to help this town, to redeem
-   himself. His determination for the tower is succumbing now, he feels guilty,
-   he is not as cold-hearted as he seems. Jake's death would be Roland's secret
-   to this ka-tet, and that's hunting him, giving him nightmares, he tells no
-   one but Talitha, the matriach of the town, which dies and is burried, but
-   gives Roland possession of her cross to lay at the Tower). Andy, her robotic
-   personal assistant, fond of telling horoscopes, says: Oh Discordia! They
-   later, after a fight realise they have been keeping secrets from each other,
-   and Black Thirteen is the culprit, so the reconcile and share mind (like the
-   Dogan metafor that will later be used to defeat the wolfs). Eddie gets
-   knighted as a gunslinger. Sussanah becames a sister of Oriza, women musn't
-   bear guns.
+   inside the orb, that now starts to grow in her and wants the to steal the
+   orb to reach the tower and free all the monsters that inhabitate the Prim.
+   We understand why Roland is how he is, and why he wants to set the Tower
+   aside to help this town, to redeem himself. His determination for the tower
+   is succumbing now, he feels guilty, he is not as cold-hearted as he seems.
+   Jake's death would be Roland's secret to this ka-tet, and that's hunting
+   him, giving him nightmares, he tells no one but Talitha, the matriach of the
+   town, during the sessions where she helped him with his arthritis. She also
+   makes Andy, her robotic personal assistant, fond of telling horoscopes,
+   promiss that will help Roland in times of need. She dies of age, but gives
+   Roland possession of her cross to lay at the Tower, Andy says O Discordia!
+   at her burial. They later, after a fight realise they have been keeping
+   secrets from each other, and Black Thirteen is the culprit, so the reconcile
+   and share mind (like the Dogan metafor that will later be used to defeat the
+   wolfs). Eddie gets knighted as a gunslinger. Sussanah becames a sister of
+   Oriza, women musn't bear guns.
 4. **The wind through the keyhole**. Roland is hidding with the kids of Calla
    waiting for the worlfs. Want to hear the story of the young gunslinger who
    slayed a Werewolf? He tells the little sisters of Eluria story. Basically
@@ -102,35 +106,40 @@ entirely on content from the series.
    notice that someone has given information to the wolfs. Eddie dies in this
    fight, he was not true knights after all. His body is buried with his gun,
    and a rose is planted in his grave like a gunslinger funeral. In front of
-   all the new graves, Roland gives a speech, that ends with: Oh Discordia! The
+   all the new graves, Roland gives a speech, that ends with: O Discordia! The
    Tower demanded another sacrifice, now Roland is determined to end this
    curse. Ka is a wheel, and again, for saving the day, he must pay with blood
    of his loved ones, and looses his ka-tet again. His road to the Tower is
    paved in blood.They burn the jaw of the men in black, and ask the fire a
-   question and the fire shows them a vision of the traitor, who they hung. *I,
+   question and the fire shows them a vision of the traitor, who they hung. He
+   wanted his daughters to survive and become the new rulers of the Callas  *I,
    Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector
    of the Dark Tower, sentence you to die*. Sussanah get's finally possesed and
-   tries to murder the gunslinger but gets exorsised by the Mannis with some
-   remnants of magic and magnets and throw the demon through a portal in the
-   Doorway Cave to the Todash. After that Sussanah decides to stay at Calla as
-   a sister of Oriza, and marries someone there.
+   tries to murder the gunslinger, in the fight manipulates Oy (again with the
+   Dogan methaphor) to attack Roland, you looses an eye. Roland shoots Oy who
+   dies in his hands, it's last word is *Tower*. From now on he will wear an
+   eye patch and a big scar in his face. Mia escapes with the orb, but gets
+   caught by And and later exorsised by the Mannis. With some remnants of magic
+   and magnets they throw the demon through a portal in the Doorway Cave to the
+   Todash. After that Sussanah decides to stay at Calla as a sister of Oriza,
+   and maybe marries someone there to become the new matriach, since Talitha
+   had no descendants.
 5. **Wastelands**. Roland returns to the North Central Positronics dogan, with
    help of Andy, they open the locked door and get a terminal to tell them
    where the beam is and they figure that it is connected with Lud. With some
    shardik's reference, we learn a bit about the myth of the guardians. That is
    where the wolfs come from. They follow it into the Outer-World to Lud with
-   Oy, Black thirteen and the Robot? In Lud, we enjoy all the post-apocaliptic
-   cyberpunk goodness ala Mad Max or The 100, graffities of the Crimson King
-   eye and some slow mutants too. We learn that gangs stole kids to give them
-   to Dandelo, a minion of the Crimson King, who roont them, a monster similar
-   to IT, if not IT itself. Roland finds that there are good people still in
-   this ruined world. The kids that returned roont, were helped by some good
-   folk (someone saved my life tonight?). When he kills one of them: *you
-   didn't have to kill him, it was his birthday today, oh Discordia...*. Oy
-   dies (his last word is *Tower*), because of the injuries he received while
-   attacking Tik-Tak, who also dies. Blain kills everyone in the city by orders
-   of the Crimson King, who has gone mad and is now recluded at the top of the
-   Tower.
+   Black thirteen and Andy. In Lud, we enjoy all the post-apocaliptic cyberpunk
+   goodness ala Mad Max or The 100, graffities of the Crimson King eye and some
+   slow mutants too. We learn that gangs stole kids to give them to Dandelo, a
+   minion of the Crimson King, who roont them, a monster similar to IT, if not
+   IT itself. Dandelo feeds from emotions, so it is Andy the one that kills it
+   by self-destructing, saving Rolands life. Roland finds that there are good
+   people still in this ruined world. The kids that returned roont, were helped
+   by some good folk (someone saved my life tonight?). When he kills one of
+   them: *you didn't have to kill him, it was his birthday today, oh
+   Discordia...*. Blain kills everyone in the city by orders of the Crimson
+   King, who has gone mad and is now recluded at the top of the Tower.
 6. **The Dark Tower**. Roland beats the train with a stupid riddle Curthbert
    once told him, before the battle at Jerico hill, where we learn a bit more
    about the fate of Farson. After passing some of the worlds of other stories
@@ -145,10 +154,10 @@ entirely on content from the series.
    fields of Can'-Ka No Rey.
 
 
-## My attempt at ending the series
+## My alternative ending
 
-And this is how I imagine the final encounter. I put special atention to the
-opening line.
+And this is how I imagine the final encounter. Once Roland reaches the Dark
+Tower. I put special atention to the opening line.
 
 *Alone he was when he started his journey, and alone is how Roland reaches the
 Dark Tower.*
@@ -214,39 +223,51 @@ Take a seat Roland, it's about time we talked.
 
 Since I've thought about this moment carefully, you deserve it, I thought it
 would be best to write it down. Says the man as he unfolds a piece of paper, a
-letter. And begins to read.
+letter. And begins to read out loud.
 
 Dear Roland.
 
-I know what you want to hear, gunslinger, what you came here for.
+I know what you want to hear, what you came here for.
 
-You are looking for answers, but most importantly, for a redemption. I'll give
-you as much as I can of both. You are not a bad person, nor a good one. Most
-importantly, you have not forgotten the face of your father. 
+You are looking for answers. But I'll give you something better instead.
+Redemption. Because when we think we have all the answers, the questions
+change.
+
+You are not a bad person, nor a good one. Most importantly, you have not
+forgotten the face of your father. In this level of the tower, I get to judge
+that. But you did well, better than I expected, And yes, it was worth it, all
+the blood and tears. Your loved ones left behind, their names in your head
+right now, and everything your ever cared. All this sacrifice, your existance,
+was used to construct this tower. Every door you have opened in your life, has
+been inside this place. It will withstand the eons of time, and your story will
+prevail in it's murals, Roland.
 
 The Crimson king takes a moment and continues.
-
-In this level of the tower, I get to judge that. But you did well, better than
-I expected, And yes, it was worth it, all the blood and tears. Your loved ones
-left behind, their names in your head right now, and everything your ever
-cared. All this sacrifice, your existance, was used to construct this tower.
-Every door you have opened in your life, has been inside this place. It will
-withstand the eons of time, and your story will prevail in it's murals, Roland.
 
 This Tower is also my prison. I've been trying to end it all my life. It's been
 my obsession, a heavyweight burden, and one of my most ambitious projects. The
 pieces of the puzzle that must fit, to balance the forces all together, to keep
 you alive. I've tried to stop you, time and time again, but you stayed on track
-in your crusade, and I can't bear writing about it anymore, Roland.
+in your crusade. I made you that way, Roland.
 
 One grows fond of every character and story that tells, each takes a peace,
 they feed from you, they become alive! Creating an universe, watching it grow
-and most importantly, keeping it balanced, is an exhausting task. 
+and most importantly, keeping it alive, is an exhausting task. I'm afraid of
+never be able to finish it.
 
-We all have our tower, our epic quest. You are part of mine, gunslinger. 
+The problem with this whole good/bad thing is that chaos is not evil any more
+then order is good. Balance between chaos and order is necessary. With no chaos
+nothing would ever change or be created. Without order nothing could ever
+thrive once it is created.
+
+Would I risk destroying your world as well as the other worlds I have touched
+my imagination, and drawn from? Would you risk it all?
+
+We all have our tower, our epic quest. You are part of mine, gunslinger.
 
 We know it demands a lot of sacrifice, it might even mean our end, yet it is
-our duty to hold it's existance together, for that we are destined to find it.
+our duty to keep going on, for that we are destined to find it and climb it's
+steps.
  
 All roads are different, because all towers are different. My road to the Tower
 is paved in ink. It might be something that only matters to us, but in the
@@ -272,8 +293,13 @@ do my bidding as I work behind the scenes, behind the curtain, in my writings
 It's all in my mind, hunting me until I write it into existance. You, this
 tower, everything... 
 
+But if I have to be honest, it is not trully me that created them, you know. To
+peek in Gan’s novel does not make one Gan, although many creative people seem
+to think so. No writer is Gan - no painter, no sculptor, no maker of music. We
+are kas-ka Gan. The prophets of Gan.
+
 I'm afraid all of this could fall apart at anytime. You don't get an idea how
-close I've been to death, and with that, the end of this all. Oh Discordia! - the
+close I've been to death, and with that, the end of this all. O Discordia! - the
 Crimson King laments.
 
 - The gunslinger, plain as he is, doesn't like this talking. Shivers run through
@@ -284,22 +310,15 @@ hadn't, yet... I hope. I know there's someone greater than me. There always is.
 Remember gunslinger, the greatest mystery the Universe offers is not life but
 size. Size encompasses life, and the Tower encompasses size.
 
-"Would you risk destroying that world as well as this, and the other worlds
-said King has touched with his imagination, and drawn from? For it was not he
-that created them, you know. To peek in Gan’s novel does not make one Gan,
-although many creative people seem to think so. Would you risk it all?"
-
-"No writer is Gan - no painter, no sculptor, no maker of music. We are kas-ka
-Gan. The prophets of Gan."
-
 Bullshit, you are a charlatan, that's what you are.
 This can't be fiction. Look I'm real, my life is real, this tower is real!
 
 The Crimson King shrugs.
 
-First comes smiles, then lies. Last comes gunfire - thought Roland.
+Enough of this! I want to hear no more. First comes smiles, then lies. Last
+comes gunfire - said Roland. I'll shoot you! - added.
 
-Enough of this! I want to hear no more. I'll shoot you! - Roland said.
+The Crimson King nodded, accepting the deal.
 
 Tonight redemption and death are tied together. Death, gunslinger, yet not for
 you.
@@ -337,7 +356,6 @@ The Crimson King knows it has been enough. They both know it has been enough.
 So.. I'm ready whenever you are ready — said King.
 
 Death is nothing but another door, it's time I cross it.
-
 
 Roland still unsure what to make out of this encounter, he still confused. But
 he will deliver, so he stand up, draws his heavy, ancient and deadly pistols.
@@ -389,7 +407,7 @@ The only worthy enemy.
 With this twist in the story I have remarked the main ideas that are present
 throughout all the books:
 
-* The Oh Discordia! phrase, that King said he heard in a dream.
+* The O Discordia! phrase, that King said he heard in a dream.
 * There are other worlds than these, many doors that lead to them, and death is
   one.
 * How Ka is a wheel. It is cyclyc but also moves.
@@ -399,5 +417,6 @@ throughout all the books:
 The vast universe created by King is all his novels together, not just The Dark
 Tower, and this way he would accomplish his dream of creating something vast
 and complex as Tokien did.
+
 
 [0]: https://www.goodreads.com/review/show/3920288?book_show_action=true&from_review_page=1
