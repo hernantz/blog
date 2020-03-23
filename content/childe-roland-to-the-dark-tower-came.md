@@ -85,24 +85,25 @@ entirely on content from the series.
    introduced to the town folk, dance the Commalah, etc. The kat-tet receives
    Black Thirteen from the cult that worshiped doors, the Mannis. Eddie sees
    Rolands past in it and how he will betray them for the Tower. Rolands sees
-   Jake falling, Sussanah gets possesed by Mia, a demon from the Prim that
-   inhabited inside the orb, that now starts to grow in her and wants the to
-   steal the orb, reach the tower and free all the monsters that inhabitate the
-   Prim. We understand why Roland is how he is, and why he wants to set the
-   Tower aside to help this town, to redeem himself. His determination for the
-   tower is succumbing now, he feels guilty, he is not as cold-hearted as he
-   seems. Jake's death would be Roland's secret to this ka-tet, and that's
-   hunting him, giving him nightmares, he tells no one but Talitha, the
-   matriach of the town, during the sessions where she helped him with his
-   arthritis. She also makes Andy, her robotic personal assistant, fond of
-   telling horoscopes, promise that will help Roland in times of need. She dies
-   of age, but gives Roland possession of her cross to lay at the Tower. At her
-   burial Andy says O Discordia! They later, after an argument realise they
-   have been keeping secrets from each other, and Black Thirteen is the
-   culprit, so they reconcile and share mind (like the Dogan metaphor that will
-   later be used to defeat the wolfs). Eddie gets knighted as a gunslinger,
-   trainning with Roland's martial knowledge. Sussanah becames a sister of
-   Oriza — women musn't bear guns.
+   all the ones he left behind because of his quest, Sussanah who can hold many
+   personalities gets possesed by Mia, a demon from the Prim that inhabited
+   inside the orb, that now starts to grow in her and wants the to steal the
+   orb, reach the tower and free all the monsters that inhabitate the Prim. We
+   understand why Roland is how he is, and why he wants to set the Tower aside
+   to help this town, to redeem himself. His determination for the tower is
+   succumbing now, he feels guilty, he is not as cold-hearted as he seems.
+   Jake's death would be Roland's secret to this ka-tet, and that's hunting
+   him, giving him nightmares, he tells no one but Talitha, the matriach of the
+   town, during the sessions where she helped him with his arthritis. She also
+   makes Andy, her robotic personal assistant, fond of telling horoscopes,
+   promise that will help Roland in times of need. She dies of age, but gives
+   Roland possession of her cross to lay at the Tower. At her burial Andy says
+   O Discordia! They later, after an argument realise they have been keeping
+   secrets from each other, and Black Thirteen is the culprit, so they
+   reconcile and share mind (like the Dogan metaphor that will later be used to
+   defeat the wolfs). Eddie gets knighted as a gunslinger, trainning with
+   Roland's martial knowledge. Sussanah becames a sister of Oriza — women
+   musn't bear guns.
 4. **The wind through the keyhole**. Roland is hidding with the kids of Calla
    waiting for the worlfs. Want to hear the story of the young gunslinger who
    slayed a Werewolf? Asks the kids. He proceeds to tell a story within a
@@ -212,16 +213,18 @@ speech. He reads: *Alone he was when he started his journey, and alone is how
 Roland reaches the Dark Tower.* — it makes no sense to him.
 
 There is one last door. A red one, with an Eye painted in blood. The eye of the
-Crimson King. He opens it and he is finally at the rooftop.
+Crimson King. It is already opened and it leads to the rooftop. He goes up.
 
 The sunset has started. He sees the never ending sea of roses, laying under the
-infinite shade casted by the Tower.
+infinite shade casted by the Tower. Crows are back, standing on the ledge.
 
-The Crimson King, in a human shape dressed in a red robe, is seated next to
-pile of black rocks he is stacking in what seems an imposible balance.
+The Crimson King, in a human shape, wearing glasses and dressed in a red robe.
+Hi is seated next to a lit furnace. The furnace has bores with the silhouette
+of the guardians. He is piling up black rocks, stacking them in what seems an
+imposible balance.
 
-Childe Roland to the dark tower came! Long days and pleasant nights, sai — he
-says.
+Childe Roland to the dark tower came! Long days and pleasant nights, sai — the
+man in red says.
 
 Roland, not sure what how to respond, says nothing.
 
@@ -229,22 +232,24 @@ You must be exhausted from your journey. So am I — adds with a smirk.
 
 What do you mean? Asked Roland.
 
-Take a seat Roland, it's about time we talked.
+It's getting chilly, come, take a seat by the fire Roland, it's about time we
+talked. We are going to have a clear stary night, it seems.
 
-Since I've thought about this moment for a long time, I decided it would be
-best to choose my words very carefully, you deserve it. I wrote you a letter —
-says he unfolds a piece of paper. Ready?
+Anyways. Since I've thought about this moment for a long time, I decided it
+would be best to choose my words very carefully, you deserve it. I wrote you a
+letter — says as he unfolds a piece of paper he took out from his sleeve.
+
+The Man in Red takes a deep breath. Ready?
 
 Dear Roland — begins to read out loud.
 
-I know what you want to hear, what you came all this way for.
+I know why you came all this way for. You are looking for answers. But... when
+we think we have all the answers, the questions change. So I'll give you
+something better instead. Redemption.
 
-You are looking for answers. But when we think we have all the answers, the
-questions change. So I'll give you something better instead. Redemption. 
-
-You are not a bad person, nor a good one. Most importantly, you have not
+You are not a bad person, nor a good one. ANd most importantly, you have not
 forgotten the face of your father. In this level of the tower, I get to judge
-that. You did well, better than I expected, And yes, it was worth it, all the
+that. You did well, better than I expected. And yes, it was worth it, all the
 blood and tears. Your loved ones left behind, their names in your head right
 now, and everything your ever cared. All this sacrifice, your existance, was
 used to construct this tower. Every door you have opened in your life, has been
@@ -257,19 +262,19 @@ This Tower is also my prison. It's been my obsession, a heavyweight burden, and
 one of my most ambitious projects. 
 
 One grows fond of every character and story that tells, each takes a peace,
-they feed from you, they become alive! Creating an universe, watching it grow
-and most importantly, keeping it alive, is an exhausting task. I was afraid of
-never be able to finish it.
+they feed from you, they become alive! Casting a universe into existance,
+watching it grow and most importantly, keeping it alive, is an exhausting task.
+I was afraid of never be able to finish it.
 
 But if I have to be honest, it is not trully me who creates, you know. To peek
 in Gan’s novel does not make one Gan, although many creative people seem to
 think so. No writer is Gan — no painter, no sculptor, no maker of music. We are
-kas-ka Gan. The prophets of Gan. Each prophet has a style. Mine is to put
-characters in dificult situations they have to overcome and become stronger.
+kas-ka Gan. The prophets of Gan. Each prophet has a style. Mine is to put my
+characters in dificult situations they have to overcome, and it changes them.
 
 I'm afraid all of this could fall apart at anytime. You don't get an idea how
 close I've been to death, and with that, the end of all. O Discordia! — the
-Crimson King laments.
+The Man in Red laments.
 
 Would I risk destroying your world as well as the other worlds I have touched
 with my imagination, and drawn from? Would I risk it all?
@@ -280,37 +285,40 @@ It's all in my mind, hunting me until I write it into existance. You, this
 tower, everything...  I've tried to stop you, time and time again, but you
 stayed on track in your crusade. I made you that way, Roland.
  
-All roads are different, because all towers are different. My road to the Tower
-is paved in ink. Yours is paved in blood. It might be something that only
-matters to us, We have to do it.
+All roads are different, because all towers are different. Your rode to the
+Tower is paved in blood. Mine is paved in ink. We have to walk it.
 
 We know it demands a lot of sacrifice, it might even mean our end, yet it is
 our duty to keep going on, for that we are destined to find it and climb it's
 steps. That is our redemption and we pay the price.
 
-How does this all fit in the grand scheme of this? Where is the Tower of all
+How does this all fit in the grand scheme of things? Where is the Tower of all
 towers? What would the nature of such tower be? Who will wait for us atop?
 Will anyone be there? No one knows.
 
 What matters is that this is your tower. You had to be here, gunslinger, it was
-your inevitable destiny. It was very important for me that you made it. I say
-thankya.
+your inevitable destiny. It was very important for me that you made it. 
+
+All things must come to an end, and this one story, your story and my role in
+it is no exception. It's time we say our goodbyes, Roland.
+
+I say thankya.
 
 The Crimson King looks at Roland, folds the letter again and then observes the
 constelations sprawling above. Roland does the same. All twelve guardians are
-there, shinnig brightly, perfectly aligned around the tower. The sword of Eld
-could easyly be appreciated in all it's splendor too.
+there, shinnig brightly, perfectly aligned around the tower. Polaris and the
+sword of Eld can easyly be appreciated in all their's splendor too.
 
-I know you are a bit overwelmed now. Belive me, this is not any easier for me either.
-I don't know how much could I bear if I were you. What universal truths would I
-have to swallow once I get to my Tower... I try not to think... It might be...
-mmm... unwise.
+I know you are a bit overwelmed now. Belive me, this is not any easier for me
+either.  I don't know how much could I bear if I were you. What universal
+truths would I have to swallow once I get to my Tower... I try not to think...
+It might be...  mmm... unwise.
 
 Both stare at the fire in silence for what seemed a very long time.
 
 Who are you? Asked Roland finally.
 
-I am your maker, Roland. Consider yourself lucky, how many get that chance? I
+I am your maker, Roland. Consider yourself lucky. How many get that chance? I
 hadn't, yet... I hope. I know there's someone greater than me. There always is.
 Remember gunslinger, the greatest mystery the Universe offers is not life but
 size. Size encompasses life, and the Tower encompasses size.
@@ -319,8 +327,9 @@ The gunslinger, plain as he is, doesn't like this talking. Shivers run through
 his spine. 
 
 I have many names, the Crimson King is one of them, it is how I'm known here.
-But my real name is Stephen, Stephen King, see the pun? I'm a writer, the man
-behind the curtain — and gestures with his fingers as if typing in the air.
+But my real name is Stephen, Stephen King, see the pun? I'm a writer, a
+pupeteer, the man behind the curtain — and gestures with his fingers as if
+typing in the air.
 
 Bullshit, you are a charlatan, that's what you are. Enough of this! I want to
 hear no more.
@@ -333,16 +342,13 @@ you!.
 The Crimson King nodded, accepting the deal. Go on then! There are other worlds
 than these. Death is nothing but another door. 
 
-Tonight redemption and death are tied together. Death, gunslinger, yet not for
-you.
+Tonight — the Crimson King continues — redemption and death are tied together.
+Death, gunslinger, yet not for you.
 
-I will move on, I'm mortal after all, you will soon find out. It is in your
-destinity to kill me. Do what you have to do.
+It is in your destinity to kill me. Do what you have to do. I will move on, I'm
+mortal after all, you will soon find out. 
 
-All things must come to an end, and this one story, your story and my role in
-it is no exception. It's time we say our goodbyes, Roland.
-
-What will happen after?
+Just like that... What will happen after? — Roland asked.
 
 I'll let you be. And you will walk through that door waiting for you
 downstairs. Where it leads it won't matter to me anymore, another tower
@@ -357,7 +363,7 @@ So.. I'm ready whenever you are — said King.
 Roland nods, stands up, draws his heavy, ancient and deadly pistols.
 
 As the first rays of dawn appear in the horizon, he shoots the Crimson King
-dead.  The creature that claimed to be his creator trips and falls down. With
+dead. The creature that claimed to be his creator trips and falls down. With
 his red robe, that contrast with the pitch black color of the Tower, making it
 seem as if he was ablaze while falling.
 
@@ -391,21 +397,21 @@ encounter with the man in black, which I think was breathtaking. The Crimson
 King falling from the Tower is also a very memorable image. Maybe this series
 
 I think this idea of meta-fiction was really interesting, but I didn't like how
-King did it in the series. He fits the perfect final villain of all universes.
-The only worthy enemy.
-With this twist in the story I have remarked the main ideas that are present
-throughout all the books:
+King did it in the series. The only worthy finale. A deus ex machina.
+
+Also with this twist in the story I have remarked the main ideas that are
+present throughout all the books, and all these ideas entangled with the
+meaning of the Tower:
 
 * The O Discordia! phrase, that King said he heard in a dream.
 * There are other worlds than these, many doors that lead to them, and death is
-  one.
-* How Ka is a wheel. It is cyclyc but also moves.
+  nothing but another door.
+* How Ka is a wheel, that also moves.
 * Size is the greatest mystery the Universe offers.
-* And all this, entangled with the meaning of the Tower.
 
 The vast universe created by King is all his novels together, not just The Dark
 Tower, and this way he would accomplish his dream of creating something vast
-and complex as Tokien did.
+and complex as Tokien once did.
 
 
 [0]: https://www.goodreads.com/review/show/3920288?book_show_action=true&from_review_page=1
