@@ -15,12 +15,12 @@ improved.
 Since many people tend to canalize this spark in some form of fan-fiction, I
 figured, why not do the same?
 
-In this case I'll review the Dark Tower book series, which I read a long time
-ago. In my opinion, Stephen King's magnum opus ended up being too ambitious and
-I reckon he felt this urge to finish it somehow, after the accident of course.
-And, the fact that he is now sober did't help either.
+In this case I'll write about the Dark Tower book series, which I read a long
+time ago. In my opinion, Stephen King's magnum opus ended up being too
+ambitious, the fact that he is now sober did't help his inspiration either, and
+I think he felt this urge to finish it somehow, after the accident of course.
 
-See, not many people disagree with me:
+To my liking, not many people disagree with me:
 
 > [...] Wolves of the Calla, Song Of Susannah (UGH!) and this, The Dark Tower. They
 > all seem to have been written in a rush after King's brush with mortality
@@ -37,131 +37,131 @@ See, not many people disagree with me:
 
 ## My attempt at fixing everything
 
-I loved the first and second books as is, they are brilliant (you can almost
-feel the effect of drugs kicking in Stephen's mind). The Wastelands is where
-the story starts to deteriorate. I would have never resurrected Jake and I
-would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet Corp, Angul
-Siento, Calvin Tower, Mordred and Dixie Pig. This all could have been great
-material for a sequel of Salem's Lot to find out what happend with father
-Kallahan. But here it felt weird.
+I loved the first and second books as is, they are brilliant, you can almost
+feel the effect of Stephen's high state of mind, high... get it?. The Waste
+Lands is where the story starts to deteriorate. I would have never resurrected
+Jake and I would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet
+Corp, Angul Siento, Calvin Tower, Mordred and Dixie Pig. This all could have
+been great material for a sequel of Salem's Lot, but here it felt weird.
 
 This is how I would mixed and re-organize the world of the Dark Tower, based
 entirely on content from the series.
 
-1. **The gunslinger**. First edition of course, stays almost intact. The town
-   folk, rallied by the preacher woman, has beaten and raped the bartender
-   girl. She begs Roland to kill her. O Discordia! she screams before getting a
-   headshot. The Man in Black also mentions the reasons behind following the
-   Crimson King: *"You think that John Farson or I are on the bad side. But
-   what makes you believe you are on the right side? The Crimson King might
-   have gone mad, and his ways are misterious, yes. But that is nothing to do
-   with my reason to be with his cause. The problem with this whole good & bad
-   thing is that chaos is not evil any more then order is good. Balance between
-   chaos and order is necessary. With no chaos nothing would ever change or be
-   created. Without order nothing could ever thrive once it is created.
-   Conflict forces change and change is how progress happens. Sometimes in
-   order to create, one must first destroy. The Crimson King is starting a
-   revolution, and for it to succeed, the Tower must fall!"*
+1. **The gunslinger**. First edition of course, stays almost intact, with some
+   tweaks though. The town folk, rallied by the preacher woman, has beaten and
+   raped the bartender girl. She begs Roland to kill her. O Discordia! she
+   screams before getting a headshot. The Man in Black also mentions the
+   reasons behind following the Crimson King: *"You think that John Farson or I
+   are on the wrong side. But what makes you believe you are on the right one?
+   The Crimson King might have gone mad and recluded in the Tower, his ways are
+   misterious, yes. But that has nothing to do with my reason to be with his
+   cause. The problem with this whole good & bad thing is that chaos is not
+   evil any more then order is good. Balance between chaos and order is
+   necessary. With no chaos nothing would ever change or be created. Without
+   order nothing could ever thrive once it is created. Conflict forces change
+   and change is how progress happens. Sometimes in order to create, one must
+   first destroy. The Crimson King is starting a revolution, and for it to
+   succeed, the Tower must fall!"*
 2. **The drawing of the three**. Pretty much stays intact too. When Roland
-   looses his fingers laments with O Discordia. He doesn't save Jake. The third
-   member of the ka-tet is Oy.
-3. **Wizzard and glass**. We learn about Roland's youth story at Mejis. When
-   the ka-tet returns from Mejis, brought the Grapefruit orb and a kid with
-   them, Bill, who is now an orphan because of the gang of the Big Coffin
-   Hunters killed his parents. After Gabrielle Deschain's murder, Roland and
-   Jamie travel back to Serenity, where the women agree to adopt young Bill.
-   The sisters that run the place also give Roland a note written by his mother
-   during her stay in there. In this note, his mother reveals that Marten has
-   predicted that Roland will one day kill her. Although this has caused her to
-   slowly lose her sanity, in the end she forgives Roland and asks that he
-   forgive her infidelity to his father and betrayal of Gilead in return.
-   Roland never talks about this with his father. I think this is a good
-   closure for that story.
-3. **Wolfs of Calla**. They find Calla (the far end of their known Mid-World)
-   after chasing someone who was visiting the North Central Positronics Dogan.
-   The Dogan becomes the standard metaphor for the internal workings of the
-   brain of the ka-tet and Mia's possesion. There is a door they cannot open
-   with the Crimson's King eye graffitied. They are introduced to the town
-   folk, the wolfs, dance the Commalah, etc. They prepare for the battle
-   trainning, with Roland's martial knowledge. The kat-tet receives Black
-   Thirteen from the cult that worshiped doors, the Mannis. Eddie sees Rolands
-   past in it and how he will betray them for the Tower. Rolands sees Jake
-   falling, Sussanah gets possesed by Mia, a demon from the Prim that inhabited
-   inside the orb, that now starts to grow in her and wants the to steal the
-   orb to reach the tower and free all the monsters that inhabitate the Prim.
-   We understand why Roland is how he is, and why he wants to set the Tower
-   aside to help this town, to redeem himself. His determination for the tower
-   is succumbing now, he feels guilty, he is not as cold-hearted as he seems.
-   Jake's death would be Roland's secret to this ka-tet, and that's hunting
-   him, giving him nightmares, he tells no one but Talitha, the matriach of the
-   town, during the sessions where she helped him with his arthritis. She also
-   makes Andy, her robotic personal assistant, fond of telling horoscopes,
-   promiss that will help Roland in times of need. She dies of age, but gives
-   Roland possession of her cross to lay at the Tower, Andy says O Discordia!
-   at her burial. They later, after a fight realise they have been keeping
-   secrets from each other, and Black Thirteen is the culprit, so the reconcile
-   and share mind (like the Dogan metafor that will later be used to defeat the
-   wolfs). Eddie gets knighted as a gunslinger. Sussanah becames a sister of
-   Oriza, women musn't bear guns.
+   looses his fingers laments with O Discordia. He doesn't save Jake.
+3. **Wizzard and glass**. We learn about Roland's youth story at Mejis. Roland
+   sees Susan die in the Wizard's glass and is devastated, blaming himself for
+   her death, O Discordia. When the ka-tet returns from Mejis, they bring the
+   Grapefruit orb and a kid with them, Bill, who is now an orphan because of
+   the Big Coffin Hunters killed his parents. After Gabrielle Deschain's
+   matricide, Roland and Jamie travel back to Serenity, where the sisters that
+   run the place agree to adopt young Bill. They also give Roland a note
+   written by his mother during her stay in there. In this note, his mother
+   reveals that Marten has predicted that Roland will one day kill her.
+   Although this has caused her to slowly lose her sanity, in the end she
+   forgives Roland and asks that he forgive her infidelity to his father and
+   betrayal of Gilead in return. Roland never talks about this with his father.
+   I think this is a good closure for that story.
+3. **Wolfs of Calla**. Oy joins the ka-tet. They find Calla (the far end of
+   their known Mid-World) after chasing someone who was visiting the North
+   Central Positronics Dogan. The Dogan becomes the standard metaphor for the
+   internal workings of the brain of the ka-tet and Mia's possesion. There is a
+   door they cannot open with the Crimson's King eye graffited. They are
+   introduced to the town folk, dance the Commalah, etc. The kat-tet receives
+   Black Thirteen from the cult that worshiped doors, the Mannis. Eddie sees
+   Rolands past in it and how he will betray them for the Tower. Rolands sees
+   Jake falling, Sussanah gets possesed by Mia, a demon from the Prim that
+   inhabited inside the orb, that now starts to grow in her and wants the to
+   steal the orb, reach the tower and free all the monsters that inhabitate the
+   Prim. We understand why Roland is how he is, and why he wants to set the
+   Tower aside to help this town, to redeem himself. His determination for the
+   tower is succumbing now, he feels guilty, he is not as cold-hearted as he
+   seems. Jake's death would be Roland's secret to this ka-tet, and that's
+   hunting him, giving him nightmares, he tells no one but Talitha, the
+   matriach of the town, during the sessions where she helped him with his
+   arthritis. She also makes Andy, her robotic personal assistant, fond of
+   telling horoscopes, promise that will help Roland in times of need. She dies
+   of age, but gives Roland possession of her cross to lay at the Tower. At her
+   burial Andy says O Discordia! They later, after an argument realise they
+   have been keeping secrets from each other, and Black Thirteen is the
+   culprit, so they reconcile and share mind (like the Dogan metaphor that will
+   later be used to defeat the wolfs). Eddie gets knighted as a gunslinger,
+   trainning with Roland's martial knowledge. Sussanah becames a sister of
+   Oriza — women musn't bear guns.
 4. **The wind through the keyhole**. Roland is hidding with the kids of Calla
    waiting for the worlfs. Want to hear the story of the young gunslinger who
-   slayed a Werewolf? He tells the little sisters of Eluria story. Basically
-   the good sister tell him *the wind through the keyhole* story one night,
-   while Roland is recovering from the sickness so he could sleep. The story is
-   the same but the young boy slayed a werewolf in the swamp instead of
-   encountering a dragon, with the gun and silver bullet that the Covenant Man
-   gives him. He is later slayed by a dragon in the same swamp when trying when
-   he returns to the enchanted forest looking to save another girl. Back in
-   Calla, they defeat the wolfs, many folks die, including children. They
-   notice that someone has given information to the wolfs. Eddie dies in this
-   fight, he was not true knights after all. His body is buried with his gun,
-   and a rose is planted in his grave like a gunslinger funeral. In front of
-   all the new graves, Roland gives a speech, that ends with: O Discordia! The
-   Tower demanded another sacrifice, now Roland is determined to end this
-   curse. Ka is a wheel, and again, for saving the day, he must pay with blood
-   of his loved ones, and looses his ka-tet again. His road to the Tower is
-   paved in blood.They burn the jaw of the men in black, and ask the fire a
-   question and the fire shows them a vision of the traitor, who they hung. He
-   wanted his daughters to survive and become the new rulers of the Callas  *I,
-   Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector
-   of the Dark Tower, sentence you to die*. Sussanah get's finally possesed and
-   tries to murder the gunslinger, in the fight manipulates Oy (again with the
-   Dogan methaphor) to attack Roland, you looses an eye. Roland shoots Oy who
-   dies in his hands, it's last word is *Tower*. From now on he will wear an
-   eye patch and a big scar in his face. Mia escapes with the orb, but gets
-   caught by And and later exorsised by the Mannis. With some remnants of magic
-   and magnets they throw the demon through a portal in the Doorway Cave to the
+   slayed a Werewolf? Asks the kids. He proceeds to tell a story within a
+   story, begining with the little sisters of Eluria, when sister Jenna
+   narrates him *the wind through the keyhole* while Roland is recovering at
+   the hospital. The story is the same but the young boy slayed a werewolf in
+   the swamp instead of encountering a dragon, with the gun and silver bullet
+   that the Covenant Man gives him. He is later slayed by a dragon in the same
+   swamp when trying when he returns to the enchanted forest looking to save
+   another girl. Although Roland omits that part to the kids. Back in Calla,
+   they defeat the wolfs, many folks die, including children. They notice that
+   someone has given information to the wolfs. Eddie dies in this fight, he was
+   not true knights after all. His body is buried with his gun, and a rose is
+   planted in his grave like a gunslinger funeral. In front of all the new
+   graves, Roland gives a speech, that ends with: O Discordia! The Tower
+   demanded another sacrifice, now Roland is determined to end this curse. Ka
+   is a wheel, and again, for saving the day, he must pay with blood of his
+   loved ones, and looses his ka-tet again. They burn the jaw of the Man in
+   Black, and ask the fire a question, the fire answers with a vision of the
+   traitor visiting the Dogan. The traitor did it so that his daughters may
+   survive. He begs for mercy before getting hunged. *I, Roland Deschain of
+   Gilead, son of Steven, last in the line of Eld, protector of the Dark Tower,
+   sentence you to die*. Sussanah get's finally possesed and tries to murder
+   the gunslinger, in the fight manipulates Oy (again with the Dogan metaphor)
+   to attack Roland, you looses an eye. Roland shoots Oy who dies in his hands,
+   it's last word is *Tower*. He is left with a big scar in his face and from
+   now on he will wear an eye patch. Mia escapes with the orb, but gets caught
+   by And and later exorsised by the Mannis. With some remnants of magic and
+   magnets they throw the demon through a portal in the Doorway Cave to the
    Todash. After that Sussanah decides to stay at Calla as a sister of Oriza,
    and maybe marries someone there to become the new matriach, since Talitha
    had no descendants.
-5. **Wastelands**. Roland returns to the North Central Positronics dogan, with
-   help of Andy, they open the locked door and get a terminal to tell them
-   where the beam is and they figure that it is connected with Lud. With some
-   shardik's reference, we learn a bit about the myth of the guardians. That is
-   where the wolfs come from. They follow it into the Outer-World to Lud with
-   Black thirteen and Andy. In Lud, we enjoy all the post-apocaliptic cyberpunk
-   goodness ala Mad Max or The 100, graffities of the Crimson King eye and some
-   slow mutants too. We learn that gangs stole kids to give them to Dandelo, a
-   minion of the Crimson King, who roont them, a monster similar to IT, if not
-   IT itself. Dandelo feeds from emotions, so it is Andy the one that kills it
-   by self-destructing, saving Rolands life. Roland finds that there are good
+5. **The Waste lands**. Roland returns to the North Central Positronics Dogan,
+   with help of Andy, they open the locked door. A terminal tells is connected
+   with Lud, where the wolfs come from. That is where the beam starts. We learn
+   a bit about the myth of the guardians. They leave to Outer-World with Black
+   thirteen. In Lud, we enjoy all the post-apocaliptic cyberpunk goodness ala
+   Mad Max or The 100, graffities of the Crimson King eye and some slow mutants
+   too. We learn that gangs stole kids to give them to Dandelo, a minion of the
+   Crimson King, who roont them, a monster similar to IT, if not IT itself.
+   Dandelo feeds from emotions, so it is Andy the one that kills it by
+   self-destructing, saving Rolands life. Roland finds that there are good
    people still in this ruined world. The kids that returned roont, were helped
-   by some good folk (someone saved my life tonight?). When he kills one of
-   them: *you didn't have to kill him, it was his birthday today, oh
-   Discordia...*. Blain kills everyone in the city by orders of the Crimson
-   King, who has gone mad and is now recluded at the top of the Tower.
+   by some good folk (someone saved my life tonight?). When he kills one of the
+   pubs in a confusing episode, someone says: *you didn't have to kill him, it
+   was his birthday today, O Discordia...*. Blain kills everyone and leaves
+   following the path of the Beam.
 6. **The Dark Tower**. Roland beats the train with a stupid riddle Curthbert
-   once told him, before the battle at Jerico hill, where we learn a bit more
-   about the fate of Farson. After passing some of the worlds of other stories
-   (the Tower is colapsing and all the worlds are blending), Roland is left in
-   the final stop, Tower Station, the door to the Tower, the only one in
-   All-World. The old ones built this station and tried everything to open that
-   portal, yet never successfuly. Blaine commits suicide. Roland has Black
-   Thirteen that *weaks up* and starts to absorb everything like a blackhole,
-   including him. The gunslinger has this vision of the rose that holds all the
-   suns and all the universes that Jake saw in NYC, and all the lovecroftian
-   darkness and beings of the Prim in between worlds. Wakes up in the crimson
-   fields of Can'-Ka No Rey.
+   once told him, at the battle of Jerico hill. We learn a bit more about it,
+   the fall of Gilead and also the fate of Farson. After passing some of the
+   worlds of other stories (the Tower is colapsing and all the worlds are
+   blending), Roland is left in the final stop, Tower Station, the door to the
+   Dark Tower, the only one in All-World. The old ones built this station and
+   tried everything to open that portal, yet never successfuly. Blaine commits
+   suicide. Roland has Black Thirteen that *weaks up* and starts to absorb
+   everything like a blackhole, including him. The gunslinger has this vision
+   of the rose that holds all the suns and all the universes that Jake saw in
+   NYC, and all the lovecroftian darkness and beings of the Prim in between
+   worlds. Wakes up in the crimson fields of Can'-Ka No Rey.
 
 
 ## My alternative ending
@@ -192,7 +192,7 @@ realizes there are murals carved on them. Murals that tell the origin of it
 all, the legend of Eld, he keeps going, the fall of Gilead, more steps.
 
 To his surprise, the murals now tell his life, Alain and Cuthbert, the battle
-of Jerico hill, the girl at the window — his true and only love Susan.
+of Jerico hill, the lovely girl at the window — his true and only love Susan.
 
 His heart halts abruptly. Eluria, the Mohaine desert, Jake, the man in black.
 He shivers. Talitha, Eddie, Sussanah, Oy. It's too much. Tears start to fall.
@@ -273,9 +273,9 @@ our duty to keep going on, for that we are destined to find it and climb it's
 steps.
  
 All roads are different, because all towers are different. My road to the Tower
-is paved in ink. It might be something that only matters to us, but in the
-grand scheme we are nothing but dust. We have to do it. That is our redemption
-and we pay the price. 
+is paved in ink. Yours is paved in blood. It might be something that only
+matters to us, but in the grand scheme we are nothing but dust. We have to do
+it. That is our redemption and we pay the price.
 
 And where is the Tower of all towers? What would the nature of such tower be?
 Who will wait for us atop? Will anyone be there? No one knows.
