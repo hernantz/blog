@@ -134,10 +134,12 @@ entirely on content from the series.
    by And and later exorsised by the Mannis. With some remnants of magic and
    magnets they throw the demon through a portal in the Doorway Cave to the
    Todash. After that Sussanah decides to stay at Calla as a sister of Oriza,
-   and maybe marries someone there to become the new matriach, since Talitha
-   had no descendants.
+   and maybe become the new matriach, since Talitha had no descendants, the
+   sisters will hold elections. The town folk complain that the Gunslinger
+   intervention was for worse, more people died, and now the town must be
+   rebuilt. He is asked to leave and never come back.
 5. **The Waste lands**. Roland returns to the North Central Positronics Dogan,
-   with help of Andy, they open the locked door. A terminal tells is connected
+   and with help of Andy, opens the locked door. A terminal tells is connected
    with Lud, where the wolfs come from. That is where the beam starts. We learn
    a bit about the myth of the guardians. They leave to Outer-World with Black
    thirteen. In Lud, we enjoy all the post-apocaliptic cyberpunk goodness ala
@@ -158,11 +160,12 @@ entirely on content from the series.
    blending), Roland is left in the final stop, Tower Station, the door to the
    Dark Tower, the only one in All-World. The old ones built this station and
    tried everything to open that portal, yet never successfuly. Blaine commits
-   suicide. Roland has Black Thirteen that *weaks up* and starts to absorb
-   everything like a blackhole, including him. The gunslinger has this vision
-   of the rose that holds all the suns and all the universes that Jake saw in
-   NYC, and all the lovecroftian darkness and beings of the Prim in between
-   worlds. Wakes up in the crimson fields of Can'-Ka No Rey.
+   suicide. Black Thirteen *weaks up*, starts to vibrate and with a deafening
+   sound grows and expands absorving everything like a blackhole, including
+   Roland. The gunslinger has this vision of the rose that holds all the suns
+   and all the universes that Jake saw in NYC, and all the lovecroftian beings
+   of the Prim in between worlds. Wakes up in the crimson fields of Can'-Ka No
+   Rey.
 
 
 ## My alternative ending
@@ -236,7 +239,7 @@ It's getting chilly, come, take a seat by the fire Roland, it's about time we
 talked. We are going to have a clear stary night, it seems, how appropriate.
 
 Roland draws his weapons and sits. First comes smiles, then lies. Last comes
-gunfire —  says to himself.
+gunfire — says to himself.
 
 The Crimson Kings looks at the guns and then back to Roland.
 
@@ -333,7 +336,7 @@ Shivers run through his spine.
 I know you are a bit overwelmed now - says the Crimson King. Belive me, this is
 not any easier for me either than it is for you. I don't know how much could I
 bear if I were you. What universal truths would I have to swallow once I get to
-my Tower... I try not to think...  It might be...  mmm... unwise.
+my Tower... I try not to think... It might be... mmm... unwise.
 
 Back to silence.
 
@@ -444,8 +447,8 @@ A new rose blooms in it's place. A new rose in the infinite crimson sea.
 
 Fin.
 
-## Final notes
 
+## Final notes
 
 I think the idea of meta-fiction was really interesting, but I didn't like how
 King did it in the series. So I decided it would be best if it was used as a
