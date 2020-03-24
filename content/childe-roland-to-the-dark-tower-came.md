@@ -16,9 +16,11 @@ Since many people tend to canalize this spark in some form of fan-fiction, I
 figured, why not do the same?
 
 In this case I'll write about the Dark Tower book series, which I read a long
-time ago. In my opinion, Stephen King's magnum opus ended up being too
-ambitious, the fact that he is now sober did't help his inspiration either, and
-I think he felt this urge to finish it somehow, after the accident of course.
+time ago.
+
+In my opinion, Stephen King's magnum opus ended up being too ambitious. I think
+he felt this urge to finish it somehow, after the accident of course, and the
+fact that he was sober didn't help his inspiration either.
 
 To my liking, not many people disagree with me:
 
@@ -38,7 +40,7 @@ To my liking, not many people disagree with me:
 ## My attempt at fixing everything
 
 I loved the first and second books as is, they are brilliant, you can almost
-feel the effect of Stephen's high state of mind, high... get it?. The Waste
+feel the effect of Stephen's high state of mind, high... get it? The Waste
 Lands is where the story starts to deteriorate. I would have never resurrected
 Jake and I would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet
 Corp, Angul Siento, Calvin Tower, Mordred and Dixie Pig. This all could have
