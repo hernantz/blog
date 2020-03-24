@@ -46,7 +46,7 @@ Jake and I would forget about the whole idea of 19, The Wizzard of Oz, Ka-tet
 Corp, Angul Siento, Calvin Tower, Mordred and Dixie Pig. This all could have
 been great material for a sequel of Salem's Lot, but here it felt weird.
 
-This is how I would mixed and re-organize the world of the Dark Tower, based
+This is how I would mix and re-organize the world of the Dark Tower, based
 entirely on content from the series.
 
 1. **The gunslinger**. First edition of course, stays almost intact, with some
@@ -164,7 +164,7 @@ entirely on content from the series.
    blending), Roland is left in the final stop, Tower Station, the door to the
    Dark Tower, the only one in All-World. The old ones built this station and
    tried everything to open that portal, yet never successfuly. Blaine commits
-   suicide. Black Thirteen *weaks up*, starts to vibrate and with a deafening
+   suicide. Black Thirteen *wakes up*, starts to vibrate and with a deafening
    sound grows and expands absorving everything like a blackhole, including
    Roland. The gunslinger has this vision of the rose that holds all the suns
    and all the universes that Jake saw in NYC, and all the lovecroftian beings
