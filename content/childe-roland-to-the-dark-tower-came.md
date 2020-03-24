@@ -173,11 +173,11 @@ I put special atention to the opening line:
 *Alone he was when he started his journey, and alone is how Roland reaches the
 Dark Tower.*
 
-The Tower is the apotheosis of all towers. It seems to be a monolith, sculpted
-from a single huge stone. Black, of course. It is cracked, and some sort of
-dense fluid comes out of the cracks. Blood of course. The Tower is bleeding.
-That blood feeds the surrounding fields of roses. The Tower is alive, but in
-agony, it's roots are drying up.
+The Tower is the apotheosis of all towers. It is sculpted from a single huge
+stone. The monolith, black of course, is cracked. Some sort of dense fluid
+comes out of the cracks. Blood of course. The Tower is bleeding. That blood
+feeds the surrounding field of roses. The Tower is alive, but in agony, it's
+roots are drying up.
 
 The entrance is a huge ghostwood door and depicts all the twelve guardians of
 the beam engraved on it.
@@ -187,18 +187,17 @@ Cuthbert's horn to open it. The crows resting on the top of the tower take
 flight, scared by it's loud and deep sound. And the door opens, of course.
 
 The inside is void. There are no windows and no decorations on the walls. Only
-spiraling steps. A hundred? Or a thouthand maybe? He begins to climb.
+spiraling steps lit by torches. A hundred? Or a thousand maybe? He begins to
+climb.
 
-After a while, he is halfway to the top and takes some time to recover, then,
-more steps. His hands touch something on the wall, some sort of pattern. He
-realizes there are murals carved on them. Murals that tell the origin of it
-all,  strange figures and symbols the Man in Black had shown him the long night
-they met. He keeps going. More
-steps.
+After a while, he takes some time to recover and realizes there are murals
+carved on the walls. Murals that tell the origin of it all, strange figures and
+symbols the Man in Black had shown him the long night they met. He keeps going.
+More steps.
 
 To his surprise, the murals now tell The legend of Arthur Eld, the fall of
-Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill, the lovely
-girl at the window — his true and only love Susan.
+Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill. More
+steps. The lovely girl at the window — his true and only love Susan.
 
 Eluria, the Mohaine desert, Jake, the Man in Black — he shivers. The doors by
 the beach, Calla, Eddie, Sussanah, Talitha, Oy. Everyone is there.
@@ -208,20 +207,21 @@ weird way.
 
 He finally reaches the top.
 
-There is a strange typing machine on a desk, with a piece of writing in low
-speech. He reads: *Alone he was when he started his journey, and alone is how
-Roland reaches the Dark Tower.* — it makes no sense to him.
+There is a strange typing machine on a desk, with a piece of yellow papaer and
+a writting in low speech. *Alone he was when he started his journey, and alone
+is how Roland reaches the Dark Tower.* — he reads, it makes no sense to him.
 
-There is one last door. A red one, with an Eye painted in blood. The eye of the
-Crimson King. It is already opened and it leads to the rooftop. He goes up.
+There is a red door, with the same eye he has seen before, painted on top. The
+eye of the Crimson King. It is already opened and it leads to the rooftop. 
 
-The sunset has started. He sees the never ending sea of roses, laying under the
-infinite shade casted by the Tower. Crows are back, standing on the ledge.
+He goes up. The sunset has started. He sees the never ending sea of roses,
+laying under the infinite shade casted by the Tower. Crows are back, standing
+on the ledge.
 
-The Crimson King, in a human shape, wearing glasses and dressed in a red robe.
-Hi is seated next to a lit furnace. The furnace has bores with the silhouette
-of the guardians. He is piling up black rocks, stacking them in what seems an
-imposible balance.
+The Crimson King, is in a human shape, wearing glasses and dressed in a red
+robe. Hi is seated next to a lit furnace. The furnace has bores with the
+silhouette of the guardians. He is piling up black rocks, stacking them in what
+seems an imposible balance.
 
 Childe Roland to the dark tower came! Long days and pleasant nights, sai — the
 man in red says.
@@ -233,13 +233,22 @@ You must be exhausted from your journey. So am I — adds with a smirk.
 What do you mean? Asked Roland.
 
 It's getting chilly, come, take a seat by the fire Roland, it's about time we
-talked. We are going to have a clear stary night, it seems.
+talked. We are going to have a clear stary night, it seems, how appropriate.
+
+Roland draws his weapons and sits. First comes smiles, then lies. Last comes
+gunfire —  says to himself.
+
+The Crimson Kings looks at the guns and then back to Roland.
 
 Anyways. Since I've thought about this moment for a long time, I decided it
-would be best to choose my words very carefully, you deserve it. I wrote you a
-letter — says as he unfolds a piece of paper he took out from his sleeve.
+would be best to choose my words very carefully, you deserve it.
 
-The Man in Red takes a deep breath. Ready?
+I wrote you a letter — says as he unfolds a piece of paper he took out from his
+sleeve.
+
+The Crimson King takes a deep breath. Ready?
+
+Roland is mute.
 
 Dear Roland — begins to read out loud.
 
@@ -247,157 +256,205 @@ I know why you came all this way for. You are looking for answers. But... when
 we think we have all the answers, the questions change. So I'll give you
 something better instead. Redemption.
 
-You are not a bad person, nor a good one. ANd most importantly, you have not
+You are not a bad person, nor a good one. And most importantly, you have not
 forgotten the face of your father. In this level of the tower, I get to judge
-that. You did well, better than I expected. And yes, it was worth it, all the
-blood and tears. Your loved ones left behind, their names in your head right
+that.
+
+You did well, better than I expected. And yes, it was worth it, all the blood
+and tears. Your loved ones left behind, their names echoing in your head right
 now, and everything your ever cared. All this sacrifice, your existance, was
 used to construct this tower. Every door you have opened in your life, has been
 inside this place. It will withstand the eons of time, and your story will
 prevail in it's murals, and in other worlds too, Roland.
 
-The Crimson king takes a moment and continues.
+The Crimson king takes a moment, a deep breath and continues.
 
-This Tower is also my prison. It's been my obsession, a heavyweight burden, and
-one of my most ambitious projects. 
+This Tower is also my prison. — exhales. It's been my obsession, a heavyweight
+burden, and one of my most ambitious projects. One I though would never be able
+to finish.
 
-One grows fond of every character and story that tells, each takes a peace,
-they feed from you, they become alive! Casting a universe into existance,
-watching it grow and most importantly, keeping it alive, is an exhausting task.
-I was afraid of never be able to finish it.
+We all have our Tower, our epic quest. You are part of mine, gunslinger.
 
-But if I have to be honest, it is not trully me who creates, you know. To peek
-in Gan’s novel does not make one Gan, although many creative people seem to
-think so. No writer is Gan — no painter, no sculptor, no maker of music. We are
-kas-ka Gan. The prophets of Gan. Each prophet has a style. Mine is to put my
-characters in dificult situations they have to overcome, and it changes them.
-
-I'm afraid all of this could fall apart at anytime. You don't get an idea how
-close I've been to death, and with that, the end of all. O Discordia! — the
-The Man in Red laments.
-
-Would I risk destroying your world as well as the other worlds I have touched
-with my imagination, and drawn from? Would I risk it all?
-
-We all have our tower, our epic quest. You are part of mine, gunslinger.
+One grows fond of every character and story that tells. Each tale casts a
+universe into existance, each one takes a peace of you, it feeds from your
+imagination until it is alive. This process is a wonderful mystery and an
+exhausting task.
 
 It's all in my mind, hunting me until I write it into existance. You, this
-tower, everything...  I've tried to stop you, time and time again, but you
-stayed on track in your crusade. I made you that way, Roland.
+tower, everything...
  
-All roads are different, because all towers are different. Your rode to the
-Tower is paved in blood. Mine is paved in ink. We have to walk it.
+All roads are different, because all towers are different. I've put you through
+difficult situations, tried to stop you, time and time again, but you stayed on
+track in your crusade. I made you that way, Roland. Your road to the Tower is
+paved in blood. Mine is paved in ink. Yet we both had to walk it together.
 
 We know it demands a lot of sacrifice, it might even mean our end, yet it is
 our duty to keep going on, for that we are destined to find it and climb it's
 steps. That is our redemption and we pay the price.
 
+I'm afraid all of this could fall apart at anytime. You don't get an idea how
+close I've been to death, and with that, the end of this all. O Discordia! —
+the The Crimson King laments.
+
+Would I risk destroying your world as well as the other worlds I have touched
+with and drawn from my imagination? Would I risk it all?
+
+But if I have to be honest, it is not trully me who creates, you know. To peek
+in Gan’s novel does not make one Gan, although many creative people seem to
+think so. No writer is Gan — no painter, no sculptor, no maker of music. We are
+kas-ka Gan. The prophets of Gan.
+
 How does this all fit in the grand scheme of things? Where is the Tower of all
 towers? What would the nature of such tower be? Who will wait for us atop?
-Will anyone be there? No one knows.
+Will anyone be there?
+
+I don't know. Probably no one knows for sure. But i'm sure of one thing, each
+anwer leads to more questions.
 
 What matters is that this is your tower. You had to be here, gunslinger, it was
-your inevitable destiny. It was very important for me that you made it. 
+your inevitable destiny. It was very important for me that you made it.
 
 All things must come to an end, and this one story, your story and my role in
-it is no exception. It's time we say our goodbyes, Roland.
+it, is no exception. It's time we say our goodbyes, Roland.
 
 I say thankya.
 
-The Crimson King looks at Roland, folds the letter again and then observes the
-constelations sprawling above. Roland does the same. All twelve guardians are
-there, shinnig brightly, perfectly aligned around the tower. Polaris and the
-sword of Eld can easyly be appreciated in all their's splendor too.
+The Crimson King looks at Roland, folds the letter again and throws it inside
+the furnace. Millions of sparks ascend into the night sky.
 
-I know you are a bit overwelmed now. Belive me, this is not any easier for me
-either.  I don't know how much could I bear if I were you. What universal
-truths would I have to swallow once I get to my Tower... I try not to think...
-It might be...  mmm... unwise.
+They both observe the constelations sprawling above in silence. All twelve
+guardians are there, shinnig brightly, perfectly aligned around the tower.
+Polaris and the sword of Eld can easyly be appreciated in all their's splendor
+too.
 
-Both stare at the fire in silence for what seemed a very long time.
+The gunslinger, plain as he is, doesn't like this talking. He is unease.
+Shivers run through his spine.
+
+I know you are a bit overwelmed now - says the Crimson King. Belive me, this is
+not any easier for me either than it is for you. I don't know how much could I
+bear if I were you. What universal truths would I have to swallow once I get to
+my Tower... I try not to think...  It might be...  mmm... unwise.
+
+Back to silence.
+
+Both stare at the fire for what seemed a very long time. The furnace makes the
+eyes of the curious crows shine in different colors. They have been hearing
+everything, observing.
 
 Who are you? Asked Roland finally.
 
-I am your maker, Roland. Consider yourself lucky. How many get that chance? I
-hadn't, yet... I hope. I know there's someone greater than me. There always is.
+I have many names, the Crimson King is one of them, it is how I'm known here —
+continues. But my real name is Stephen, Stephen King, see the pun? I'm a
+writer, a pupeteer, the man behind the curtain — and gestures with his fingers
+as if typing in the air.
+
+Roland simply stares back at him.
+
+You still don't get it, do you? I am your maker, Roland. Consider yourself
+lucky. How many get that chance? I hadn't, yet... I hope. I know there's
+someone greater than me. There always is.
+
 Remember gunslinger, the greatest mystery the Universe offers is not life but
 size. Size encompasses life, and the Tower encompasses size.
-
-The gunslinger, plain as he is, doesn't like this talking. Shivers run through
-his spine. 
-
-I have many names, the Crimson King is one of them, it is how I'm known here.
-But my real name is Stephen, Stephen King, see the pun? I'm a writer, a
-pupeteer, the man behind the curtain — and gestures with his fingers as if
-typing in the air.
 
 Bullshit, you are a charlatan, that's what you are. Enough of this! I want to
 hear no more.
 
 The Crimson King shrugs.
 
-First comes smiles, then lies. Last comes gunfire - Roland remembered. I'll shoot
-you!.
+First comes smiles, then lies... — Roland starts to say.
 
-The Crimson King nodded, accepting the deal. Go on then! There are other worlds
-than these. Death is nothing but another door. 
+Last comes gunfire... — the Crimson King interrupts. And noddes, accepting the
+deal. Go on then! There are other worlds than these. Death is nothing but
+another door.
 
 Tonight — the Crimson King continues — redemption and death are tied together.
 Death, gunslinger, yet not for you.
 
 It is in your destinity to kill me. Do what you have to do. I will move on, I'm
-mortal after all, you will soon find out. 
+mortal after all, you will soon find out.
 
 Just like that... What will happen after? — Roland asked.
 
 I'll let you be. And you will walk through that door waiting for you
 downstairs. Where it leads it won't matter to me anymore, another tower
-perhaps! Perhaps the best hint I can give you is that Ka is a wheel. It
-manifest as a cycle but it is spiraling in nature. One does not swim in the
-same river twice. We get to the same situations in our journeys again and
-again, but with new perspectives, we are not the same person we were one second
-ago and you won't be the same person the next tower to reach.
+perhaps!
 
-So.. I'm ready whenever you are — said King.
+I though this was the Tower! You just said that!
 
-Roland nods, stands up, draws his heavy, ancient and deadly pistols.
+Yeah, well... Ka is a wheel. It manifests as a cycle but it is spiraling in
+nature. Just like the steps of this tower. Seen from above it would appear you
+were walking in circles, yet you were moving. See, one does not swim in the
+same river twice. The river is no the same river, and you are not the same
+person. You are not the same person you were one second ago and you won't be
+the same person the next tower to reach.
+
+So... — the Crimson King stands up and walks up to the ledge of the Tower — I'm
+ready whenever you are.
+
+Roland also stands up, and aims his heavy, ancient and deadly pistols at the
+Crimson King.
+
+Oh.. Can I ask for one last whim?
+
+Roland nods.
+
+When this is over, please, say my name.
 
 As the first rays of dawn appear in the horizon, he shoots the Crimson King
-dead. The creature that claimed to be his creator trips and falls down. With
-his red robe, that contrast with the pitch black color of the Tower, making it
-seem as if he was ablaze while falling.
+dead. Crows fly away with an alarmed cawing one more time. The creature that
+claimed to be his creator trips and falls down. His red robe contrast with the
+pitch black color of the Tower, it seems as if he was ablaze while falling.
 
-Now he stares at the sunrise for a while, it is beautiful. He then closes
-his eyes as he speaks up the names of all his friends and deaths ones. He never
-gets to notice, but new roses appear in the field for every name. After all,
-every rose that surrounds the Tower belongs to someone whose name has been
-spoken inside, in another story, in another universe perhaps.
+Now he stares at the sunrise for a while, it is beautiful. He then closes his
+eyes as he speaks up the names of all his friends and deaths ones. New roses
+appear in the field for every name. After all, every rose that surrounds the
+Tower belongs to someone whose name has been spoken inside, in this story or in
+another universe perhaps.
 
-Tears start to fall on his cheeks. A mix of relief and emptiness fills his
-soul. This is the end of his world. He has other place to go and no one is
-waiting for him.
+When he is done. A mix of relief and emptyness fills his soul. Tears start to
+fall on his cheeks. This is the end of his world. He has other place to go and
+no one is waiting for him.
 
 Boys don't cry maggot! Hears Cort shout him in his mind, yet it echoes all over
-the tower.
+the tower. That voice makes him smile. It is a sad smile though. When was the
+last time he cried? Nobody is watching now. He allows himself to burst into
+tears.
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
-seems to be healing. He also observes red robe of the Crimson King, who is
-nothing but bones now.
+seems to be healing. He also observes the remains of the Crimson King, who is
+being devoured by the crows and is nothing but bones now. Its a horrible sight.
+
+He kneels and grabs the skull, it's red but because of the blood.
 
 Is this a trick or are you truly dead? How many lies did you tell me? — says
-Roland at the horrible sight.
+Roland to the hollow eyes of the skull.
 
-A sandalwood door with a name in high speech on it's top — *Roland*.
+Just as he was told, there is a door right in front of the Tower.
 
-As soon as he enters through the door and shuts it, and a new rose suddendly
-replaces it.
+You were right about that at least... Stephen King... — puts the skull into his
+bag.
 
-Hope you like this ending better. As you can see it is heavily insipired by the
-encounter with the man in black, which I think was breathtaking. The Crimson
-King falling from the Tower is also a very memorable image. Maybe this series
+The door is a sandalwood door. A name in high speech is written on top —
+*Roland*, of course.
 
-I think this idea of meta-fiction was really interesting, but I didn't like how
-King did it in the series. The only worthy finale. A deus ex machina.
+As soon as he walks in, the door shuts, and vanishes.
+
+A new rose blooms in it's place. A new rose in the infinite crimson sea.
+
+Fin.
+
+## Final notes
+
+
+I think the idea of meta-fiction was really interesting, but I didn't like how
+King did it in the series. So I decided it would be best if it was used as a
+surprise resource in the end. I know it's a mix of deus ex machina and an open
+ending. But still feels like a worthy finale for an epic story.
+
+As you can see it is heavily insipired by the encounter with the Man in Black,
+which I think was breathtaking. The Crimson King falling from the Tower is also
+a very memorable image.
 
 Also with this twist in the story I have remarked the main ideas that are
 present throughout all the books, and all these ideas entangled with the
@@ -409,9 +466,9 @@ meaning of the Tower:
 * How Ka is a wheel, that also moves.
 * Size is the greatest mystery the Universe offers.
 
-The vast universe created by King is all his novels together, not just The Dark
-Tower, and this way he would accomplish his dream of creating something vast
-and complex as Tokien once did.
+The vast and complex universe created by King is composed of all his novels
+together, tied around the Dark Tower. For me, he has accomplished his dream of
+creating something his own Tokien like universe.
 
 
 [0]: https://www.goodreads.com/review/show/3920288?book_show_action=true&from_review_page=1
