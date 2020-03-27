@@ -136,11 +136,12 @@ entirely on content from the series.
    an eye patch. Mia escapes with the orb, but gets caught by Andy and later
    exorcised by the Mannis. With some remnants of magic and magnets they throw
    the demon through a portal in the Doorway Cave to the Todash. After that
-   Sussanah decides to stay at Calla as a sister of Oriza, and maybe become the
-   new matriarch, since Talitha had no descendants, the sisters will hold
-   elections. The town folk complain that the Gunslinger intervention was for
-   worse, more people died, and now the town must be rebuilt. He is asked to
-   leave and never to come back. He is banished from Mid-World, his own world.
+   Sussanah decides to stay at Calla as a sister of Oriza, since Talitha had no
+   descendants, the sisters will hold elections. It is not my Tower Roland, I
+   didn't ask for this, you must go on your own. The town folk complain that
+   the Gunslinger intervention was for worse, more people died, and now the
+   town must be rebuilt. He is asked to leave and never to come back. He is
+   banished from Mid-World, his own world.
 5. **The Waste lands**. Roland returns to the North Central Positronics Dogan,
    and with help of Andy, opens the locked door. A terminal tells is connected
    with Lud, where the wolfs come from. That is where the beam starts. We learn
@@ -160,15 +161,15 @@ entirely on content from the series.
    once told him, at the battle of Jerico hill. We learn a bit more about it,
    the fall of Gilead and also the fate of Farson. After passing some of the
    worlds of other stories (the Tower is collapsing and all the worlds are
-   blending), Roland is left in the final stop, Tower Station, the door to the
-   Dark Tower, the only one in All-World. The old ones built this station and
-   tried everything to open that portal, yet never successfully. Blaine commits
-   suicide. Black Thirteen *wakes up*, starts to vibrate and with a deafening
-   sound grows and expands absorbing everything like a blackhole, including
-   Roland. The gunslinger has this vision of the rose that holds all the suns
-   and all the universes that Jake saw in NYC, and all the lovecroftian beings
-   of the Prim in between worlds. Wakes up in the crimson fields of Can'-Ka No
-   Rey.
+   blending), Roland is left in the final stop, Keystone Station, the door to
+   the Dark Tower, the only one in All-World. The old ones built this station
+   and tried everything to open that portal, yet never successfully. Blaine
+   commits suicide. Black Thirteen *wakes up*, starts to vibrate and with a
+   deafening sound grows and expands absorbing everything like a blackhole,
+   including Roland. The gunslinger has this vision of the rose that holds all
+   the suns and all the universes that Jake saw in NYC, and all the
+   lovecroftian beings of the Prim in between worlds. Wakes up in the crimson
+   fields of Can'-Ka No Rey.
 
 
 ## My alternative ending
@@ -185,8 +186,9 @@ comes out of the cracks. Blood of course. The Tower is bleeding. That blood
 feeds the surrounding field of roses. The Tower is alive, but in agony, it's
 roots are drying up.
 
-The entrance is a huge ghostwood door and depicts all the twelve guardians of
-the beam engraved on it.
+The entrance is a huge sandalwood door and depicts all the twelve guardians of
+the beam engraved on it. A name in high speech is written on top — *Roland*, of
+course.
 
 Roland knows what to do. Leaves Talitha's cross in the floor and blows
 Cuthbert's horn to open it. The crows resting on the top of the tower take
@@ -205,8 +207,19 @@ To his surprise, the murals now tell The legend of Arthur Eld, the fall of
 Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill. More
 steps. The lovely girl at the window — his true and only love Susan.
 
+He percieves distinctive smells, sounds, voices for each moment, each
+conversation.
+
 Eluria, the Mohaine desert, Jake, the Man in Black — he shivers. The doors by
-the beach, Calla, Eddie, Sussanah, Talitha, Oy. Everyone is there.
+the beach, Calla, Eddie, Sussanah, Talitha, Oy. Everyone is there. He then
+closes his eyes as he speaks up the names of all his fallen friends and loved
+ones. 
+
+Outside, new roses appear in the field for every name. After all, every rose
+that surrounds the Tower belongs to someone whose name has been spoken inside,
+in this story or in another universe perhaps.
+
+More steps.
 
 It feels it's been a lifetime climbing. This thought clicked in his mind in a
 weird way.
@@ -225,9 +238,14 @@ laying under the infinite shade casted by the Tower. Crows are back, standing
 on the ledge.
 
 The Crimson King, is in a human shape, wearing glasses and dressed in a red
-robe. Hi is seated next to a lit furnace. The furnace has bores with the
-silhouette of the guardians. He is piling up black rocks, stacking them in what
-seems an impossible balance.
+robe.
+
+He is piling up black rocks, stacking them in what seems an impossible balance.
+But when he sees Roland the pile crumbles, he got distracted.
+
+He is seated next to a lit furnace. The furnace has bores with the silhouette
+of the guardians. A greenish smoke comes out of it, with a familiar smell. Yes,
+it's the devil's grass.
 
 Childe Roland to the dark tower came! Long days and pleasant nights, Sai — the
 man in red says.
@@ -315,7 +333,7 @@ How does this all fit in the grand scheme of things? Where is the Tower of all
 towers? What would the nature of such tower be? Who will wait for us atop?
 Will anyone be there?
 
-I don't know. Probably no one knows for sure.
+That I don't ask... It might be... mmm... unwise.
 
 What matters is that this is your tower. You had to be here, gunslinger, it was
 your inevitable destiny. It was very important for me that you made it.
@@ -333,14 +351,13 @@ guardians are there, shinning brightly, perfectly aligned around the tower.
 Polaris and the sword of Eld can easily be appreciated in all their's splendor
 too.
 
-The gunslinger, didn't like the letter, it made him unease. Plain as he is he
-cannot fully grasp the meaning of everything he just heard.  Shivers run
-through his spine.
+The gunslinger, didn't like he just heard, it made him unease. Plain as he is
+he cannot fully grasp the meaning of the letter. Shivers run through his spine.
 
 I know you are a bit overwhelmed now - says the Crimson King. Believe me, this
 is not any easier for me either than it is for you. I don't know how much could
 I bear if I were you. What universal truths would I have to swallow once I get
-to my Tower... I try not to think... It might be... mmm... unwise.
+to my Tower.
 
 Back to silence.
 
@@ -350,19 +367,23 @@ everything, observing.
 
 Who are you? Asked Roland finally.
 
-I have many names, the Crimson King is one of them, it is how I'm known here —
-continues. But my real name is Stephen, Stephen King, see the pun? I'm a
-writer, a puppeteer, the man behind the curtain — and gestures with his fingers
-as if typing in the air.
+I have many names, the Crimson King is one of them, it is how I'm known here.
+But my real name is Stephen, Stephen King, see the pun? I'm a writer, a
+puppeteer, the man behind the curtain — and gestures with his fingers as if
+typing in the air.
 
-Roland simply stares back at him.
+Roland simply stares back at him. He can't put words in his mouth. His mind is
+working slowly. Like after three days of insomnia. He shivers. Perhaps is the
+weed, perhaps he has been enchanted, perhaps he is inside a dream.
 
 You still don't get it, do you? I am your maker, Roland. Consider yourself
-lucky. How many get that chance? I hadn't, yet... I hope... I know there's
-someone greater than me. There always is.
+lucky. How many get that chance? I hadn't, yet... I hope...
 
-Remember gunslinger, the greatest mystery the Universe offers is not life but
-size. Size encompasses life, and the Tower encompasses size.
+I know there's someone greater than me. There always is. Remember gunslinger,
+the greatest mystery the Universe offers is not life but size. Size encompasses
+life, and the Tower encompasses size.
+
+Size... Size... That word resonates inside Roland's head.
 
 Bullshit, you are a charlatan, that's what you are. Enough of this! I want to
 hear no more.
@@ -387,14 +408,17 @@ I'll let you be. And you will walk through that door waiting for you
 downstairs. Where it leads it won't matter to me anymore, another tower
 perhaps!
 
-I though this was the Tower! You just said that!
+What?! I though this was the Tower!
 
-Yeah, well... Ka is a wheel. It manifests as a cycle but it is spiraling in
+Yeah, well... Ka is a wheel. It manifests as a cycle, but it is spiraling in
 nature. Just like the steps of this tower. Seen from above it would appear you
 were walking in circles, yet you were moving. See, one does not swim in the
 same river twice. The river is no the same river, and you are not the same
 person. You are not the same person you were one second ago and you won't be
 the same person the next tower to reach.
+
+Roland is loosing it, he needs to get back to firm ground. To who he is. To
+what he think is real.
 
 So... — the Crimson King stands up and walks up to the ledge of the Tower — I'm
 ready whenever you are.
@@ -402,38 +426,34 @@ ready whenever you are.
 Roland also stands up, and aims his heavy, ancient and deadly pistols at the
 Crimson King.
 
-Oh.. Can I ask for one last whim? — the Crimson King asks. 
+Oh.. Can I ask for one last whim? — the Crimson King asks.
 
-Roland nods.
+When this is over, please, say my name. Will ya? — says without waiting for an
+answer.
 
-When this is over, please, say my name. Will ya?
+Roland fires his guns empty at the Crimson King. Crows fly away with an alarmed
+cawing one more time. The creature that claimed to be his creator trips and
+falls down. His red robe contrast with the pitch black color of the Tower, it
+seems as if he was ablaze while falling, as the first rays of dawn appear in
+the horizon.
 
-As the first rays of dawn appear in the horizon. Roland fires his guns empty at
-the Crimson King.  Crows fly away with an alarmed cawing one more time. The
-creature that claimed to be his creator trips and falls down. His red robe
-contrast with the pitch black color of the Tower, it seems as if he was ablaze
-while falling.
-
-Now he stares at the sunrise for a while, it is beautiful. He then closes his
-eyes as he speaks up the names of all his fallen friends and loved ones. New
-roses appear in the field for every name. After all, every rose that surrounds
-the Tower belongs to someone whose name has been spoken inside, in this story
-or in another universe perhaps.
-
-When he is done. A mix of relief and emptiness fills his soul. Tears start to
-fall on his cheeks. This is the end of his world. He has other place to go and
-no one is waiting for him.
+A mix of relief and emptiness fills his soul. This is the end of his world. He
+has other place to go and no one is waiting for him. Tears start to fall on his
+cheeks.
 
 Boys don't cry maggot! Hears Cort shout him in his mind, yet it echoes all over
-the tower. That voice makes him smile. It is a sad smile though. When was the
-last time he cried? Nobody is watching now. He allows himself to burst into
-tears. Tears that make the dark stone of the Tower, even darker.
+the tower. That voice makes him smile. It is a sad smile though. Roland stares
+at the sunrise for a while, it is beautiful, it is silent, peaceful. When was
+the last time he cried? Nobody is watching now. He allows himself to burst
+into tears. Tears that make the dark stone of the Tower, even darker.
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
 seems to be healing. He also observes the remains of the Crimson King, who is
-being devoured by the crows and is nothing but bones now. Its a horrible sight.
+being devoured by the crows, their eyes are red now. They don't get fed that
+often. Its a horrible sight.
 
-He kneels and grabs the skull. It's red but because of the blood.
+Not long after, there is nothing but bones left. He kneels and grabs the skull.
+It's red but because of the blood.
 
 Is this a trick or are you truly dead? How many lies did you tell me? — says
 Roland to it's hollow eyes.
@@ -443,12 +463,11 @@ Just as he was told, there is a door right in front of the Tower.
 You were right about that at least... Stephen King... — puts the skull into his
 bag.
 
-The door is a sandalwood door. A name in high speech is written on top —
-*Roland*, of course.
+The door is a ghostwood door. This one has no names written on it, but a single
+ancient rune, the rune of *Unknown*.
 
-As soon as he walks in, the door shuts, and vanishes.
-
-A new rose blooms in it's place. A new rose in the infinite crimson sea.
+He gives the Tower one last glance and walks in. The door shuts, and vanishes.
+A new rose blooms in the infinite crimson sea.
 
 The end.
 
