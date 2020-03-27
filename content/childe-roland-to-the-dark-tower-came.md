@@ -1,9 +1,8 @@
 Title: Childe Roland to the Dark Tower came
-Date: 2016-02-05
+Date: 2020-03-27
 Category: Writings
 Description: My attempt to fixing the Dark Tower series.
-Tags: reviews, rants
-Status: Draft
+Tags: reviews, rants, fan-fiction
 
 
 ![Roland and the Dark Tower](/images/the-dark-tower.jpg "Roland and the Dark Tower")
