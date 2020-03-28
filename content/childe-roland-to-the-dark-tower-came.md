@@ -97,7 +97,7 @@ have weapons, but words. And words are sometimes deadlier."* Roland never talks
 about this with his father.
 
 
-### 3. Wolfs of Calla 
+### 3. Wolves of Calla
 
 Oy joins the ka-tet.
 
@@ -134,7 +134,7 @@ At her burial Andy says O Discordia!
 
 The ka-tet finds out that has been keeping secrets from each other, and Black
 Thirteen is the culprit, so they reconcile and share mind (like the Dogan
-metaphor that will later be used to defeat the wolfs).
+metaphor that will later be used to defeat the wolves).
 
 Eddie gets knighted as a gunslinger, after receiving Roland's training and
 martial knowledge. Sussanah becomes a sister of Oriza — women mustn't bear
@@ -143,7 +143,7 @@ guns.
 
 ### 4. The wind through the keyhole
 
-Roland is hiding with the kids of Calla waiting for the wolfs.
+Roland is hiding with the kids of Calla waiting for the wolves.
 
 Want to hear the story of the young gunslinger who slew a Werewolf? Asks the kids.
 
@@ -157,8 +157,8 @@ gives him. He is later slain by a dragon in the same swamp when he returns to
 the enchanted forest looking to save a girl she wanted to marry. Although
 Roland omits that part to the kids.
 
-Back in Calla, they defeat the wolfs, many folks die, including children. They
-notice that someone has given information to the wolfs. Eddie dies in this
+Back in Calla, they defeat the wolves, many folks die, including children. They
+notice that someone has given information to the wols. Eddie dies in this
 fight, he was not true knight after all. His body is buried with his gun, and a
 rose is planted in his grave like a gunslinger funeral. In front of all the new
 graves, Roland gives a speech, that ends with: O Discordia! The Tower demanded
@@ -195,7 +195,7 @@ to come back. He is banished from Mid-World, his own world.
 ### 5. The Waste lands
 
 Roland returns to the North Central Positronics Dogan, and with help of Andy,
-opens the locked door. A terminal tells them about Lud, where the wolfs
+opens the locked door. A terminal tells them about Lud, where the wolves
 come from.
 
 That is where the beam starts. We learn a bit about the myth of the guardians.
