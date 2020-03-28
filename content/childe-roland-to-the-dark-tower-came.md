@@ -532,7 +532,7 @@ to be his creator trips and falls down. His red robe contrast with the pitch
 black color of the Tower, it seems as if he was ablaze while falling, as the
 first rays of dawn appear in the horizon.
 
-### V
+### V.
 
 Calmness slowly returns to Roland. As if the gunshots woke him up from a vivid
 nightmare. No more poisonous words are infesting his mind. The smoke from the
@@ -559,7 +559,7 @@ Tower, even darker.
 After a while he is feeling replenished. Crying has an curious healing
 properties for the soul. He downs his water flask and begins the descent.
 
-### VI
+### VI.
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
 seems to be healing.
