@@ -202,17 +202,25 @@ carved on the walls. Murals that tell the origin of it all, strange figures and
 symbols the Man in Black had shown him the long night they met. He keeps going.
 More steps.
 
+There are lots of strange scenes shown in the walls too. He doesn't really know
+what they represent or what they mean, but some are very notable. There is a
+very creepy looking clown looking at him from some sort of drainage, twin
+sisters at the end of a hallway full of doors, a strange looking rabid dog, a
+huge black man behind bars, a man and a teenager dumping woman's body in a well
+behind a barn, humanoid creatures but with the heads of animals. He keeps
+climbing.
+
 To his surprise, the murals now tell The legend of Arthur Eld, the fall of
 Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill. More
 steps. The lovely girl at the window — his true and only love Susan.
 
-He percieves distinctive smells, sounds, voices for each moment, each
+He perceives distinctive smells, sounds, voices for each moment, each
 conversation.
 
-Eluria, the Mohaine desert, Jake, the Man in Black — he shivers. The doors by
-the beach, Calla, Eddie, Sussanah, Talitha, Oy. Everyone is there. He then
-closes his eyes as he speaks up the names of all his fallen friends and loved
-ones. 
+Eluria, the Mohaine desert, Jake, the Man in Black — he shivers. The
+lobstrosities (Dad-a-chum? Dum-a-chum?) and doors by the beach, Jack, Eddie,
+Sussanah, Talitha, Oy. Everyone is there. He then closes hi only eye as he
+speaks up the names of all his fallen friends and loved ones.
 
 Outside, new roses appear in the field for every name. After all, every rose
 that surrounds the Tower belongs to someone whose name has been spoken inside,
@@ -223,21 +231,21 @@ More steps.
 It feels it's been a lifetime climbing. This thought clicked in his mind in a
 weird way.
 
-He finally reaches the top.
+More and more steps until he finally reaches the top.
 
-There is a strange typing machine on a desk, with a piece of yellow paper and a
-writing in low speech. *Alone he was when he started his journey, and alone is
-how Roland reaches the Dark Tower.* — he reads, it makes no sense to him.
+There is a bookcase full of books and a strange typing machine on a desk, with
+a piece of yellow paper and a writing in low speech. *Alone he was when he
+started his journey, and alone is how Roland reaches the Dark Tower.* — he
+reads, it makes no sense to him.
 
 There is a red door, with the same eye he has seen before, painted on top. The
 eye of the Crimson King. It is already opened and it leads to the rooftop. 
 
-He goes up. The sunset has started. He sees the never ending sea of roses,
-laying under the infinite shade casted by the Tower. Crows are back, standing
-on the ledge.
+He draws his weapons and goes up. The sunset has started. He sees the never
+ending sea of roses, laying under the infinite shade casted by the Tower. The
+crows, black as the Tower, are back, standing on the ledge.
 
-The Crimson King, is in a human shape, wearing glasses and dressed in a red
-robe.
+The Crimson King, is there, wearing glasses and dressed in a red robe.
 
 He is piling up black rocks, stacking them in what seems an impossible balance.
 But when he sees Roland the pile crumbles, he got distracted.
@@ -246,8 +254,8 @@ He is seated next to a lit furnace. The furnace has bores with the silhouette
 of the guardians. A greenish smoke comes out of it, with a familiar smell. Yes,
 it's the devil's grass.
 
-Childe Roland to the dark tower came! Long days and pleasant nights, Sai — the
-man in red says.
+The Crimson Kings looks at the guns and then back to Roland. Childe Roland to
+the dark tower came! Long days and pleasant nights, Sai — says.
 
 Roland, not sure what how to respond, says nothing.
 
@@ -258,10 +266,8 @@ What do you mean? Asked Roland.
 It's getting chilly, come, take a seat by the fire Roland, it's about time we
 talked. We are going to have a clear starry night, it seems, how appropriate.
 
-Roland draws his weapons and sits. First comes smiles, then lies. Last comes
-gunfire — says to himself.
-
-The Crimson Kings looks at the guns and then back to Roland.
+Roland sits. First comes smiles, then lies. Last comes gunfire — says to
+himself, as if preparing for the palaver to come.
 
 Anyways. Since I've thought about this moment for a long time, I decided it
 would be best to choose my words very carefully, you deserve it.
@@ -362,7 +368,7 @@ Back to silence.
 
 Both stare at the fire for what seemed a very long time. The furnace makes the
 eyes of the curious crows shine in different colors. They have been hearing
-everything, observing.
+everything, observing, waiting.
 
 Who are you? Asked Roland finally.
 
@@ -372,8 +378,9 @@ puppeteer, the man behind the curtain — and gestures with his fingers as if
 typing in the air.
 
 Roland simply stares back at him. He can't put words in his mouth. His mind is
-working slowly. Like after three days of insomnia. He shivers. Perhaps is the
-weed, perhaps he has been enchanted, perhaps he is inside a dream.
+working slowly but irritated. Like after three days of insomnia. He shivers.
+Conflicting thoughts are giving him a headache. Perhaps is the weed, perhaps he
+has been enchanted, perhaps he is inside a dream.
 
 You still don't get it, do you? I am your maker, Roland. Consider yourself
 lucky. How many get that chance? I hadn't, yet... I hope...
@@ -382,10 +389,13 @@ I know there's someone greater than me. There always is. Remember gunslinger,
 the greatest mystery the Universe offers is not life but size. Size encompasses
 life, and the Tower encompasses size.
 
-Size... Size... That word resonates inside Roland's head.
+Size... Size... That word resonates inside Roland's head. He senses he is being
+fooled, pushed to the edge of sanity. That headache doesn't let him think with
+clarity, it's not helping at all. Some enemies don't have weapons, but words.
+And words are sometimes deadlier.
 
-Bullshit, you are a charlatan, that's what you are. Enough of this! I want to
-hear no more.
+Bullshit, you are a charlatan, that's what you are. Enough of this! — says
+irritated. I want to hear no more.
 
 The Crimson King shrugs.
 
@@ -416,8 +426,8 @@ same river twice. The river is no the same river, and you are not the same
 person. You are not the same person you were one second ago and you won't be
 the same person the next tower to reach.
 
-Roland is loosing it, he needs to get back to firm ground. To who he is. To
-what he think is real.
+Roland is loosing it. That feeling frightens him. He needs to get back to firm
+ground now. To who he is. To what he think is real.
 
 So... — the Crimson King stands up and walks up to the ledge of the Tower — I'm
 ready whenever you are.
@@ -430,29 +440,42 @@ Oh.. Can I ask for one last whim? — the Crimson King asks.
 When this is over, please, say my name. Will ya? — says without waiting for an
 answer.
 
-Roland fires his guns empty at the Crimson King. Crows fly away with an alarmed
-cawing one more time. The creature that claimed to be his creator trips and
-falls down. His red robe contrast with the pitch black color of the Tower, it
-seems as if he was ablaze while falling, as the first rays of dawn appear in
-the horizon.
+Fuck you! Fuck your Tower, fuck all of this! — the gunslinger yells. He fires
+his guns empty at the Crimson King. The whole twelve rounds.
+
+Crows fly away with an alarmed cawing one more time. The creature that claimed
+to be his creator trips and falls down. His red robe contrast with the pitch
+black color of the Tower, it seems as if he was ablaze while falling, as the
+first rays of dawn appear in the horizon.
+
+Calmness slowly returns to Roland. As if the gunshots woke him up from a vivid
+nightmare. No more poisonous words are infesting his mind. The smoke from the
+pistols clears his thoughts and headache.
 
 A mix of relief and emptiness fills his soul. This is the end of his world. He
-has other place to go and no one is waiting for him. Tears start to fall on his
-cheeks.
+has other place to go and no one is waiting for him.
+
+It is late to realize that he has been a minion of destiny, he has played his
+part in some divine plan. He was indifferent to his people, instead of his
+future. But that has been out of his control, hasn't it?
+
+Stares at the sunrise for a while, it is beautiful, it is silent, peaceful. His
+eye gets watery.
 
 Boys don't cry maggot! Hears Cort shout him in his mind, yet it echoes all over
-the tower. That voice makes him smile. It is a sad smile though. Roland stares
-at the sunrise for a while, it is beautiful, it is silent, peaceful. When was
-the last time he cried? Nobody is watching now. He allows himself to burst
-into tears. Tears that make the dark stone of the Tower, even darker.
+the tower. That voice makes him smile. It is a sad smile though. When was the
+last time he cried? Nobody is watching now. He allows himself to burst into
+tears. Tears that make the dark stone of the Tower, even darker.
+
+After a while he is feeling replenished, crying has an curious healing
+properties for the soul. He empties his water flask and begins his descent.
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
 seems to be healing. He also observes the remains of the Crimson King, who is
-being devoured by the crows, their eyes are red now. They don't get fed that
-often. Its a horrible sight.
+being devoured by the frantic crows, their eyes and beaks are red now. They
+don't get fed that often. It is a horrible sight.
 
 Not long after, there is nothing but bones left. He kneels and grabs the skull.
-It's red but because of the blood.
 
 Is this a trick or are you truly dead? How many lies did you tell me? — says
 Roland to it's hollow eyes.
@@ -473,23 +496,26 @@ The end.
 
 ## Final notes
 
+As you can see it is heavily inspired by the encounter with the Man in Black,
+which I think was breathtaking. Both, the first and last book would finish in a
+similar manner. Ka is a wheel. And yes! The Crimson King is Stephen King. Or a
+part of his mind. The darkest part. We know that Marten did the same, he had
+multiple personalities. King has also played around this idea that you don't
+really know who you are sleeping with.
+
 I think the idea of meta-fiction was really interesting, but I didn't like how
 King did it in the series. So I decided it would be best if it was used as a
 surprise resource in the end. I know it's a mix of deus ex machina and an open
 ending. But still feels like a worthy finale for an epic story.
 
-As you can see it is heavily inspired by the encounter with the Man in Black,
-which I think was breathtaking. The Crimson King falling from the Tower is also
-a very memorable image.
-
 Also with this twist in the story I have remarked the main ideas that are
 present throughout all the books, and all these ideas entangled with the
 meaning of the Tower:
 
-* The O Discordia! phrase, that King said he heard in a dream.
+* The *O Discordia!* phrase, that King said he heard in a dream.
 * There are other worlds than these, many doors that lead to them, and death is
   nothing but another door.
-* How Ka is a wheel, that also moves.
+* How *Ka* is a wheel, that also moves.
 * Size is the greatest mystery the Universe offers.
 
 The vast and complex universe created by King is composed of all his novels
