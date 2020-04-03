@@ -93,8 +93,8 @@ mother reveals that Marten has predicted that Roland will one day kill her.
 Although this has caused her to slowly lose her sanity, in the end she forgives
 Roland and asks that he forgive her infidelity to his father and betrayal of
 Gilead in return. She also warns him: *"Be careful my boy. Some enemies don't
-have weapons, but words. And words are sometimes deadlier."* Roland never talks
-about this with his father.
+have weapons, but sharp words. And words are sometimes deadlier."* Roland never
+talks about this with his father.
 
 
 ### 3. Wolves of Calla
