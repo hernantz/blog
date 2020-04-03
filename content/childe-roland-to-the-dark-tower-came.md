@@ -59,15 +59,15 @@ getting a headshot.
 
 The Man in Black also mentions the reasons behind following the Crimson King:
 *"You think that John Farson or I are on the wrong side. But what makes you
-believe you are on the right one?  The Crimson King might have gone mad and
+believe you are on the right one? The Crimson King might have gone mad and
 recluded in the Tower, his ways are mysterious, yes. But that doesn't affect my
 reason to be on his cause. The problem with this whole good & bad thing is that
-chaos is not evil any more then order is good. Balance between chaos and order
-is necessary. With no chaos nothing would ever change or be created. Without
-order nothing could ever thrive once it is created. Conflict forces change and
-change is how progress happens. Sometimes in order to create, one must first
-destroy. The Crimson King is starting a revolution, and for it to succeed, the
-Tower must fall!"*
+chaos is not evil any more then order is good. Every light casts a shadow.
+Balance between chaos and order is necessary. With no chaos nothing would ever
+change or be created. Without order nothing could ever thrive once it is
+created. Conflict forces change and change is how progress happens. Sometimes
+in order to create, one must first destroy. The Crimson King is starting a
+revolution, and for it to succeed, the Tower must fall!"*
 
 
 ### 2. The drawing of the three
@@ -92,7 +92,7 @@ Roland a note written by his mother during her stay in there. In this note, his
 mother reveals that Marten has predicted that Roland will one day kill her.
 Although this has caused her to slowly lose her sanity, in the end she forgives
 Roland and asks that he forgive her infidelity to his father and betrayal of
-Gilead in return.She also warns him: *"Be careful my boy. Some enemies don't
+Gilead in return. She also warns him: *"Be careful my boy. Some enemies don't
 have weapons, but words. And words are sometimes deadlier."* Roland never talks
 about this with his father.
 
@@ -205,8 +205,8 @@ They leave to Outer-World with Black thirteen.
 In Lud, we enjoy all the post-apocalyptic cyberpunk goodness ala Mad Max,
 graffitis of the Crimson King eye and some slow mutants too.
 
-We learn that gangs stole kids to give them to Dandelo, a minion of the Crimson King, who
-roont them, a monster similar to IT.
+We learn that gangs stole kids to give them to Dandelo, a minion of the Crimson
+King, who roont them, a monster similar to IT.
 
 Dandelo feeds from emotions, so it is Andy the one that kills it by
 self-destructing, saving Rolands life.
@@ -234,10 +234,11 @@ successfully.
 Blaine commits suicide.
 
 Black Thirteen *wakes up*, starts to vibrate and with a deafening sound grows
-and expands absorbing everything like a blackhole, including Roland. The
-gunslinger has this vision of the rose that holds all the suns and all the
-universes that Jake saw in NYC, and all the lovecroftian beings of the Prim in
-between worlds. Wakes up in the crimson fields of Can'-Ka No Rey.
+and expands distorting reality, absorbing everything like a blackhole,
+including Roland. The gunslinger has this vision of the rose that holds all the
+suns and all the universes that Jake saw in NYC, and all the lovecroftian
+beings of the Prim in between worlds. Wakes up in the crimson fields of Can'-Ka
+No Rey.
 
 
 ## My alternative ending
@@ -252,10 +253,13 @@ I put special attention to the opening line:
 Dark Tower.*
 
 The Tower is the apotheosis of all towers. It is sculpted from a single huge
-stone. The monolith, black of course, is cracked. Some sort of dense fluid
-comes out of the cracks. Blood of course. The Tower is bleeding. That blood
-feeds the surrounding field of roses. The Tower is alive, but in agony, it's
-roots are drying up.
+stone. It is not man-made.
+
+The monolith, black of course, is cracked, and blood, of course, is comming out
+it's cracks.
+
+The Tower is bleeding. That blood feeds the surrounding field of roses. The
+Tower is alive, but in agony, it's roots are drying up.
 
 The entrance is a huge sandalwood door and depicts all the twelve guardians of
 the beam engraved on it. A name in high speech is written on top — *Roland*, of
