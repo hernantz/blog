@@ -62,12 +62,12 @@ The Man in Black also mentions the reasons behind following the Crimson King:
 believe you are on the right one? The Crimson King might have gone mad and
 recluded in the Tower, his ways are mysterious, yes. But that doesn't affect my
 reason to be on his cause. The problem with this whole good & bad thing is that
-chaos is not evil any more then order is good. Every light casts a shadow.
-Balance between chaos and order is necessary. With no chaos nothing would ever
-change or be created. Without order nothing could ever thrive once it is
-created. Conflict forces change and change is how progress happens. Sometimes
-in order to create, one must first destroy. The Crimson King is starting a
-revolution, and for it to succeed, the Tower must fall!"*
+chaos is not evil any more then order is good. Balance between chaos and order
+is necessary. With no chaos nothing would ever change or be created. Without
+order nothing could ever thrive once it is created. Every light casts a shadow.
+Conflict forces change and change is how progress happens. Sometimes in order
+to create, one must first destroy. The Crimson King is starting a revolution,
+and for it to succeed, the Tower must fall!"*
 
 
 ### 2. The drawing of the three
@@ -290,8 +290,8 @@ To his surprise, the murals now tell The legend of Arthur Eld, the fall of
 Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill. More
 steps. The lovely girl at the window — his true and only love Susan.
 
-He perceives distinctive smells, sounds, voices for each moment, each
-conversation.
+He perceives distinctive smells of lost memories, distant voices from a distant
+past, thoughts unspoken in old dreams.
 
 Eluria, the Mohaine desert, Jake (Go then! There are other worlds than these),
 the Man in Black — he shivers. The lobstrosities (Dad-a-chum? Dum-a-chum?) and
@@ -331,9 +331,8 @@ The Crimson King, is there, wearing glasses and dressed in a red robe.
 
 He is piling up black rocks, stacking them in what seems an impossible balance.
 
-He is seated next to a lit furnace. The furnace has bores with the silhouette
-of the guardians. A greenish smoke comes out of it, with a familiar smell. Yes,
-it's the devil's grass.
+He is seated next to a lit furnace. A greenish smoke comes out of it, with a
+familiar smell. Yes, it's the devil's grass.
 
 When they make eye contact the pile crumbles — product of the distraction.
 
