@@ -461,7 +461,7 @@ everything, observing, waiting.
 Who are you? Asked Roland finally.
 
 I have many names, the Crimson King is one of them, it is how I'm known here.
-But my real name is Stephen, Stephen King, see the pun? I'm a writer, a
+But my real name is Stephen, Stephen King, no pun intended. I'm a writer, a
 puppeteer, the man behind the curtain — and gestures with his fingers as if
 typing in the air.
 
