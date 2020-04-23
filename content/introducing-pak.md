@@ -23,6 +23,7 @@ Cómo se hace configuración, man pages, etc en Nix, symlinks igual que con bina
 
 https://cachix.org/
 https://www.redox-os.org/news/pkgar-introduction/
+https://github.com/whyrusleeping/gx
 
 Packages can contain arch independent files like images or docs.
 Some may include source files for building the project and testing it.
@@ -75,7 +76,20 @@ They tend to solve many issues:
 - Containers also allow sandboxing, limiting cpu, memory, network and filesystem access.
 
 
-Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap).
+pak --lock should create a Pakfile.lock?
+
+Maybe each pak install <package-name==version> --lock
+
+Do you have to be in the same dir where the Pakfile is?
+
+Pakfile lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
+
+pak shell enters the enviroment
+
+pak run <commmand> run the command within the enviroment
+
+
+Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap). Another example would be Opensnitch.
 
 
 Docker + docker-compose re implement a package distribution + process manager and orchestration + build system.
