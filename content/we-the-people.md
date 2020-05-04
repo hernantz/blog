@@ -64,3 +64,14 @@ Por el otro lado, las ideas libertarias consideran la concentracion de poder
 como un mal a evitar, y son siempre escepticas de la capacidad del gobierno de
 conseguir el bien comun. En cambio, confia en la colaboracion espontanea y
 voluntaria de una sociedad civil libre para llevar a cabo procesos de transformacion y progreso.
+
+# Socialism doesn't scale
+
+Todos somos socialistas en nuestras familias, podemos extenderlo a allegados, familiares, amigos
+un poco menos a miembros de la congregacion, el equipo de futbol, vecinos, etc.
+
+Podemos aplicar la caridad desinteresada, ayudar, preguntar, donar plata y/o tiempo.
+
+En el seno familiar, podemos priorizar la igualdad de oportunidades, prestar, compartir.
+
+Pero querer hacer eso a nivel pais, ya falla.
