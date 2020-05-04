@@ -49,9 +49,9 @@ https://dependabot.com/
 https://nixos.org/nixos/nix-pills/
 
 • unpriviliged package management
-• per-user profiles
+• per-user profiles (Pak profiles are package groups (bundles of packages))
 • atomic updates and rollbacks
-• reproducible builds
+• reproducible builds (no es build tool, pero permite pinear dependencias en un Pakfile.lock)
 • source-based with transparent binary downloads
 https://media.libreplanet.org/u/libreplanet/m/practical-verifiable-software-freedom-with-guixsd/
 What if instead of using symlinks we used images mounts? https://distr1.org/
@@ -93,3 +93,7 @@ Sandboxing GUI apps should be done with another binary that allows to set firewa
 
 
 Docker + docker-compose re implement a package distribution + process manager and orchestration + build system.
+
+https://utcc.utoronto.ca/~cks/space/blog/linux/MicrosoftTeamsBadArrogance
+
+Los packetes se pueden obtener de distintos repos/mirrors (http/ipfs/torrent/etc), that return a URI (http link, magnet link, etc) for a given key (package name)
