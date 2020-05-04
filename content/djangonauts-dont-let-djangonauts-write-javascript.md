@@ -42,6 +42,9 @@ That could be mitigated by using partial caching inside the page.
 
 When building websites, some latency is expected. Use that to your favor!
 
+https://timr.co/server-side-rendering-is-a-thiel-truth
+JAM stack https://paramaggarwal.substack.com/p/how-websites-evolved-back-to-static-html-css-js-files-57ce549f81db
+
 
 ## Welcome user22!
 
