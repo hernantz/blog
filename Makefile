@@ -52,7 +52,7 @@ gitclean:
 	[ ! -d $(OUTPUTDIR) ] || [! -d $(OUTPUTDIR)/.git/ ] || cd $(OUTPUTDIR) && git reset --hard && git rm -r * --cached --ignore-unmatch && git clean -f
 
 table:
-	csvsort content/music.csv -c 3,2 | csvlook
+	csvsort --delimiter="," content/music.csv -c 3,2 | csvlook --delimiter=","
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
