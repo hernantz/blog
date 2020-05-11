@@ -71,11 +71,13 @@ Central planning is now inneficient and too risky, it affects too many people
 and policies probably assume too much. Regulations are slow to adapt and impose
 hidden costs. Politics become aggresively toxic. No one is satisfied.
 
-Here is where libertarians should step in and say: *I warned you about against
-feeding the demagogic leviathan*. Big government is a fiasco.
+Here is where libertarians should step in and say: *I warned you against
+feeding the demagogic leviathan*. Big government, and it's ever growing
+spending, is a fiasco.
 
 The dynamism and eficiency that capitalism achieves, in coordinating efforts of
-a society, producing better goods and cheaper services has no sutable oponent.
+a society between people that don't know each other to produce better goods and
+cheaper services has no sutable oponent.
 
 Free markets, tolerance, divergence, innovation, competition and freedom to
 experiment are indispensable at this scale. Now ideas of limiting authority,
