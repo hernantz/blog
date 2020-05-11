@@ -80,7 +80,8 @@ Free markets, tolerance, divergence, innovation, competition and freedom to
 experiment are indispensable at this scale. Now ideas of limiting authority,
 decentralizing power, and questioning regulations really shine.
 
-As a libertarian, I do undestand socialists. I'm willing to accept a certain
-amount of forced colectivism, so long as it stays local, accountable and in
-competition with other communities. But I still stand by freedom, as the beacon
-of light guiding my life and principles.
+As a libertarian, I do understand socialists. And agree that socialism works,
+but it doesn't scale. I'm willing to accept a certain amount of forced
+colectivism, so long as it stays local, accountable and in competition with
+other communities. But I still stand by freedom, as the beacon of light guiding
+my life and principles.
