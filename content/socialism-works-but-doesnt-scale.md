@@ -52,9 +52,10 @@ to fix it.
 
 ## Socialism doesn't scale
 
-This way of relating with family, neighbours and work acquitances, most of the
-time through rules that are written nowhere but are a cultural legacy of shared
-responsability and cooperation towards common goals, has it's limits.
+This way of relating with family, neighbours, friends and acquaintances,
+most of the time through rules that are written nowhere, but are a cultural
+legacy of shared responsability and cooperation towards common goals, has it's
+limits.
 
 With a bigger population, a more diverse society, there are no strong bonding
 links between it's members. The trust and selfless altruism that might have
@@ -83,5 +84,5 @@ decentralizing power, and questioning regulations really shine.
 As a libertarian, I do understand socialists. And agree that socialism works,
 but it doesn't scale. I'm willing to accept a certain amount of forced
 colectivism, so long as it stays local, accountable and in competition with
-other communities. But I still stand by freedom, as the beacon of light guiding
+other regulations. But I still stand by freedom, as the beacon of light guiding
 my life and principles.
