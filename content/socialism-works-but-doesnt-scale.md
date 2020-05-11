@@ -10,7 +10,7 @@ before working on the differences. This puts both parties in a better mood to
 find a shared truth.
 
 Maybe libertarianism and socialism have both something to add to the table, can
-this two oppsite views of the world agree on anyting?
+these two opposite views of the world agree on anyting?
 
 
 ## Socialism works
@@ -20,8 +20,8 @@ within our families. We teach our kids to share and be supportive. We are
 preached similar ideas at the congregation. We put it into practice as
 volunteers in NGOs.
 
-We are social animals after all. Our brains are wired to leave in small
-communities/groups/villages, with our kin or people we share a common set of
+We are social animals after all. Our brains are wired to live in small
+communities, groups & villages, with our kin or people we share a common set of
 values with or a common past.
 
 Socialism comes very natural to people. It is digestible and appealing.
@@ -35,14 +35,14 @@ oposse to that? These are good things, noble goals.
 Socialism not only feels emotionally superior, but it offers an easy and quick
 explanation to every day *dramas*.
 
-If you are struggling to make ends meet, would you listen to someone who talks
-about how the federal reserve creates inflation and distorts the economy with
-it's artificial interest rates or someone who talks about universal basic
-income, tuition free schooling and compassion?
-
 On the other hand, libertarianism requires rational thinking to make sense,
 needs to be studied, it's all about the ultimate consequences, it's
 explanations of reality are counter intuitive.
+
+If you are struggling to make ends meet, would you listen to someone who talks
+about how the federal reserve creates inflation and distorts the economy with
+it's artificial interest rates or someone who talks about universal basic
+income, tuition free schooling and human compassion?
 
 When I hear my libertarian colegues all I hear are economy lessons and
 individual freedom. But all socialists understand is *greed and mind your own
@@ -64,19 +64,23 @@ Empathy dissapears as the distance between governance and governed widens, your
 ability to change the course of action of such society decreases. The virtues
 of the socialist ideals turn into a dilusional mirage.
 
-This disconection makes the government less accountable, prone to corruption.
+This disconnection makes the government less accountable, prone to corruption.
 
 Central planning is now inneficient and too risky, it affects too many people
-and probably assumes too much. Regulations are slow to adapt and impose hidden
-costs. Politics become aggresively toxic. No one is satisfied.
+and policies probably assume too much. Regulations are slow to adapt and impose
+hidden costs. Politics become aggresively toxic. No one is satisfied.
 
 Here is where libertarians should step in and say: *I warned you about against
-feeding the demagogic leviathan*.
+feeding the demagogic leviathan*. Big government is a fiasco.
 
-There has never existed a more eficient way to coordinate large amounts of people
+The dynamism and eficiency that capitalism achieves, in coordinating efforts of
+a society, producing better goods and cheaper services has no sutable oponent.
 
-Here is where capitalism, freedom to experiment, commerce, competition and
-globalization really shines.
+Free markets, tolerance, divergence, innovation, competition and freedom to
+experiment are indispensable at this scale. Now ideas of limiting authority,
+decentralizing power, and questioning regulations really shine.
 
-As a libertarian, I'm willing to accept a certain amount of forced colectivism,
-so long as it stays local, accountable and in competition with other communities.
+As a libertarian, I do undestand socialists. I'm willing to accept a certain
+amount of forced colectivism, so long as it stays local, accountable and in
+competition with other communities. But I still stand by freedom, as the beacon
+of light guiding my life and principles.
