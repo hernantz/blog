@@ -149,5 +149,6 @@ https://engineering.instawork.com/iterating-with-simplicity-evolving-a-django-ap
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app
 https://alistapart.com/article/responsible-javascript-part-1/
 https://www.pika.dev/cdn (reducir babel y polyfills)
+https://macwright.org/2020/05/10/spa-fatigue.html
 
 [1]: https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html
