@@ -21,8 +21,8 @@ preached similar ideas at the congregation. We put it into practice as
 volunteers in NGOs.
 
 We are social animals after all. Our brains are wired to live in small
-communities, groups & villages, with our kin or people we share a common set of
-values with or a common past.
+communities, groups & villages, with our kin and people we share a common set
+of values with or a common past.
 
 Socialism comes very natural to people. It is digestible and appealing.
 Presents ideas of an altruist society that doesn't leave anyone behind.
@@ -32,7 +32,7 @@ from the rich and helps the poor.
 Solidarity, equiality of oportunities, social justice, minimum wages. Who can
 oposse to that? These are good things, noble goals.
 
-Socialism not only feels emotionally superior, but it offers an easy and quick
+Socialism not only feels emotionally superior, but it offers a quick and easy
 explanation to every day *dramas*.
 
 On the other hand, libertarianism requires rational thinking to make sense,
@@ -44,22 +44,25 @@ about how the federal reserve creates inflation and distorts the economy with
 it's artificial interest rates or someone who talks about universal basic
 income, tuition free schooling and human compassion?
 
-When I hear my libertarian colegues all I hear are economy lessons and
-individual freedom. But all socialists understand is *greed and mind your own
-business selfishness*. Capitalism is broken, the system is unfair, someone has
-to fix it.
+From my libertarian colegues all I hear are economy lessons and individual
+freedom. But all socialists understand is *greed and mind your own business
+selfishness*.
+
+Laissez-faire is scary. Some will profit, some will loose, the system is
+unfair. We need to work in cooperation towards common goals, things need to be
+planned.
 
 
 ## Socialism doesn't scale
 
 This way of relating with family, neighbours, friends and acquaintances,
 most of the time through rules that are written nowhere, but are a cultural
-legacy of shared responsability and cooperation towards common goals, has it's
-limits.
+legacy of shared responsability, has it's limits.
 
 With a bigger population, a more diverse society, there are no strong bonding
-links between it's members. The trust and selfless altruism that might have
-worked in your local community, now becomes unnatural.
+links between it's members. Not everyone agrees on what *needs to be done*. The
+trust and selfless altruism that might have worked in your local community, now
+becomes unnatural.
 
 Empathy dissapears as the distance between governance and governed widens, your
 ability to change the course of action of such society decreases. The virtues
@@ -76,8 +79,8 @@ feeding the demagogic leviathan*. Big government, and it's ever growing
 spending, is a fiasco.
 
 The dynamism and eficiency that capitalism achieves, in coordinating efforts of
-a society between people that don't know each other to produce better goods and
-cheaper services has no sutable oponent.
+a society between people that don't know each other, to produce better goods
+and cheaper services has no sutable oponent.
 
 Free markets, tolerance, divergence, innovation, competition and freedom to
 experiment are indispensable at this scale. Now ideas of limiting authority,
