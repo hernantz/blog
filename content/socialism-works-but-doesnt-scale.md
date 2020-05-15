@@ -1,5 +1,5 @@
 Title: Socialism works, but doesn't scale
-Date: 2020-05-09
+Date: 2020-05-14
 Category: Politics
 Tags: libertarianism
 Summary: Can libertarians and socialists agree on anything?
