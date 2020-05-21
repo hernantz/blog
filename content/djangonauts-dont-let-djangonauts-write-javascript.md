@@ -112,7 +112,7 @@ http://blog.mattwoodward.com/2015/02/dynamically-adding-forms-to-and.html
 
 Poner imagen de jesus rompiendo los puestos en el mercado
 Poner imagen del principito
-
+https://github.com/VVyacheslav/django-rest-framework-datatables-editor
 casi siempre la principal justificacion para hacer una SPA es la fuidez en la
 user experience que se logra. Yo opino que podes llegar a algo parecido con
 turbolinks, prefetch, caching, etc + algunos widgets en js sobre todo
