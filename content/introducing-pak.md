@@ -47,6 +47,7 @@ https://xyrillian.de/thoughts/posts/argh-pm.html
 https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf
 https://dependabot.com/
 https://nixos.org/nixos/nix-pills/
+https://michael.stapelberg.ch/posts/2020-05-09-distri-hermetic-packages/
 
 • unpriviliged package management
 • per-user profiles (Pak profiles are package groups (bundles of packages))
@@ -61,6 +62,7 @@ https://github.com/David-OConnor/pyflow
 https://sedimental.org/the_packaging_gradient.html
 https://github.com/g-plane/tiny-package-manager
 https://www.youtube.com/watch?v=ULqoCjANK-I
+For building: https://zserge.com/posts/containers/ (Linux containers in a few lines of code)
 
 Over time there has been a shift to let developers ship their apps with their
 own libraries and versions. Users also enjoy having the lates features and fixes.
@@ -75,18 +77,37 @@ They tend to solve many issues:
 - To avoid duplication and save disk space, docker uses layered images. So you download ubuntu once. But many containers use different base images and you can't delete files, images only grow since they are an append only log.
 - Containers also allow sandboxing, limiting cpu, memory, network and filesystem access.
 
+"The downside is that the approach works best when packages are aware of the Nix approach. But the packages have not been written with Nix in mind, and some work is needed per package to adapt to the approach."
 
-pak --lock should create a Pakfile.lock?
+nix-thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
 
-Maybe each pak install <package-name==version> --lock
+`pak --lock` should create a Pakfile.lock?
 
-Do you have to be in the same dir where the Pakfile is?
+Maybe each `pak [un]install <package-name==version> --lock`
 
-Pakfile lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
+This uses a local `Pakfile` in the pwd, other files can be used by passing the `--pakfile=<path-to-pakfile>` param or `PAKFILE` environment variable.
 
-pak shell enters the enviroment
+All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<package-md5-sum>/`.
 
-pak run <commmand> run the command within the enviroment
+`Pakfile` lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
+
+`package-name-version.pak` is a tar file with all the package content that needs to be extracted. Pak keeps track of all files. We can ask pak which package installed which file.
+
+`pak env <envname>` enters the enviroment, and sets the `PAKFILE` env to `/usr/share/pak/envs/envname/Pakfile`
+
+`pak env --list` lists all available envs in `/usr/share/pak/envs/`
+
+`pak run <commmand>` run the command within the enviroment
+
+`pak update` updates all versions updating also the lock file
+
+`pak update <package-name==version>` updates only the package name, updating also the lock file
+
+`pak search <package-name>` search
+
+`pak gc` removes all unreachable packages from the store.
+
+Hierarchy: package stores/environments/configs can be also defined in `~/.local/share/pak/`, etc.
 
 
 Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap). Another example would be Opensnitch.
@@ -97,3 +118,9 @@ Docker + docker-compose re implement a package distribution + process manager an
 https://utcc.utoronto.ca/~cks/space/blog/linux/MicrosoftTeamsBadArrogance
 
 Los packetes se pueden obtener de distintos repos/mirrors (http/ipfs/torrent/etc), that return a URI (http link, magnet link, etc) for a given key (package name)
+
+
+Pak is a runtime environment manager.
+An environment is defined in a Pakfile it might list dependencies of `.pak` files that can be pinned in a Pakfile.lock
+
+System directories should be mounted as RO. To avoid malicius packages from globally altering the system.
