@@ -3,14 +3,13 @@ Date: 2020-05-14
 Category: Politics
 Tags: libertarianism
 Summary: Can libertarians and socialists agree on anything?
-Status: draft
 
-In a discussion it is recomended to first find a common ground of agreement,
+In a discussion it is recommended to first find a common ground of agreement,
 before working on the differences. This puts both parties in a better mood to
 find a shared truth.
 
 Maybe libertarianism and socialism have both something to add to the table, can
-these two opposite views of the world agree on anyting?
+these two opposite views of the world agree on anything?
 
 
 ## Socialism works
@@ -29,65 +28,59 @@ Presents ideas of an altruist society that doesn't leave anyone behind.
 Provides to the needed, cares about people, balances the economic forces, takes
 from the rich and helps the poor.
 
-Solidarity, equiality of oportunities, social justice, minimum wages. Who can
-oposse to that? These are good things, noble goals.
+Solidarity, equality of opportunities, social justice, minimum wages. Who can
+oppose to that? These are good things, noble goals.
 
 Socialism not only feels emotionally superior, but it offers a quick and easy
 explanation to every day *dramas*.
 
 On the other hand, libertarianism requires rational thinking to make sense,
 needs to be studied, it's all about the ultimate consequences, it's
-explanations of reality are counter intuitive.
-
-If you are struggling to make ends meet, would you listen to someone who talks
-about how the federal reserve creates inflation and distorts the economy with
-it's artificial interest rates or someone who talks about universal basic
-income, tuition free schooling and human compassion?
-
-From my libertarian colegues all I hear are economy lessons and individual
-freedom. But all socialists understand is *greed and mind your own business
+explanations of reality are counter intuitive or seem far fetched. Respecting individual freedoms sound more like *greed and mind your own business
 selfishness*.
 
-Laissez-faire is scary. Some will profit, some will loose, the system is
-unfair. We need to work in cooperation towards common goals, things need to be
-planned.
+If you are struggling to make ends meet, would you listen to someone who talks
+about how the federal reserve creates inflation and central banks that distort the economy with artificial interest rates or someone who talks about universal basic
+income, tuition free schooling and human compassion?
+
+Laissez-faire is scary. Some will profit, some will loose, the system seems unfair. The welfare state provides a sense of security, things get planned because we all need to cooperate towards common goals.
 
 
 ## Socialism doesn't scale
 
 This way of relating with family, neighbours, friends and acquaintances,
 most of the time through rules that are written nowhere, but are a cultural
-legacy of shared responsability, has it's limits.
+legacy of shared responsibility, has it's limits.
 
 With a bigger population, a more diverse society, there are no strong bonding
 links between it's members. Not everyone agrees on what *needs to be done*. The
 trust and selfless altruism that might have worked in your local community, now
 becomes unnatural.
 
-Empathy dissapears as the distance between governance and governed widens, your
-ability to change the course of action of such society decreases. The virtues
-of the socialist ideals turn into a dilusional mirage.
+Empathy disappears as the distance between governance and governed widens, your
+ability to change the course of action of such society decreases.
 
 This disconnection makes the government less accountable, prone to corruption.
 
-Central planning is now inneficient and too risky, it affects too many people
+Central planning is now inefficient and too risky, it affects too many people
 and policies probably assume too much. Regulations are slow to adapt and impose
-hidden costs. Politics become aggresively toxic. No one is satisfied.
+hidden costs. Politics become aggressively toxic. No one is satisfied.
+
+Big government, and it's ever growing
+spending, is a fiasco. The virtues
+of the socialist ideals turn into a delusional mirage.
 
 Here is where libertarians should step in and say: *I warned you against
-feeding the demagogic leviathan*. Big government, and it's ever growing
-spending, is a fiasco.
+feeding the demagogic leviathan*.
 
-The dynamism and eficiency that capitalism achieves, in coordinating efforts of
-a society between people that don't know each other, to produce better goods
-and cheaper services has no sutable oponent.
+The dynamism and efficiency that capitalism achieves, in coordinating efforts between people that don't know each other, to produce better goods
+and cheaper services has no suitable opponent.
 
-Free markets, tolerance, divergence, innovation, competition and freedom to
+Free markets, tolerance to divergence, innovation, competition and freedom to
 experiment are indispensable at this scale. Now ideas of limiting authority,
 decentralizing power, and questioning regulations really shine.
 
 As a libertarian, I do understand socialists. And agree that socialism works,
 but it doesn't scale. I'm willing to accept a certain amount of forced
-colectivism, so long as it stays local, accountable and in competition with
-other regulations. But I still stand by freedom, as the beacon of light guiding
-my life and principles.
+collectivism, so long as it stays local, accountable and in competition with
+other regulations. But I still stand by freedom, as the beacon of light guiding society to a greater good.
