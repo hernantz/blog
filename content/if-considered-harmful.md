@@ -454,6 +454,7 @@ https://fsharpforfunandprofit.com/rop/
 2- result value (int or boolean), multiple return values (like go), a structured object that represents a result: un objecto en js -> monada (maybe) -> response message like a json api
 3- callbacks -> Promises
 http://stupidpythonideas.blogspot.com/2015/05/if-you-dont-like-exceptions-you-dont.html
+https://bytes.yingw787.com/posts/2019/12/06/monads/
 
 Django PermissionDenied para custom authentication backend
 
