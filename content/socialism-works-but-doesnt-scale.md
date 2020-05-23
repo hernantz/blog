@@ -40,7 +40,7 @@ explanations of reality are counter intuitive or seem far fetched. Respecting in
 selfishness*.
 
 If you are struggling to make ends meet, would you listen to someone who talks
-about how the federal reserve creates inflation and central banks that distort the economy with artificial interest rates or someone who talks about universal basic
+about how the federal reserve creates inflation and distorts the economy with artificial interest rates or someone who talks about universal basic
 income, tuition free schooling and human compassion?
 
 Laissez-faire is scary. Some will profit, some will loose, the system seems unfair. The welfare state provides a sense of security, things get planned because we all need to cooperate towards common goals.
@@ -70,8 +70,7 @@ Big government, and it's ever growing
 spending, is a fiasco. The virtues
 of the socialist ideals turn into a delusional mirage.
 
-Here is where libertarians should step in and say: *I warned you against
-feeding the demagogic leviathan*.
+Here is where libertarians should step in and say: *It's not impossible to put the cart before the horse, but simply impractical*.
 
 The dynamism and efficiency that capitalism achieves, in coordinating efforts between people that don't know each other, to produce better goods
 and cheaper services has no suitable opponent.
