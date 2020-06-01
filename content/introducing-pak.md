@@ -42,6 +42,7 @@ http://holocm.org/
 https://wiki.archlinux.org/index.php/Pacman/Rosetta
 https://micromind.me/en/posts/from-docker-container-to-bootable-linux-disk-image/
 https://reproducible-builds.org/
+https://www.tweag.io/posts/2020-05-25-flakes.html
 https://ostree.readthedocs.io/en/latest/manual/related-projects/
 https://xyrillian.de/thoughts/posts/argh-pm.html
 https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf

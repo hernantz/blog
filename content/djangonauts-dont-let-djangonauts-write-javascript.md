@@ -144,7 +144,7 @@ Modernizr v3.6 and Normalize
 - ajax forms
 https://unpoly.com/
 https://www.oreilly.com/ideas/its-time-to-rebuild-the-web
-http://intercoolerjs.org/docs.html
+http://intercoolerjs.org/docs.html -> https://htmx.org/
 https://engineering.instawork.com/iterating-with-simplicity-evolving-a-django-app-with-intercooler-js-8ed8e69d8a52
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app
 https://alistapart.com/article/responsible-javascript-part-1/
