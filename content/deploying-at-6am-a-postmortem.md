@@ -1,20 +1,20 @@
 Title: Deploying at 6am, a postmortem
 Date: 2020-06-09
 Category: Programming
-Tags: devops 
+Tags: devops, postgresql
 Summary: Another chapter in the IT nightmare stories.
 
 ![Graph of number of active users](/images/demand.png "Graph of number of active users")
 
-Our demand is pretty predictable. We thought it would be best to run deployments very early or very late hours. If they require downtime.
+Our webapp has a pretty predictable demand. We thought it is best to run deployments very early or at very late hours. If they require downtime that is.
 
-This time we needed to delete a lot of tables that were growing too much and adding too little with features that no one uses (think of event logs etc) which we replaced with logs. Making our backups and future db replications take longer.
+This time we needed to delete a few tables that were growing too much and adding too little with features that no one uses (think of event logs etc) which we replaced with logs, duh!
 
 So anyway at 6 am I started the deploy, once the app builds it runs the migrations, I put the site in maintenance mode, and the Django release command got stuck in running migrations.
 
 I knew that drop table queries shouldn't take too long, they simply remove a directory from the disk. 
 
-After waiting for more than 10 minutes it was time to check what the postgres db was doing.
+After waiting for more than 15 minutes it was time to check what the postgresql db was doing.
 
 You can basically check the logs or run queries against the `pg_stats_activity` table to get an idea of what's going on.
 
@@ -28,7 +28,7 @@ blocked_by | {24484}
 blocked_by | {25741}
 ```
 
-Let's inspect those pids
+Let's inspect those pids:
 
 ```sql
 proddb=> select * from pg_stat_activity where pid = 24484;
@@ -54,6 +54,7 @@ backend_xmin     | 72354912
 query            | COPY "public"."field_history_fieldhistory" ("id", "object_id", "field_name", "serialized_data", "date_created", "content_type_id", "user_id") TO stdout;
 backend_type     | client backend
 ```
+
 There is the culprit. I can see on `query_start` that it started just ten minutes after I began the deploy and the `application_name` is the Heroku automatic backups service. 
 
 Turns out that when the site has low activity it is also a good time to run our db backups.
@@ -70,5 +71,4 @@ proddb=>  SELECT pg_cancel_backend(24484);
 ```
 
 Immediately after, the lock was freed and the release finished successfully.
-
 
