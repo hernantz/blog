@@ -49,6 +49,8 @@ https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems.pdf
 https://dependabot.com/
 https://nixos.org/nixos/nix-pills/
 https://michael.stapelberg.ch/posts/2020-05-09-distri-hermetic-packages/
+https://github.com/andrewchambers/hermes -> nix in c
+https://github.com/spack/spack -> python package manager (https://spack.io/)
 
 • unpriviliged package management
 • per-user profiles (Pak profiles are package groups (bundles of packages))
@@ -84,6 +86,10 @@ nix-thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
 
 `pak --lock` should create a Pakfile.lock?
 
+--root can change the default store directory.
+
+there are no optional dependencies, if something is optional it can be installed explicitly by the user.
+
 Maybe each `pak [un]install <package-name==version> --lock`
 
 This uses a local `Pakfile` in the pwd, other files can be used by passing the `--pakfile=<path-to-pakfile>` param or `PAKFILE` environment variable.
@@ -92,7 +98,7 @@ All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<
 
 `Pakfile` lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
 
-`package-name-version.pak` is a tar file with all the package content that needs to be extracted. Pak keeps track of all files. We can ask pak which package installed which file.
+`package-name-version.pak.zst` is a tar file (zstd) with all the package content that needs to be extracted. Pak keeps track of all files. We can ask pak which package installed which file.
 
 `pak env <envname>` enters the enviroment, and sets the `PAKFILE` env to `/usr/share/pak/envs/envname/Pakfile`
 

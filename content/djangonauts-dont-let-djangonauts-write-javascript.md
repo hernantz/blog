@@ -72,7 +72,7 @@ be consumed.  Shall we compare the traffic generated from a chached website
 vs an installed version of the site (be it a native app or an installed
 webapp) to arrive to a conclusion.
 
-- ajax loaded html snippets (hello hernantz section that is not cachable)
+- ajax loaded html snippets (hello hernantz section that is not cachable) (https://github.com/dimkoug/tododjangoccb/blob/master/tododjangoccbv/cms/ajax_views.py)
 - cache de partes renderizadas, por ejemplo una lista con los ultimos blog posts?
 - http://antulik.com/2016-10-02-parallel-rendering-in-rails.html
 - https://semaphoreci.com/blog/2017/06/08/speeding-up-rails-pages-with-render-async.html
