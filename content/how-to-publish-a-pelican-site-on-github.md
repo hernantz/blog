@@ -39,7 +39,7 @@ Adding a git submodule will create another version controlled file called
     ignore = all
 ```
 
-As the output directory is now managed by the independant git repository
+As the output directory is now managed by the independent git repository
 from step 1, we don't want to have to version-control it again from our pelican
 site repo, and that's why we added the last *ignore* statement.
 
