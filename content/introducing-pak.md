@@ -11,6 +11,8 @@ be done with oneshot scripts in systemd (like run migrations for example).
 
 A package manager is a program that gets a bunch of files (binaries, images, etc) from somewhere (a package) and distributes them on a filesystem (your pc for example). The manager part implies that it can keep track of installed packages, versions, etc. Packages are archives that contain files and metadata, the metadata specifies where to place the files. 
 
+https://lwn.net/Articles/821367/ Merkle trees and build systems
+
 Transactional updates: https://www.youtube.com/watch?v=ureneyH06AE
 
 We need a virtualenv but for system packages. Otherwise python, rust, javascript, etc re-implement the wheel over and over.
@@ -110,6 +112,8 @@ All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<
 
 `pak update <package-name==version>` updates only the package name, updating also the lock file
 
+`pak taste <package-name>` one off shell with the package installed
+
 `pak search <package-name>` search
 
 `pak gc` removes all unreachable packages from the store.
@@ -131,3 +135,7 @@ Pak is a runtime environment manager.
 An environment is defined in a Pakfile it might list dependencies of `.pak` files that can be pinned in a Pakfile.lock
 
 System directories should be mounted as RO. To avoid malicius packages from globally altering the system.
+
+https://www.youtube.com/watch?v=oPymb2-IXbg NixOS: How it works and how to install it!
+
+Like software which needs to be built + released, systems can also be built (packeages installed) and released (services started, db migrations run, etc).
