@@ -16,12 +16,10 @@ I knew that drop table queries shouldn't take too long, they simply remove a dir
 
 After waiting for more than 15 minutes it was time to check what the postgresql db was doing.
 
-You can basically check the logs or run queries against the `pg_stats_activity` table to get an idea of what's going on.
+You can basically check the logs or run queries against the `pg_stat_activity` table to get an idea of what's going on.
 
 ```sql
-proddb=> SELECT pg_blocking_pids(pid) AS blocked_by
-FROM pg_stat_activity
-WHERE cardinality(pg_blocking_pids(pid)) > 0;
+proddb=> SELECT pg_blocking_pids(pid) AS blocked_by FROM pg_stat_activity WHERE cardinality(pg_blocking_pids(pid)) > 0;
 -[ RECORD 1 ]-------
 blocked_by | {24484}
 -[ RECORD 2 ]-------
@@ -31,7 +29,7 @@ blocked_by | {25741}
 Let's inspect those pids:
 
 ```sql
-proddb=> select * from pg_stat_activity where pid = 24484;
+proddb=> SELECT * FROM pg_stat_activity WHERE pid = 24484;
 -[ RECORD 1 ]----
 datid            | 16402
 datname          | proddb
@@ -59,9 +57,9 @@ There is the culprit. I can see on `query_start` that it started just ten minute
 
 Turns out that when the site has low activity it is also a good time to run our db backups.
 
-After checking the timestamps for previous backups I noticed they take two hours to complete. So I couldn't wait that long with the site down.
+After checking the timestamps for previous backups I noticed they take two hours to complete.
 
-So I killed the query with:
+I couldn't wait that long with the site down. So I killed the query with:
 
 ```sql
 proddb=>  SELECT pg_cancel_backend(24484);
