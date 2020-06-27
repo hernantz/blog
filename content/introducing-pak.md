@@ -123,6 +123,7 @@ Hierarchy: package stores/environments/configs can be also defined in `~/.local/
 
 Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap). Another example would be Opensnitch.
 
+https://drewdevault.com/dynlib.html -> sharing packages is ok, sharing libs is an overkill
 
 Docker + docker-compose re implement a package distribution + process manager and orchestration + build system.
 
@@ -139,3 +140,5 @@ System directories should be mounted as RO. To avoid malicius packages from glob
 https://www.youtube.com/watch?v=oPymb2-IXbg NixOS: How it works and how to install it!
 
 Like software which needs to be built + released, systems can also be built (packeages installed) and released (services started, db migrations run, etc).
+
+http://www.cse.unsw.edu.au/~plaice/archive/WWW/1993/P-SPE93-Sloth.pdf
