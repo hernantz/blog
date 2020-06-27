@@ -1,9 +1,8 @@
 Title: Configuration is an API, not an SDK
-Date: 2020-06-25
+Date: 2020-06-27
 Category: Programming
 Tags: python, best-practices, tools, configuration, architecture
-Summary: A config management architecture for the working dev.
-Status: draft
+Summary: A configuration architecture for the working dev.
 
 ![Control room | photo by @patrykgradyscom at Unsplash](/images/control-room.jpg "Control room | photo by @patrykgradyscom at Unsplash")
 
@@ -20,7 +19,7 @@ Executable files can be used as config sources like `.vimrc` for Vim, `Vagrantfi
 
 First, your users now need to learn a new programming language, just to configure your application. Some apps (like the [suckless][2] bundle) go as far as requiring you to patch and compile your app to change it’s configuration.
 
-And second, your configuration is no longer hierarchical, your application cannot extract configuration from different sources by executing different files, because you cannot know in advance what is being executed. So you typically end up with one single executable file as config that takes care of everything.
+And second, your configuration is no longer hierarchical, your application cannot extract configuration from different sources by executing different files, because you cannot know in advance what is being executed. A programming language has control structures, can make calls to the internet, etc, so you can't known in advance the output you will get.
 
 If you need to let users alter the behaviour of your program, that is not strictly configuration, but there is a better solution for this: a plugin system.
 
@@ -42,11 +41,11 @@ ll is aliased to `ls -alF`
 
 And yes, many apps allow for both `-s` short and long `--more-verbose` arguments.
 
-Alternatively, config files are naturally better documenting and declarative. Some file formats allow for comments and are great as starter templates to build upon. With files it's easier to make diff and track changes over time.
+Alternatively, config files are naturally better documenting and declarative. Some file formats allow for comments and are great as starter templates to build upon. With files it's easier to make diffs and track changes over time.
 
-Environment variables are the simplest way to configure apps/scripts. You just need to populate a global dictionary before executing it. There is no need to parse files or command line arguments. An example of this is [qutebrowser][4] were it allows the user to write *userscripts*, but it's up to the user to look into the environment dict for what it needs. This practice is also common in cloud providers to inject credentials or connection strings for your app.
+Environment variables are the simplest way to configure apps/scripts. You just need to populate a global dictionary before executing it. There is no need to parse files or command line arguments. This practice is very common in cloud providers to inject credentials or connection strings for your app. Another example is [qutebrowser][4]; it allows the user to write *userscripts* and passes many environment variables to share the browser state before executing them.
 
-On the other hand, environment variables shouldn’t hold sensitive data, there are potential security issues regarding accidental leaks via logging, error reporting services or child process inheritance.
+On the other hand, environment variables shouldn’t hold sensitive data, there are potential security issues regarding accidental leaks via logging and error reporting services or child process inheritance.
 
 Well designed applications allow different ways to be configured. Each having it's pros and cons.
 
@@ -69,15 +68,15 @@ A proper settings-discoverability chain goes as follows:
  3. Config files in different directories, that also imply some hierarchy. For example: config files in `/etc/myapp/settings.ini` are applied system-wide, while `~/.config/myapp/settings.ini` take precedence and are user-specific.
  4. Hardcoded constants as defaults.
 
-Some of these sources may not be present or relevant to your app. Ideally each one of this sources of configuration needs to be properly collected and overwritten with an explicit level of hierarchy. This gives more flexibility to your users, so they can run your app/script in the cloud or in their multiuser computers, using systemd or docker, etc.
+Some of these sources may not be present or relevant to your app. But each one of these sources of configuration needs to be properly collected and overwritten with an explicit level of hierarchy. This gives more flexibility to your users, so they can run your app/script in the cloud or in their multiuser computers, using systemd or docker, etc.
 
 ## Using the right tool for the job
 
 Your application will require other tools, like compilers, installers, package managers, process supervisors, etc. These tools solve different problems of the architecture of your software.
 
-Configuration is also part of that architecture. Along with your program you will have to ship the configuration artifact.
+Configuration is also part of that architecture. Along with your program you will have to ship the configuration artifact. But this is not an issue that only comes up when you make a new release. When you are developing you are also making tiny releases on your laptop.
 
-When you are developing you are also making tiny releases on your laptop. So this raises the need for some tool to provide your code with the right configuration. Some of this tools are only used when developing or in production, ideally both envs match.
+So this raises the need for some tool to provide your code with the right configuration, in all it's stages. Some of these tools are only used when developing or in production, ideally both envs match.
 
 There are many tools for managing configuration. For example, [direnv][6] and [envdir][7] load environment variables from directories and files. [Systemd units][5] have a section to list them or point to an environment file populating the environment. [Ansible][8] includes a templating language to generate configuration files and place them anywhere in the system. [Ansible Vault][9] can be used to provide the app with encrypted secrets.
 
@@ -123,7 +122,7 @@ It is important to be consistent in naming these variables, but to respect the c
 
 If your app is written in Python, it's your lucky day.
 
-[Classyconf][3] is a library that helps you with a configuration management solution for perfectionists with deadlines, or for the working dev if it sits you better.
+[Classyconf][3] is a library that helps you with a configuration architecture for perfectionists with deadlines™, or for the working dev if it sits you better.
 
 The good practices that it suggests have an agnostic approach to configure applications, no matter if they are web, CLI or GUI apps, hosted on the cloud or running in your desktop.
 
@@ -132,6 +131,7 @@ Docs](https://classyconf.readthedocs.io/en/latest/index.html) website, but here 
 
 ```python
 from classyconf import Configuration, Value, Environment, IniFile, as_boolean, EnvPrefix
+
 
 class AppConfig(Configuration):
 
