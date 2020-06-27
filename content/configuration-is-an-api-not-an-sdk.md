@@ -1,11 +1,11 @@
 Title: Configuration is an API, not an SDK
-Date: 2020-06-24
+Date: 2020-06-25
 Category: Programming
-Tags: python, best-practices
+Tags: python, best-practices, tools, configuration, architecture
 Summary: A config management architecture for the working dev.
 Status: draft
 
-![Soviet control room](/images/soviet-control-room.jpg "Soviet nuclear plan control room")
+![Control room | photo by @patrykgradyscom at Unsplash](/images/control-room.jpg "Control room | photo by @patrykgradyscom at Unsplash")
 
 Configuration is every setting that needs to change based on the environment where the app is executed. It helps you *preset* the state of your app, without having to change the code. This is why it is important to provide a clear separation of configuration and code.
 
@@ -16,21 +16,22 @@ Configuration is every setting that needs to change based on the environment whe
 
 It might be used by people with or without technical skills, that install or run your app.
 
-Executable files can be used as config sources like `.vimrc`, `Vagrantfile`, etc. This approach has some drawbacks.
+Executable files can be used as config sources like `.vimrc` for Vim, `Vagrantfile` for Vagrant, etc, but approach has some drawbacks.
 
 First, your users now need to learn a new programming language, just to configure your application. Some apps (like the [suckless][2] bundle) go as far as requiring you to patch and compile your app to change it’s configuration.
 
 And second, your configuration is no longer hierarchical, your application cannot extract configuration from different sources by executing different files, because you cannot know in advance what is being executed. So you typically end up with one single executable file as config that takes care of everything.
 
-The best way to think of configuration is as a set of key/value dicts that need to be merged into a single config dict. No need to get fancy.
-
 If you need to let users alter the behaviour of your program, that is not strictly configuration, but there is a better solution for this: a plugin system.
 
-## Settings discoverability
+The best way to think of configuration is as a set of key/value dicts that need to be merged into a single config dict. No need to get fancy with yet another DSL.
 
-Well designed applications allow different ways to be configured. Each having it's pros and cons.
 
-For example command line args are great to explore an app from the shell, and tinker around it's possibilities.
+## What configuration format should I use?
+
+The short answer is: it depends, but probably more than one.
+
+For example command line args are great to explore an app from the 	shell, and tinker around it's possibilities.
 
 When you already know what you want it would be great to set some defaults in a configuration file somewhere. Yes, you can always set an alias, like many distros do:
 
@@ -39,13 +40,27 @@ $ type ll
 ll is aliased to `ls -alF`
 ```
 
-And yes, many apps allow for both `-s` short and `--long-descriptive` arguments.
+And yes, many apps allow for both `-s` short and long `--more-verbose` arguments.
 
-Config files are naturally better documenting and declarative. It's easier to make a diff and inspect.
+Alternatively, config files are naturally better documenting and declarative. Some file formats allow for comments and are great as starter templates to build upon. With files it's easier to make diff and track changes over time.
 
-On the other hand, environment variables are the simplest way to configure apps/scripts. You just need to populate a global dictionary before executing it. There is no need to parse files or command line arguments. An example of this is [qutebrowser][4] were it allows the user to write userscripts, but it's up to the user to look into the environment dict for what it needs. This practice is also common in cloud providers to inject credentials or connection strings for your app.
+Environment variables are the simplest way to configure apps/scripts. You just need to populate a global dictionary before executing it. There is no need to parse files or command line arguments. An example of this is [qutebrowser][4] were it allows the user to write *userscripts*, but it's up to the user to look into the environment dict for what it needs. This practice is also common in cloud providers to inject credentials or connection strings for your app.
 
-But what happens if a setting is passed as command line argument but also exist in the config file? Which one is more important?
+On the other hand, environment variables shouldn’t hold sensitive data, there are potential security issues regarding accidental leaks via logging, error reporting services or child process inheritance.
+
+Well designed applications allow different ways to be configured. Each having it's pros and cons.
+
+If your app is a long running process, like a webserver, you can issue a
+``SIGHUP`` signal so that it reloads it's config from files. Env vars and
+command line arguments cannot be easily changed from the outside after
+the program startup.
+
+What matters here is that env vars, command line args and files (.ini, .yml and .toml) are the most standard formats to configure apps. You should be able to configure any app with standard unix tools and a text editor. Stick to these formats when possible.
+
+
+## Settings discoverability
+
+But what happens if a setting is passed as command line argument but also exist in a config file? Which source is more important?
 
 A proper settings-discoverability chain goes as follows:
 
@@ -54,14 +69,21 @@ A proper settings-discoverability chain goes as follows:
  3. Config files in different directories, that also imply some hierarchy. For example: config files in `/etc/myapp/settings.ini` are applied system-wide, while `~/.config/myapp/settings.ini` take precedence and are user-specific.
  4. Hardcoded constants as defaults.
 
-Some of these sources may not be present or relevant to your app. Ideally each one of this sources of configuration need to be properly collected and overwritten with an explicit level of hierarchy. This gives more flexibility to your users, so they can run your app/script in the cloud or in their multiuser computers, using systemd or docker, etc.
+Some of these sources may not be present or relevant to your app. Ideally each one of this sources of configuration needs to be properly collected and overwritten with an explicit level of hierarchy. This gives more flexibility to your users, so they can run your app/script in the cloud or in their multiuser computers, using systemd or docker, etc.
 
 ## Using the right tool for the job
 
-There are many tools for managing configuration. [Direnv][6] and [envdir][7] load environment variables from directories and files. [Systemd units][5] have a section to list them or point to an environment file populating the environment. [Ansible][8] includes a templating language to generate configuration files and placing them anywhere in the system.
-[Ansible Vault][9] can be used to provide the app with encrypted secrets.
+Your application will require other tools, like compilers, installers, package managers, process supervisors, etc. These tools solve different problems of the architecture of your software.
 
-No matter which tool you choose to manage, generate and populate the configuration, your app should only care about reading files/env vars/cli args.
+Configuration is also part of that architecture. Along with your program you will have to ship the configuration artifact.
+
+When you are developing you are also making tiny releases on your laptop. So this raises the need for some tool to provide your code with the right configuration. Some of this tools are only used when developing or in production, ideally both envs match.
+
+There are many tools for managing configuration. For example, [direnv][6] and [envdir][7] load environment variables from directories and files. [Systemd units][5] have a section to list them or point to an environment file populating the environment. [Ansible][8] includes a templating language to generate configuration files and place them anywhere in the system. [Ansible Vault][9] can be used to provide the app with encrypted secrets.
+
+Some tools like [consul-template][11] or [envconsul][10] can also listen to changes in the configuration and issue a `SIGTERM` or (even better) a `SIGHUP` signal to your long running process, so that it can pick up new config values without downtime.
+
+No matter which tool you choose to manage, generate and populate the configuration artifact, the code of your app should only care about reading files, env vars and/or cli args.
 
 
 ## Naming conventions and namespaces for settings
@@ -92,17 +114,21 @@ Command line arguments have yet another conventions:
 $ myapp --debug=yes --another-config=10
 ```
 
+You probably noticed that the debug setting is a boolean value. These flags should accept different inputs like `yes|no`, `1|0`, `true|false` or `t|f`.
+
+It is important to be consistent in naming these variables, but to respect the conventions too.
+
+
 ## A solution for the working dev
 
 If your app is written in Python, it's your lucky day.
 
-[Classyconf][3] is a library that provides the configuration management solution for perfectionists with deadlines, or for the working dev if it sits you better.
+[Classyconf][3] is a library that helps you with a configuration management solution for perfectionists with deadlines, or for the working dev if it sits you better.
 
 The good practices that it suggests have an agnostic approach to configure applications, no matter if they are web, CLI or GUI apps, hosted on the cloud or running in your desktop.
 
 You can find out more documentation at [Read the
-Docs](https://classyconf.readthedocs.io/en/latest/index.html) website, but
-here is a preview of how to use it.
+Docs](https://classyconf.readthedocs.io/en/latest/index.html) website, but here is a preview of how to use it.
 
 ```python
 from classyconf import Configuration, Value, Environment, IniFile, as_boolean, EnvPrefix
@@ -121,16 +147,7 @@ class AppConfig(Configuration):
 
 As you can see is very declarative. It uses the concept of loaders, which collect settings from different sources and merges them in the right order.
 
-Later this object can be used to print settings
-
-```python
->>> config = AppConfig()
->>> print(config)
-DEBUG=True - Toggle debugging mode.
-DATABASE='postgres://localhost:5432/mydb' - Database connection.
-```
-
-extended according to different environments or needs
+This class can be extended according to different environments or needs.
 
 ```python
 class TestConfig(AppConfig):
@@ -167,9 +184,9 @@ introspected and iterated
 
 ## Conclusion
 
-The idea of this blog post was to highlight the importance of a nice configuration API for any program, no matter what kind of program it is. 
+The idea of this blog post was to highlight the importance of thinking configuration as an API, to follow best practices and conventions and the need to be flexible for different sources of configuration.
 
-I've shamelessly introduced classyconf, but I'm sure that similar libraries can be found for other languages as well.
+I've shamelessly introduced [classyconf][3] as a way to address all this topics, but I'm sure that similar libraries can be found for other languages as well.
 
 
 [1]: {filename}/configuration-friendly-apps.md "Configuration-friendly apps"
@@ -181,3 +198,5 @@ I've shamelessly introduced classyconf, but I'm sure that similar libraries can 
 [7]: http://cr.yp.to/daemontools/envdir.html
 [8]: https://docs.ansible.com/ansible/latest/
 [9]: https://docs.ansible.com/ansible/latest/user_guide/vault.html
+[10]: https://github.com/hashicorp/envconsul
+[11]: https://github.com/hashicorp/consul-template
