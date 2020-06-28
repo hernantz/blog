@@ -66,7 +66,7 @@ A proper settings-discoverability chain goes as follows:
  1. First command line args are checked.
  2. Then environment variables.
  3. Config files in different directories, that also imply some hierarchy. For example: config files in `/etc/myapp/settings.ini` are applied system-wide, while `~/.config/myapp/settings.ini` take precedence and are user-specific.
- 4. Hardcoded constants as defaults.
+ 4. Finally you fallback to hardcoded constants as defaults.
 
 Some of these sources may not be present or relevant to your app. But each one of these sources of configuration needs to be properly collected and overwritten with an explicit level of hierarchy. This gives more flexibility to your users, so they can run your app/script in the cloud or in their multiuser computers, using systemd or docker, etc.
 
@@ -76,7 +76,7 @@ Your application will require other tools, like compilers, installers, package m
 
 Configuration is also part of that architecture. Along with your program you will have to ship the configuration artifact. But this is not an issue that only comes up when you make a new release. When you are developing you are also making tiny releases on your laptop.
 
-So this raises the need for some tool to provide your code with the right configuration, in all it's stages. Some of these tools are only used when developing or in production, ideally both envs match.
+So this raises the need for some tool to provide your code with the right configuration, in all its stages. Some of these tools are only used when developing or in production, ideally both envs match.
 
 There are many tools for managing configuration. For example, [direnv][6] and [envdir][7] load environment variables from directories and files. [Systemd units][5] have a section to list them or point to an environment file populating the environment. [Ansible][8] includes a templating language to generate configuration files and place them anywhere in the system. [Ansible Vault][9] can be used to provide the app with encrypted secrets.
 
