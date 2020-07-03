@@ -27,12 +27,13 @@ https://cachix.org/
 https://www.redox-os.org/news/pkgar-introduction/
 https://github.com/whyrusleeping/gx
 
+https://michael.stapelberg.ch/posts/2019-07-20-hooks-and-triggers/ -> in order to get rid of some hooks we need to turn scripts into configuration. For example new users and password need to be a file (systemd-homed?). The man program should detect the need to re-run it's index.
+
 Packages can contain arch independent files like images or docs.
 Some may include source files for building the project and testing it.
 
-Qué pasa si dos librerías dependen de de una misma dependencia pero en distintas versiones, es el mismo caso que dos apps distintas dependan de distintas versiónes de una misma librería.
-
-Updates de seguridad implican actualizar todo? Si, sino se pierde la build reproducible
+Qué pasa si dos librerías dependen de de una misma dependencia pero en distintas versiones, es el mismo caso que dos apps distintas dependan de distintas versiónes de una misma librería. Para esto es necesario los locks. Uno puede especificar versiones de depenencias con rangos.
+Updates de seguridad implican actualizar todo? Si, sino se pierde la build reproducible. En fin: locks -> build reproducible
 
 https://www.youtube.com/watch?v=4ua5aeKKDzU
 https://en.wikipedia.org/wiki/Package_manager
@@ -142,3 +143,6 @@ https://www.youtube.com/watch?v=oPymb2-IXbg NixOS: How it works and how to insta
 Like software which needs to be built + released, systems can also be built (packeages installed) and released (services started, db migrations run, etc).
 
 http://www.cse.unsw.edu.au/~plaice/archive/WWW/1993/P-SPE93-Sloth.pdf
+
+
+Use python 3.8 + nuitka
