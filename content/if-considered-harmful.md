@@ -450,8 +450,8 @@ https://www.youtube.com/watch?v=rrBJVMyD-Gs
 https://fsharpforfunandprofit.com/rop/
 
 3 formas de manejar errores:
-1- excepciones
-2- result value (int or boolean), multiple return values (like go), a structured object that represents a result: un objecto en js -> monada (maybe) -> response message like a json api
+1- excepciones (is a form of pattern matching by type of error), instead of if/elif/else, you just except multiple times.
+2- result value (int or boolean), multiple return values (like go), a structured object that represents a result: un objecto en js -> monada (maybe) -> response message like a json api => the problem is that the signature of every function will now become a maybe x?
 3- callbacks -> Promises
 http://stupidpythonideas.blogspot.com/2015/05/if-you-dont-like-exceptions-you-dont.html
 https://bytes.yingw787.com/posts/2019/12/06/monads/
