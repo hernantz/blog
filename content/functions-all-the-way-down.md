@@ -119,20 +119,80 @@ This way we can access all the items inside the list.
 
 ```js
 head(numbers) // 1
-head(tail(numbers) // 2
-tail(tail(numbers) // 3
+head(tail(numbers)) // 2
+tail(tail(numbers)) // 3
+```
+
+It would be very convenient to be able to tell when the list finishes, so lets establish the convention that the last element of any list is always the null value.
+
+```js
+id = (x) => x
+numbers = list(1)(list(2)(list(3)(null)))
+```
+
+This way we can create lists of just one element.
+
+```js
+one = list(1)(null)
+```
+
+With a helper function we can 
+
+```js
+let islast = (xs) => eq(tail(xs))(null)
+islast(one) // truthy
 ```
 
 ## Iterating over lists
 
-```js
-isempty = (xs) => eq(tail(xs), null)
+Instead of loops, we use recursion to manipulate values one by one.
+The layout of map looks like this:
 
+```js
+map = (fn) => (xs) => list(fn(head(xs)))(map(fn)(tail(xs)))
+```
+
+It takes a `fn` to apply to each element of `xs`, so we build a new `list` with the using `head` and recursively mapping the `tail`.
+
+We face our first problem with recursion. We need a base case:
+
+```js
+map = (fn) => (xs) => list(()=>fn(head(xs)))
+                          (ifthen(islast(xs))
+                                 (null)
+                                 (map(fn)(tail(xs))))	
+```
+
+We should only trigger the recursion if there is a tail left to be processed.
+
+```js
 range = (low) => (max) => ifthen(eq(low, max))(null)(pair(low, range(low+1, max)))
 ```
-idx, length, map, reduce, filter
+idx, length, map, reduce, filter, reverse = pair(map(tail(xs)), head(xs)) 
+
 ```js
-map = (fn) => (xs) => { ifthen(isempty(head(xs)), null, pair(fn(head(xs)), map(fn)(tail(xs)) }
+map = (fn) => (xs) => list(()=>fn(head(xs)))
+                          (ifthen(islast(xs))
+                                 (()=>()=>null)
+                                 (()=>()=>map(fn)(tail(xs))))
+```
+
+```
+let truthy = (x) => (y) => x()
+let falsy = (x) => (y) => y()
+let eq = (x) => (y) => x == y ? truthy : falsy;
+let ifthen = (bool) => (then) => (otherwise) => bool(then)(otherwise)
+let head = (xs) => xs(truthy)
+let tail = (xs) => xs(falsy)
+let islast = (xs) => eq(tail(xs))(null)
+let list = (fst) => (snd) => (getter) => getter(fst)(snd)
+let one = list(()=>1)(()=>null)
+let two = list(()=>2)(list(()=>1)(()=>null))
+let printer = (x) => { console.log(x); return x;}
+map = (fn) => (xs) => list(()=>fn(head(xs)))
+                          (ifthen(islast(xs))
+                                 (()=>()=>null)
+                                 (()=>map(fn)(tail(xs))))
 ```
 
 
@@ -141,7 +201,7 @@ map = (fn) => (xs) => pair(fn(head(x)))(map(fn)(tail(xs))))
 
 reduce is just map with a different collector
 
-reduce = (collector) => (fn) => (xs) => ifthen(isempty(head(xs)), null, collector(fn(head(xs)), map(fn)(tail(xs))
+reduce = (collector) => (fn) => (xs) => ifthen(isempty(head(xs)) null, collector(fn(head(xs)), map(fn)(tail(xs))
 
 map = reduce(pair)
 
@@ -163,9 +223,8 @@ fistname = get 0
 lastname = get 1
 
 ## Object oriented programming
-Objects hold data as state and methods to manipulate it. 
-Methods are functions bound to objects:
-circle.draw() == draw(circle)
+Objects hold data as state with bundled methods to manipulate it.
+This way you can write `circle.draw()` instead of `draw(circle())`
 Python went further in it's zen of explicit vs implicit
 and passes an explicit reference of the object (self)
 
