@@ -2,13 +2,11 @@ Title: Functions all the way down
 Date: 2020-06-20
 Category: Programming
 Tags: fp, ideas, javascript
-Summary: The building blocks of a programming language.
+Summary: A thought experiment on using functions everywhere
 Status: draft
-
 
 ![tutles all the way down](/images/turtles-all-the-way-down.jpg "Turtles all the way down")
 
-https://www.youtube.com/watch?v=pUN3algpvMs
 
 ## Computations
 
@@ -24,11 +22,11 @@ Since functions are first class citizens, functions can be values too, so functi
 let add = (x) => (y) => x + y
 ```
 
-Here add is a function that takes an argument `x`, returns a function that takes and argument `y` and adds them together.
+Here `add` is a function that takes an argument `x`, returns a function that takes and argument `y` and adds them together.
 This is called curring. It helps you write functions that are more composable.
 
 ```js
-add2 = add(2)
+let add2 = add(2)
 ```
 
 Now `add2` can be passed arround as a parameter to other functions.
@@ -38,6 +36,7 @@ add2(4) // will output 6
 ```
 
 Like we said, functions represent computations, but the results might not be always needed. So a way to defer computations until they are needed is to return expressions wrapped in functions.
+
 ```js
 let lazyadd => (x) => (y) => () => x + y
 ```
@@ -49,7 +48,7 @@ sum() // outputs 3
 ```
 
 
-## Making decisions
+## Branches
 
 At some point we will need control structures to make decisions.
 Something like the if/then blocks in other languages. We don't have anything but functions here. So functions we use:
@@ -59,7 +58,7 @@ let truthy = (x) => (y) => x
 let falsy = (x) => (y) => y
 ```
 
-Along with these boolean representations we would need some form of primitive that returns them.
+Along with these boolean representations we would need some form of primitive that returns them. We could assume in this case that `==` is baked into the language.
 
 ```js
 let eq = (x) => (y) => x == y ? truthy : falsy;
@@ -87,8 +86,9 @@ We could create a function that take n arguments.
 let container = (fst) => (snd) => (n) => { /* do something */ }
 ```
 
+But we would need to create multiple functions, so there is a better abstraction we can get inspired by: a linked list.
 
-but we would need to create multiple functions, so there is a better abstraction we can get inspired by: a linked list. A linked list is basically a tuple of a value an a pointer to another tuple. So we need a function that accepts only two arguments.
+A linked list is basically a tuple of a value an a pointer to another tuple. So we need a function that accepts only two arguments.
 
 ```js
 let list = (fst) => (snd) => { /* do something */  };
@@ -143,7 +143,7 @@ let islast = (xs) => eq(tail(xs))(null)
 islast(one) // truthy
 ```
 
-## Iterating over lists
+## Loops
 
 Instead of loops, we use recursion to manipulate values one by one.
 The layout of map looks like this:
@@ -157,97 +157,62 @@ It takes a `fn` to apply to each element of `xs`, so we build a new `list` with 
 We face our first problem with recursion. We need a base case:
 
 ```js
-map = (fn) => (xs) => list(()=>fn(head(xs)))
-                          (ifthen(islast(xs))
-                                 (null)
-                                 (map(fn)(tail(xs))))	
+let map = (fn) => (xs) => list(()=>fn(head(xs)))
+                              (ifthen(islast(xs))
+                                     (null)
+                                     (map(fn)(tail(xs))))	
 ```
 
-We should only trigger the recursion if there is a tail left to be processed.
-
-```js
-range = (low) => (max) => ifthen(eq(low, max))(null)(pair(low, range(low+1, max)))
-```
-idx, length, map, reduce, filter, reverse = pair(map(tail(xs)), head(xs)) 
+We should only trigger the recursion if there is a tail left to be processed. So let's avoid the eager execution by wrapping it inside a function.
 
 ```js
-map = (fn) => (xs) => list(()=>fn(head(xs)))
-                          (ifthen(islast(xs))
-                                 (()=>()=>null)
-                                 (()=>()=>map(fn)(tail(xs))))
+let map = (fn) => (xs) => list(()=>fn(head(xs)))
+                              (ifthen(islast(xs))
+                                     (()=>()=>null)
+                                     (()=>()=>map(fn)(tail(xs))))
 ```
 
-```
+Now, this won't work unless we re-define our contract with lists and booleans.
+
+```js
 let truthy = (x) => (y) => x()
 let falsy = (x) => (y) => y()
-let eq = (x) => (y) => x == y ? truthy : falsy;
-let ifthen = (bool) => (then) => (otherwise) => bool(then)(otherwise)
-let head = (xs) => xs(truthy)
-let tail = (xs) => xs(falsy)
-let islast = (xs) => eq(tail(xs))(null)
-let list = (fst) => (snd) => (getter) => getter(fst)(snd)
-let one = list(()=>1)(()=>null)
-let two = list(()=>2)(list(()=>1)(()=>null))
-let printer = (x) => { console.log(x); return x;}
-map = (fn) => (xs) => list(()=>fn(head(xs)))
-                          (ifthen(islast(xs))
-                                 (()=>()=>null)
-                                 (()=>map(fn)(tail(xs))))
+let numbers = list(()=>1)(list(()=>2)(()=>null))
 ```
 
+Lists now hold functions that compute values when accessed. Not only our lists are immutable, but also lazy. We have accidentally created lazy generators. CHECK THIS. Map is a list creator so we can join maps.
 
-What about loops, just use recursion
-map = (fn) => (xs) => pair(fn(head(x)))(map(fn)(tail(xs))))
+A more general implementation is to accept other function as the accumulator.
 
-reduce is just map with a different collector
+```js
+let fold = (acc) => (fn) => (xs) => acc(()=>fn(head(xs)))
+                                       (ifthen(islast(xs))
+                                              (()=>()=>null)
+                                              (()=>()=>fold(acc)(fn)(tail(xs))))
+```
 
-reduce = (collector) => (fn) => (xs) => ifthen(isempty(head(xs)) null, collector(fn(head(xs)), map(fn)(tail(xs))
+With this abstraction we can not only compose `map`, but some functions like `sum` and `length`.
 
-map = reduce(pair)
+```js
+let id = (x) => x
+let add = (x) => (y) => x() + y()
+let ones = (x) => ifthen(eq(x)(null))(()=>0)(()=>1)
 
-Null = []
-Maybe x = [x]
+let map = fold(list)
+let sum = fold(add)(id)
+let length = fold(add)(ones)
+```
 
-Exceptions? => lists
+## More
 
-Dicts are lists of tuples and an index (of getters and setters)
-users = [['foo', 'bar'], ['baz', 'zaz']]
+There are many other functions that we should explore, like filter, reverse, index, etc.
 
-firstname user = user[0] 
-lastname user = user[1]
+But I think by now we can appreciate that [functions are really powerful][1] bulding blocks.
 
-So really firstname and lastname are aliases for get, we could just write
-get i obj = obj[i]
+Of course this syntax is very ilegible and cumbersome, and writing `map(fn, [1, 2, 3])` is way more expresive.
 
-fistname = get 0
-lastname = get 1
+This was just a [thought experiment][2], an academic one.
 
-## Object oriented programming
-Objects hold data as state with bundled methods to manipulate it.
-This way you can write `circle.draw()` instead of `draw(circle())`
-Python went further in it's zen of explicit vs implicit
-and passes an explicit reference of the object (self)
 
-By composing functions and piping data through we don't need inheritance.
-
-## Infinite sequences
-Now that we have curring, loops and data, we realize that lists can be consumed and are no longer useful, what if we need streams?
-Streams = callbag
-
-Futures and async ?
-
-## Types
-Types are needed to manage memory and to express entities of your program. Types are like bags of data that is labeled. This labels imply some meaning of data it carries and what operations are permitted.
-We could implement type checking by using validations all over our code, to make sure that we are working with the right kind of data type.
-
-To not loose our sanity we will say that it's up to the compiler to not only manage memory for us, but to also perform type checking analysis.  
-
-## High level programming
-
-It seems that the building blocks of a programming language are pure functions to work over values and lists (which are functions too). Functions represent computations, an lists carry data and results around our codebase.
-
-You can see how we can start implementing lots improvements to reduce validation (types system and compile time checking). Add syntactic sugar to write less parentheses. Auto curring of functions. Auto lazyness of results. And many more that languages have already implemented.
-
-The more expresive a program is, the less work you have to do. You tell the compiler what you need instead of how to do it.
-
-This process has been taking place since programmers switched from binary to assembler. Assembler is a high level programming.
+[1]: https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf
+[2]: https://www.youtube.com/watch?v=pUN3algpvMs
