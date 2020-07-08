@@ -76,7 +76,7 @@ Or build more complex boolean logic.
 let negate = (bool) => ifthen(eq(bool)(truthy))(falsy)(truthy)
 ```
 
-## Data containers
+## Containers
 
 As we can see, functions can hold data as parameters and as return values. But how do we represent a container of x number of values?
 
@@ -86,7 +86,9 @@ We could create a function that take n arguments.
 let container = (fst) => (snd) => (n) => { /* do something */ }
 ```
 
-But we would need to create multiple functions, so there is a better abstraction we can get inspired by: a linked list.
+But we would need to create multiple functions for each size of containers we have to work with. It would be great to have just one function that represented all data containers, no matter their size.
+
+That abstraction we are looking for is the linked list.
 
 A linked list is basically a tuple of a value an a pointer to another tuple. So we need a function that accepts only two arguments.
 
@@ -97,7 +99,7 @@ let list = (fst) => (snd) => { /* do something */  };
 Now I can create a list of any size, it is lists all the way down!
 
 ```js
-numbers = list(1)(list(2)(3))
+let numbers = list(1)(list(2)(3))
 ```
 
 How to we get data back? After all this list should just be a container, and perform no calculations. We will return a getter function! 
@@ -126,22 +128,16 @@ tail(tail(numbers)) // 3
 It would be very convenient to be able to tell when the list finishes, so lets establish the convention that the last element of any list is always the null value.
 
 ```js
-id = (x) => x
-numbers = list(1)(list(2)(list(3)(null)))
+let numbers = list(1)(list(2)(list(3)(null)))
 ```
 
-This way we can create lists of just one element.
+This way we can create lists that hold just one element.
 
 ```js
-one = list(1)(null)
+let one = list(1)(null)
 ```
 
-With a helper function we can 
 
-```js
-let islast = (xs) => eq(tail(xs))(null)
-islast(one) // truthy
-```
 
 ## Loops
 
@@ -161,6 +157,13 @@ let map = (fn) => (xs) => list(()=>fn(head(xs)))
                               (ifthen(islast(xs))
                                      (null)
                                      (map(fn)(tail(xs))))	
+```
+
+The base case is a helper function that tells us when to stop the recursion, in this case, when we reached the end of the list.
+
+```js
+let islast = (xs) => eq(tail(xs))(null)
+islast(one) // truthy
 ```
 
 We should only trigger the recursion if there is a tail left to be processed. So let's avoid the eager execution by wrapping it inside a function.
@@ -211,7 +214,7 @@ But I think by now we can appreciate that [functions are really powerful][1] bul
 
 Of course this syntax is very ilegible and cumbersome, and writing `map(fn, [1, 2, 3])` is way more expresive.
 
-This was just a [thought experiment][2], an academic one.
+This was just a [thought experiment][2], an academic one. So don't try this at home.
 
 
 [1]: https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf
