@@ -48,7 +48,7 @@ Laissez-faire is scary. Some will profit, some will loose, the system seems unfa
 
 ## Socialism doesn't scale
 
-This way of relating with family, neighbours, friends and acquaintances,
+This way of relating with family, neighbours, [friends and acquaintances][1],
 most of the time through rules that are written nowhere, but are a cultural
 legacy of shared responsibility, has it's limits.
 
@@ -83,3 +83,6 @@ As a libertarian, I do understand socialists. And agree that socialism works,
 but it doesn't scale. I'm willing to accept a certain amount of forced
 collectivism, so long as it stays local, accountable and in competition with
 other regulations. But I still stand by freedom, as the beacon of light guiding society to a greater good.
+
+
+[1]: https://www.psychologytoday.com/us/blog/sex-murder-and-the-meaning-life/202006/true-friendships-are-communistic-not-capitalistic "True Friendships Are Communistic Not Capitalistic"

@@ -469,7 +469,7 @@ https://sobolevn.me/2019/02/python-exceptions-considered-an-antipattern
 
 if's are flow control structures used for:
 - validation (parse, don't validate post?)
-- error handling
+- error handling https://mijailovic.net/2017/05/09/error-handling-patterns-in-go/
 
 
 ## Endif
