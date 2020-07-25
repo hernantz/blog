@@ -26,13 +26,13 @@ Here `add` is a function that takes an argument `x`, returns a function that tak
 This is called curring. It helps you write functions that are more composable.
 
 ```js
-let add2 = add(2)
+let incr = add(1)
 ```
 
-Now `add2` can be passed arround as a parameter to other functions.
+Now `incr` is a new function that has been loaded with one param and can be passed around as a parameter to other functions or called later with the remaining param.
 
 ```js
-add2(4) // will output 6
+incr(4) // will output 5
 ```
 
 Like we said, functions represent computations, but the results might not be always needed. So a way to defer computations until they are needed is to return expressions wrapped in functions.
@@ -102,7 +102,7 @@ Now I can create a list of any size, it is lists all the way down!
 let numbers = list(1)(list(2)(3))
 ```
 
-How to we get data back? After all this list should just be a container, and perform no calculations. We will return a getter function! 
+How to we get data back? After all this list should just be a container, and perform no calculations. We will return a getter function!
 
 ```js
 let list = (fst) => (snd) => (getter) => getter(fst)(snd)
@@ -110,7 +110,7 @@ let list = (fst) => (snd) => (getter) => getter(fst)(snd)
 
 This function `list` takes only two arguments. And returns a generic getter, to extract any of these values back.
 
-Since we are working with just two values and we already know how to  make binary decisions, let's write alias those getters.
+Since we are working with just two values and we already know how to  make binary decisions, let's write aliases for those getters.
 
 ```js
 let head = (xs) => xs(truthy)
@@ -136,8 +136,6 @@ This way we can create lists that hold just one element.
 ```js
 let one = list(1)(null)
 ```
-
-
 
 ## Loops
 
@@ -180,10 +178,20 @@ Now, this won't work unless we re-define our contract with lists and booleans.
 ```js
 let truthy = (x) => (y) => x()
 let falsy = (x) => (y) => y()
-let numbers = list(()=>1)(list(()=>2)(()=>null))
+let numbers = list(()=>1)(()=>list(()=>2)(()=>null))
 ```
 
 Lists now hold functions that compute values when accessed. Not only our lists are immutable, but also lazy. We have accidentally created lazy generators. CHECK THIS. Map is a list creator so we can join maps.
+
+gen = next => list(()=>next())(()=>gen(next)())
+
+let numbers = (n) => list(()=>n)(()=>numbers(n+1)) --> lazy infinite list
+
+let gen => next = (v) => list(()=>v)(()=>step(next(n))) --> lazy infinite list
+
+gen = next => list(()=>head(next))(()=>gen(tail(next))
+
+nat = gen(incr(0))
 
 A more general implementation is to accept other function as the accumulator.
 
@@ -205,6 +213,11 @@ let map = fold(list)
 let sum = fold(add)(id)
 let length = fold(add)(ones)
 ```
+
+## Streams
+since lists are lazy, can we generate an infinite list?
+loops as generators?
+
 
 ## More
 
