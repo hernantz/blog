@@ -121,7 +121,7 @@ class CreditCard():
         # ...
 ```
 
-If suddendly I decided to change the signature of the `withdraw()` method, to
+If suddenly I decided to change the signature of the `withdraw()` method, to
 charge the credit card with a specific currency, the mocked tests above would
 still pass successfully. They will not tell you anymore whether you have
 introduced a regression bug or not!
@@ -220,7 +220,7 @@ almost the same amount of code, but this test is not bound to the implementation
 it is still deterministic, plus it tests goals in an automated way, similar to 
 the manual check I would do to trust that the `process()` method works.
 
-We have used two techniques here that helped us get way from mocks.
+We have used two techniques here that helped us get away from mocks.
 
 The first technique was to start testing how collaborators interact between
 each other inside `process()`. These type of tests are called **integration
@@ -292,6 +292,8 @@ it is replacing the real email machinery with a double that mimics that
 behaviour, I believe I can still make assertions about my code that are *good
 enough* (even though no mail is sent). That framework is responsible for
 providing us with a good *verified* stub.
+
+[Mocking types you don’t][12] own can make maintenance more difficult.
 
 
 ### Example 2: An agnostic mock
@@ -455,3 +457,4 @@ Mock yourself not your tests :P
 [9]: https://github.com/spulec/freezegun
 [10]: https://twitter.com/df07/status/607562584401821696
 [11]: https://github.com/gabrielfalcao/HTTPretty
+[12]: https://testing.googleblog.com/2020/07/testing-on-toilet-dont-mock-types-you.html?m=1
