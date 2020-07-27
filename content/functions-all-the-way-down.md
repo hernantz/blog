@@ -173,25 +173,13 @@ let map = (fn) => (xs) => list(()=>fn(head(xs)))
                                      (()=>()=>map(fn)(tail(xs))))
 ```
 
-Now, this won't work unless we re-define our contract with lists and booleans.
+Now, this won't work unless we re-define our contract with booleans.
 
 ```js
 let truthy = (x) => (y) => x()
 let falsy = (x) => (y) => y()
-let numbers = list(()=>1)(()=>list(()=>2)(()=>null))
 ```
-
-Lists now hold functions that compute values when accessed. Not only our lists are immutable, but also lazy. We have accidentally created lazy generators. CHECK THIS. Map is a list creator so we can join maps.
-
-gen = next => list(()=>next())(()=>gen(next)())
-
-let numbers = (n) => list(()=>n)(()=>numbers(n+1)) --> lazy infinite list
-
-let gen => next = (v) => list(()=>v)(()=>step(next(n))) --> lazy infinite list
-
-gen = next => list(()=>head(next))(()=>gen(tail(next))
-
-nat = gen(incr(0))
+Booleans now represent branches in computation by functions that are executed lazily.
 
 A more general implementation is to accept other function as the accumulator.
 
@@ -215,9 +203,29 @@ let length = fold(add)(ones)
 ```
 
 ## Streams
-since lists are lazy, can we generate an infinite list?
-loops as generators?
 
+Our contract with lists had to also be updated (for getters to work). Lists now contain functions that return values when inspected.
+
+```js
+let numbers = list(()=>1)(()=>list(()=>2)(()=>null))
+```
+
+This has a nice side effect. Not only our lists are immutable, but also lazy. We have accidentally created lazy generators.
+
+This means we can represent infinite lists, like all the natural numbers that are computed only when accessed/evaluated:
+
+```js
+let numbers = (n) => list(()=>n)(()=>numbers(n+1))
+```
+
+Map is a list creator so we can join maps.
+
+gen = next => list(()=>next())(()=>gen(next)())
+let gen => next = (v) => list(()=>v)(()=>step(next(n))) --> lazy infinite list
+
+gen = next => list(()=>head(next))(()=>gen(tail(next))
+
+nat = gen(incr(0))
 
 ## More
 
