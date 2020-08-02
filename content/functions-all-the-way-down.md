@@ -202,7 +202,7 @@ let sum = fold(add)(id)
 let length = fold(add)(ones)
 ```
 
-## Streams
+## Generators
 
 Our contract with lists had to also be updated (for getters to work). Lists now contain functions that return values when inspected.
 
@@ -218,14 +218,33 @@ This means we can represent infinite lists, like all the natural numbers that ar
 let numbers = (n) => list(()=>n)(()=>numbers(n+1))
 ```
 
+If we start generalizing again, a way to iterate 
+
+```
+let gen = next => list(()=>head(next))(()=>gen(tail(next))
+```
+
+```js
+let range = i => n => gen numbers (i)
+```
 Map is a list creator so we can join maps.
 
-gen = next => list(()=>next())(()=>gen(next)())
-let gen => next = (v) => list(()=>v)(()=>step(next(n))) --> lazy infinite list
-
-gen = next => list(()=>head(next))(()=>gen(tail(next))
-
 nat = gen(incr(0))
+
+```js
+let ends = (next) => (xs) => ifthen(islast(xs))
+                                   (()=>()=>null)
+                                   (()=>()=>next(tail(xs)))
+```
+
+```js
+let gen = (check) => (acc) => (fn) => (xs) => acc(()=>fn(head(xs)))
+                                                 (check(gen(check)(acc)(fn))(xs))
+```
+
+```js
+let fold = gen (ends)
+```
 
 ## More
 
