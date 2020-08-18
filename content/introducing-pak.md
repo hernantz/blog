@@ -1,4 +1,4 @@
-Title: Introducing Pak
+Title: Just files
 Date: 2020-03-19
 Description: A virtualenv for system packages.
 Status: Draft
@@ -144,5 +144,7 @@ Like software which needs to be built + released, systems can also be built (pac
 
 http://www.cse.unsw.edu.au/~plaice/archive/WWW/1993/P-SPE93-Sloth.pdf
 
+https://xkcd.com/2347/
+https://jmmv.dev/2020/08/config-files-vs-directories.html
 
-Use python 3.8 + nuitka
+Use python 3.8 + nuitka (give a talk: compyling)
