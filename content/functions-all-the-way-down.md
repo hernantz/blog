@@ -76,6 +76,14 @@ Or build more complex boolean logic.
 let negate = (bool) => ifthen(eq(bool)(truthy))(falsy)(truthy)
 ```
 
+We still have one problem, `x` and `y` are values already evaluated, we should only execute them if and only if they need to. For this we re-define our booleans as:
+
+```js
+let truthy = (x) => (y) => x()
+let falsy = (x) => (y) => y()
+```
+Booleans now represent branches in computation by functions that are executed lazily.
+
 ## Containers
 
 As we can see, functions can hold data as parameters and as return values. But how do we represent a container of x number of values?
@@ -102,6 +110,18 @@ Now I can create a list of any size, it is lists all the way down!
 let numbers = list(1)(list(2)(3))
 ```
 
+It would be very convenient to be able to tell when the list finishes, so lets establish the convention that the last element of any list is always the null value.
+
+```js
+let numbers = list(1)(list(2)(list(3)(null)))
+```
+
+This way we can create lists that hold just one element.
+
+```js
+let one = list(1)(null)
+```
+
 How to we get data back? After all this list should just be a container, and perform no calculations. We will return a getter function!
 
 ```js
@@ -125,25 +145,45 @@ head(tail(numbers)) // 2
 tail(tail(numbers)) // 3
 ```
 
-It would be very convenient to be able to tell when the list finishes, so lets establish the convention that the last element of any list is always the null value.
+Now, this won't work unless we re-define our contract with lists.
 
 ```js
-let numbers = list(1)(list(2)(list(3)(null)))
+let numbers = list(()=>1)(()=>list(()=>2)(()=>null))
 ```
 
-This way we can create lists that hold just one element.
+Lists now contain functions that return values, only when inspected.
+
+
+## Generators
+
+Not only our lists are immutable, but also lazy. This has a nice side effect. We have accidentally created lazy generators.
+
+This means we can represent infinite lists, like all the natural numbers that are computed only when accessed/evaluated:
 
 ```js
-let one = list(1)(null)
+let numbers = (n) => list(()=>n)(()=>numbers(n+1))
+```
+
+If we start generalizing again, the signature of every generator would look like this: 
+
+```js
+let gen = (fn) => (v) => list(()=>v)(()=>gen(fn)(fn(v)))
+```
+
+And now we can rewrite our natural numbers generator reusing the `incr` function.
+
+```js
+let numbers = gen(incr)(0)
 ```
 
 ## Loops
 
-Instead of loops, we use recursion to manipulate values one by one.
+Instead of *for loops*, we use recursion to iterate and manipulate values one by one.
+
 The layout of map looks like this:
 
 ```js
-map = (fn) => (xs) => list(fn(head(xs)))(map(fn)(tail(xs)))
+let map = (fn) => (xs) => list(()=>fn(head(xs)))(()=>map(fn)(tail(xs)))
 ```
 
 It takes a `fn` to apply to each element of `xs`, so we build a new `list` with the using `head` and recursively mapping the `tail`.
@@ -153,8 +193,8 @@ We face our first problem with recursion. We need a base case:
 ```js
 let map = (fn) => (xs) => list(()=>fn(head(xs)))
                               (ifthen(islast(xs))
-                                     (null)
-                                     (map(fn)(tail(xs))))	
+                                     (()=>()=>null)
+                                     (()=>()=>map(fn)(tail(xs))))
 ```
 
 The base case is a helper function that tells us when to stop the recursion, in this case, when we reached the end of the list.
@@ -163,23 +203,6 @@ The base case is a helper function that tells us when to stop the recursion, in 
 let islast = (xs) => eq(tail(xs))(null)
 islast(one) // truthy
 ```
-
-We should only trigger the recursion if there is a tail left to be processed. So let's avoid the eager execution by wrapping it inside a function.
-
-```js
-let map = (fn) => (xs) => list(()=>fn(head(xs)))
-                              (ifthen(islast(xs))
-                                     (()=>()=>null)
-                                     (()=>()=>map(fn)(tail(xs))))
-```
-
-Now, this won't work unless we re-define our contract with booleans.
-
-```js
-let truthy = (x) => (y) => x()
-let falsy = (x) => (y) => y()
-```
-Booleans now represent branches in computation by functions that are executed lazily.
 
 A more general implementation is to accept other function as the accumulator.
 
@@ -202,48 +225,51 @@ let sum = fold(add)(id)
 let length = fold(add)(ones)
 ```
 
-## Generators
+## Streams
 
-Our contract with lists had to also be updated (for getters to work). Lists now contain functions that return values when inspected.
-
-```js
-let numbers = list(()=>1)(()=>list(()=>2)(()=>null))
-```
-
-This has a nice side effect. Not only our lists are immutable, but also lazy. We have accidentally created lazy generators.
-
-This means we can represent infinite lists, like all the natural numbers that are computed only when accessed/evaluated:
-
-```js
-let numbers = (n) => list(()=>n)(()=>numbers(n+1))
-```
 
 If we start generalizing again, a way to iterate 
 
+```js
+let cons = (xs) => list(()=>head(xs))(()=>cons(tail(xs))
 ```
-let gen = next => list(()=>head(next))(()=>gen(tail(next))
+
+```js
+let cons = (next) => gen
 ```
 
 ```js
 let range = i => n => gen numbers (i)
 ```
+
 Map is a list creator so we can join maps.
 
-nat = gen(incr(0))
 
 ```js
 let ends = (next) => (xs) => ifthen(islast(xs))
                                    (()=>()=>null)
-                                   (()=>()=>next(tail(xs)))
+                                   (()=>()=>next(xs))
+```
+
+
+```js
+let check = (condition) = (next) => (xs) => ifthen(condition(xs))
+                                                  (()=>()=>null)
+                                                  (()=>()=>next(tail(xs)))
 ```
 
 ```js
-let gen = (check) => (acc) => (fn) => (xs) => acc(()=>fn(head(xs)))
-                                                 (check(gen(check)(acc)(fn))(xs))
+let ends = check (islast)
+```
+
+
+```js
+let gen = (check) => (acc) => (fn) => (v) => acc(()=>v)
+                                                (check(gen(check)(acc)(fn))(fn(v)))
 ```
 
 ```js
-let fold = gen (ends)
+let fold = gen(ends)(list)
 ```
 
 ## More
