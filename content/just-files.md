@@ -1,6 +1,6 @@
 Title: Just files
 Date: 2020-03-19
-Description: A virtualenv for system packages
+Description: A virtualenv for system packages.
 Status: Draft
 
 A distribution is a combination of a kernel + a package manager + a process manager.
@@ -18,7 +18,7 @@ Transactional updates: https://www.youtube.com/watch?v=ureneyH06AE
 We need a virtualenv but for system packages. Otherwise python, rust, javascript, etc re-implement the wheel over and over.
 
 Documentation should teach, not tell.
-Reprocible builds come at the cost of more disk space, you need a lib which works fine with versions v0.[1-3], the user already installed v0.2 but you specified v0.1 in your dependencies, the user will get both copies installed (v0.1 and v0.2), even though only one was enough.
+Reproducible builds come at the cost of more disk space, you need a lib which works fine with versions v0.[1-3], the user already installed v0.2 but you specified v0.1 in your dependencies, the user will get both copies installed (v0.1 and v0.2), even though only one was enough.
 
 Qué pasa en Nix con paquetes que cambian de acuerdo a la arquitectura o SO -> Son packetes distintos.
 Cómo se hace configuración, man pages, etc en Nix, symlinks igual que con binarios?
@@ -42,6 +42,7 @@ Pakfile -> toml: contiene el listado de dependencias
 Packfile.lock -> contiene el graph freezado de dependencias
 un clon de nix en C y sin el DSL
 http://holocm.org/
+https://www.gobolinux.org/at_a_glance.html
 https://wiki.archlinux.org/index.php/Pacman/Rosetta
 https://micromind.me/en/posts/from-docker-container-to-bootable-linux-disk-image/
 https://reproducible-builds.org/
@@ -87,9 +88,10 @@ They tend to solve many issues:
 
 nix-thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
 
+
 `pak --lock` should create a Pakfile.lock?
 
---root can change the default store directory.
+`--root` can change the default store directory.
 
 there are no optional dependencies, if something is optional it can be installed explicitly by the user.
 
@@ -101,13 +103,18 @@ All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<
 
 `Pakfile` lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
 
+We don't need checksums for every file inside the package, this integrity should be checked with the download file checksum and signature.
+
 `package-name-version.pak.zst` is a tar file (zstd) with all the package content that needs to be extracted. Pak keeps track of all files. We can ask pak which package installed which file.
 
-`pak env <envname>` enters the enviroment, and sets the `PAKFILE` env to `/usr/share/pak/envs/envname/Pakfile`
+`pak env <envname>` enters the enviroment, and sets the `PAKFILE` env to `/usr/share/pak/envs/envname/Pakfile`.
+
+It also creates symlinks in the global filesystem to all the files in the store. For example `/bin/nginx` is going to be a symlink to `/var/lib/pak/store/<package-name-and-version>/<package-md5-sum>/nginx`
+Another possibility is that `pak env` puts you in a shell with `$PATH` env var pointing to the different binaries in the store?
 
 `pak env --list` lists all available envs in `/usr/share/pak/envs/`
 
-`pak run <commmand>` run the command within the enviroment
+`pak run <commmand>` run the command within the environment
 
 `pak update` updates all versions updating also the lock file
 
@@ -120,7 +127,6 @@ All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<
 `pak gc` removes all unreachable packages from the store.
 
 Hierarchy: package stores/environments/configs can be also defined in `~/.local/share/pak/`, etc.
-
 
 Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap). Another example would be Opensnitch.
 
@@ -144,5 +150,9 @@ Like software which needs to be built + released, systems can also be built (pac
 
 http://www.cse.unsw.edu.au/~plaice/archive/WWW/1993/P-SPE93-Sloth.pdf
 
+https://xkcd.com/2347/
+https://jmmv.dev/2020/08/config-files-vs-directories.html
+https://jmmv.dev/2020/08/database-directories.html
 
-Use python 3.8 + nuitka
+
+Use python 3.8 + nuitka (give a talk: compyling)
