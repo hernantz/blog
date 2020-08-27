@@ -150,5 +150,6 @@ https://journal.plausible.io/you-probably-dont-need-a-single-page-app
 https://alistapart.com/article/responsible-javascript-part-1/
 https://www.pika.dev/cdn (reducir babel y polyfills)
 https://macwright.org/2020/05/10/spa-fatigue.html
+https://solovyov.net/blog/2020/a-tale-of-webpage-speed-or-throwing-away-react/
 
 [1]: https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html
