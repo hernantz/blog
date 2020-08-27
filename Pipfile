@@ -8,8 +8,9 @@ name = "pypi"
 [packages]
 
 pelican = "*"
-markdown = "==2.6.6"
+pelican-sitemap = "==1.0.2"
 csvkit = "==1.0.3"
+markdown = "~=3.1.1"
 
 
 [dev-packages]

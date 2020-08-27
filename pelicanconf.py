@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
 AUTHOR = u'hernantz'
 SITENAME = u'README.txt'
@@ -48,13 +47,11 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-PLUGIN_PATHS = ['/home/hernantz/devel/pelican-plugins']
-PLUGINS = ['sitemap']
-
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.toc': {'permalink': True}
-    }
+    },
+    'output_format': 'html5',
 }
