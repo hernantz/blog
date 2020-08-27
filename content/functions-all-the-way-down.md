@@ -264,12 +264,12 @@ let ends = check (islast)
 
 
 ```js
-let gen = (check) => (acc) => (fn) => (v) => acc(()=>v)
+let gen = (acc) => (check) => (fn) => (v) => acc(()=>v)
                                                 (check(gen(check)(acc)(fn))(fn(v)))
 ```
 
 ```js
-let fold = gen(ends)(list)
+let map = gen(list)(ends)
 ```
 
 ## More
