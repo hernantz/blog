@@ -5,7 +5,7 @@ Category: Programming
 Tags: backbone, javascript, best-practices
 Status: draft
 
-![The Dance of Death by Isaac Cruikshank](/images/dance-of-death.jpg "The Dance of Death by Isaac Cruikshank")
+![the arsenic waltz](/images/the-arsenic-waltz.jpg "The arsenic waltz")
 
 
 We know that Backbone has done a great job at provinding the **bare minimum

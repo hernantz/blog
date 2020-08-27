@@ -1,17 +1,17 @@
 Title: The Backbone events waltz
-Summary: Snippets that will show you that minimalist means versatile. 
+Summary: Snippets that will show you that minimalist means versatile.
 Date: 2016-05-04
 Category: Programming
 Tags: backbone, javascript, best-practices
-Status: draft
 
-![the arsenic waltz](/images/the-arsenic-waltz.jpg "The arsenic waltz")
+
+![The Dance of Death by Isaac Cruikshank](/images/dance-of-death.jpg "The Dance of Death by Isaac Cruikshank")
 
 
 It is said that perfection is achieved not when there is nothing else to add,
 but when there is nothing else to be removed.
 
-Backbone is a minimalist library that tries to bring some sanity for javascript
+[Backbone](https://backbonejs.org/) is a minimalist library that tries to bring some sanity for javascript
 interaction and state management. As of today, is falling down in popularity,
 but I still believe it offers a great ratio of usability to simplicity.
 
@@ -21,12 +21,11 @@ some snippets of use cases that you might find in any app.
 
 ## Reacting to *specific* changes in a model
 
-The core idea is that data and buiseness logic is managed by models or
+The core idea is that data and business logic is managed by models or
 collections, that not only can be shared throughout the app but also rendered
-in many diferent data-less views.
+in many different data-less views.
 
 The way this is achieved is through events.
-
 
 ```js
 var View = Backbone.View.extend({
@@ -67,17 +66,16 @@ var View = Backbone.View.extend({
 });
 ```
 
-In this case we are waranteed that the `onSave()` and `onError()` callbacks are
+In this case we are guaranteed that the `onSave()` and `onError()` callbacks are
 called as a result of the form submit event that this view handles, whilst
 other views can still hook to generic events emitted by the same model.
 
-Unfortunatelly there is a problem with this approach and it's that the model is
-holding references to a potential *zombie* view. The issue can be easyly
+Unfortunately there is a problem with this approach and it's that the model is
+holding references to a potential *zombie* view. The issue can be easily
 spotted when the interaction with the server takes a while to finish or the
-view's use case is esphimeral in nature (like an inline edit interface). If the
+view's use case is ephemeral in nature (like an inline edit interface). If the
 view is destroyed when the server has not responded yet, then the success or
 error callbacks will get executed, resurrecting the view from the death.
-
 
 We need something similar to the first snippet, where the view was in charge of
 keeping a reference to the model, but we also need to have specificity.
@@ -196,8 +194,9 @@ Backbone.trigger('my-module:refresh-success');
 
 ## Modifying a replica
 
-Use model.clone() to use inside a CRUD view so that you can modify it, see a
-live preview of edits, and have a cancel button which discards the changes.
+Any CRUD view needs a model that will be modified, but for this modifications you might see a live preview of edits, and have a cancel button which discards the changes.
+
+Instead of the original model, use `model.clone()` to use inside the view as a replica.
 
 ```javascript
 var View = Backbone.View.extend({
@@ -214,7 +213,9 @@ var View = Backbone.View.extend({
 });
 ```
 
-Aca ver si conviene
+This is so that other views that share this same model don't receive events and get intermediate updates (possibly errors too). We only update the original model if the changes can be confirmed.
+
+Since we might extend that to any server interaction, we can also get an error from the backend. So let's only apply the changes if we have a successful state:
 
 ```javascript
 var View = Backbone.View.extend({
@@ -223,7 +224,7 @@ var View = Backbone.View.extend({
     },
     initialize: function() {
         this.clone = this.model.clone();
-        this.listenTo(this.clone, 'change', this.render);
+        this.listenTo(this.clone, 'change error', this.render);
         this.model.listenTo(this.clone, 'sync', 'onCloneSave');
     },
     onSave: funtion (event) {
@@ -236,44 +237,54 @@ var View = Backbone.View.extend({
 });
 ```
 
-Comentar como hacer validacion, devolviendo un hash
-```javascript
-{
-    'campo1': ['error1', 'error2'],
-    'campo2': ['error1'],
-    '_non-field-errors': ['error1', 'error2']
-}
-```
-Cuando creamos un modelo nuevo, es el mismo caso que `.clone()`
-No queremos que el model apenas se muestra tenga errores como "este campo es requerido".
-
 
 ## Displaying any state of your data
 
-Ideally views receive instances, because those instances are shared among other
-views.  The view shouldn't assume that the model has a certain state.  It could
-be possible that there is an undergoing event in the background.  The view
-should be able to render the model in whatever that state might be.
+Ideally views receive instances, because those instances are shared among other views. The view shouldn't assume that the model has a certain state.  
 
 ```javascript
 var myModel = new MyModel();
-view = new View({model: myModel});
-myModel.fetch()
+var view = new View({model: myModel});
+myModel.fetch() // view should show a loading spinner
+view.render() // will render empty
 ```
 
 In the example above, the view received a model whose lifecycle is managed
 outside.
+The view should be able to render the model in whatever that state might be.
 
+But it seems that we need a model that has that state: loading & loaded. This state is not a responsibility of the data model. We need models for views state.
 
-Ej: loading y Backbone.SOS
+```javascript
+var ViewState = Backbone.Model.extend({
+	initialize: function (attributes, options) {
+		this.model = attributes.model;
+		this.listenTo(this.model, 'request', 'setLoading');
+		this.listenTo(this.model, 'sync error', 'setLoaded');
+    },
+	setLoading: function () { this.set({'loading': true}); },
+    setLoaded: function () { this.set({'loading': false}); },
+})
+```
 
-https://github.com/laoshanlung/backbone.supermodel
-https://github.com/hashchange/backbone.select
-https://github.com/krasimir/react-in-patterns
-https://www.sitepoint.com/exploring-reacts-state-propagation/
+And now, to remediate the original example above:
 
+```javascript
+var myModel = new MyModel();
+var viewState = new ViewState({model: myModel, loading: false});
+var view = new View({model: viewState});
+myModel.fetch()
+view.render() // will show a loading spinner
+```
 
+We now keep track of any event undergoing in a data model that represents the state of the view. In this state model we can any other data that we need to display our data model correctly, like which tab is active, or is a button disabled, etc.
 
-Models for data and models for views state.
-Every change in the DOM corresponds to a change in a model. The view is only
-responsible for simple updates and broadcasting user interactions.
+## Final thoughts
+
+As stated in the docs, philosophically, Backbone is an attempt to discover the minimal set of data-structuring (models and collections) and user interface (views and URLs) primitives that are generally useful when building web applications with JavaScript.
+
+With backbone you are in charge of managing state. So we saw some examples of real-world apps and their requirements.
+
+I think it succeeds in it's goals, and leaves the developer with a set of tools (instead of products) to be used as needed. But some best-practices and patterns need to evolve organically.
+
+Maybe the next step from here is a set of new tools, like [Marionette](https://marionettejs.com/) proposes?
