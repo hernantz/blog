@@ -367,20 +367,13 @@ Dear Roland — begins to read out loud.
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
-questions change. So I'll give you something better instead. Redemption.
+questions change. So I'll give you something better instead. Redemption. Yet not for you, gunslinger.
 
-You are not a bad person, nor a good one. And most importantly, you have not
-forgotten the face of your father. In this level of the tower, I get to judge
-that.
+You have not forgotten the face of your father. This is what you were made for.
 
-You did well, better than I expected. And yes, it was worth it, all the blood
-and tears. Your loved ones left behind, their names echoing in the Tower right
-now, and everything your ever cared.
+All this sacrifice, your existence, all the blood, all the tears, your loved ones left behind, their names echoing in the Tower right now, and everything your ever cared, was used to construct this dark place.
 
-All this sacrifice, your existence, was used to construct this tower. Every
-door you have opened in your life, has been inside this place. It will
-withstand the eons of time, and your story will prevail in it's murals, and in
-other worlds too, Roland.
+Every door you have opened in your life, has been inside this tower. It will withstand the eons of time, and your story will prevail in it's murals, and in other worlds too, Roland. Trust me on this.
 
 The Crimson king takes a moment, a deep breath and continues.
 
@@ -416,7 +409,7 @@ Would I risk destroying your world as well as the other worlds I have touched
 with and drawn from my imagination? Would I risk it all?
 
 But if I have to be honest, it is not truly me who creates, you know. To peek
-in Gan's novel does not make one Gan, although many creative people seem to
+into Gan's novel does not make one Gan, although many creative people seem to
 think so. No writer is Gan — no painter, no sculptor, no maker of music. We are
 kas-ka Gan. The prophets of Gan.
 
@@ -460,7 +453,7 @@ everything, observing, waiting.
 
 Who are you? Asked Roland finally.
 
-I have many names, the Crimson King is one of them, it is how I'm known here.
+I have many names, the Crimson King is one of them, it is how I'm known here, in this level of the tower.
 But my real name is Stephen, Stephen King, no pun intended. I'm a writer, a
 puppeteer, the man behind the curtain — and gestures with his fingers as if
 typing in the air.
