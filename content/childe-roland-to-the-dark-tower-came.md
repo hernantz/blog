@@ -65,10 +65,9 @@ reason to be on his cause. The problem with this whole good & bad thing is that
 chaos is not evil any more then order is good. Balance between chaos and order
 is necessary. With no chaos nothing would ever change or be created. Without
 order nothing could ever thrive once it is created. Every light casts a shadow.
-Conflict forces change and change is how progress happens. Sometimes in order
+Conflict forces change and change is how progress happens. Progress demands sacrifice. Sometimes in order
 to create, one must first destroy. The Crimson King is starting a revolution,
-and for it to succeed, the Tower must fall!"*
-
+and for it to succeed, the world as we know it hast to end, the Tower must fall!"*
 
 ### 2. The drawing of the three
 
