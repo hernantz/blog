@@ -21,7 +21,7 @@ Serving pre-computed or aggregated data is generally less expensive, a stack eve
 
 Another way to think about Firestore is as a big FUSE filesystem of JSON documents that checks access rules for accessing a file or modifying a document and triggers callbacks for every update/create/delete action.
 
-Access rules are created using a limited language (for the sake of scalability) that only allows you to check the who is applying changes to a given document.
+Access rules are created using a [limited language][2] (for the sake of scalability) that only allows you to check the who is applying changes to a given document.
 
 Say you have a collection of posts and you need to add the "liked by" feature ♥. Any client should only be able to add the current user as a new like, but not modify anything else in the document.
 
@@ -172,3 +172,4 @@ As you can see, the code is more maintainable and easier to reason about. We use
 
 [0]: https://firebase.google.com/products/firestore "Firestore by Google"
 [1]: https://www.youtube.com/watch?v=DEcwa68f-jY "dotJS 2019 - James Long - CRDTs for Mortals"
+[2]: https://firebase.google.com/docs/rules/rules-language "Security Rules language"
