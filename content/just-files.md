@@ -1,9 +1,18 @@
 Title: Just files
 Date: 2020-03-19
-Description: A virtualenv for system packages.
+Summary: A virtualenv for system packages.
 Status: Draft
 
 ![Archive - Photo by  Fabien Barral](/images/just-files.jpg "Archive - Photo by  Fabien Barral")
+
+implementacion! => https://www.leshenko.net/p/ugit
+
+https://pnpm.js.org/
+https://serokell.io/blog/what-is-nix
+https://grassfedcode.com/python-packaging/
+https://github.com/uber/kraken using p2p for big binaries (docker images).
+http://kmkeen.com/maintainers-matter/
+https://www.btao.org/2020/10/02/npm-trust.html "A web of trust for npm"
 
 A package manager is a program that gets a bunch of files "packaged" in a certain format from a repository of packages and places them on a filesystem.
 
@@ -71,7 +80,7 @@ Que pasa con los paquetes tradicionales cuando borras un servicio que es adminis
 https://cachix.org/
 https://www.redox-os.org/news/pkgar-introduction/
 https://github.com/whyrusleeping/gx
-
+https://github.com/mamba-org/mamba
 
 
 Qué pasa si dos librerías dependen de de una misma dependencia pero en distintas versiones, es el mismo caso que dos apps distintas dependan de distintas versiónes de una misma librería. Para esto es necesario los locks. Uno puede especificar versiones de depenencias con rangos.
@@ -161,6 +170,7 @@ Another possibility is that `pak env` puts you in a shell with `$PATH` env var p
 Hierarchy: package stores/environments/configs can be also defined in `~/.local/share/pak/`, etc.
 
 Sandboxing GUI apps should be done with another binary that allows to set firewalls and also allow GUI interactions to happen via portals like in flatpak (https://github.com/containers/bubblewrap). Another example would be Opensnitch.
+https://github.com/netblue30/firejail
 
 
 
