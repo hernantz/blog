@@ -4,7 +4,7 @@ Summary: Can subcollections help denormalization be a not so terrible idea?
 Category: Programming
 Tags: database, firebase, denormalization
 
-Firestore (by Firebase) is a No-SQL JSON database (as a service) created with the premise of scaling horizontally, allowing concurrent updates to documents and even offline support for client apps, something traditional SQL backends cannot do without a good amount of optimization or thoughtful design.
+[Firestore][0] (by Firebase) is a No-SQL JSON database (as a service) created with the premise of scaling horizontally, allowing concurrent updates to documents and even offline support for client apps, something traditional SQL backends cannot do without a good amount of optimization or [thoughtful design][1].
 
 In this new world of No-SQL, some things you learned for SQL must be unlearned. One of the most important difference is that de-normalizing data is ok.
 
@@ -86,7 +86,7 @@ service cloud.firestore {
 
 This is just to check that:
 
-1. The author can change anything
+1. The author can change anything.
 2. Other users can only change the `likedBy` list.
 3. The only allowed change in the `likedBy` list is to add/remove yourself from the list.
 
@@ -170,3 +170,5 @@ exports.removeLike = functions.firestore.document("posts/{postId}/likes/{userId}
 
 As you can see, the code is more maintainable and easier to reason about. We use the firestore triggers as routers and the subcollection as a queue of intents. Since denormalization happens in the backend, we know we can trust the end result.
 
+[0]: https://firebase.google.com/products/firestore "Firestore by Google"
+[1]: https://www.youtube.com/watch?v=DEcwa68f-jY "dotJS 2019 - James Long - CRDTs for Mortals"
