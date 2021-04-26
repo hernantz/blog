@@ -46,7 +46,7 @@ Now, de-normalization can also happen in a SQL world, but it is an optimization,
 
 [This is were the trade-off is](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/), data has to be modeled beforehand. New aggregates, reports, new relationships, etc impose a challenge for document databases.
 
-A document database is a glorified cache, a filterable filesystem where you can grep for some JSON, where files contain all you need (and more). It's performance and scalability comes at a cost of simplicity. 
+A document database is a glorified cache, a filterable filesystem that you can grep for some JSON, where files contain all you need (and more). It's performance and scalability comes at the expense of simplicity.
 
 On that note, and to be fair, many document databases offer other interesting features that include: real time reactivity, offline support, streaming/merging changes, direct access to clients to handle thousands of simultaneous connections, where there's no need to convert JSON to SQL back and forth through an HTTP API.
 
