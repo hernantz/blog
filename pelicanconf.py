@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'hernantz'
-SITENAME = u'README.txt'
+AUTHOR = 'hernantz'
+SITENAME = 'README.txt'
 SITESUBTITLE = '- Mostly lies and rants in plain text.'
 SITEURL = ''
 
