@@ -1,6 +1,6 @@
 Title: Reclaiming space from a big table in Postgres
 Date: 2021-05-08
-Summary: After deleting columns or removing lots of rows.
+Summary: After deleting columns or updating lots of rows.
 Category: Programming
 Tags: database, postgres
 
