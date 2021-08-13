@@ -35,7 +35,7 @@ Example document in the `/posts/` collection:
 }
 ```
 
-Posts can only be written by the author. 
+Posts can only be written by the author.
 
 ```c
 rules_version = '2';
@@ -118,7 +118,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     match /posts/{postId} {
-		
+
 		allow read;
       	allow write: if (request.auth.uid != null) && (request.resource.author == request.auth.uid);
 
@@ -152,18 +152,18 @@ const db = admin.firestore();
 exports.newLike = functions.firestore.document("posts/{postId}/likes/{userId}").onCreate(async (snapshot, context) => {
     const postRef = db.doc(`/posts/${context.params.postId}`);
     const userId = context.params.userId;
-    await postRef.update({ 
+    await postRef.update({
 		likedBy: admin.firestore.FieldValue.arrayUnion(userId),
-		likesCount: admin.firestore.FieldValue.increment(1) 
+		likesCount: admin.firestore.FieldValue.increment(1)
 	});
 });
 
 exports.removeLike = functions.firestore.document("posts/{postId}/likes/{userId}").onDelete(async (snapshot, context) => {
     const postRef = db.doc(`/posts/${context.params.postId}`);
     const userId = context.params.userId;
-    await postRef.update({ 
+    await postRef.update({
 		likedBy: admin.firestore.FieldValue.arrayRemove(userId),
-		likesCount: admin.firestore.FieldValue.increment(-1) 
+		likesCount: admin.firestore.FieldValue.increment(-1)
 	});
 });
 ```
