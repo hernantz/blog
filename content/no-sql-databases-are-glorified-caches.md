@@ -1,8 +1,9 @@
 Title: No-SQL databases are glorified caches
 Date: 2021-04-26
-Summary: Thoughts on SQL vs No-SQL databases.
+Summary: Thoughts on SQL vs No-SQL databases. When to use each.
 Category: Programming
 Tags: database, postgres, sql
+Image: /images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg
 
 ![Photo by Jan Antonin Kolar](images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg "Archives - Photo by Jan Antonin Kolar")
 
@@ -22,17 +23,17 @@ Probably something worth noticing is that in schema-less databases it is implied
 
 ## Pet vs Cattle
 
-Scalability is an important aspect that distinguish both models. 
+Scalability is an important aspect that distinguish both models.
 
 It is easier to scale document databases horizontally by adding more servers and sharding data across clusters.
 
-SQL databases require a constant monitoring on how data is being accessed and which tables are growing the most. Query plans might change, queries become slow, new indexes might be needed, etc. 
+SQL databases require a constant monitoring on how data is being accessed and which tables are growing the most. Query plans might change, queries become slow, new indexes might be needed, etc.
 SQL databases often offer a great deal [of parameters](https://postgresqlco.nf/tuning-guide) that can be tuned to increase the performance too.
 
 It's common to have a master-follower setup, but you can only scale so much. At some point you will need to have a distributed cluster of servers that can scale horizontally.
 
 
-## Queries 
+## Queries
 
 In the No-SQL realm you don't join data by ids. You will often find that the database engine doesn't support this, and you have to do it in your code, probably resulting in more round trips to the database and reinventing many algorithms, hello bugs! Instead you denormalize heavily.
 
