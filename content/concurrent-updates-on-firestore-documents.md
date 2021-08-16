@@ -90,7 +90,7 @@ document back to life.
 ```js
 // Remove the joe document
 await firebase.firestore().doc('/users/joe').set({
-	'deleted': true,
+	'deleted': true
 }, { 'merge': true });
 ```
 
@@ -151,12 +151,20 @@ await user.ref.set({
 	dateCreated,
 	'name': 'Joe',
 	'surname': 'Doe'
-}, { 'merge': true })
+}, { 'merge': true });
 ```
 
 But this is not ideal, since there are no strong guarantees that this field
 would not be set more than once by concurrent transactions. It may be still be
 useful for backend code though.
+
+### Conclusion
+
+By leveraging on smaller updates/upserts that target different attributes or
+documents, divergent paths of your state tree, and using some of the sentinel
+values we can achieve some level of consistency, where conflicting unordered
+concurrent updates are mitigated.
+
 
 [0]: https://firebase.google.com/products/firestore "Firestore by Google"
 [1]: https://www.youtube.com/watch?v=DEcwa68f-jY "dotJS 2019 - James Long - CRDTs for Mortals"
