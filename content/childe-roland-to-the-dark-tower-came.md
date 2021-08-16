@@ -64,7 +64,8 @@ The town folk, rallied by the preacher woman, has beaten, raped and desfigured
 Allie. She begs Roland to kill her. O Discordia! she screams before getting a
 headshot (Discodia! cries Zoltan, the crow has been listenting all along).
 
-The Man in Black also mentions the reasons behind following the Crimson King:
+In the last palaver, the Man in Black also mentions the reasons behind following
+the Crimson King:
 
 > You think that John Farson or I are on the wrong side. But what makes you
 > believe you are on the right one?
@@ -213,19 +214,26 @@ come back. He is banished from Mid-World, his own world.
 
 ### 5. The Waste lands
 
-Roland returns to the North Central Positronics Dogan, and with help of Andy, opens the locked door. A terminal tells them about Lud, where the wolves come from.
+Roland returns to the North Central Positronics Dogan, and with help of Andy,
+opens the locked door. A terminal tells them about Lud, where the wolves come
+from.
 
 That is where the beam starts. We learn a bit about the myth of the guardians.
 
 They leave to Outer-World with Black thirteen.
 
-In Lud, we enjoy all the post-apocalyptic cyberpunk goodness ala Mad Max, graffitis of the Crimson King eye and some slow mutants too.
+In Lud, we enjoy all the post-apocalyptic cyberpunk goodness ala Mad Max,
+graffitis of the Crimson King eye and some slow mutants too.
 
-We learn that gangs stole kids to give them to Dandelo, a minion of the Crimson King, who roont them, a monster similar to IT.
+We learn that gangs stole kids to give them to Dandelo, a minion of the Crimson
+King, who roont them, a monster similar to IT.
 
-Dandelo feeds from emotions, so it is Andy the one that kills it by self-destructing, saving Rolands life.
+Dandelo feeds from emotions, so it is Andy the one that kills it by
+self-destructing, saving Rolands life.
 
-Roland finds that there are good people still in this ruined world. The kids that returned roont, were helped by some good folk (someone saved my life tonight?). When he kills one of the pubs in a confusing episode, someone says:
+Roland finds that there are good people still in this ruined world. The kids
+that returned roont, were helped by some good folk (someone saved my life
+tonight?). When he kills one of the pubs in a confusing episode, someone says:
 
 > You didn't have to kill him, it was his birthday today, O Discordia...
 
@@ -264,19 +272,30 @@ I put special attention to the opening line:
 *Alone he was when he started his journey, and alone is how Roland reaches the
 Dark Tower.*
 
-The Tower is the apotheosis of all towers. It is sculpted from a single huge stone. It is not man-made.
+The Tower is the apotheosis of all towers. It is sculpted from a single huge
+stone. It is not man-made.
 
-The monolith, black of course, is cracked, and blood, of course, is coming out it's cracks.
+The monolith, black of course, is cracked, and blood, of course, is coming out
+it's cracks.
 
-The Tower is bleeding. That blood feeds the surrounding field of roses. The Tower is alive, but in agony, it's roots are drying up.
+The Tower is bleeding. That blood feeds the surrounding field of roses. The
+Tower is alive, but in agony, it's roots are drying up.
 
-The entrance is a huge sandalwood door and depicts all the twelve guardians of the beam engraved on it. A name in high speech is written on top — *Roland*, of course.
+The entrance is a huge sandalwood door and depicts all the twelve guardians of
+the beam engraved on it. A name in high speech is written on top — *Roland*, of
+course.
 
-Roland knows what to do. Leaves Talitha's cross in the floor and blows Cuthbert's horn to open it. The crows resting on the top of the tower take flight, scared by it's loud and deep sound. And the door opens, of course.
+Roland knows what to do. Leaves Talitha's cross in the floor and blows
+Cuthbert's horn to open it. The crows resting on the top of the tower take
+flight, scared by it's loud and deep sound. And the door opens, of course.
 
-The inside is void. There are no windows and no decorations on the walls. Only spiraling steps lit by torches. A hundred? Or a thousand maybe? He begins to climb.
+The inside is void. There are no windows and no decorations on the walls. Only
+spiraling steps lit by torches. A hundred? Or a thousand maybe? He begins to
+climb.
 
-After a while, he takes some time to recover and realizes there are murals carved on the walls. Murals that tell the origin of it all, strange figures and symbols the Man in Black had shown him the long night they met. He keeps going.
+After a while, he takes some time to recover and realizes there are murals
+carved on the walls. Murals that tell the origin of it all, strange figures and
+symbols the Man in Black had shown him the long night they met. He keeps going.
 
 More steps.
 
@@ -369,13 +388,18 @@ Dear Roland — begins to read out loud.
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
-questions change. So I'll give you something better instead. Redemption. Yet not for you, gunslinger.
+questions change. So I'll give you something better instead. Redemption. Yet not
+for you, gunslinger.
 
 You have not forgotten the face of your father. This is what you were made for.
 
-All this sacrifice, your existence, all the blood, all the tears, your loved ones left behind, their names echoing in the Tower right now, and everything your ever cared, was used to construct this dark place.
+All this sacrifice, your existence, all the blood, all the tears, your loved
+ones left behind, their names echoing in the Tower right now, and everything
+your ever cared, was used to construct this dark place.
 
-Every door you have opened in your life, has been inside this tower. It will withstand the eons of time, and your story will prevail in it's murals, and in other worlds too, Roland. Trust me on this.
+Every door you have opened in your life, has been inside this tower. It will
+withstand the eons of time, and your story will prevail in it's murals, and in
+other worlds too, Roland. Trust me on this.
 
 The Crimson king takes a moment, a deep breath and continues.
 
