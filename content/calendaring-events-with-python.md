@@ -231,7 +231,7 @@ from yesterday's 21:00 to today's 20:59 potentially including or excluding
 incorrect results. We need to normalize the user's date range to UTC:
 
 | UTC offset | Day start | Day end | Meaning                                   |
-|------------|-----------|---------|-------------------------------------------|
+|------------|-----------|---------|:------------------------------------------|
 | -03:00     | 00:00     | 23:59   | User's date range                         |
 | +00:00     | 00:00     | 23:59   | UTC's date range                          |
 | -03:00     | 21:00     | 20:59   | UTC's date range compared to user's       |
@@ -340,7 +340,7 @@ suggest you to read all linked pages, they are there for a reason!
       >
       > Extracts from *the pytz [documentation][5]*
 
-      Moreover, timezones can change for other reasons that just DST. 
+      Moreover, timezones can change for other reasons that just DST.
       > In 1915 Warsaw switched from Warsaw time to Central European time with no daylight savings
       > transition. So at the stroke of midnight on August 5th 1915 the clocks were wound back 24
       > minutes creating an ambiguous time period that cannot be specified without referring to the
