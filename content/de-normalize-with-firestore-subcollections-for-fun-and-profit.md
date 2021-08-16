@@ -2,7 +2,7 @@ Title: De-normalize with Firestore sub-collections for fun and profit
 Date: 2020-12-08
 Summary: Can subcollections help denormalization be a not so terrible idea?
 Category: Programming
-Tags: database, firebase, denormalization
+Tags: database, firebase, denormalization, firestore
 
 [Firestore][0] (by Firebase) is a No-SQL JSON database (as a service) created with the premise of scaling horizontally, allowing concurrent updates to documents and even offline support for client apps, something traditional SQL backends cannot do without a good amount of optimization or [thoughtful design][1].
 
