@@ -185,8 +185,8 @@ on them, and HTML to represent those resources.
 
 When using **HTML as the technology to render the app state**, the browser is
 the client, not your SPA. User will always get the latest representation of your
-data, and what can be done with it. It treats API payloads as a kind of
-declarative UI language for full state interactions.
+data, and what can be done with it. It treats synchronous API payloads as a kind
+of declarative UI language for full state interactions.
 
 The question is, how powerful is HTML alone?
 
