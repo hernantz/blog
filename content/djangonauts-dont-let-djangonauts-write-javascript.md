@@ -444,6 +444,7 @@ SPA, to avoid JS fatigue, save time and money.
 [31]: http://instantclick.io/ "InstantClick is a JavaScript library that dramatically speeds up your website, making navigation effectively instant in most cases."
 [32]: https://github.com/GoogleChromeLabs/quicklink "Quicklink"
 [33]: https://htmx.org/extensions/preload/ "htmx | The preload Extension"
+[34]: https://github.com/adamchainz/django-htmx "Django htmx"
 [35]: https://mitchel.me/slippers/docs/getting-started/ "Build reusable components in Django without writing a single line of Python."
 [36]: https://www.django-unicorn.com/ "A magical full-stack framework for Django"
 [37]: https://htmx.org/extensions/morphdom-swap/ "The morphdom-swap Extension"
