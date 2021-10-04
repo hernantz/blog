@@ -4,7 +4,7 @@ Category: Programming
 Tags: python, django, javascript, rants
 Status: Draft
 
-![The canonical HTML page structure](/images/djangonauts.png "The canonical HTML page structure")
+![The canonical website architecture](/images/djangonauts.png "The canonical website architecture")
 
 > JS Fatigue happens when people use tools
 > they don't need to solve problems they
