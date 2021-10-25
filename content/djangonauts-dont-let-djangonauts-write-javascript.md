@@ -1,8 +1,7 @@
 Title: Djangonauts don't let djangonauts write Javascript
-Date: 2017-05-25
+Date: 2021-10-25
 Category: Programming
 Tags: python, django, javascript, rants
-Status: Draft
 
 ![The canonical website architecture](/images/djangonauts.png "The canonical website architecture")
 
