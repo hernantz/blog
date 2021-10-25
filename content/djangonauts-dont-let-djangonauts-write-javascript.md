@@ -2,6 +2,7 @@ Title: Djangonauts don't let djangonauts write Javascript
 Date: 2021-10-25
 Category: Programming
 Tags: python, django, javascript, rants
+Summary: Why and how to fight JS fatigue with some Django.
 
 ![The canonical website architecture](/images/djangonauts.png "The canonical website architecture")
 
