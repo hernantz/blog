@@ -75,7 +75,7 @@ same time, it may be that you didn't need a SPA to begin with.
 
 The tight coupling between client and server (which indicates that it is still a
 monolith), or between micro services (another monolith), are one of those smells
-or thinks that feel wrong.
+or things that feel wrong.
 
 Another architecture smell is using your SPA as the [only consumer of your API][5].
 
