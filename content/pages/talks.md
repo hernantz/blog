@@ -2,7 +2,7 @@ Title: talks
 Date: 2017-04-29
 Category: personal
 Tags: personal
-Summary: Talks I've given 
+Summary: Talks I've given
 Url: talks.html
 Save_as: talks.html
 
@@ -41,7 +41,7 @@ we explored some strategies to avoid that unnecessary complexity.
 This talk was given at the first [Cordoba Python Meetup][0] (2015-12-04).
 
 
-## El fin esta cerca! 
+## El fin esta cerca!
 
 2012 passed and the world did not end. Well, scheduling the next world's
 doomsday can be tricky, because working with dates is so. In this talk I try to
@@ -60,11 +60,25 @@ Configuration management, understood as a way to alter the behavior of a
 program without changing the code, is a mechanism that requires a well thought
 architecture. In this talk I focus on static configuration in general, and an
 approach for python. The contents of this talk are based on this post: [One
-config.py to configure them all][3]. The title reffers to The Lord of the Rings
+config.py to configure them all][3]. The title refers to The Lord of the Rings
 inscription: *"... One Ring to rule them all, One Ring to find them, One Ring
 to bring them all and in the darkness bind them"*.
 
-This talk was given at [Pyday La Plata 2018][4] (2018-05-12) and [PyconAr Buenos Aires 2019][6] (2019-12-06).
+This talk was given at [Pyday La Plata 2018][4] (2018-05-12) and [PyconAr Buenos
+Aires 2019][6] (2019-12-06).
+
+## Djangonautas! No dejen que djangonautas escriban Javascript!
+
+Knowing Javascript has become indispensable for web development, but perhaps too
+complicated, to the point that there is something known as javascript fatigue.
+In recent times, libraries and frameworks have emerged that propose a pattern
+more similar to how the websites of before were, but without skimping on the
+dynamism of modern websites. In this talk we discuss patterns and libraries such
+as htmx, django-unicorn, etc. designed to make a Django website more dynamic.
+
+This talk was given at [PyconAr 2021][7] (2021-10-26) and it's based on the blog
+post [Djangonauts! Don't let djangonauts write Javascript!][8] and can be watch
+online on [Youtube][9].
 
 
 [0]: https://www.meetup.com/Cordoba-Python-Meetup/events/226908468/ "Python Meetup Event"
@@ -74,3 +88,6 @@ This talk was given at [Pyday La Plata 2018][4] (2018-05-12) and [PyconAr Buenos
 [4]: https://pydaylp.python.org.ar/ "Pyday La plata 2018"
 [5]: {filename}/mock-yourself-not-your-tests.md "Mock yourself not your tests"
 [6]: https://eventos.python.org.ar/events/pyconar2019/schedule "PyconAr 2019"
+[7]: https://eventos.python.org.ar/events/pyconar2021/activity/452/ "PyconAr 2021"
+[8]: {filename}/djangonauts-dont-let-djangonauts-write-javascript.md "Djangonauts! Don't let djangonauts write Javascript!"
+[9]: https://www.youtube.com/watch?v=dEg-K3kMj60 "PyConAr 2021 - Djangonautas! no dejen que los djangonautas escriban Javascript!"
