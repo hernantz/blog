@@ -10,7 +10,7 @@ Save_as: whoami.html
 I always struggle about how to introduce myself, but the key points would be:
 
 I am a *curious generalist* who above all likes to learn new things, although
-afterwards I do not do anything with what I learned, or maybe I do and a talk
+afterwards I do not do anything with what I learned, or maybe I do and a tell
 about it.
 
 I'm *idealist*. My tombstone will say [^1]:
