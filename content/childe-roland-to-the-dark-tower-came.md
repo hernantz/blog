@@ -107,12 +107,12 @@ After Gabrielle Deschain's matricide, Roland and Jamie are sent to Hambry, to
 investigate reports of a skin-man murdering people. Vannay gives them silver
 bullets just in case the story is not made up.
 
-They are also commanded to deliver young Bill to Serenity, which is nearby. The
-sisters that run the place agree to adopt Bill. They are taking many injured
+They are also commanded to deliver Sheemie to Serenity, which is nearby. The
+sisters that run the place agree to adopt Sheemie. They are taking many injured
 folk and also another orphan.
 
 They stay for one night there and one of the sisters proceeds to narrate a story
-*the wind through the keyhole* to the ophans.
+*the wind through the keyhole* to the orphans.
 
 Again, a story within a story.
 
