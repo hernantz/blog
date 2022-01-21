@@ -5,14 +5,18 @@ Status: Draft
 
 ![Archive - Photo by  Fabien Barral](/images/just-files.jpg "Archive - Photo by  Fabien Barral")
 
+https://twitter.com/SusanPotter/status/1396456263517618181?s=1006
 implementacion! => https://www.leshenko.net/p/ugit
-
-https://pnpm.js.org/
+https://www.npmjs.com/package/semver-resolver
+https://pnpm.js.org/ or pnpm.io
+https://jordan-wright.com/blog/post/2020-11-12-hunting-for-malicious-packages-on-pypi/
 https://serokell.io/blog/what-is-nix
 https://grassfedcode.com/python-packaging/
 https://github.com/uber/kraken using p2p for big binaries (docker images).
 http://kmkeen.com/maintainers-matter/
 https://www.btao.org/2020/10/02/npm-trust.html "A web of trust for npm"
+https://pypa-build.readthedocs.io/en/stable/mission.html
+https://github.com/spack/spack
 
 A package manager is a program that gets a bunch of files "packaged" in a certain format from a repository of packages and places them on a filesystem.
 
@@ -36,8 +40,26 @@ We could agree that there should be only one package manager to rule them all. A
 
 But the ecosystem is very fragmented. Even within the Linux community, there are many different package managers. Policy and implementation gets mixed more often than not.
 
+## Libraries vs Applications
+https://0ver.org/
+When we talk about versioning artifacts, we need to also talk about the strategies to do so, which depend on the type of artifact we are dealing with.
+A system library (like a GUI framework) are meant to provide building blocks for other projects. If they change a piece of code, that will impact all applications that use that library.
+The authors of the library need to a way to communicate breaking changes in the API.
+According to the [Hyrums Law](https://www.hyrumslaw.com/), any change is a potential bug/contract violation. Which is right, so any project needs to read the [changelog](https://keepachangelog.com/) and run automated integration and unit tests before updating it's dependency tree.
+There are many versioning schemes, but the one that stands out is SemVer. Despite [all critics](https://hynek.me/articles/semver-will-not-save-you), it's the one that can provide semantics (duh) to each version change.
+Libraries might also have to maintain several versions at the same time, and back-port features/bugfixes.
+
+Security patches still need to be tested upstream for each app, to not break the system. Yes, a broken system is secure, but it is broken. The burden of shipping updates should be fall on the maintainers of each project, not on a sysadmin. There are nowadays bots that can create automatic notifications/integrations/etc and ship updates to systems that have automatic upgrades configured.
+
+Apps on the other hand might not have heavy dependency with other projects, and unless they change the format of files they work with (xml for example for Excel), they can follow a pretty loose or arbitrary semver like just v1, v2, v3 or only bump a major version for more marketing impact. Apps are the root of a dependency tree.	
+
+https://news.ycombinator.com/item?id=21967879
+
 ## Dependency hell
 https://utcc.utoronto.ca/~cks/space/blog/linux/MicrosoftTeamsBadArrogance
+
+https://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html
+https://github.com/steinwurf/waf
 
 As applications have plugin manager and dependencies, distributions have packages and dependencies too.
 Like software which needs to be built + released, systems can also be built (packages installed) and released (services started, db migrations run, etc).
@@ -60,6 +82,16 @@ They tend to solve many issues:
 https://drewdevault.com/dynlib.html -> sharing packages is ok, sharing libs is an overkill
 
 Docker + docker-compose re implement a package distribution + process manager and orchestration + build system.
+
+## The importance of a manifest
+A file where you list your dependencies, that can be parsed by automated tools (that check for updates or vulnerabilties) is paramount for auditing your computer.
+This is the `Pakfile`. When you use the command line to add/remove packages, it simply updates this manifest.
+
+Other systems use shells scripts or Dockerfiles which have instructions that are hard to parse automatically.
+
+On the other hand, formatted plain text files can easily be manipulated by other tools.
+
+In the packfile you can also override dependencies in the graph (like in pnpmjs).
 
 ## Misc
 
@@ -126,21 +158,28 @@ For building: https://zserge.com/posts/containers/ (Linux containers in a few li
 
 runpak a sandboxed runtime for a binary (is flatpak without big runtimes).
 
-How to manage dotfiles and XDG-HOME, the user has to create those?
+How to manage dotfiles and XDG-HOME, the user has to create those? Yes, custom config files should be managed by the user, possibly by using custom packages.
 
 nix-thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
 
+## Network vs Package management
+Fetching packages from the internet should be a decoupled task from package management.
+A package can be obtained from a local file, over https, a magnet link, an ipfs link, ftp, etc. Almost all of the references + auth throught tokens or passwords could be done using a URI scheme.
+
+Pak should delegate this to a separate tool (is there something like a generic curl?), and only care about maintaining the local content-addressable store.
+
+The bridge between these two worlds can be through a spawning a new process with CLI args for this tool to fetch the packages and put the file on a given directory. From there, pak will unpack the file and take control.
 
 ## CLI
 
 `--root` can change the default store directory.
 
 
-Maybe each `pak [un]install <package-name==version>`
+Maybe each `pak add/rm <package-name==version>`
 
 This uses a local `Pakfile` in the pwd, other files can be used by passing the `--pakfile=<path-to-pakfile>` param or `PAKFILE` environment variable.
 
-All packages are installed in a store `/var/lib/pak/<package-name-and-version>/<package-md5-sum>/`.
+All packages are installed in a content-addressable store `/var/lib/pak/<package-name-and-version>/<package-md5-sum>/`.
 
 `Pakfile` lists dependencies and package metadata. It is better that KISS packages that have one file for each metadatum (version, sources, checksums, etc)
 
@@ -214,3 +253,16 @@ Los packetes se pueden obtener de distintos repos/mirrors (http/ipfs/torrent/etc
 When does dependency resolution happen? Before downloading the packages or after downloading all dependencies in parallel?
 When you say `pak install git`, we go get the `Pakfile.lock` for git. There we have a graph of all dependencies that we can compare with our local `Pakfile.lock` of our profile.
 If there is a sub-dependency at any point that conflicts we show an error. If there are no conflicts, we can download in parallel every sub-dependency.
+
+
+https://github.com/Henryws/pacstall
+
+https://blog.replit.com/upm
+
+Blog posts:
+- Just files (what are package manages)
+- Apps vs Libraries (branching strategy: trunk dev vs multi branch, config via files vs params, granular semver versioning vs 1ver).
+
+## AUthors to concatc
+Russell Keith-Magee @freakboy3742
+Distr1

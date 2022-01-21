@@ -30,6 +30,7 @@ chaucha = chau
 ojalata = ojala
 chorizo = choro
 maraca = maricon
+turbina = turbio
 va lenteja = va lento
 de costeleta = de costado
 solapa = solo
