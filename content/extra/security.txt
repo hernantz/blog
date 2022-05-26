@@ -2,4 +2,4 @@
 Contact: hernantz@gmail.com
 
 # Our PGP key
-Encryption: TBD 
+Encryption: TBD

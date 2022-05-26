@@ -4,7 +4,7 @@ Summary: Entities can be identified by IDs, but also paths.
 Category: Programming
 Tags: database, rest, api
 
-In most applications, system entities do not exist aisolated from each other,
+In most applications, system entities do not exist isolated from each other,
 but connected in one to one, many to many or one to may type of relations.
 
 This means that there is more than one way to reach to a specific entity.
@@ -16,7 +16,7 @@ For example, in an blog website, we have `Posts` and `Comment` entities. We
 could imagine a posts endpoint in the form: `/posts/{postId}`, but what about
 comments?
 
-Comments only make sense in the context of a post, it would be akward to
+Comments only make sense in the context of a post, it would be awkward to
 reference a comment by `/comments/{commentId}` endpoint, or get all comments
 from a post through a `/comments/?postId={postId}` filter or comments by their
 author: `/user/{userId}/comments/{commentId}`.
@@ -31,5 +31,5 @@ probably abusing the pattern and the path to an entity is no longer clear.
 Although replies only make sense in the context of a comment they reply to.
 
 Path design to reach connected entities will really depend what are the most
-common access paterns to those entieties. There are always hierarchies
+common access patterns to those entities. There are always hierarchies
 in the structure of any database after all.
