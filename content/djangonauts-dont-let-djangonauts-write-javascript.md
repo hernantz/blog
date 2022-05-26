@@ -65,7 +65,7 @@ A lot of infrastructure is needed, coordination between specialized teams,
 multiple points of failure, API deprecation policies, etc, that increase
 development and maintainability costs. There's a lot that can go wrong.
 
-As code smells, architecture smells do exists too.
+Just as there are code smells, architecture smells do exists too.
 
 A poor micro services architecture can be detected when in order to develop a
 feature, you need to touch three repos and instantiate several services to test
@@ -73,20 +73,49 @@ it locally. In a similar note, if you have to modify the client code along with
 the server code to reflect a new change in a page and deploy both changes at the
 same time, it may be that you didn't need a SPA to begin with.
 
-The tight coupling between client and server (which indicates that it is still a
-monolith), or between micro services (another monolith), are one of those smells
-or things that feel wrong.
+The tight coupling between client and server, or between micro services, is
+one of those smells that indicates your architecture is still a monolith in
+disguise.
 
 Another architecture smell is using your SPA as the [only consumer of your API][5].
 
 Creating a JSON API just because in the future you might need for other clients
-indicates an early optimization decision. [YAGNI][6]. JSON APIs are targeted for
-code consumption, not for human interaction, are usually generic or agnostic
-from any UI, are stable and versioned, etc. Generic APIs might suffer [from an
-expressivity/security tradeoff][7], because everything you make available to the
-UI, could also be leaked for malign users. Moreover, this single client SPA
-requires duplication of logic, models, validation, etc, which the backend will
-also have to implement since clients cannot be trusted.
+like mobile devices or 3rd party aps indicates an early optimization decision.
+[YAGNI][6].
+
+Restful APIs are usually generic or agnostic from any UI, need to be stable and
+versioned, etc. Generic APIs might suffer [from an expressivity/security
+tradeoff][7], because everything you make available to the UI, could also be
+leaked for malign users. Moreover, this single client SPA requires duplication
+of logic, models, validation, etc, which the backend will also have to implement
+since clients cannot be trusted.
+
+## The browser is the client you don't have to code
+
+Exposing raw data through an HTTP JSON API is really targeted for program to
+program interaction.
+
+The browser is one special program that doesn't really understand JSON as much
+as plain text, it only knows how to render and interact with HTML.
+
+When you put the following anchor link in your response:
+
+```html
+<a href="/page">Visit page</a>
+```
+
+The browser will [eagerly parse the response][42] from the server trying to
+render the UI on the screen as soon as possible. It recognizes that this tag
+really is a clickable piece of text that needs to be styled differently, the
+mouse pointer needs to change we it hovers over it and when clicked a new HTTP
+request will be issued, the navigation history will be updated, a progress bar
+will show an indication of a loading state and the result will be finally
+presented.
+
+All of this default behavior, that users already expect, comes for free if you
+simply represent your data as HTML. Otherwise, this means more code, testing and
+bugs to get a similar user experience when you go full SPA mode.
+
 
 ## You probably don't need a SPA
 
@@ -408,7 +437,7 @@ Four years later, the state of things hasn't gotten better, yet projects like
 htmx are gaining traction for small / hobby projects, which is promising.
 
 Maybe this post inspires you to start your next project as a MPA, instead of a
-SPA, to avoid JS fatigue, save time and money.
+SPA with the framework dujour, to avoid JS fatigue, save time and money.
 
 
 [1]: https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html
@@ -452,3 +481,4 @@ SPA, to avoid JS fatigue, save time and money.
 [39]: https://hyperscript.org/ "hyperscript is an easy and approachable language designed for modern front-end web development"
 [40]: https://habd.as/post/managing-async-dependencies-javascript/ "Managing Async Dependencies with JavaScript"
 [41]: https://github.com/utapyngo/django-render-partial "Django render partial"
+[42]: https://www.youtube.com/watch?v=SmE4OwHztCc "So how does the browser actually render a website"
