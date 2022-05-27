@@ -80,11 +80,11 @@ disguise.
 Another architecture smell is using your SPA as the [only consumer of your API][5].
 
 Creating a JSON API just because in the future you might need for other clients
-like mobile devices or 3rd party aps indicates an early optimization decision.
+like mobile devices or 3rd party apps indicates an early optimization decision.
 [YAGNI][6].
 
 Restful APIs are usually generic or agnostic from any UI, need to be stable and
-versioned, etc. Generic APIs might suffer [from an expressivity/security
+versioned, etc. Generic APIs might suffer [from an expressivity & security
 tradeoff][7], because everything you make available to the UI, could also be
 leaked for malign users. Moreover, this single client SPA requires duplication
 of logic, models, validation, etc, which the backend will also have to implement
@@ -116,55 +116,12 @@ All of this default behavior, that users already expect, comes for free if you
 simply represent your data as HTML. Otherwise, this means more code, testing and
 bugs to get a similar user experience when you go full SPA mode.
 
+If data is going to be represented as HTML, why not serve HTML directly?
 
-## You probably don't need a SPA
-
-[SPAs are hard][10]. If not done correctly, you could be [adding megabytes worth
-of code][11] that needs to be downloaded and executed, probably contributing to
-the current [web obesity][12] crisis.
-
-Latest tendencies in the JS world show a [comeback to the old ways][9]. Server
-side rendering so that we don't load a blank page as splash screen, GraphQL as a
-poor attempt to get back to the trusted backend's SQL, per page hot-loading of
-bundles trying to break up huge javascript files that bundle entire templates and
-models that might not be needed everywhere, etc.
-
-This shows little or no benefit to end users of you website, but clearly incurs
-into costly development cycles: An ever-changing amount of frameworks, tooling
-(transpilers, bundlers, linters), libraries, DSLs and state management patterns
-that all compete to be the next hot thing in the industry. This contributes to
-churn in development teams that need to keep up with the [javascript
-fatigue](https://javascript.works-hub.com/learn/a-javascript-free-frontend-61275).
-
-Big frontend codebases have become a [liability][13].
-
-Devs nowadays seem to just skip all this analysis, and are eager to start every
-project with:
-
-```js
-npm install create-react-app graphql
-```
-
-It all comes down to [tradeoffs][23]. What's driving these frontend heavy
-industry standards to be the default go to?
-
-The answer to that could range from peer pressure, job stability, FOMO or
-probably not knowing other alternatives to create snappy websites.
-
-## No JS / Low JS sites
-
-As the common proverb says: *“What has been will be again, what has been done
-will be done again; there is nothing new under the sun”*, server side
-rendering and static site generators are [reviving][14].
-
-This HTML centric architecture can be a very competitive alternative for
-interactive websites when modernized with a few tweaks.
-
-If data is going to be represented as HTML, why not serve HTML directly? This
-has the nice property of less time to interactive websites, since there's no
-need for extra round-trips and hydrate/dehydrate JSON.
-Serving HTML isn't significantly more expensive than JSON. Like any text format
-it compresses well, browsers are very performant at parsing and rendering it.
+This has the nice property of less time to interactive websites, since there's
+no need for extra round-trips and hydrate/dehydrate JSON. Serving HTML isn't
+significantly more expensive than JSON. Like any text format it compresses well,
+browsers are very performant at parsing and rendering it.
 
 The server describes the UI, it is the single source of truth, it has all the
 tools it needs to do so and it's [cheaper][15] to implement.
@@ -179,7 +136,7 @@ You go from using a JSON representation of your data:
       "currency": "usd",
       "value": 100.00
     },
-    "links": {
+    "actions": {
       "deposits": "/accounts/42/deposits",
       "withdrawals": "/accounts/42/withdrawals",
       "transfers": "/accounts/42/transfers",
@@ -216,6 +173,50 @@ When using **HTML as the technology to render the app state**, the browser is
 the client, not your SPA. User will always get the latest representation of your
 data, and what can be done with it. It treats synchronous API payloads as a kind
 of declarative UI language for full state interactions.
+
+
+## You probably don't need a SPA
+
+[SPAs are hard][10]. If not done correctly, you could be [adding megabytes worth
+of code][11] that need to be downloaded and executed, probably contributing to
+the current [web obesity][12] crisis.
+
+Latest tendencies in the JS world show a [comeback to the old ways][9]. Server
+side rendering so that we don't load a blank page as splash screen, GraphQL as a
+poor attempt to get back to the trusted backend's SQL, per page hot-loading of
+bundles trying to break up huge javascript files that bundle entire templates and
+models that might not be needed everywhere, etc.
+
+This shows little or no benefit to end users of your website, but clearly incurs
+into costly development cycles: An ever-changing amount of frameworks, tooling
+(transpilers, bundlers, linters), libraries, DSLs and state management patterns
+that all compete to be the next hot thing in the industry. This contributes to
+churn in development teams that need to keep up with the [javascript
+fatigue](https://javascript.works-hub.com/learn/a-javascript-free-frontend-61275).
+
+Big frontend codebases have become a [liability][13].
+
+Devs nowadays seem to just skip all this analysis, and are eager to start every
+project with:
+
+```js
+npm install create-react-app graphql
+```
+
+It all comes down to [tradeoffs][23]. What's driving these frontend heavy
+industry standards to be the default go to?
+
+The answer to that could range from peer pressure, job stability, FOMO or
+probably not knowing other alternatives to create snappy websites.
+
+## No JS / Low JS sites
+
+As the common proverb says: *“What has been will be again, what has been done
+will be done again; there is nothing new under the sun”*, server side
+rendering and static site generators are [reviving][14].
+
+This HTML centric architecture can be a very competitive alternative for
+interactive websites when modernized with a few tweaks.
 
 The question is, how powerful is HTML alone?
 
