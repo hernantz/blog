@@ -163,6 +163,9 @@ one but Talitha, the matriarch of the town, during the sessions where she helped
 him with his arthritis. She also makes Andy, her robotic personal assistant,
 fond of telling horoscopes, promise that will help Roland in times of need.
 
+I'm leaving this world soon, Roland. Some are born and some are dying — adds,
+looking at the children play with Andy on the street.
+
 She dies of age, but gives Roland possession of her cross to lay at the Tower.
 At her burial Andy says O Discordia! (ordia! echoes Oy).
 
@@ -353,7 +356,7 @@ The Crimson King, is there, wearing glasses and dressed in a red robe.
 He is piling up black rocks, stacking them in what seems an impossible balance.
 
 He is seated next to a lit furnace. A greenish smoke comes out of it, with a
-familiar smell. Yes, it's the devil's grass.
+familiar smell. It's the devil's grass.
 
 When they make eye contact the pile crumbles — product of the distraction.
 
@@ -388,8 +391,7 @@ Dear Roland — begins to read out loud.
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
-questions change. So I'll give you something better instead. Redemption. Yet not
-for you, gunslinger.
+questions change. So I'll give you something better instead.
 
 You have not forgotten the face of your father. This is what you were made for.
 
@@ -401,11 +403,24 @@ Every door you have opened in your life, has been inside this tower. It will
 withstand the eons of time, and your story will prevail in it's murals, and in
 other worlds too, Roland. Trust me on this.
 
+Inasmuch there wouldn't be a final judgement without free will and temptation,
+there wouldn't be a redemption if I hadn't put you through tough tests Roland,
+so that I did.
+
+I won't fight you, rather I'm here to help you. That is the power of sacrifice.
+That is the power of death.
+
+This time, I am the sacrifice, and death is freedom for us both.
+
 The Crimson king takes a moment, a deep breath and continues.
 
 This Tower is also my prison. — exhales. It's been my obsession, a heavyweight
 burden, and one of my most ambitious projects. One I though would never be able
 to finish.
+
+I like stories that seem to fit into a bigger pattern, and for me, this one was
+part of it,” King says. “Everything that I've written for a long, long time has
+always been with the tower in the corner of my eye.
 
 We all have our Tower, our epic quest. You are part of mine, gunslinger.
 
@@ -529,34 +544,66 @@ perhaps!
 
 What?! I though this was the Tower!
 
-Yeah, well... Ka is a wheel. It manifests as a cycle, but it is spiraling in
-nature. Just like the steps of this tower. Seen from above it would appear you
-were walking in circles, yet you were moving. See, one does not swim in the
-same river twice. The river is no the same river, and you are not the same
-person. You are not the same person you were one second ago and you won't be
-the same person the next tower to reach.
+Yeah, well... Ka is a wheel. But that is too pessimistic a view.
+
+Through the mist of Ka, all things fade. Flesh, stones, even the stars. Enough
+turns of the wheel and the past becomes a memory of the past, forgotten, dead.
+But dead doesn't mean gone.
+
+There are other worlds than these.
+
+These words send shivers to Roland.
+
+After a smirk, the mad king continues — New life life emerges. The future turns
+into the past in a constant flow. The world moves on.
+
+From the wrong perspective it manifests as a never ending cycle, but it is
+spiraling upwards in nature. Just like the steps of this tower. Seen from above
+it would appear you were walking in circles, yet you were moving.
+
+Things repeat, yes, but, with effort and sacrifice, with blood and tears, a
+little better than before.
+
+See, one does not swim in the same river twice. The river is not the same river,
+and you are not the same one. You are not the same person you were one second
+ago and you won't be the same person the next tower to reach.
 
 Roland is loosing it. That feeling frightens him. He needs to get back to firm
-ground now. To who he is. To what he think is real.
+ground now. Words are poison.
 
 So... — the Crimson King stands up and walks up to the ledge of the Tower — I'm
-ready whenever you are.
+ready whenever you are. I would jump, but I never had the courage Roland, so I'm
+counting on you.
+
+O Discordia. — King muttered.
 
 Roland also stands up, and aims his heavy, ancient and deadly pistols at the
 Crimson King.
 
 Oh.. Can I ask for one last whim? — the Crimson King asks.
 
-When this is over, please, say my name. Will ya? — says without waiting for an
-answer.
+When this is over and I'm gone, please, say my name. Will ya? — requested
+without waiting for an answer.
 
-Fuck you! Fuck this Tower, fuck all of this! — the gunslinger yells. He fires
-his guns empty at the Crimson King. The whole twelve rounds.
+I just might. — Roland said with a nod and a still face.
+
+After a few seconds of eye contact, as both may have been waiting for something
+else to happen, the suspense turned unbearable.
+
+As the first rays of dawn appear in the horizon, couldn't help but notice how
+both epic an beautiful the scenery was from atop the Dark Tower. A surreal
+chant, almost a deafening battle hymn, emerged from the crimson fields below,
+the roses were waking up. They were no regular roses, they were spiritual
+beings, they were angels.
+
+It's time — Roland thinks, it's now or soon this seer will play another of his
+tricks. It's time.
+
+He fires his guns empty at the Crimson King. The whole twelve rounds.
 
 Crows fly away with an alarmed cawing one more time. The creature that claimed
 to be his creator trips and falls down. His red robe contrast with the pitch
-black color of the Tower, it seems as if he was ablaze while falling, as the
-first rays of dawn appear in the horizon.
+black color of the Tower, it seems as if he was ablaze while falling.
 
 ### V.
 
@@ -601,7 +648,7 @@ Roland to it's hollow eyes.
 
 Just as he was told, there is a door right in front of the Tower.
 
-You were right about that at least... Stephen King... — puts the skull into his
+You were right about that at least... Sai King... — puts the skull into his
 bag.
 
 The door is a ghostwood door. This one has no names written on it, but a single
