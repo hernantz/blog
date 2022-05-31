@@ -100,7 +100,7 @@ Oy joins the ka-tet.
 We learn about Roland's youth at Mejis when they are waiting for the starkblast.
 
 Roland laments Susan's death with O Discordia! (ordia! cries Oy) When the ka-tet
-returns from Mejis, they bring the Grapefruit orb and a kid with them, Bill, who
+returns from Mejis, they bring the Grapefruit orb and a kid with them, Sheemie, who
 is now an orphan because of the Big Coffin Hunters killed his parents.
 
 After Gabrielle Deschain's matricide, Roland and Jamie are sent to Hambry, to
@@ -108,11 +108,11 @@ investigate reports of a skin-man murdering people. Vannay gives them silver
 bullets just in case the story is not made up.
 
 They are also commanded to deliver Sheemie to Serenity, which is nearby. The
-sisters that run the place agree to adopt Sheemie. They are taking many injured
-folk and also another orphan.
+sisters that run the place agree to adopt the orphan boy.
 
 They stay for one night there and one of the sisters proceeds to narrate a story
-*the wind through the keyhole* to the orphans.
+*the wind through the keyhole* to the orphans and injured the sisters are also
+*taking care of.
 
 Again, a story within a story.
 
@@ -195,7 +195,7 @@ that his daughters may survive. He begs for mercy before getting hanged:
 > protector of the Dark Tower, sentence you to die.
 
 Sussanah gets finally possessed and tries to murder the gunslinger, in the fight
-manipulates Oy (again with the Dogan metaphor) to attack Roland, you looses an
+manipulates Oy (again with the Dogan metaphor) to attack Roland, he looses an
 eye.
 
 Roland shoots Oy who dies in his hands, it's last word is *Tower*. He is left
