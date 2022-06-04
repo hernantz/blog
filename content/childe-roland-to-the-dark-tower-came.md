@@ -60,9 +60,9 @@ just before he started chasing the Man in Black.
 This plays the nice effect on how Roland tells a story within a story when, once
 at Brown's place, recalls his time spent in Tull.
 
-The town folk, rallied by the preacher woman, has beaten, raped and desfigured
+The town folk, rallied by the preacher woman, has beaten, raped and disfigured
 Allie. She begs Roland to kill her. O Discordia! she screams before getting a
-headshot (Discodia! cries Zoltan, the crow has been listenting all along).
+headshot (Discodia! cries Zoltan, the crow has been listening all along).
 
 In the last palaver, the Man in Black also mentions the reasons behind following
 the Crimson King:
@@ -70,7 +70,7 @@ the Crimson King:
 > You think that John Farson or I are on the wrong side. But what makes you
 > believe you are on the right one?
 >
-> Every light casts a shadow. The Crimson King might have gone mad and recluded
+> Every light casts a shadow. The Crimson King might have gone mad and reclused
 > in the Tower, his ways are mysterious, yes. But that doesn't affect my reason to
 > be on his cause.
 >
@@ -91,7 +91,14 @@ Pretty much stays intact too.
 
 When Roland looses his fingers laments with O Discordia!
 
-He doesn't prevent Jack Mort from killing Jake. *Roland killed him twice*.
+We learn more about Jake, how he skips school to visit the vacant lot and the
+Rose, etc, through the eyes of Jack Mort. *The pusher* is an accountant in the
+North Central Positronics Corporation, as well as a psychopathic killer.
+
+Jake sees Roland instead of Jack Mort before getting pushed and ran over by a
+truck. Roland realizes he has been recognized and is suddenly ashamed of the boy
+judging him and does nothing to prevent Jack Mort from killing the boy. *Roland
+killed him twice*.
 
 ### 3. The wind through the keyhole
 
@@ -103,16 +110,16 @@ Roland laments Susan's death with O Discordia! (ordia! cries Oy) When the ka-tet
 returns from Mejis, they bring the Grapefruit orb and a kid with them, Sheemie, who
 is now an orphan because of the Big Coffin Hunters killed his parents.
 
-After Gabrielle Deschain's matricide, Roland and Jamie are sent to Hambry, to
-investigate reports of a skin-man murdering people. Vannay gives them silver
-bullets just in case the story is not made up.
+After Gabrielle Deschain's matricide, Roland and Jamie DeCurry are sent to
+Hambry, to investigate reports of a skin-man murdering people. Vannay gives them
+silver bullets just in case the story is not made up.
 
 They are also commanded to deliver Sheemie to Serenity, which is nearby. The
 sisters that run the place agree to adopt the orphan boy.
 
 They stay for one night there and one of the sisters proceeds to narrate a story
 *the wind through the keyhole* to the orphans and injured the sisters are also
-*taking care of.
+taking care of.
 
 Again, a story within a story.
 
@@ -272,8 +279,8 @@ I put special attention to the opening line:
 
 ### I.
 
-*Alone he was when he started his journey, and alone is how Roland reaches the
-Dark Tower.*
+*Alone he was when he started his journey, and alone is how Roland finally
+reached the Dark Tower.*
 
 The Tower is the apotheosis of all towers. It is sculpted from a single huge
 stone. It is not man-made.
@@ -288,9 +295,47 @@ The entrance is a huge sandalwood door and depicts all the twelve guardians of
 the beam engraved on it. A name in high speech is written on top — *Roland*, of
 course.
 
-Roland knows what to do. Leaves Talitha's cross in the floor and blows
-Cuthbert's horn to open it. The crows resting on the top of the tower take
+> I come in the name of Steven Deschain, he of Gilead!
+>
+> I come in the name of Gabrielle Deschain, she of Gilead!
+>
+> I come in the name of Cortland Andrus, he of Gilead!
+>
+> I come in the name of Cuthbert Allgood, he of Gilead!
+>
+> I come in the name of Alain Johns, he of Gilead!
+>
+> I come in the name of Jamie DeCurry, he of Gilead!
+>
+> I come in the name of Vannay the Wise, he of Gilead!
+>
+> I come in the name of Hax the Cook, he of Gilead!
+>
+> I come in the name of David the Hawk, he of Gilead and the sky!
+>
+> I come in the name of Susan Delgado, she of Mejis my true love and mother of my son!
+>
+> I come in the name of Sheemie Ruiz, he of Mejis!
+>
+> I come in the name of Aunt Talitha, she of River Crossing, and will lay her cross here, as I was bid!
+>
+> I come in the name of Oy the brave, he of Mid World!
+>
+> I come in the name of Eddie Dean, he of New York!
+>
+> I come in the name of Sister Susannah, she of New York!
+>
+> I come in the name of Jake Chambers, he of New York and other worlds!
+>
+>
+> I am Roland of Giliad and I come as myself.
+>
+> You will open to me!
+
+Roland blows Cuthbert's horn to open it. The crows resting on the top of the tower take
 flight, scared by it's loud and deep sound. And the door opens, of course.
+
+### II
 
 The inside is void. There are no windows and no decorations on the walls. Only
 spiraling steps lit by torches. A hundred? Or a thousand maybe? He begins to
@@ -345,7 +390,7 @@ rooftop.
 
 He draws his weapons and goes up.
 
-### II.
+### III
 
 The sunset has started. He sees the never ending sea of roses, laying under the
 infinite shade cast by the Tower. The crows, black as the Tower, are back,
@@ -387,7 +432,7 @@ Roland is mute.
 
 Dear Roland — begins to read out loud.
 
-### III.
+### IV
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
@@ -468,7 +513,7 @@ it, is no exception. It's time we say our goodbyes, Roland.
 
 I say thankya.
 
-### IV.
+### V
 
 The Crimson King looks at Roland, folds the letter again and throws it inside
 the furnace. Millions of sparks ascend into the night sky.
@@ -492,7 +537,14 @@ Both stare at the fire for what seemed a very long time. The furnace makes the
 eyes of the curious crows shine in different colors. They have been hearing
 everything, observing, waiting.
 
-Who are you? Asked Roland finally.
+I can feel you are judging me — says the Crimson King. Don't judge me, for I
+just write what I see.
+
+So you are a seer — Roland commented finally, with a dry voice.
+
+Well, I guess you could put it that way... — The Crimson King responded.
+
+Who are you?
 
 I have many names, the Crimson King is one of them, it is how I'm known here, in
 this level of the tower.
@@ -605,7 +657,7 @@ Crows fly away with an alarmed cawing one more time. The creature that claimed
 to be his creator trips and falls down. His red robe contrast with the pitch
 black color of the Tower, it seems as if he was ablaze while falling.
 
-### V.
+### VI
 
 Calmness slowly returns to Roland. As if the gunshots woke him up from a vivid
 nightmare. No more poisonous words are infesting his mind. The smoke from the
@@ -632,7 +684,7 @@ Tower, even darker.
 After a while he is feeling replenished. Crying has an curious healing
 properties for the soul. He downs his water flask and begins the descent.
 
-### VI.
+### VII
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
 seems to be healing.
