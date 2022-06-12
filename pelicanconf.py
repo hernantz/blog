@@ -4,7 +4,7 @@
 AUTHOR = 'hernantz'
 SITENAME = 'README.txt'
 SITESUBTITLE = '- Mostly lies and rants in plain text.'
-SITEURL = ''
+SITEURL = 'localhost'
 
 PATH = 'content'
 
@@ -38,7 +38,7 @@ RELATIVE_URLS = True
 
 THEME = '/home/hernantz/devel/pelican-left/'
 
-STATIC_PATHS = ('images', 'extra/robots.txt', 'extra/humans.txt',)
+STATIC_PATHS = ('images', 'extra/robots.txt', 'extra/humans.txt', 'videos',)
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
@@ -55,3 +55,9 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+# SEO settings
+SEO_REPORT = True
+SEO_ENHANCER = True
+SEO_ENHANCER_TWITTER_CARDS = True
+SEO_ENHANCER_OPEN_GRAPH = True
