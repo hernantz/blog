@@ -1,7 +1,6 @@
 Title: Inline form validation with Django and Htmx
 Date: 2022-06-13
 Category: Programming
-Status: Draft
 Tags: python, django, javascript, htmx
 Summary: Partial and progressive form validation without any Javascript.
 
@@ -93,10 +92,13 @@ If the form is manually submitted through a regular http post request, we just
 follow the normal `FormView` flow, and we can redirect or make some change in
 the database.
 
-With this simple solution we get the best of both worlds. **Immediate feedback**
-to the user, **no client-side code logic repetition** for validating fields,
-progressive enhancement approach when JS is not available and it is **framework
-agnostic**, can be adapted with any CSS toolkit and any backend language.
+With this simple solution, quick to implement and easy to maintain, we get the
+best of both worlds.
+
+ **Immediate feedback** to the user, **no client-side code logic repetition**
+ for validating fields, progressive enhancement approach when JS is not
+ available and it is **framework agnostic**, can be adapted with any CSS toolkit
+ and any backend language.
 
 
 [1]: https://intercoolerjs.org/2016/05/08/hatoeas-is-for-humans.html "HATEOAS is for Humans"
