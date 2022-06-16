@@ -73,6 +73,8 @@ with the validation for that field.
   </div>
 ```
 
+![htmx inline form validation](/images/htmx-inline-form-validation.png "Htmx inline form validation")
+
 The [django backend code][3] is still pretty agnostic. If the form is invalid,
 django will re-render the page with the errors displayed. If the form is valid,
 and it was submitted via htmx request, we re-render the page (without any
