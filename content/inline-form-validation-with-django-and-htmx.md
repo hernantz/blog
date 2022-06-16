@@ -43,6 +43,9 @@ focus is set on the next form element. Otherwise the user would have to fill the
 entire form, wait for the server to validate and then scroll to see what errors
 where found.
 
+**Server side validation is required** for security, but **client side
+validation is desirable** for it has better UX. Can't we have both?
+
 
 ## Partial and progressive server side form validation
 
