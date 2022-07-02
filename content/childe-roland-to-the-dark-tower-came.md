@@ -398,12 +398,8 @@ standing on the ledge.
 
 The Crimson King, is there, wearing glasses and dressed in a red robe.
 
-He is piling up black rocks, stacking them in what seems an impossible balance.
-
 He is seated next to a lit furnace. A greenish smoke comes out of it, with a
 familiar smell. It's the devil's grass.
-
-When they make eye contact the pile crumbles — product of the distraction.
 
 The Crimson Kings looks at the guns and then back to Roland. Childe Roland to
 the dark tower came! Long days and pleasant nights, Sai — says.
@@ -415,7 +411,8 @@ You must be exhausted from your journey. So am I — adds with a smirk.
 What do you mean? Asked Roland.
 
 It's getting chilly, come, take a seat by the fire Roland, it's about time we
-talked. We are going to have a clear starry night, it seems, how appropriate.
+talked. Fires makes good conversations, wouldn't you agree? We are going to have
+a clear starry night, it seems, how appropriate.
 
 Roland sits. First comes smiles, then lies. Last comes gunfire — says to
 himself, as if preparing for the palaver to come.
@@ -436,7 +433,12 @@ Dear Roland — begins to read out loud.
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
-questions change. So I'll give you something better instead.
+questions change.
+
+Too many questions and you then see how small you are. Not good for someone like
+you.
+
+So I'll give you something better instead.
 
 You have not forgotten the face of your father. This is what you were made for.
 
@@ -464,13 +466,13 @@ burden, and one of my most ambitious projects. One I though would never be able
 to finish.
 
 I like stories that seem to fit into a bigger pattern, and for me, this one was
-part of it,” King says. “Everything that I've written for a long, long time has
+part of it, King says. Everything that I've written for a long, long time has
 always been with the tower in the corner of my eye.
 
 We all have our Tower, our epic quest. You are part of mine, gunslinger.
 
 One grows fond of every character and story that tells. Each tale casts a
-universe into existence, each one takes a peace of you, it feeds from your
+universe into existence, each one takes a piece of you, it feeds from your
 imagination until it is alive. This process is a wonderful mystery and an
 exhausting task.
 
@@ -505,8 +507,14 @@ Will anyone be there?
 
 That I don't ask... It might be... mmm... unwise.
 
+Too many questions and you then see how small you are. Not good for someone like
+me.
+
 What matters is that this is your tower. You had to be here, gunslinger, it was
 your inevitable destiny. It was very important for me that you made it.
+
+Deep inside you knew this could have ended differently, but you needed this
+tower to give meaning to your decisions.
 
 All things must come to an end, and this one story, your story and my role in
 it, is no exception. It's time we say our goodbyes, Roland.
@@ -525,6 +533,9 @@ too.
 
 The gunslinger, didn't like he just heard, it made him unease. Plain as he is
 he cannot fully grasp the meaning of the letter. Shivers run through his spine.
+
+Feels bitter and empty. Is that it? Maybe he is just under a spell again. Maybe
+is the devil's grass.
 
 I know you are a bit overwhelmed now - says the Crimson King. Believe me, this
 is not any easier for me either than it is for you. I don't know how much could
@@ -590,19 +601,16 @@ mortal after all, you will soon find out.
 
 Just like that... What will happen after? — Roland asked.
 
-I'll let you be. And you will walk through that door waiting for you
-downstairs. Where it leads it won't matter to me anymore, another tower
-perhaps!
+Another door waiting for you downstairs. Where it leads it won't matter to me
+anymore, another tower perhaps!
 
 What?! I though this was the Tower!
 
 Yeah, well... Ka is a wheel. But that is too pessimistic a view.
 
-Through the mist of Ka, all things fade. Flesh, stones, even the stars. Enough
-turns of the wheel and the past becomes a memory of the past, forgotten, dead.
-But dead doesn't mean gone.
-
-There are other worlds than these.
+Through the mist of Ka, all things fade. Flesh, stones, even the stars disappear
+eventually. Enough turns of the wheel and the past becomes a memory of the past,
+forgotten, dead. But dead doesn't mean gone. There are other worlds than these.
 
 These words send shivers to Roland.
 
