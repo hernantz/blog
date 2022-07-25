@@ -379,6 +379,31 @@ weird way.
 
 More and more steps until he finally reaches the top.
 
+In a moment of doubt, he realized he was scared. The end of his quest was right
+behind that door. That was scary. What truths lay behind? You dare take a peek
+behind the courting of existence?
+
+He has been living his life in an unconscious level. Like within someone else's
+epic tale. An important role but not sure if as the protagonist or the
+antagonist.
+
+I'm here because of my matricide. Or Jake. I have forgotten the face of my
+father.
+
+And all for what? What if nobody was there?
+
+Maybe this strange place of despair is another world's hell.
+
+I am already dead, that's got to be it.
+
+Death, yet not for you. The man in black has said with a smirk at the Golgotha
+by the sea. That horrible smirk, gods damn you!
+
+Thinking too much ahead is no good. I might as well just put an end to this
+journey.
+
+He draws his weapons and goes up.
+
 There is a bookcase full of books and a strange typing machine on a desk, with
 a piece of yellow paper and a writing in low speech. *Alone he was when he
 started his journey, and alone is how Roland reaches the Dark Tower.* — he
@@ -388,7 +413,9 @@ There is a red door, with the same eye he has seen before, painted on top. The
 eye of the Crimson King. The door is already opened and it leads to the
 rooftop.
 
-He draws his weapons and goes up.
+I'm up here! A voice yells from the rooftop.
+
+A sudden relief flows through Roland's body. There is *somebody* after all.
 
 ### III
 
