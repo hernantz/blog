@@ -332,44 +332,45 @@ course.
 >
 > You will open to me!
 
-Roland blows Cuthbert's horn to open it. The crows resting on the top of the tower take
-flight, scared by it's loud and deep sound. And the door opens, of course.
+Somewhere in the crimson fields, new roses appear for every name. After all,
+every rose that surrounds the Tower belongs to someone whose name has been
+spoken up at this place, in this story or in another universe perhaps.
+
+Roland blows Cuthbert's horn to open the door. The crows resting on the top of
+the tower take flight, scared by it's loud and deep sound. And the door opens.
 
 ### II
 
-The inside is void. Only spiraling steps lit by torches. A hundred? Or a
-thousand maybe? He begins to climb.
+The inside is void. Only spiraling steps lit by stained glass windows a symbol
+of royalty. A hundred? Or a thousand maybe? He begins to climb.
 
-After a while, he takes some time to recover and realizes there are murals
-carved on the walls. Murals that tell the origin of it all, strange figures and
-symbols the Man in Black had shown him the long night they met. He keeps going.
+The windows are beautiful, their reflection results in a mesmerizing rainbow of
+vivid colors. This craft has been long forgotten, even when Gilead was still a
+thing. He remembered Vannay has taught him they were made from unknown materials
+and perhaps some magic of old.
 
-More steps.
+After a while, he takes some time to recover and realizes there are images
+portrayed on the windows. Pictures that tell the origin of it all, strange
+figures and symbols the Man in Black had shown him the long night they met.
 
-There are lots of strange scenes shown in the walls too. He doesn't really know
-what they represent or what they mean, but some are very notable. There is a
-very creepy looking clown looking at him from some sort of drainage, twin
-sisters at the end of a hallway full of doors, a strange looking rabid dog, a
-huge black man behind bars, a man and a teenager dumping woman's body in a well
-behind a barn, humanoid creatures but with the heads of animals. He keeps
-climbing.
+There are lots of strange scenes shown too. He doesn't really know what they
+represent or what they mean, but some are very notable. There is a very creepy
+looking clown looking at him from some sort of drainage, twin sisters at the end
+of a hallway full of doors, a strange looking rabid dog, a huge black man behind
+bars, a man and a teenager dumping woman's body in a well behind a barn,
+humanoid creatures but with the heads of animals. He keeps climbing.
 
-To his surprise, the murals now tell The legend of Arthur Eld, the fall of
+To his surprise, the murals now tell the legend of Arthur Eld, the fall of
 Gilead, and his life, Alain and Cuthbert, the battle at Jerico hill. More
 steps. The lovely girl at the window — his true and only love Susan.
 
-He perceives distinctive smells of lost memories, voices from a distant
-past, thoughts unspoken in old dreams.
+He perceives distinctive smells of lost memories, voices from a distant past,
+thoughts unspoken in old dreams. The pictures are in motion. Or is it an
+illusion?
 
 Eluria, the Mohaine desert, Jake (Go then! There are other worlds than these),
 the Man in Black — he shivers. The lobstrosities (Dad-a-chum? Dum-a-chum?) and
-doors by the beach, Eddie, Sussanah, Talitha, Oy. Everyone is there. He then
-closes his only eye as he speaks up the names of all his fallen friends and
-loved ones.
-
-Outside, new roses appear in the field for every name. After all, every rose
-that surrounds the Tower belongs to someone whose name has been spoken up at
-this place, in this story or in another universe perhaps.
+doors by the beach, Eddie, Sussanah, Talitha, Oy. Everyone is there.
 
 More steps.
 
@@ -377,6 +378,8 @@ It feels it's been a lifetime climbing. This thought clicked in his mind in a
 weird way.
 
 More and more steps until he finally reaches the top.
+
+### III
 
 In a moment of doubt, he realized he was scared. The end of his quest was right
 behind that door. That was scary. What truths lay behind? Would he dare take a
@@ -420,7 +423,7 @@ I'm up here! A voice yells from the rooftop.
 A sudden relief flows through Roland's body. There is *somebody* after all.
 
 He draws his weapons and goes up.
-### III
+### IV
 
 The sunset has started. He sees the never ending sea of roses, laying under the
 infinite shade cast by the Tower. The crows, black as the Tower, are back,
@@ -460,7 +463,7 @@ Roland is mute, but nods accepting the invitation.
 
 Dear Roland — begins to read out loud.
 
-### IV
+### V
 
 I know why you came all this way for. You are looking for answers. But... each
 answer leads to more questions. And when we think we have all the answers, the
@@ -552,7 +555,7 @@ it, is no exception. It's time we say our goodbyes, Roland.
 
 I say thankya.
 
-### V
+### VI
 
 The Crimson King looks at Roland, folds the letter again and throws it inside
 the furnace. Millions of sparks ascend into the night sky.
@@ -696,7 +699,7 @@ Crows fly away with an alarmed cawing one more time. The creature that claimed
 to be his creator trips and falls down. His red robe contrast with the pitch
 black color of the Tower, it seems as if he was ablaze while falling.
 
-### VI
+### VII
 
 Calmness slowly returns to Roland. As if the gunshots woke him up from a vivid
 nightmare. No more poisonous words are infesting his mind. The smoke from the
@@ -723,7 +726,7 @@ Tower, even darker.
 After a while he is feeling replenished. Crying has an curious healing
 properties for the soul. He downs his water flask and begins the descent.
 
-### VII
+### VIII
 
 Once at the base, he notices that the cracks in the walls are sealed. The Tower
 seems to be healing.
