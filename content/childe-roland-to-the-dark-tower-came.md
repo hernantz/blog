@@ -337,9 +337,8 @@ flight, scared by it's loud and deep sound. And the door opens, of course.
 
 ### II
 
-The inside is void. There are no windows and no decorations on the walls. Only
-spiraling steps lit by torches. A hundred? Or a thousand maybe? He begins to
-climb.
+The inside is void. Only spiraling steps lit by torches. A hundred? Or a
+thousand maybe? He begins to climb.
 
 After a while, he takes some time to recover and realizes there are murals
 carved on the walls. Murals that tell the origin of it all, strange figures and
@@ -369,8 +368,8 @@ closes his only eye as he speaks up the names of all his fallen friends and
 loved ones.
 
 Outside, new roses appear in the field for every name. After all, every rose
-that surrounds the Tower belongs to someone whose name has been spoken inside,
-in this story or in another universe perhaps.
+that surrounds the Tower belongs to someone whose name has been spoken up at
+this place, in this story or in another universe perhaps.
 
 More steps.
 
@@ -380,15 +379,20 @@ weird way.
 More and more steps until he finally reaches the top.
 
 In a moment of doubt, he realized he was scared. The end of his quest was right
-behind that door. That was scary. What truths lay behind? You dare take a peek
-behind the courting of existence?
+behind that door. That was scary. What truths lay behind? Would he dare take a
+peek behind the courting of existence?
 
-He has been living his life in an unconscious level. Like within someone else's
-epic tale. An important role but not sure if as the protagonist or the
-antagonist.
+The Tower has been the price to pay for the life he chose. It would be a great
+relief to think of himself as a minion of Ka, but he had other choices, he
+always had.
 
 I'm here because of my matricide. Or Jake. I have forgotten the face of my
 father.
+
+He could have escaped with Susan, or stayed in Callas with Eddie and Susannah,
+he could have let the Man in Black go and spare Jake's life, maybe even teach
+him the ways of Eld. But no. He never gave up on the Tower, he just kept going
+like a slow mutant, never resting on the consequences, on the ones left behind.
 
 And all for what? What if nobody was there?
 
@@ -396,13 +400,11 @@ Maybe this strange place of despair is another world's hell.
 
 I am already dead, that's got to be it.
 
-Death, yet not for you. The man in black has said with a smirk at the Golgotha
+Death, yet not for you. The Man in Black has said with a smirk at the Golgotha
 by the sea. That horrible smirk, gods damn you!
 
 Thinking too much ahead is no good. I might as well just put an end to this
 journey.
-
-He draws his weapons and goes up.
 
 There is a bookcase full of books and a strange typing machine on a desk, with
 a piece of yellow paper and a writing in low speech. *Alone he was when he
@@ -417,6 +419,7 @@ I'm up here! A voice yells from the rooftop.
 
 A sudden relief flows through Roland's body. There is *somebody* after all.
 
+He draws his weapons and goes up.
 ### III
 
 The sunset has started. He sees the never ending sea of roses, laying under the
@@ -433,13 +436,14 @@ the dark tower came! Long days and pleasant nights, Sai — says.
 
 Roland, not sure what how to respond, says nothing.
 
-You must be exhausted from your journey. So am I — adds with a smirk.
+Please put those guns down, and hear me out first. I'm not the enemy you think I
+am. — The Crimson King added. You must be exhausted from your journey. So am I.
 
 What do you mean? Asked Roland.
 
 It's getting chilly, come, take a seat by the fire Roland, it's about time we
-talked. Fires makes good conversations, wouldn't you agree? We are going to have
-a clear starry night, it seems, how appropriate.
+talked. Fires makes for good conversations, wouldn't you agree? We are going to
+have a clear starry night, it seems, how appropriate.
 
 Roland sits. First comes smiles, then lies. Last comes gunfire — says to
 himself, as if preparing for the palaver to come.
@@ -452,7 +456,7 @@ sleeve.
 
 The Crimson King clears his voice — Ready?
 
-Roland is mute.
+Roland is mute, but nods accepting the invitation.
 
 Dear Roland — begins to read out loud.
 
