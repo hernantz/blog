@@ -1,17 +1,17 @@
 Title: If considered harmful
 Date: 2013-10-24
-Category: Programming 
+Category: Programming
 Tags: python, ideas
 Status: draft
 Summary: Some practices and ideas for flow-control in Python.
- 
+
 
 ![Tree branches](/images/tree-branches.jpg "Tree branches")
 
 In Python we strongly emphasize that code must be elegant and easy to
 interpret, but with PEP8 alone is not enough, many times our logic can be
 nested in a cataract of `if`/`else` combinations, which is difficult to
-maintain and reduces expresability of your program.
+maintain and reduces expressivity of your program.
 
 In this post we *incrementally* explore strategies that structure our code to
 avoid that unnecessary complexity in readability in an attempt to write
@@ -20,9 +20,9 @@ branchless code.
 
 ## If you write else
 
-As a programmer, most of your time you will be writing `if`s.  Not only becouse
+As a programmer, most of your time you will be writing `if`s.  Not only because
 this is the main flow control structure, in C like languages, but because
-writing an `else` is (or shoud be) a code smell. It's a trap.
+writing an `else` is (or should be) a code smell. It's a trap.
 
 When reading code, we programmers keep a heap of variables and flow control in
 our heads.
@@ -69,7 +69,7 @@ def func():
         ### <------ foo or bar
         ###
 
-        if bar in baz: 
+        if bar in baz:
             ### <------ for or bar & bar in baz
             ###
 
@@ -91,7 +91,7 @@ def func():
 
 Probably by the time you reach an else statement, the context switch will cause
 this code to be hard to reason about. Also you might check if every `if` is
-connected to some `else`, which condition is it conected to, if that condition
+connected to some `else`, which condition is it connected to, if that condition
 is altered, is the `else` still valid?
 
 A better approach to handle these cases while avoiding the context switch is to
@@ -103,11 +103,11 @@ def func():
         ### <------ TRUE
         ###
 
-        if bar in baz: 
+        if bar in baz:
             ### <------ TRUE & TRUE
             ###
 
-            if foo == quix: 
+            if foo == quix:
                 ### <------ TRUE & TRUE & TRUE
                 ###
 
@@ -118,11 +118,11 @@ def func():
 See how on every branch we are only adding more information, not negating some
 other statement.
 
-We are, nonetheless still stacking the new context, so we need to keep in our 
-heads everything that is going on from the begining. This is what I call the
-stairway of doom (a.k.a pyramid of doom in languages with curly brances).
+We are, nonetheless still stacking the new context, so we need to keep in our
+heads everything that is going on from the beginning. This is what I call the
+stairway of doom (a.k.a pyramid of doom in languages with curly braces).
 
-Nesting context is better that switcing and jumping around but a An alternative
+Nesting context is better that switching and jumping around but a An alternative
 to this is having the full context on every branch, to fully understand what's
 happening.
 
@@ -234,7 +234,7 @@ def foo(user):
     #######
 ```
 
-This patern greatly improves the maintenability and expresability of the
+This pattern greatly improves the maintainability and expressivity of the
 program. Not only we have less (seemingly superfluous) lines cluttering up your
 function body, but these decorators are reusable/composable functions.
 
@@ -242,9 +242,9 @@ function body, but these decorators are reusable/composable functions.
 ## If you write elif
 
 Most of the time we are writing `if`s for type-checking and error-handling.
-There are some ways of not writting `if`s altogether. 
+There are some ways of not writing `if`s altogether.
 
-In the case of `elif`s, it's easy to observe the paterns that emerge from the
+In the case of `elif`s, it's easy to observe the patterns that emerge from the
 code, and patterns are easy to refactor. Consider this checks on the type of
 user to determine the right permissions:
 
@@ -292,7 +292,7 @@ def get_admin_permissions():
 def get_editor_permissions():
     #####
     ########
-    
+
 def get_permissions(user):
     perms = {
         'admin': get_admin_permissions,
@@ -358,7 +358,7 @@ def f(filter=noop):
 ```
 
 We know that function arguments hide `if`s behind the interpreter to initialize
-variables, by allowing you to set some defaults that can be overriwritten at
+variables, by allowing you to set some defaults that can be overwritten at
 runtime. But currently if you want to avoid any confusion with mutable
 defaults, you set the default argument to some (immutable) sentinel that
 indicates the real default argument should be used.
@@ -399,13 +399,13 @@ The `itertools` module offers some functions that allow us to hide our `if`s
 >>>
 >>> for key, group in itertools.groupby(numbers, less_than_one):
 ...     print(f'{key}: {list(group)}')
-... 
+...
 False: [1, 2, 3]
 True: [0]
 ```
 
 
-Computationally intensive jobs => lazyness => ej del orm django
+Computationally intensive jobs => laziness => ej del orm django
 
 allows you to express pieces of computation, without having to pay the costs
 until you really need them.
@@ -417,11 +417,13 @@ until you really need them.
 ## if you handle errors
 Errors => exceptions => monads
 
+https://www.youtube.com/watch?v=VgA4wCaxp-Q
+
 VER GENERATORS WILL FREE YOUR MIND
 para usar generadores y asi evirtar for loops y while loops?
 
 
-
+https://stopa.io/post/247 Inventing Monads
 
 La monada de usear [] o [User]
 La idea de monadas es tener dos flujos separados para tratar cosas distintas
@@ -430,6 +432,7 @@ pasa en nuestro programa? Las excepciones no son necesariamente algo malo, en py
 se pueden usar para crear un canal nuevo de comunicacion.
 http://www.holger-peters.de/exceptions-the-dark-side-of-the-force.html
 ifs for error handling ^
+https://arif.co/posts/dart-null-safety-solving-the-billion-dollar-mistake/
 
 "You either will end up with if something is not None: on almost every line and global pollution of your logic by type-checking conditionals, or will suffer from TypeError every day. Not a pleasant choice."
 
@@ -457,6 +460,7 @@ http://stupidpythonideas.blogspot.com/2015/05/if-you-dont-like-exceptions-you-do
 https://bytes.yingw787.com/posts/2019/12/06/monads/
 
 Django PermissionDenied para custom authentication backend
+https://chrispenner.ca/posts/python-tail-recursion
 
 Compiler-driven development: the need for runtime-checking is reduced when using the compiler to do this for us with Typechecking automatically https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html#standard-duck-types
 
@@ -486,12 +490,20 @@ logic branches. That being said, I'm not against writing `if`, `else` or `elif`
 per se, life is more complex with lots of gray areas. The examples here are
 [not real world snippets][1], but simply put to make a point.
 
-Interestingly enough, all the expermients lead to functional programmig
+Interestingly enough, all the experiments lead to functional programming
 principles, like composing functions, passing functions as parameters,
-processing iterables, lazyness and immutability, etc.
+processing iterables, laziness and immutability, etc.
 
-Maybe this implies that functional languages are superior in terms of
-expresability.
+Maybe this implies that functional languages are superior in terms of expresability.
+
+https://www.youtube.com/watch?v=z43bmaMwagI "If considered harmful: How to eradicate 95% of all your bugs in one simple step - Jules May"
+
+Complexity has to live somewhere (https://thesephist.com/posts/complexity-conservation/), with pattern matching you push those checks to the compiler/interpreter instead of writing them yourself.
+
+
+https://twitter.com/DavidKPiano/status/1517215521619550210?t=sJ8oUVcjcon7Dpvm1nrk5g&s=08 : The optional chaining function call operator – ?.() – is also known as the "no worries if not!" operator
+
+from functools import singledispatch como forma de evitar escribir ifs
 
 
 [0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
