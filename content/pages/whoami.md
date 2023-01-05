@@ -18,7 +18,7 @@ I'm an *idealist*. My tombstone will say [^1]:
 > Intenté hacer de este mundo un paraíso para todos y terminé creando un
 > infierno para mí solo.
 
-The opinions expressed in this blog are my own.
+The opinions expressed in this blog are my own, but hopefully soon will be yours too.
 
 [^1]: The orignal quote says: *"Yo quise hacer de la tierra un paraíso para
       todos. La hice un infierno para mí."* by [Simón Rodríguez][1].
