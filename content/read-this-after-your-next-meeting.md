@@ -1,15 +1,14 @@
 Title: Read this after your next meeting
-Date: 2023-01-04
+Date: 2023-01-05
 Category: Management
 Tags: bizops, ideas
 Summary: Changing the purpose of meetings in an async first environment
-Status: draft
 
 ![Knights of the round table](/images/knights-of-the-round-table.jpg "Knights of the round table")
 
 Throughout my career, I've seen lots of companies that consider meetings as work. I, on the contrary, think of them as a [bug in communication][1].
 
-They are a symptom of a much deeper issue: lack of clarity, lack of trust or someone simply likes to have an audience to show off.
+They are a symptom of a much deeper issue: lack of clarity, lack of trust or someone simply likes to have an audience and feel important.
 
 For information exchange and collaboration, async communication is the king.
 
