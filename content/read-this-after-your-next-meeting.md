@@ -20,9 +20,9 @@ If the reason we need a meeting is because no-body reads the emails, or updates 
 
 Async collaboration is respectful of everyone's time & focus [^3], it already builds a lasting decision log that serves as documentation, can be shared to new team members, and can be improved over time [^4], much like code.
 
-An ephemeral chats or emails are not a replacement for a meeting or documentation either. Specially when the conversation gets spread on [multiple private messages][5] or [threads on different channels][3].
+Ephemeral chats or emails are not a replacement for a meeting or documentation either. Specially when the conversation gets spread on [multiple private messages][5] or [threads on different channels][3] and [normalizing interruptions][11].
 
-Excessively using chat or having quick calls isn’t being efficient. It’s lazy and distracting. So write things down.
+Excessively using chat or having quick calls isn’t being efficient. It’s lazy and distracting. The process of writing encourages thoughtfulness. So write things down.
 
 It is true that people can get more engaged when hearing someone or seeing someone's gestures when explaining an idea. But guess what? Giving presentations or screen recordings can also be done async. No need for everyone to be there to participate.
 
@@ -44,9 +44,11 @@ As a disclaimer, I will grant that team building is a different type of need. It
 [7]: https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/ "How to communicate effectively as a developer"
 [8]: https://nohello.net/en/ "please don't say just hello in chat"
 [9]: https://dontasktoask.com/ "Don't ask to ask, just ask"
+[10]: https://works.hashicorp.com/articles/writing-practices-and-culture "Writing Practices and Culture"
+[11]: https://abe-winter.github.io/plea's/help/2018/02/11/slack.html "Slack is the opposite of organizational memory"
 
 
-[^1]: Architecture decision records, also known as [ADRs][2], are a great way to document how and why a decision was reached within a codebase. They’re not for you, they’re for future you.
+[^1]: Architecture Decision Records ([ADRs][2]), Problem Requirements Documents ([PRDs][10]) and Request for Comments ([RFCs][10]) are a great way to document how and why a decision was reached within a codebase. They’re not for you, they’re for future you.
 [^2]: [No, We Won’t Have a Video Call for That!][4] Effective distributed collaboration is not pretending to be in an office. Working asynchronously is different. It is a skill that most people must learn.
 [^3]: Shower thoughts and taking a walk can sometimes help unclog the best ideas. Not all work happens while sitting in your desk. Creative work is a way of life (?).
 [^4]: Poor writing is more efficient for the writer. But the reader will have to spend more energy to try to figure out what you wanted to say. [Longer-form writing][7] gives you chance to dive deeper, to educate, to help understand.
