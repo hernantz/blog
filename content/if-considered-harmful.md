@@ -505,6 +505,9 @@ https://twitter.com/DavidKPiano/status/1517215521619550210?t=sJ8oUVcjcon7Dpvm1nr
 
 from functools import singledispatch como forma de evitar escribir ifs
 
+if amplification (error handling returning None)
+
+https://betterprogramming.pub/response-to-stop-using-if-else-statements-c3d4c64c69af
 
 [0]: https://blog.timoxley.com/post/47041269194/avoid-else-return-early "Avoid else, return early"
 [1]: https://gist.github.com/hernantz/ca79890b9b212c6df45e615d94320f6e
