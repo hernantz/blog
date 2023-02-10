@@ -135,7 +135,7 @@ The townsfolk had finally learned their lesson and realized that the only monopo
 
 Little they knew this was a lesson they would have to learn every few generations, despite how determined they were now to not to make the same mistake.
 
-Except for "The Only Butcher Shop", which was run by a rich and greedy businessman, and who had a monopoly on the meat industry, at least in that town.
+Except for "The Only Butcher Shop", which was run by a wealthy and greedy businessman, and who had a monopoly on the meat industry, at least in that town.
 
 Someone should do something about it.
 
