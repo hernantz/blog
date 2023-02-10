@@ -107,6 +107,8 @@ This was not well seen by the politicians, the media, the artists and even the t
 
 It was in this context that the bureaucrats decided to expropriate the bakeries and create a public bakery company, claiming that it would best serve the interests of the townsfolk by offering lower prices, eliminating the corporate greed of the private bakers, and avoiding waste in advertising. This is how the "Law of the Sovereign and Democratic Bakery for All" was approved.
 
+The massive financial bailout was welcomed by the Bakers Association and the Bakery Workers Union, although it left the numbers of the already battered public accounts in the red.
+
 The public bakery was named the "People's Bakery". At the expensive inauguration party, with media coverage and invited artists the bakery's logo was revealed, featuring a baker that closely resembled the current mayor, who was seen as the champion of the people's cause.
 
 But things didn't change for better.
