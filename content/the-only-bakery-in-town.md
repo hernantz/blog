@@ -5,6 +5,7 @@ Status: Draft
 Tags: writings, economy, libertarianism
 Summary: A short story on a town, a bakery and monopolies
 
+![The only bakery in town by MidJourney](/images/the-only-bakery-in-town.png "The only bakery in town by MidJourney")
 
 > "It is hard to imagine a more stupid or more dangerous way of making decisions than by putting those decisions in the hands of people who pay no price for being wrong."
 > 
