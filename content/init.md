@@ -1,7 +1,7 @@
 Title: Init
 Date: 2013-07-03
 Category: Personal
-Tags: pelican, ideas 
+Tags: pelican, ideas
 Summary: This is my new static blog.
 
 > Everyone's unwritten work is brilliant. And the more unwritten it is, the more brilliant it is.
