@@ -2,7 +2,7 @@ Title: The only bakery in town
 Date: 2023-02-10
 Category: Politics
 Tags: writings, economy, libertarianism
-Summary: A short story on a town, a bakery and monopolies
+Summary: A short story about a town, a bakery and monopolies
 
 ![The only bakery in town by MidJourney](/images/the-only-bakery-in-town.png "The only bakery in town by MidJourney")
 
