@@ -58,7 +58,7 @@ The city council met too often to discuss different issues, and the administrati
 
 The Secretary of Bakeries considered it important to protect the city's local businesses and ensure they could compete on a level playing field, so it proposed implementing tariffs on imported baked goods to protect local investments and labor from "unfair" foreign competition. This is how the "Buy Local" act was approved.
 
-In order to properly enforce the controversial law, The Secretary of Bakeries and the Competition Ministry also set up a customs agency and border patrol. The customs agency was responsible for checking incoming baked goods from other cities and enforcing the tariffs, while the border patrol was responsible for monitoring the borders to prevent smuggling of untaxed baked goods without proper sanitary labels.
+In order to properly enforce the controversial law, The Secretary of Bakeries and the Ministry of Competition also set up a customs agency and border patrol. The customs agency was responsible for checking incoming baked goods from other cities and enforcing the tariffs, while the border patrol was responsible for monitoring the borders to prevent smuggling of untaxed baked goods without proper sanitary labels.
 
 However, the "Buy Local Law" also had unintended consequences.
 
