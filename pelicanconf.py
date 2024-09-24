@@ -25,7 +25,7 @@ OUTPUT_RETENTION = ['.hg', '.git', '.bzr']
 FEED_RSS = 'rss.xml'
 
 # A list of tuples (Title, URL) for links to appear on the header.
-LINKS = (('readme', '/'),)
+LINKS = (('blog', '/'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/hernantz'),
