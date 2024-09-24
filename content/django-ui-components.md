@@ -1,5 +1,5 @@
 Title: Django UI components for perfectionists with deadlines.
-Date: 2024-08-17
+Date: 2024-09-24
 Summary: Server side rendering and UI components for a modern frontend.
 Category: Programming
 Tags: htmx, django, css, architecture, best-practices, python, javascript
