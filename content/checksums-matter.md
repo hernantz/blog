@@ -11,7 +11,7 @@ references it on a database.
 When serving those files, you send a url to the user to fetch the file.
 
 Now you may think that just by using a token or https that will be enough to
-download the right file from the server, after all, the ssl handshake will
+download the right file from the server, after all, the SSL handshake will
 ensure you connect to the right server, the url was built and served in a
 trusted environment and the TCP protocol will take care of ensuring the transfer
 succeeds and gracefully handle any network errors/disconnects.
@@ -25,8 +25,8 @@ be temporally unavailable and instead of downloading the file you expected, your
 client downloaded an HTML error page.
 
 A checksum is a hash of the file that can be served along the URI of the file so
-that the client can verify that the downloaded file is indeed the one intended
-to be downloaded from that URI.
+that the [client can verify][1] that the downloaded file is indeed the one
+intended to be downloaded from that URI.
 
 As a bonus, no extra checks are needed from the client, since this will take
 care of problems with the file size, file format, etc. The checksums need to

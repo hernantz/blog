@@ -1,8 +1,8 @@
-Title: Django's signal to noise ratio
+Title: Django's signal to noise
 Date: 2016-04-29
 Category: Programming
 Tags: django, python, best-practices
-Summary: Keeping a balance between decoupled and maintenable code.
+Summary: Keeping a balance between decoupled and maintainable code.
 
 ![Contact (1997) scene](/images/signal-to-noise-ratio.png "Contact (1997)")
 
@@ -33,9 +33,9 @@ def create_user_cv(sender, **kwargs):
         Resume.objects.get_or_create(user=kwargs.get('instance'))
 ```
 
-If another piece of code is also interest in perfoming some action everytime a
+If another piece of code is also interest in performing some action every time a
 user is saved, like syncing user info with a 3rd party jobs board site for
-example, we could acomplish that with another handler:
+example, we could accomplish that with another handler:
 
 ```python
 # somewhere inside users/models.py
@@ -55,10 +55,10 @@ def sync_jobsboard_with_users(sender, **kwargs):
 Now this code expects a curriculum to be associated to this user and that won't
 be true for new members.
 
-Whilst this special case could be catched by proper testing, as code grows
-**you'll have a hard time traking moving pieces**, scattered throughout
+Whilst this special case could be caught by proper testing, as code grows
+**you'll have a hard time tracking moving pieces**, scattered throughout
 different handlers. Specially because **the order in which they get executed is
-not inmediatelly clear**.
+not immediately clear**.
 
 
 ## Silence
@@ -73,12 +73,12 @@ class User(models.Model):
 
     def save(self, *args, **kwargs):
         # pre save code
-        
+
         created = not self.pk
-        
+
         if created:
             # this model does not exist in our db yet
- 
+
         # persist the model to the db and also ensures
         # that pre/post save signals get emitted
         super(User, self).save(*args, **kwargs)
@@ -187,3 +187,11 @@ like a good idea**.
 
 [1]: https://docs.djangoproject.com/en/1.9/topics/signals/ "Django documentation"
 [2]: https://twitter.com/hernantz/status/623293934857535488
+
+
+```
+    if instance.pk is not None and not instance.jobs.filter(active=True).exists()
+        instance.active = False
+```
+Tiene que hacer un count, no se puede crear una instancia en active
+Testing becomes obscure

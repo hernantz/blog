@@ -2,7 +2,7 @@ Title: Read this after your next meeting
 Date: 2023-01-05
 Category: Management
 Tags: bizops, ideas
-Summary: Changing the purpose of meetings in an async first environment
+Summary: Changing the purpose of meetings in an async first environment.
 
 ![Knights of the round table](/images/knights-of-the-round-table.jpg "Knights of the round table")
 
