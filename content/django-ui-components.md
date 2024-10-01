@@ -528,6 +528,6 @@ already married to templates, but it is an interesting idea nevertheless.
 [13]: https://2024.djangocon.us/schedule/
 [14]: https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/ "Writing Javascript without a build system"
 
-[^1]: The original quote, which is, "Any idiot can build a bridge that stands, but it takes an engineer to build a bridge that barely stands," is attributed to Colin C. Williams (?). The [quote][1] emphasizes the importance of precision and efficiency in engineering, suggesting that anyone can build something strong with unlimited resources, but it takes real skill to design something that’s cost-effective and just strong enough.
+[^1]: The original quote, which is, "Any idiot can build a bridge that stands, but it takes an engineer to build a bridge that barely stands" is attributed to Colin C. Williams (?). The [quote][1] emphasizes the importance of precision and efficiency in engineering, suggesting that anyone can build something strong with unlimited resources, but it takes real skill to design something that’s cost-effective and just strong enough.
 
 [^2]: Japanese web design is [often noted][10] for its [unique approach][11] among the design community, characterized by information-dense layouts, rich use of text/imagery, and overwhelming visual aesthetics that prioritize content variety over minimalist trends (more common in the West). This style is often a reflection of [cultural preferences][12] for conveying more detailed information and providing users with many options upfront.
