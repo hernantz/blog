@@ -31,7 +31,7 @@ LINKS = (('blog', '/'),)
 SOCIAL = (('twitter', 'http://twitter.com/hernantz'),
           ('github', 'http://github.com/hernantz'),
           ('last.fm', 'http://last.fm/user/hernantz'),
-          ('tomatoes', 'https://www.rottentomatoes.com/user/id/973196678'),)
+          ('tomatoes', 'https://www.rottentomatoes.com/profiles/0xRTmJSAmiZmFvrupQTAqh4oFeeCXofkmSzWhGxhyyCk4iwZcPrFjxh44CKdu1RhwYcRPCvvCJpfkOuNQFNBH14ij0HL0tz6idMSAdtoaCg8'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
