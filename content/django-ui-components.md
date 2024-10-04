@@ -20,7 +20,7 @@ it.
 
 I don't remember where I heard this, but *Any fool can build a bridge*[^1] is phrase
 that stuck with me. It meant that anyone can just throw money, people, energy,
-take their time and eventually something will be built). It takes an engineer to
+take their time and eventually something will be built. It takes an engineer to
 build the "right" bridge (timely and on budget).
 
 This applies to any kind of project (that needs to take you from where you are
@@ -49,15 +49,16 @@ strong opinions on how you build your frontend architecture.
 Sadly that left an empty space for other frameworks and solutions outside our
 loved django-land to take place. It is still very common to see frontend heavy
 frameworks like Vue or React be used for this. But these frameworks introduce a
-ton of accidental complexity:
+ton of **accidental complexity**:
 
 - State management & synchronization between your frontend and backend
-- API Churn (how much data to expose on your json endpoints)
+- API Churn (how much data [to expose][17] on your json endpoints)
 - Your team skills are now divided, your codebase is now polyglot
 - There is duplication of business logic and validation
 - Framework wars and decision fatigue, with ton of changes version after version
 - More build steps, more dependencies, you need to keep and eye on load times, etc
-- Turns out you still need to make that db query and render that HTML after all
+
+And it turns out you still need to make that db query and render that HTML after all!
 
 
 ## Everything old is new again
@@ -66,7 +67,7 @@ We say that history doesn't repeat itself but often rhymes. Well guess what,
 luckily for us, in the recent years the tides are turning.
 
 Postgres was the DB you needed, monoliths are not seen as something necessarily
-wrong, and server side rendering is cool again.
+wrong, and **server side rendering is cool again**.
 
 What are the problems a good frontend architecture needs to solve anyways?
 
@@ -77,7 +78,7 @@ framework, and lastly, a way to create reusable snippets of HTML.
 
 ## Interactivity
 
-A low code library that is becoming very popular is HTMX, which by adding some
+A low code library that is becoming very popular is [HTMX][15], which by adding some
 attributes on you HTML templates lets you interact with the server and update
 portions of the page.
 
@@ -108,8 +109,8 @@ need for client side state manipulation as well. For example disabling a button,
 showing/hiding a dropdown, clearing a form, etc UI interactions that belong to
 the frontend.
 
-This is where a small library like alpine.js shines, which also follows the same
-pattern of inlining directives as part of the HTML element declaration.
+This is where a small library like [alpine.js][16] shines, which also follows
+the same pattern of inlining directives as part of the HTML element declaration.
 
 ```html
 <script src="//unpkg.com/alpinejs" defer></script>
@@ -226,8 +227,9 @@ having a product card widget show a button or some tags.
     <h2 class="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div class="card-actions justify-end">
+      <!-- --- SHOW THIS --- -->
       <button class="btn btn-primary">Buy Now</button>
-      <!-- --- OR --- -->
+      <!-- --- OR THIS --- -->
       <div class="badge badge-outline">Fashion</div>
       <div class="badge badge-outline">Products</div>
     </div>
@@ -255,8 +257,9 @@ child HTML nodes for the `.card-actions`?
     <h2 class="card-title">{{ title }}</h2>
     <p>{{ description }}</p>
     <div class="card-actions justify-end">
+      <!-- --- SHOW THIS --- -->
       <button class="btn btn-primary">Buy Now</button>
-      <!-- --- OR --- -->
+      <!-- --- OR THIS --- -->
       <div class="badge badge-outline">Fashion</div>
       <div class="badge badge-outline">Products</div>
     </div>
@@ -278,9 +281,11 @@ block.
     <p>{{ description }}</p>
     <div class="card-actions justify-end">
       {% if action == 'button' %}
-      <button class="btn btn-primary">Buy Now</button>
+        <button class="btn btn-primary">Buy Now</button>
+      {% elif action == 'tag' %}
+        <div class="badge badge-outline">{{ tag }}</div>
       {% else %}
-      <div class="badge badge-outline">{{ tag }}</div>
+        {# something else? #}
       {% endif %}
     </div>
   </div>
@@ -292,7 +297,11 @@ builtin include tag. Every new possible variation of that widget would require
 us to modify that `if`/`else` structure we implemented earlier.
 
 ```html
-{% include 'product-card.html' with type='button' %}
+{% include 'product-card.html' with action='button' %}
+
+<!-- --- OR THIS --- -->
+
+{% include 'product-card.html' with action='tag' %}
 ```
 
 Alternatively, if we wanted to allow for any type of `.card-actions` to be
@@ -332,6 +341,10 @@ instances of templates for each variation anyways.
 
 ```html
 {% include 'product-card-button.html' %}
+
+<!-- --- OR THIS --- -->
+
+{% include 'product-card-tags.html' %}
 ```
 
 Is there a way to still write decoupled & re-usable widget templates with
@@ -388,7 +401,7 @@ product cards without any modifications to other templates.
 
 You can also nest or embed components into other components. In this case I'm
 showing that the button inside the `{{actions}}` slot could be a separate
-component, this allows for great deal of composability of our widgets.
+component, this allows for great deal of *composability* of our widgets.
 
 ```html
 <c-product title="Item Title">
@@ -444,14 +457,15 @@ used in django.
 ## A pragmatic frontend architecture
 
 This is what I would suggest as a frontend architecture for perfectionists with
-deadlines. Still building on top of what django provides, I believe it is a more
-pragmatic approach without, too much overhead for the working dev.
+deadlines. Still building on top of what django provides, **enhanced server side
+rendered HTML** is a more pragmatic approach, without too much overhead for the
+working dev.
 
 These extra technologies you can learn in a weekend. And what's funny is that,
 in their docs, they have references and examples of how they interoperate with
 each other.
 
-I would say Htmx and TailwindCSS are very solid choices now, and we shall see which
+I would say HTMX and TailwindCSS are very solid choices now, and we shall see which
 component library gains more popularity. Ideally some of these libraries to to
 define and manipulate reusable components make it into the framework in the near
 future.
@@ -527,6 +541,10 @@ already married to templates, but it is an interesting idea nevertheless.
 [12]: https://www.youtube.com/watch?v=vi8pyS076a8 "Japanese web design: weird, but it works. Here's why"
 [13]: https://2024.djangocon.us/schedule/
 [14]: https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/ "Writing Javascript without a build system"
+[15]: https://htmx.org/ "high power tools for HTML"
+[16]: https://alpinejs.dev/ "Your new, lightweight, JavaScript framework."
+[17]: https://intercoolerjs.org/2016/02/17/api-churn-vs-security.html "The API Churn/Security Trade-off"
+
 
 [^1]: The original quote, which is, "Any idiot can build a bridge that stands, but it takes an engineer to build a bridge that barely stands" is attributed to Colin C. Williams (?). The [quote][1] emphasizes the importance of precision and efficiency in engineering, suggesting that anyone can build something strong with unlimited resources, but it takes real skill to design something that’s cost-effective and just strong enough.
 
