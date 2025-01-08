@@ -16,6 +16,10 @@ But when it comes to the frontend side of things, its not necessarily strongly
 opinionated on this matter. Let's see what this means and what can we do about
 it.
 
+The contents of this talk were presented at [DjangoCon US 2024][18] and can be
+watched online on [Youtube][19].
+
+
 ## Standing of the shoulders of giants
 
 I don't remember where I heard this, but *Any fool can build a bridge*[^1] is phrase
@@ -544,6 +548,8 @@ already married to templates, but it is an interesting idea nevertheless.
 [15]: https://htmx.org/ "high power tools for HTML"
 [16]: https://alpinejs.dev/ "Your new, lightweight, JavaScript framework."
 [17]: https://intercoolerjs.org/2016/02/17/api-churn-vs-security.html "The API Churn/Security Trade-off"
+[18]: https://2024.djangocon.us/talks/reusable-django-template-components-for-perfectionists-with-deadlines/ "Django UI Components for Perfectionists with Deadlines"
+[19]: https://www.youtube.com/watch?v=VQV-nkWTEiU " Django UI Components for Perfectionists with Deadlines with Hernan Lozano"
 
 
 [^1]: The original quote, which is, "Any idiot can build a bridge that stands, but it takes an engineer to build a bridge that barely stands" is attributed to Colin C. Williams (?). The [quote][1] emphasizes the importance of precision and efficiency in engineering, suggesting that anyone can build something strong with unlimited resources, but it takes real skill to design something that’s cost-effective and just strong enough.
