@@ -20,7 +20,7 @@ The contents of this talk were presented at [DjangoCon US 2024][18] and can be
 watched online on [Youtube][19].
 
 
-## Standing of the shoulders of giants
+## Standing on the shoulders of giants
 
 I don't remember where I heard this, but *Any fool can build a bridge*[^1] is phrase
 that stuck with me. It meant that anyone can just throw money, people, energy,
