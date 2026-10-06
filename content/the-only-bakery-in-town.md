@@ -36,7 +36,11 @@ With supply capped, warm bread became a luxury. The popular bakeries sold theirs
 
 To enforce all these rules, the administration hired inspectors. They checked hours, hygiene, and permits, and took "samples" of whatever looked good. Permits for extended hours or a new display case could be had faster for a small consideration. Soon everyone in town knew which inspector to invite for coffee.[^inspectors]
 
-A loaf now cost the same everywhere, regardless of quality or cost, and even yesterday's bread couldn't be sold cheaper. Bakers who couldn't cover their costs baked less, or baked worse. Lines for bread became part of the landscape. One baker did invent a new pastry. It sold out every morning, and within a week the inspectors came asking about his monopoly. Nobody tried a new recipe after that. Eventually people gave up and ate fruit and cheese instead, and bakeries began to close.
+A loaf now cost the same everywhere, whatever its quality, and even yesterday's bread couldn't be sold cheaper. Bakers who couldn't cover their costs baked less, or baked worse.
+
+A new recipe could make a baker rich or make him a criminal, and most decided not to find out which. One baker did invent a new pastry. It sold out every morning, and within a week the inspectors came asking about his monopoly. Had he filed for a patent first, it would have been legal.[^patent]
+
+Eventually people gave up and ate fruit and cheese instead, and bakeries began to close.
 
 The town had tried licenses, tariffs, inspectors and price controls. With the bakeries closing, the verdict was unanimous: the market had failed, and the industry had to be saved. The bakeries were expropriated to form a single public company that would end corporate greed, lower prices, and save on advertising. This is how the "Law of the Sovereign and Democratic Bakery for All" was approved.[^sovereign] The Bakers Association and the Union welcomed the bailout, which put the town's accounts deep in the red.[^bailout]
 
@@ -69,8 +73,11 @@ This is my humble homage to George Orwell's Animal Farm. It's about what happens
 
 [^fairprices]: Venezuela's Organic Law of Fair Prices (2014) capped profit margins at 30%, followed by widespread shortages. Argentina launched its own "Precios Justos" (Fair Prices) freeze on about 1,500 products in 2022. [Caracas Chronicles](https://www.caracaschronicles.com/2020/06/04/venezuela-where-scarcity-becomes-business/), [Buenos Aires Times](https://www.batimes.com.ar/news/economy/massa-confirms-price-controls-for-1400-products-on-way.phtml)
 
+[^patent]: The Wright brothers' patent on flight control led to a decade of lawsuits. By 1917, the Wright and Curtiss companies had effectively blocked the building of new airplanes in the U.S., and American pilots in World War I flew European aircraft. The government that had granted the patent then pressured the industry into a patent pool. Historians still debate how much the patent war slowed aviation. In 1929, the two rivals merged into Curtiss-Wright. [Wikipedia](https://en.wikipedia.org/wiki/Wright_brothers_patent_war), [Brooks Kushman](https://www.brookskushman.com/insights/the-wright-brothers-navigation-through-the-patent-system/)
+
 [^bailout]: In 2009 the U.S. government spent about $49.5 billion to rescue General Motors, taking a 61% stake "to help save the American auto industry." Supporters credit the auto bailouts with saving over a million jobs; taxpayers lost about $11.2 billion on GM. [CS Monitor](https://csmonitor.com/Business/In-Gear/2014/0501/GM-bailout-cost-taxpayers-11.2-billion-report-says)
 
 [^sovereign]: In 2012 Argentina expropriated a majority stake in the oil company YPF from Spain's Repsol through a bill titled "On Argentina's Hydrocarbon Sovereignty." [Forbes](https://www.forbes.com/sites/afontevecchia/2012/04/17/shale-gas-wars-on-argentinas-nationalization-of-repsol-ypf/)
 
 [^takeover]: After the Russian Revolution, statues of the tsars came down across the country. In one city the bronze tsar was toppled and a statue of Lenin now stands atop the same column. [RFE/RL](https://www.rferl.org/a/before-lenin-monuments-tsarist-russia/31119743.html)
+
