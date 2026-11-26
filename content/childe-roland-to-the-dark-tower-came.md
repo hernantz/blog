@@ -65,7 +65,7 @@ In one of the memories of his boyhood, the boys laugh at an old gate guard who h
 
 Roland is the only boy who does not laugh.
 
-The preacher woman, Sylvia Pittston, says she carries the child of the Crimson King, left in her by the man in black when he passed through Tull. The town folk, rallied by her, has beaten, raped and disfigured Allie. She begs Roland to kill her. O Discordia! she screams before getting a headshot (Discodia! cries Zoltan, the crow has been listening all along).
+The preacher woman, Sylvia Pittston, says she carries the child of the Crimson King, left in her by the man in black when he passed through Tull. The town folk, rallied by her, have beaten, raped and disfigured Allie. She begs Roland to kill her. O Discordia! she screams before getting a headshot (Discordia! cries Zoltan, the crow has been listening all along).
 
 Under the mountains, Jake hangs from the trestle and Roland lets him fall. The boy says his last words (*Go then, there are other worlds than these*) and falls without a scream.
 
@@ -160,11 +160,11 @@ The rest of the night goes as in the original, with the talk of size, the Tower,
 
 Pretty much stays intact too.
 
-When Roland looses his fingers laments with O Discordia!
+When Roland loses his fingers laments with O Discordia!
 
 We learn more about Jake, how he skips school to visit the vacant lot and the Rose, etc, through the eyes of Jack Mort. *The pusher* is an accountant in the North Central Positronics Corporation, as well as a psychopathic killer.
 
-Jake sees Roland instead of Jack Mort before getting pushed and ran over by a truck. Roland realizes he has been recognized and is suddenly ashamed of the boy judging him and does nothing to prevent Jack Mort from killing the boy. *Roland killed him twice*. He watched and did nothing.
+Jake sees Roland instead of Jack Mort before getting pushed and run over by a truck. Roland realizes he has been recognized and is suddenly ashamed of the boy judging him and does nothing to prevent Jack Mort from killing the boy. *Roland killed him twice*. He watched and did nothing.
 
 
 ### 3. The wind through the keyhole
@@ -173,7 +173,7 @@ Oy joins the ka-tet.
 
 We learn about Roland's youth at Mejis when they are waiting for the starkblast. Roland has just won his guns, far too young, and Marten, his father's counsellor, has fled to Farson. We are not told why yet.
 
-Roland laments Susan's death with O Discordia! (ordia! cries Oy) When Roland, Cuthbert and Alain return from Mejis, they bring the Grapefruit orb and a kid with them, Sheemie, who is now an orphan because of the Big Coffin Hunters killed his parents.
+Roland laments Susan's death with O Discordia! (ordia! cries Oy) When Roland, Cuthbert and Alain return from Mejis, they bring the Grapefruit orb and a kid with them, Sheemie, who is now an orphan because the Big Coffin Hunters killed his parents. On the road home Roland looks into the Grapefruit once, and it shows him the Dark Tower for the first time, standing black at the end of a field of roses. From that night on he wants nothing else, and he comes home colder than he left.
 
 When Roland comes home from Mejis his mother is no longer in Gilead. She has been sent to live with the sisters at Serenity, and we are not told why yet. Roland and Jamie DeCurry are sent to Debaria, to investigate reports of a skin-man murdering people. Vannay gives them silver bullets just in case the story is not made up.
 
@@ -191,7 +191,21 @@ Again, a story within a story. Gabrielle is at Serenity too, but the sisters hav
 >
 > He said nothing.
 >
-> "I know your step. I knew it on the stair." Cloth moved on the other side of the wood, as if she had come close and knelt. "Are you well?
+> "I know your step. I knew it on the stair." Cloth moved on the other side of the wood, as if she had come close and knelt. "Are you well? Say you are."
+>
+> "I am well, lady."
+>
+> For a moment there was no sound from the other side at all.
+>
+> "Lady," she said. "Is that what I am to you now?"
+>
+> He said nothing.
+>
+> "Put your hand on the door, Roland. Only that. I'll feel it through the wood, and I'll ask for nothing else."
+>
+> His hands stayed where they were, on the buckle of the belt his father had given him with the guns.
+>
+> "Call me what you will, then," she said. "But call me something."
 >
 > "What should I call you? Sister Verity? They tell me that's your name here."
 >
@@ -227,9 +241,9 @@ Again, a story within a story. Gabrielle is at Serenity too, but the sisters hav
 >
 > He set the candle on the floor and walked. He heard her say his name twice more. Then the corridor turned, and Jamie fell in beside him without a word, and he did not hear her again.
 
-Within the following days, they finally they defeat the skin-changer.
+Within the following days, they finally defeat the skin-changer.
 
-On they way back to Gilead, the stay one more night at Serenity, and his mother is dead. She took her own life while he was in Debaria. Before he leaves, the sisters give Roland the belt he would not take, and a note she wrote for him.
+On their way back to Gilead, they stay one more night at Serenity, and his mother is dead. She took her own life while he was in Debaria. Before he leaves, the sisters give Roland the belt he would not take, and a note she wrote for him.
 
 In the note his mother finishes what she began to say at the door. Away from Marten her head has cleared, and for the first time in a year she writes like herself:
 
@@ -256,13 +270,17 @@ Roland never talks about this with his father. He believes that he killed her, a
 
 The novel becomes its own book in the series, with a new last act in Gilead.
 
+Like *Wizard and Glass*, it is told by Roland to his ka-tet. Days after the starkblast, on the road, Susannah asks the question he has been avoiding since Serenity: what did he say at his father's table?
+
+> "That's two stories," Roland said. "The first isn't mine. Two strangers brought it to Gilead, and one of them told it at supper. I'll tell it the way he did."
+
 In the kingdom of Delain the court magician Flagg poisons the old king with Dragon Sand and plants the evidence on Peter, the elder prince, who is tried and locked at the top of the Needle. Thomas, the younger prince, watched the murder through the glass eyes of the dragon's head on his father's wall, from a secret passage that Flagg himself had shown him. He says nothing for five years while Flagg rules through him. Peter escapes on a rope he has woven himself, Thomas confesses, and shoots Flagg in the eye with his father's arrow. Flagg vanishes. The next morning the dragon's head on the wall has only one glass eye left. Flagg, bleeding and in a hurry, took one to fill the hole Thomas's arrow left, and had no time for the other. He does not know what Thomas notices the next morning: the eye left in the dragon's head has gone cloudy, like a blind man's. The two were made as a pair. Apart they cloud over, the nearer they come to each other the clearer they grow, and each always turns toward its twin. Thomas pries out the one that is left, and he and his servant Dennis leave Delain to hunt Flagg with it. Thomas cannot bear to carry the eye he watched his father die through, so Dennis keeps it.
 
 Flagg takes a new name and a new face. As Marten he comes to Gilead as a wandering healer, and the queen sends for him when her headaches will not mend. He knows why they will not. Before he ever came to the gate he had found the passages inside Gilead's walls, as he found them in Delain, and from behind the queen's rooms he has been putting Dragon Sand in her water, a pinch at a time. It is too little to kill her and enough to make her need him. Each time he eases her pain, he is easing a pain he gave her. The arrow cost him the eye. He wears the dragon's glass eye in its place. His magic makes it look and feel like living flesh, and no ordinary light can show the difference. At night he takes it out.
 
 He begins an affair with Gabrielle Deschain, and her favour is how a wandering healer comes to sit at Steven's council table. From there he can weaken Steven from within. Roland, fourteen years old, looks through the keyhole of his mother's rooms late one night and sees them asleep in her bed, and on the table beside it, catching the candlelight, an eye. Marten takes it out to sleep, once she is asleep herself. The glamour is a weight he does not care to carry through the night, and he always has it back in place before she wakes. Gabrielle has never seen it. He tells no one. But Roland goes to Cort and demands his test of manhood years too early. He wins it with David the hawk, and becomes the youngest gunslinger in the history of Gilead.
 
-Thomas and Dennis reach Gilead. The dragon's eye has been cloudy ever since Delain, and as the city came in sight it began to clear, so they know Flagg is inside, but not which man he is. Thomas says as much at the table, not knowing who is listening, and Marten learns for the first time what the other eye can do. Strangers are not lodged within the walls, so Dennis camps outside with the horses and the eye, and Thomas tells his story at Steven's table. He does not know the man sitting three seats away:
+Thomas and Dennis reach Gilead. The dragon's eye has been cloudy ever since Delain, and as the city came in sight it began to clear, so they know Flagg is inside, but not which man he is. Strangers are not lodged within the walls, so Dennis camps outside with the horses and the eye, and Thomas goes up alone to Steven's table. There he tells his story, and how the eye led him to Gilead, not knowing who is listening. Marten, sitting three seats away, learns for the first time what the other eye can do:
 
 > "And you said nothing," the boy said.
 >
@@ -310,6 +328,12 @@ Marten has one night, and he knows the walls. He leaves his rooms by the passage
 >
 > She opened her hand. She had never seen the thing in it before, and she knew at once what it was, and that every word her son had said at supper was true. When she looked up again the wall was only a wall.
 
+Here Eddie stops him:
+
+> "Hold on. You weren't in that room. How do you know what he said to her?"
+>
+> "She wrote some of it down," Roland said. "The rest I've had a long time to imagine."
+
 He leaves the eye for two reasons that are really one. He learned at supper that as long as he wears it, its twin will always find him. And in her hand it ruins her.
 
 At first light the guards find Marten's rooms empty, and the gatekeeper at the postern dead, with the small gate open and his horse gone. In the queen's rooms they find her sitting on her bed with her fist closed. When Dennis is let in at the main gate and carries the dragon's eye into the hall, it is as clear as water, and it turns in his palm toward the queen's hand. She opens it. That one thing proves who Marten was, that her son told the truth, and that she lied on the face of her father.
@@ -318,6 +342,18 @@ The hearing meant for Marten is held anyway, against her. Steven spares her life
 
 Thomas and Dennis ride after Marten, but the eyes are no help to them now. Side by side they are clear, and they look only at each other. Before the month is out Marten is riding with Farson. Roland wants to ride after Marten with his new guns, and Steven sends him to Mejis instead, to keep him out of Marten's reach.
 
+Back on the road, the ka-tet walks a while without talking:
+
+> "Did you ever see Thomas again?" Eddie asked.
+>
+> "No."
+>
+> They walked on. Then Eddie said, "You did speak up, though. Thomas didn't, and you did."
+>
+> "Yes," Roland said. "And she died of it."
+>
+> Nobody said anything after that. Oy trotted ahead of them, and after a while, quietly, he said, "Ro-land."
+
 
 ### 5. The wolves of Calla
 
@@ -325,15 +361,15 @@ They find Calla (the far end of their known Mid-World) after chasing someone who
 
 The Dogan becomes the standard metaphor for the internal workings of the brain of the ka-tet and Mia's possession.
 
-There is a door they cannot open with the Crimson's King eye graffited in.
+There is a door they cannot open with the Crimson King's eye graffitied on it.
 
-They are later introduced to the town folk, dance the Commalah, etc.
+They are later introduced to the town folk, dance the Commala, etc.
 
-The kat-tet receives Black Thirteen from the cult that worshiped doors, the Mannis. Eddie sees Roland's past in it and how he will betray them for the Tower.
+The ka-tet receives Black Thirteen from the cult that worshiped doors, the Mannis. Eddie sees Roland's past in it and how he will betray them for the Tower.
 
 > When confronted, he says he won't let them fall, yet in the deepest darkness of his heart, he thought about the Tower and wondered...
 
-Roland sees all the ones he left behind because of his quest, Sussanah who can hold many personalities gets possessed by Mia, a demon from the Prim that inhabited inside the orb, that now starts to grow in her and wants the to steal the orb, reach for the tower and free all the creatures that inhabitant the Prim.
+Roland sees all the ones he left behind because of his quest, Susannah who can hold many personalities gets possessed by Mia, a demon from the Prim that inhabited inside the orb, that now starts to grow in her and wants to steal the orb, reach the Tower and free all the creatures that inhabit the Prim.
 
 We understand why Roland is how he is, and why he wants to set the Tower aside to help this town, to redeem himself. His determination for the tower is succumbing now, he feels guilty, he is not as cold-hearted as he once was.
 
@@ -343,13 +379,13 @@ Jake, Allie, Susan, Gabrielle, Sister Jenna, his friends are dead. Death surroun
 
 She dies of age, but gives Roland possession of her cross to lay at the Tower. At her burial Andy says O Discordia! (ordia! echoes Oy).
 
-The ka-tet finds out that has been keeping secrets from each other, and Black Thirteen is the culprit, so they reconcile and share mind (like the Dogan metaphor that will later be used to defeat the wolves).
+The ka-tet finds out that they have been keeping secrets from each other, and Black Thirteen is the culprit, so they reconcile and share mind (like the Dogan metaphor that will later be used to defeat the wolves).
 
-Eddie gets knighted as a gunslinger, after receiving Roland's training and martial knowledge. Sussanah becomes a sister of Oriza — women mustn't bear guns.
+Eddie gets knighted as a gunslinger, after receiving Roland's training and martial knowledge. Susannah becomes a sister of Oriza — women mustn't bear guns.
 
 Roland is hiding with the kids of Calla waiting for the wolves when they attack. Many folks die, including children.
 
-They notice that someone has given information. Eddie dies in this fight, he was not true knight after all. His body is buried with his gun, and a rose is planted in his grave like a gunslinger funeral. In front of all the new graves, Roland gives a speech, that ends with: O Discordia! The Tower demanded another sacrifice, now Roland is determined to end this curse. Ka is a wheel, and again, for saving the day, he must pay with blood of his loved ones, and looses his ka-tet again.
+They notice that someone has given information. Eddie dies in this fight, he was not true knight after all. His body is buried with his gun, and a rose is planted in his grave like a gunslinger funeral. In front of all the new graves, Roland gives a speech, that ends with: O Discordia! The Tower demanded another sacrifice, now Roland is determined to end this curse. Ka is a wheel, and again, for saving the day, he must pay with blood of his loved ones, and loses his ka-tet again.
 
 They burn the jaw of the Man in Black, and ask the fire a question, the fire answers with a vision of the traitor visiting the Dogan. The traitor did not do it for gain. The Calla has lasted for generations by paying the wolves their price, and he believed that Roland's fight would dig more graves than the wolves ever did. Before the rope he says:
 
@@ -359,13 +395,13 @@ Roland thinks of Randolph, the traitor of Jericho Hill, whom he let ride away fo
 
 > I, Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector of the Dark Tower, sentence you to die.
 
-Sussanah gets finally possessed and tries to murder the gunslinger, in the fight manipulates Oy (again with the Dogan metaphor) to attack Roland, he looses an eye.
+Susannah finally gets possessed and tries to murder the gunslinger, in the fight manipulates Oy (again with the Dogan metaphor) to attack Roland, he loses an eye.
 
-Roland shoots Oy who dies in his hands, it's last word is *Tower*. He is left with a big scar in his face and from now on he will wear an eye patch.
+Roland shoots Oy who dies in his hands, its last word is *Tower*. He is left with a big scar in his face and from now on he will wear an eye patch.
 
 Mia gets caught by Andy, when trying to escape with the orb. With some remnants of magic and magnets she is later exorcised by the Mannis. They throw Mia through a portal in the Doorway Cave to the Todash.
 
-After that Sussanah decides to stay at Calla as a sister of Oriza, since Talitha had no descendants, the sisters will hold elections.
+After that Susannah decides to stay at Calla as a sister of Oriza, since Talitha had no descendants, the sisters will hold elections.
 
 > This is my Tower Roland, you must go on your own.
 
@@ -378,15 +414,15 @@ Roland returns to the North Central Positronics Dogan, and with help of Andy, op
 
 That is where the beam starts. We learn a bit about the myth of the guardians.
 
-They leave to Outer-World with Black thirteen.
+Roland and Andy leave for Out-World with Black Thirteen.
 
 In Lud, we enjoy all the post-apocalyptic cyberpunk goodness ala Mad Max, graffitis of the Crimson King eye and some slow mutants too.
 
 We learn that gangs stole kids to give them to Dandelo, a minion of the Crimson King, who roont them, a monster similar to IT.
 
-Dandelo feeds from emotions, so it is Andy the one that kills it by self-destructing, saving Rolands life.
+Dandelo feeds from emotions, so it is Andy the one that kills it by self-destructing, saving Roland's life.
 
-Roland finds that there are good people still in this ruined world. The kids that returned roont, were helped by some good folk (someone saved my life tonight?). When he kills one of the pubs in a confusing episode, someone says:
+Roland finds that there are good people still in this ruined world. The kids that returned roont, were helped by some good folk (someone saved my life tonight?). When he kills one of the Pubes in a confusing episode, someone says:
 
 > You didn't have to kill him, it was his birthday today, O Discordia...
 
@@ -565,7 +601,7 @@ The entrance was a huge sandalwood door with all twelve guardians of the beam en
 
 "I come in the name of Steven Deschain, he of Gilead!
 
-"I come in the name of Gabrielle Deschain, she of Gilead!
+"I come in the name of Gabrielle Deschain, she of Gilead, my mother!
 
 "I come in the name of Cortland Andrus, he of Gilead!
 
@@ -618,7 +654,7 @@ After a while he took some time to recover, and realized there were images portr
 
 There were lots of strange scenes too. He did not really know what they represented or what they meant, but some were very notable. There was a very creepy looking clown looking at him from some sort of drainage, twin sisters at the end of a hallway full of doors, a strange looking rabid dog, a huge black man behind bars, a man and a teenager dumping a woman's body in a well behind a barn, humanoid creatures with the heads of animals, a boy with his face pressed inside a dragon's head, looking out through its glass eyes. He kept climbing.
 
-To his surprise, the windows now told the legend of Arthur Eld. In one pane two brothers stood in a field of roses. One knelt among fallen swords. The other was walking toward a black line on the horizon. Then came the fall of Gilead, and his own life. Alain and Cuthbert. In a pane of rose-colored glass, the lovely girl at the window, his true and only love, Susan. More steps. The battle at Jericho Hill.
+To his surprise, the windows now told the legend of Arthur Eld. In one pane two brothers stood in a field of roses. One knelt among fallen swords. The other was walking toward a black line on the horizon. Then came the fall of Gilead, and his own life. Alain and Cuthbert. In a pane of rose-colored glass, the lovely girl at the window, his true and only love, Susan. In a pane of plain grey glass, an oak door with a candle burning on the floor in front of it. He climbed past that one quickly. More steps. The battle at Jericho Hill.
 
 He perceived distinctive smells of lost memories, voices from a distant past, thoughts unspoken in old dreams. The pictures were in motion. Or was it an illusion? More than once he felt that the glass was looking back at him.
 
