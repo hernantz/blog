@@ -255,13 +255,15 @@ In the note his mother finishes what she began to say at the door. Away from Mar
 >
 > *The headaches stopped the night he left. Think on that.*
 >
-> *The last thing he said to me was that my child would be my death, and I thought he meant you. Forgive me for that most of all. I carry a child now, and I do not know whose. I will not wait to learn which one he meant.*
+> *The last thing he said to me was that my child would be my death, and I thought he meant you. Forgive me for that most of all. I carry a child now, and I do not know whose. I will not wait to learn which one he meant. He was no man, Roland. He was a demon wearing one. Since I came here I have dreamed every night of giving birth to a spider, and of the spider eating me.*
 >
 > *Do not let him be right about you.*
 >
 > *O Discordia.*
 >
 > *Your mother*
+>
+> *P.S. The belt is yours, whether you take it or not. I made it a little long. You'll grow into it.*
 
 Roland never talks about this with his father. He believes that he killed her, and he never learns whose child she carried. It was words that killed her: Marten's prophecy, and what Roland said at his father's table. What that was, we learn in the next book.
 
@@ -390,8 +392,10 @@ They notice that someone has given information. Eddie dies in this fight, he was
 They burn the jaw of the Man in Black, and ask the fire a question, the fire answers with a vision of the traitor visiting the Dogan. The traitor did not do it for gain. The Calla has lasted for generations by paying the wolves their price, and he believed that Roland's fight would dig more graves than the wolves ever did. Before the rope he says:
 
 > I counted the graves you would dig, gunslinger, and I counted fewer my way.
+>
+> Where was Gilead when the wolves first came? My grandfather sent riders east to beg for gunslingers. None of them came back, and no gunslinger ever came after them. You're the first in a hundred years, and you came too late, and you'll ride on when you've had your fight. We'll still be here, burying what's left. I knelt so the rest could live. I'd kneel again tomorrow.
 
-Roland thinks of Randolph, the traitor of Jericho Hill, whom he let ride away for the sake of the Tower. He will not let this one go:
+Every traitor has his reasons, and Roland never hears all of them. Randolph had a wife and a son. This man had a town. Roland thinks of Randolph, the traitor of Jericho Hill, whom he let ride away for the sake of the Tower. He will not let this one go:
 
 > I, Roland Deschain of Gilead, son of Steven, last in the line of Eld, protector of the Dark Tower, sentence you to die.
 
@@ -923,6 +927,7 @@ Also with this twist in the story I have remarked the main ideas that are presen
 * The wind chimes that Roland hears every time he is close to death.
 * Every rose in the field belongs to a name spoken at the Tower. Roland has been feeding it all his life.
 * A man on a holy quest, with a burning ambition to save the world can also do a lot of damage as a side effect.
+* Treasons have reasons, and we rarely get to hear all of them. Gabrielle lied to save her name, Randolph sold Jericho Hill for a wife and a son, and the Calla's traitor knelt because Gilead had left his town to die.
 
 The vast and complex universe created by King is composed of all his novels together, tied around the Dark Tower. For me, he has accomplished his dream of creating something comparable in complexity to Tolkien's work.
 
